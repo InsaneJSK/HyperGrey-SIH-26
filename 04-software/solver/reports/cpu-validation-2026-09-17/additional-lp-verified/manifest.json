@@ -1,0 +1,42 @@
+{
+  "selected_before_solves": true,
+  "utc": "2026-09-17T12:48:45.782264+00:00",
+  "utility_source_sha256": "fee41f544f6873a5e12bc598947828dc9964ef0676162e4df55e915760e2be22",
+  "working_utility_sha256": "46121d4e3474ca860641b7533d310bc842397980658b4969d3128cd8fb323df3",
+  "utility_lf_restored_in_copy_only": true,
+  "decoder_sha256": "ecc99ae76b2b0efea9a07dad1eb2449956f1279772f3d21d085bea66044cf818",
+  "build_command": [
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\tools\\local-toolchain\\mingw64\\bin\\gcc.exe",
+    "-O2",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\additional-lp-verified\\emps.c",
+    "-o",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\additional-lp-verified\\emps.exe"
+  ],
+  "instances": [
+    {
+      "name": "agg",
+      "url": "https://netlib.org/lp/data/agg",
+      "raw_sha256": "f06981e449e6d19654aa4fa7c5edc8007ea8239904eb5e05cef6b4da37b3ddb2",
+      "mps_sha256": "d7844795d0c799f5cdc1416c8d242f5e8f351f5a3271f42a2d428f170abf1f03"
+    },
+    {
+      "name": "bandm",
+      "url": "https://netlib.org/lp/data/bandm",
+      "raw_sha256": "2d43005a87d997095ad6752523232cfb7c35f7482f60bbcf8052639bb9bbb097",
+      "mps_sha256": "696daa77a79a0715c2fad877285e49bd7fcd7f5513f3cb83fbe0be916b6d8c81"
+    },
+    {
+      "name": "israel",
+      "url": "https://netlib.org/lp/data/israel",
+      "raw_sha256": "8cf3fe7674408837937907493b00086b9a3206d75b1b8e859d90dbbccdbb20d5",
+      "mps_sha256": "96564e1fddcbb6e3d46447fceb54b9d18260b95e95075c3a19f5812f9bf5ceeb"
+    },
+    {
+      "name": "scagr7",
+      "url": "https://netlib.org/lp/data/scagr7",
+      "raw_sha256": "d6309f6c3d1489d91e0361c8e654a67207f57cafc683eda43c6b1dc59b22bbdd",
+      "mps_sha256": "2170c16fd0cc04a823172c1564e89593e75aac5225e2c2f893a6837ba0b26085"
+    }
+  ],
+  "readme_sha256": "3e88f372892982e84ab41a65e005ecf1b4fbf19f3e8ada9fcb59a5ae87dd003c"
+}

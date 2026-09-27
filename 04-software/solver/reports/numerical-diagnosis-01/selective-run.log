@@ -1,0 +1,24 @@
+bandm.default optimal 3254 stable_ratio_calls 9
+adlittle.default optimal 191 stable_ratio_calls 0
+afiro.default optimal 17 stable_ratio_calls 0
+blend.default optimal 162 stable_ratio_calls 0
+boeing2.default optimal 261 stable_ratio_calls 0
+degen2.default optimal 2949 stable_ratio_calls 0
+kb2.default optimal 96 stable_ratio_calls 0
+sc105.default optimal 115 stable_ratio_calls 0
+sc205.default optimal 263 stable_ratio_calls 0
+sc50a.default optimal 49 stable_ratio_calls 0
+sc50b.default optimal 54 stable_ratio_calls 0
+share2b.default optimal 212 stable_ratio_calls 0
+stocfor1.default optimal 143 stable_ratio_calls 0
+agg.default optimal 152 stable_ratio_calls 0
+israel.default optimal 393 stable_ratio_calls 0
+scagr7.default optimal 384 stable_ratio_calls 0
+bandm.refined optimal 3254 stable_ratio_calls 9
+bandm.compact optimal 1279 stable_ratio_calls 0
+{
+  "records": 18,
+  "checked_completions": 18,
+  "all_pass": true,
+  "binary_sha256": "c613b9d409d5bd19ed60af883e1b938b6343eeaba31f7332af27001c2a9dd66b"
+}

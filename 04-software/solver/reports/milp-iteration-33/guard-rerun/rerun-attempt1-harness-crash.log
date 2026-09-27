@@ -1,0 +1,45 @@
+old 6e073229a08065b6d2fccd7669fb75f99dd89090be39c3ccbcf1d43ca90351a4
+new db61dd2628022491c637526bd5cfc8b11b7361458f97a986633d72917810f045
+downloaded 50v-10 294310
+downloaded binkar10_1 202279
+downloaded exp-1-500-5-5 209869
+downloaded fiball 4827331
+downloaded gen-ip054 29589
+downloaded glass4 127661
+downloaded gmu-35-40 365484
+downloaded gmu-35-50 617099
+downloaded h80x6320d 1679866
+downloaded irp 3800345
+downloaded markshare2 17207
+downloaded mas74 64163
+downloaded mas76 62523
+downloaded neos-2657525-crna 69728
+downloaded neos-3004026-krka 2002181
+downloaded neos-3046615-murg 59152
+downloaded neos-3381206-awhea 193646
+Traceback (most recent call last):
+  File "D:\sih-2026\SIH-backup-solver\SIH-backup-solver\reports\milp-iteration-33\guard-rerun\rerun.py", line 174, in <module>
+    main()
+  File "D:\sih-2026\SIH-backup-solver\SIH-backup-solver\reports\milp-iteration-33\guard-rerun\rerun.py", line 147, in main
+    (OUT / 'results.json').write_text(json.dumps(rows, indent=1), encoding='utf-8')
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\json\encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Users\Admin\anaconda3\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "C:\Users\Admin\anaconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Admin\anaconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\Admin\anaconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

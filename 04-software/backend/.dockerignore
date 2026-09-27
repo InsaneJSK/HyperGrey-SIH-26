@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.env
+.env.*
+tests/
+deploy/
+*.md
+!THIRD_PARTY_NOTICES.md

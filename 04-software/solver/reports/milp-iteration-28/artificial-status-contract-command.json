@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:\\Users\\JSK\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\milp-iteration-28\\check_stress.py"
+  ],
+  "exit_code": 1
+}

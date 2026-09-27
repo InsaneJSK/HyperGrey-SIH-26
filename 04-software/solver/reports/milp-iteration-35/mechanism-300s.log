@@ -1,0 +1,39 @@
+binary 58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a
+downloaded academictimetablesmall 24185808
+downloaded neos-3216931-puriri 2712673
+CMS750_4                 control: time_limit             root=yes nodes=       3 | candidate: time_limit             root=yes nodes=    3720 obj=None pub=252.0
+neos-3656078-kumeu       control: unresolved_relaxations root=yes nodes=       3 | candidate: time_limit             root=yes nodes=    1339 obj=None pub=-13172.2
+neos-662469              control: unresolved_relaxations root=yes nodes=       3 | candidate: time_limit             root=yes nodes=    1075 obj=None pub=184379.9999999999
+neos-957323              control: time_limit             root=yes nodes=       2 | candidate: time_limit             root=yes nodes=     419 obj=None pub=-237.7566815
+academictimetablesmall   control: time_limit             root=yes nodes=       2 | candidate: time_limit             root=yes nodes=      26 obj=None pub=0.0
+neos-3216931-puriri      control: unresolved_relaxations root=yes nodes=       3 | candidate: time_limit             root=yes nodes=      39 obj=None pub=71320.0
+{
+ "control": {
+  "root_solved": 6,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [],
+  "fallbacks": 9,
+  "unresolved_nodes": 6,
+  "cold_starts": 21,
+  "nodes": 16
+ },
+ "candidate": {
+  "root_solved": 6,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [],
+  "fallbacks": 8,
+  "unresolved_nodes": 7,
+  "cold_starts": 7,
+  "nodes": 6618
+ },
+ "binaries": {
+  "control": "f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb",
+  "candidate": "58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a"
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "models": [
+    "p0033",
+    "enigma",
+    "flugpl",
+    "lseu",
+    "p0201",
+    "mod008"
+  ],
+  "repeats": 1,
+  "limit": 30,
+  "nodes": 250000,
+  "gap": 1e-06,
+  "reference_watchdog": 150,
+  "manifests": [
+    "datasets/milp-robustness-wave1/manifest.json",
+    "datasets/milp-frontier-holdout/manifest.json",
+    "datasets/milp-cut-policy-holdout/manifest.json",
+    "datasets/milp-accuracy-holdout/manifest.json"
+  ],
+  "common": [
+    "--capture-work",
+    "--capture-frontier",
+    "--capture-cut-rounds"
+  ],
+  "profiles": {
+    "default": []
+  },
+  "reference_limit": 5,
+  "memory_threshold_mib": 1536
+}

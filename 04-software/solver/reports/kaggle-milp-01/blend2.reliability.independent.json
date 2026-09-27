@@ -1,0 +1,11 @@
+{
+  "version": "1.12.0",
+  "status": "Time limit reached",
+  "objective": null,
+  "solve_seconds": 0.0009054999973159283,
+  "total_seconds": 0.003570500004570931,
+  "rows": 274,
+  "columns": 353,
+  "process_seconds": 0.26932969999324996,
+  "exit_code": 0
+}

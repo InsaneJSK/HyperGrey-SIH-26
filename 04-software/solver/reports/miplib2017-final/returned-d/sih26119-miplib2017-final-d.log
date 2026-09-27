@@ -1,0 +1,25 @@
+[{"stream_name":"stdout","time":19.568007785,"data":"highspy install exit 0\n"}
+,{"stream_name":"stdout","time":19.584450112,"data":"source tree: /kaggle/input/datasets/prakhar1803/sih26119-solver-source-it36\n"}
+,{"stream_name":"stdout","time":60.056904751,"data":"compiler exit 0\n"}
+,{"stream_name":"stdout","time":60.061233232,"data":"solver sha256 edadb645910d5107edd97fa832921f86107ff07aa33526e04cd3b14f46ff5afe\n"}
+,{"stream_name":"stdout","time":60.073673586,"data":"Sovereign SIH26119 V2 candidate; C++ core, sparse simplex, branch-and-cut, convex QP\n"}
+,{"stream_name":"stdout","time":60.079332115,"data":"self-test exit 0\n"}
+,{"stream_name":"stdout","time":60.079369209,"data":"self-test stdout: {\"status\":\"optimal\",\"message\":\"\",\"nodes\":1,\"lp_iterations\":1,\"total_seconds\":0.00025157100000000002,\"warm_starts\":1,\"heuristic_solves\":1,\"cuts\":0,\"bound_tightenings\":2,\"rows\":2,\"columns\":2,\"objective\":-20,\"pump_projections\":0,\"pump_restarts\":0,\"pump_incumbents\":0,\"cut_rollbacks\":0,\"first_incumbent_seconds\":9.8127000001113629e-05,\"best_bound\":-20,\"pump_reopt\":{\"enabled\":true,\"calls\":0,\"compatible\":0,\"primal\":0,\"dual\":0,\"rejected\":0,\"verified\":0,\"phase_one_iterations\":0,\"factorizations\":0,\"canonical_seconds\":0,\"factor_seconds\":0,\"pricing_seconds\":0,\"replay\":null},\"distance_reopt\":{\"enabled\":true\n"}
+,{"stream_name":"stdout","time":60.079386259,"data":"self-test stderr: \n"}
+,{"stream_name":"stdout","time":60.079693146,"data":"self-test status optimal objective -20\n"}
+,{"stream_name":"stdout","time":61.754076175,"data":"solution file: https://miplib.zib.de/downloads/miplib2017-v32.solu entries 1065\n"}
+,{"stream_name":"stdout","time":62.984732443,"data":"benchmark instances listed: 240\n"}
+,{"stream_name":"stdout","time":62.984772417,"data":"batch: 60 instances, slice [180:240], 300s each, 2 at a time\n"}
+,{"stream_name":"stdout","time":368.415532316,"data":"[  1/60] rail01                         time_limit         obj=         None gap=    None pub=  -70.5699643 valid=False agree=None [305s]\n"}
+,{"stream_name":"stdout","time":370.832430769,"data":"[  2/60] rail02                         time_limit         obj=         None gap=    None pub= -200.4499077 valid=False agree=None [308s]\n"}
+,{"stream_name":"stdout","time":675.351842865,"data":"[  3/60] rail507                        time_limit         obj=         None gap=    None pub=        174.0 valid=False agree=None [612s]\n"}
+,{"stream_name":"stdout","time":677.327647417,"data":"[  4/60] ran14x18-disj-8                time_limit         obj=4108.99999990 gap=0.155544 pub=       3712.0 valid=True  agree=None [614s]\n"}
+,{"stream_name":"stdout","time":982.098794893,"data":"[  5/60] rd-rplusc-21                   time_limit         obj=         None gap=    None pub=165395.275295 valid=False agree=None [919s]\n"}
+,{"stream_name":"stdout","time":986.768554337,"data":"[  6/60] reblock115                     time_limit         obj=-34044571.368 gap=0.116882 pub=-36800603.233 valid=True  agree=None [924s]\n"}
+,{"stream_name":"stdout","time":1092.273187329,"data":"[  7/60] rmatr100-p10                   gap_limit          obj=          423 gap=1.000000 pub=        423.0 valid=True  agree=True [1029s]\n"}
+,{"stream_name":"stdout","time":1289.662558879,"data":"[  8/60] rmatr200-p5                    time_limit         obj=         None gap=    None pub=       4521.0 valid=False agree=None [1227s]\n"}
+,{"stream_name":"stdout","time":1394.05579188,"data":"[  9/60] rocI-4-11                      time_limit         obj=         None gap=    None pub=   -6020203.0 valid=False agree=None [1331s]\n"}
+,{"stream_name":"stdout","time":1593.301105337,"data":"[ 10/60] rocII-5-11                     time_limit         obj=         None gap=    None pub=-6.6755047315 valid=False agree=None [1530s]\n"}
+,{"stream_name":"stdout","time":1695.483514439,"data":"[ 11/60] rococoB10-011000               time_limit         obj=         None gap=    None pub=      19449.0 valid=False agree=None [1632s]\n"}
+,{"stream_name":"stdout","time":1900.048128479,"data":"[ 12/60] rococoC10-001000               time_limit         obj=       262689 gap=0.971335 pub=      11460.0 valid=True  agree=None [1837s]\n"}
+]

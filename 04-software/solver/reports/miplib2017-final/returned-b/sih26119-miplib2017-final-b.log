@@ -1,0 +1,17 @@
+[{"stream_name":"stdout","time":26.7600041,"data":"highspy install exit 0\n"}
+,{"stream_name":"stdout","time":26.808246494,"data":"source tree: /kaggle/input/datasets/prakhar1803/sih26119-solver-source-it36\n"}
+,{"stream_name":"stdout","time":69.177426038,"data":"compiler exit 0\n"}
+,{"stream_name":"stdout","time":69.180933522,"data":"solver sha256 edadb645910d5107edd97fa832921f86107ff07aa33526e04cd3b14f46ff5afe\n"}
+,{"stream_name":"stdout","time":69.1988605,"data":"Sovereign SIH26119 V2 candidate; C++ core, sparse simplex, branch-and-cut, convex QP\n"}
+,{"stream_name":"stdout","time":69.205163524,"data":"self-test exit 0\n"}
+,{"stream_name":"stdout","time":69.205210078,"data":"self-test stdout: {\"status\":\"optimal\",\"message\":\"\",\"nodes\":1,\"lp_iterations\":1,\"total_seconds\":0.00032761900000000002,\"warm_starts\":1,\"heuristic_solves\":1,\"cuts\":0,\"bound_tightenings\":2,\"rows\":2,\"columns\":2,\"objective\":-20,\"pump_projections\":0,\"pump_restarts\":0,\"pump_incumbents\":0,\"cut_rollbacks\":0,\"first_incumbent_seconds\":0.00015523500002245783,\"best_bound\":-20,\"pump_reopt\":{\"enabled\":true,\"calls\":0,\"compatible\":0,\"primal\":0,\"dual\":0,\"rejected\":0,\"verified\":0,\"phase_one_iterations\":0,\"factorizations\":0,\"canonical_seconds\":0,\"factor_seconds\":0,\"pricing_seconds\":0,\"replay\":null},\"distance_reopt\":{\"enabled\":true\n"}
+,{"stream_name":"stdout","time":69.205238724,"data":"self-test stderr: \n"}
+,{"stream_name":"stdout","time":69.205828294,"data":"self-test status optimal objective -20\n"}
+,{"stream_name":"stdout","time":70.228581195,"data":"solution file: https://miplib.zib.de/downloads/miplib2017-v32.solu entries 1065\n"}
+,{"stream_name":"stdout","time":70.872112168,"data":"benchmark instances listed: 240\n"}
+,{"stream_name":"stdout","time":70.872153535,"data":"batch: 60 instances, slice [60:120], 300s each, 2 at a time\n"}
+,{"stream_name":"stdout","time":372.438714579,"data":"[  1/60] graph20-20-1rand               time_limit         obj=         None gap=    None pub=         -9.0 valid=False agree=None [302s]\n"}
+,{"stream_name":"stdout","time":372.775060883,"data":"[  2/60] graphdraw-domain               time_limit         obj=22337.9999999 gap=0.426443 pub=19685.9999755 valid=True  agree=None [302s]\n"}
+,{"stream_name":"stdout","time":720.792802101,"data":"[  3/60] h80x6320d                      time_limit         obj=20018.1966765 gap=0.719973 pub=6382.09904824 valid=True  agree=None [650s]\n"}
+,{"stream_name":"stdout","time":720.793040809,"data":"[  4/60] highschool1-aigio              time_limit         obj=         None gap=    None pub=          0.0 valid=False agree=None [650s]\n"}
+]

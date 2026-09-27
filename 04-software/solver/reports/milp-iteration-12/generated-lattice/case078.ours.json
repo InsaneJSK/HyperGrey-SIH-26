@@ -1,0 +1,244 @@
+{
+  "status": "optimal",
+  "message": "",
+  "nodes": 9,
+  "lp_iterations": 44,
+  "total_seconds": 0.0071206,
+  "warm_starts": 17,
+  "heuristic_solves": 11,
+  "cuts": 0,
+  "bound_tightenings": 18,
+  "rows": 3,
+  "columns": 4,
+  "objective": -77.5,
+  "pump_projections": 5,
+  "pump_restarts": 3,
+  "pump_incumbents": 1,
+  "cut_rollbacks": 0,
+  "first_incumbent_seconds": 0.0003235999999997574,
+  "best_bound": -77.5,
+  "objective_lattice": {
+    "enabled": true,
+    "eligible": true,
+    "reason": "checked_parsed_model_lattice",
+    "offset_minimization": -1.5,
+    "step": 4,
+    "coefficients_minimization": [
+      -16,
+      4,
+      16,
+      12
+    ],
+    "substitutions": [],
+    "bound_calls": 18,
+    "bound_improvements": 18,
+    "trace_truncated": false,
+    "trace": [
+      {
+        "node": 0,
+        "before_minimization": -90.50000915,
+        "after_minimization": -89.50000000000001
+      },
+      {
+        "node": 0,
+        "before_minimization": -90.50000915,
+        "after_minimization": -89.50000000000001
+      },
+      {
+        "node": 1,
+        "before_minimization": -78.50000795,
+        "after_minimization": -77.50000000000001
+      },
+      {
+        "node": 1,
+        "before_minimization": -78.50000795,
+        "after_minimization": -77.50000000000001
+      },
+      {
+        "node": 2,
+        "before_minimization": -83.50000845,
+        "after_minimization": -81.50000000000001
+      },
+      {
+        "node": 2,
+        "before_minimization": -83.50000845,
+        "after_minimization": -81.50000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -81.50000825,
+        "after_minimization": -81.50000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -81.50000825,
+        "after_minimization": -81.50000000000001
+      },
+      {
+        "node": 7,
+        "before_minimization": -73.50000745,
+        "after_minimization": -73.50000000000001
+      },
+      {
+        "node": 7,
+        "before_minimization": -73.50000745,
+        "after_minimization": -73.50000000000001
+      },
+      {
+        "node": 8,
+        "before_minimization": -64.50000655,
+        "after_minimization": -61.50000000000001
+      },
+      {
+        "node": 8,
+        "before_minimization": -64.50000655,
+        "after_minimization": -61.50000000000001
+      },
+      {
+        "node": 6,
+        "before_minimization": -71.90000729,
+        "after_minimization": -69.50000000000001
+      },
+      {
+        "node": 6,
+        "before_minimization": -71.90000729,
+        "after_minimization": -69.50000000000001
+      },
+      {
+        "node": 3,
+        "before_minimization": -65.50000665,
+        "after_minimization": -65.50000000000001
+      },
+      {
+        "node": 3,
+        "before_minimization": -65.50000665,
+        "after_minimization": -65.50000000000001
+      },
+      {
+        "node": 4,
+        "before_minimization": -77.50000785,
+        "after_minimization": -77.50000000000001
+      },
+      {
+        "node": 4,
+        "before_minimization": -77.50000785,
+        "after_minimization": -77.50000000000001
+      }
+    ]
+  },
+  "compact_equalities_enabled": false,
+  "late_compact_equalities_enabled": false,
+  "compact_lp_calls": 0,
+  "compact_lp_fallbacks": 0,
+  "root_lp_rows": 7,
+  "root_compact_equalities": 0,
+  "branching": "fractionality",
+  "pseudocost_updates": 0,
+  "reduced_bound_lp_enabled": false,
+  "late_reduced_bound_lp_enabled": false,
+  "reduced_bound_lp_calls": 0,
+  "reduced_bound_lp_fallbacks": 0,
+  "reduced_bound_lp_accepted": 0,
+  "reduced_upper_candidates": 0,
+  "root_reduced_upper_bounds": 0,
+  "strong_branch_probes": 0,
+  "strong_branch_seconds": 0,
+  "gap": 0,
+  "lp_recovery_attempts": 0,
+  "lp_recovery_successes": 0,
+  "lp_recovery_seconds": 0,
+  "deferred_nodes": 0,
+  "unresolved_nodes": 0,
+  "neighborhood_calls": 0,
+  "neighborhood_nodes": 0,
+  "neighborhood_improvements": 0,
+  "neighborhood_seconds": 0,
+  "neighborhood_paced": false,
+  "neighborhood_min_spacing_seconds": 0,
+  "neighborhood": "guided",
+  "neighborhood_trace": [],
+  "first_lp_failure": null,
+  "rejected_integer_candidates": 0,
+  "rejected_candidates": [],
+  "candidate_repair_attempts": 0,
+  "candidate_repair_successes": 0,
+  "repair_branch_nodes": 0,
+  "candidate_repair_seconds": 0,
+  "binary_meet_enabled": false,
+  "binary_meet_attempts": 0,
+  "binary_meet_eligible": false,
+  "binary_meet_completed": false,
+  "binary_meet_improved": false,
+  "binary_meet_left_states": 0,
+  "binary_meet_right_states": 0,
+  "binary_meet_query_nodes": 0,
+  "binary_meet_seconds": 0,
+  "binary_meet_budget": 0,
+  "binary_meet_primal": [],
+  "lifted_covers_enabled": false,
+  "lifted_cover_states": 0,
+  "lifted_cover_checked": 0,
+  "lifted_cover_seconds": 0,
+  "late_lifted_covers_enabled": false,
+  "cut_restarts": 0,
+  "cut_restart_nodes": 0,
+  "cut_restart_seconds": 0,
+  "cut_restart_bound": null,
+  "cut_restart_objective": null,
+  "cut_restart_primal": [],
+  "root_bound_before_cuts": -89.50000000000001,
+  "root_bound_after_cuts": -89.50000000000001,
+  "lifted_cover_trace": [],
+  "binary_proof_enabled": false,
+  "binary_proof_attempts": 0,
+  "binary_proof_budget": 0,
+  "binary_proof": {
+    "version": 1,
+    "arithmetic": "checked_int64",
+    "status": "not_run",
+    "reason": "",
+    "eligible": false,
+    "completed": false,
+    "verified": false,
+    "feasible": false,
+    "seconds": 0,
+    "work": 0,
+    "work_limit": 50000000,
+    "left_states": 0,
+    "right_states": 0,
+    "query_nodes": 0,
+    "objective_minimization": null,
+    "binary_indices": [],
+    "primal": []
+  },
+  "incumbent_trace": [
+    [
+      0.0003238000000003183,
+      -45.5
+    ],
+    [
+      0.00038919999999986743,
+      -61.5
+    ],
+    [
+      0.000423200000000179,
+      -65.5
+    ],
+    [
+      0.0005095999999999989,
+      -73.5
+    ],
+    [
+      0.0005794000000003408,
+      -77.5
+    ]
+  ],
+  "primal": [
+    1,
+    -1,
+    -2,
+    -2
+  ],
+  "process_seconds": 0.02275130001362413,
+  "exit_code": 0
+}

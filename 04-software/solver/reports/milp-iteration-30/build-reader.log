@@ -1,0 +1,30 @@
+[ 15%] Built target solver
+[ 18%] Built target solver_scale
+[ 21%] Built target solver_tests
+[ 25%] Built target solver_binary_proof_tests
+[ 28%] Built target solver_cli
+[ 31%] Built target solver_v2_tests
+[ 34%] Built target solver_compact_equality_tests
+[ 37%] Built target solver_lifted_cover_tests
+[ 40%] Built target solver_meet_tests
+[ 46%] Built target solver_objective_lattice_tests
+[ 46%] Built target solver_reduced_bound_tests
+[ 51%] Built target solver_frontier_tests
+[ 51%] Building CXX object CMakeFiles/solver_mps_contract_tests.dir/tests/test_mps_contract.cpp.obj
+[ 54%] Built target solver_work_tests
+[ 57%] Built target solver_cut_policy_tests
+[ 64%] Built target solver_sparse_accuracy_tests
+[ 64%] Built target solver_incumbent_cut_tests
+[ 67%] Built target solver_feasibility_trace_tests
+[ 70%] Built target solver_refinement_work_tests
+[ 75%] Built target solver_pump_guidance_tests
+[ 76%] Built target solver_heuristic_polish_tests
+[ 79%] Built target solver_distance_reopt_tests
+[ 85%] Built target solver_pump_distance_tests
+[ 85%] Built target solver_primal_reopt_tests
+[ 89%] Built target solver_private_ranking_tests
+[ 92%] Built target solver_bounded_simplex_tests
+[ 95%] Built target solver_dual_certificate_tests
+[ 98%] Built target solver_distance_stage_tests
+[100%] Linking CXX executable solver_mps_contract_tests.exe
+[100%] Built target solver_mps_contract_tests

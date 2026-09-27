@@ -1,0 +1,60 @@
+Internal ctest changing into directory: D:/sih-2026/SIH-backup-solver/SIH-backup-solver/build-milp-iter30
+Test project D:/sih-2026/SIH-backup-solver/SIH-backup-solver/build-milp-iter30
+      Start  1: lp_correctness
+ 1/27 Test  #1: lp_correctness ......................   Passed    0.12 sec
+      Start  2: v2_numerical_regressions
+ 2/27 Test  #2: v2_numerical_regressions ............   Passed    0.92 sec
+      Start  3: scale_correctness
+ 3/27 Test  #3: scale_correctness ...................   Passed    0.16 sec
+      Start  4: binary_meet_regressions
+ 4/27 Test  #4: binary_meet_regressions .............   Passed    0.11 sec
+      Start  5: binary_proof_regressions
+ 5/27 Test  #5: binary_proof_regressions ............   Passed    0.18 sec
+      Start  6: lifted_cover_regressions
+ 6/27 Test  #6: lifted_cover_regressions ............   Passed    0.27 sec
+      Start  7: compact_equality_regressions
+ 7/27 Test  #7: compact_equality_regressions ........   Passed    0.35 sec
+      Start  8: reduced_bound_regressions
+ 8/27 Test  #8: reduced_bound_regressions ...........   Passed    0.46 sec
+      Start  9: mps_domain_contract
+ 9/27 Test  #9: mps_domain_contract .................   Passed    0.13 sec
+      Start 10: objective_lattice_regressions
+10/27 Test #10: objective_lattice_regressions .......   Passed    0.34 sec
+      Start 11: frontier_regressions
+11/27 Test #11: frontier_regressions ................   Passed    0.83 sec
+      Start 12: work_budget_regressions
+12/27 Test #12: work_budget_regressions .............   Passed    0.55 sec
+      Start 13: adaptive_cut_regressions
+13/27 Test #13: adaptive_cut_regressions ............   Passed    1.04 sec
+      Start 14: incumbent_cut_regressions
+14/27 Test #14: incumbent_cut_regressions ...........   Passed   38.68 sec
+      Start 15: sparse_basis_accuracy
+15/27 Test #15: sparse_basis_accuracy ...............   Passed    0.21 sec
+      Start 16: refinement_work_accounting
+16/27 Test #16: refinement_work_accounting ..........   Passed    0.14 sec
+      Start 17: selective_basis_accuracy
+17/27 Test #17: selective_basis_accuracy ............   Passed    0.13 sec
+      Start 18: feasibility_trace_regressions
+18/27 Test #18: feasibility_trace_regressions .......   Passed    0.18 sec
+      Start 19: heuristic_candidate_polish
+19/27 Test #19: heuristic_candidate_polish ..........   Passed    1.44 sec
+      Start 20: pump_guidance_regressions
+20/27 Test #20: pump_guidance_regressions ...........   Passed    0.38 sec
+      Start 21: pump_distance_regressions
+21/27 Test #21: pump_distance_regressions ...........   Passed    0.13 sec
+      Start 22: primal_reoptimization_regressions
+22/27 Test #22: primal_reoptimization_regressions ...   Passed    0.12 sec
+      Start 23: private_distance_reoptimization
+23/27 Test #23: private_distance_reoptimization .....   Passed    0.10 sec
+      Start 24: staged_private_distance
+24/27 Test #24: staged_private_distance .............   Passed    0.12 sec
+      Start 25: private_dive_ranking
+25/27 Test #25: private_dive_ranking ................   Passed    0.11 sec
+      Start 26: private_dual_certificate
+26/27 Test #26: private_dual_certificate ............   Passed    0.11 sec
+      Start 27: bounded_simplex_regressions
+27/27 Test #27: bounded_simplex_regressions .........   Passed    2.34 sec
+
+100% tests passed, 0 tests failed out of 27
+
+Total Test time (real) =  49.68 sec

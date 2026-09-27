@@ -1,0 +1,150 @@
+[{"stream_name":"stdout","time":25.939718717,"data":"highspy install exit 0\n"}
+,{"stream_name":"stdout","time":25.977275988,"data":"source tree: /kaggle/input/datasets/prakhar1803/sih26119-solver-source\n"}
+,{"stream_name":"stdout","time":66.152019941,"data":"compiler exit 0\n"}
+,{"stream_name":"stdout","time":66.155962481,"data":"solver sha256 e40e849f69d273777089e3cfd21fdfd7f29803f50cf0ef4f39e26691295c866c\n"}
+,{"stream_name":"stdout","time":66.169887619,"data":"Sovereign SIH26119 V2 candidate; C++ core, sparse simplex, branch-and-cut, convex QP\n"}
+,{"stream_name":"stdout","time":66.173804763,"data":"self-test exit 0\n"}
+,{"stream_name":"stdout","time":66.173839934,"data":"self-test stdout: {\"status\":\"optimal\",\"message\":\"\",\"nodes\":1,\"lp_iterations\":1,\"total_seconds\":0.00027157700000000001,\"warm_starts\":1,\"heuristic_solves\":1,\"cuts\":0,\"bound_tightenings\":2,\"rows\":2,\"columns\":2,\"objective\":-20,\"pump_projections\":0,\"pump_restarts\":0,\"pump_incumbents\":0,\"cut_rollbacks\":0,\"first_incumbent_seconds\":0.00011115799998151488,\"best_bound\":-20,\"pump_reopt\":{\"enabled\":true,\"calls\":0,\"compatible\":0,\"primal\":0,\"dual\":0,\"rejected\":0,\"verified\":0,\"phase_one_iterations\":0,\"factorizations\":0,\"canonical_seconds\":0,\"factor_seconds\":0,\"pricing_seconds\":0,\"replay\":null},\"distance_reopt\":{\"enabled\":true\n"}
+,{"stream_name":"stdout","time":66.173857396,"data":"self-test stderr: \n"}
+,{"stream_name":"stdout","time":66.174080613,"data":"self-test status optimal objective -20\n"}
+,{"stream_name":"stdout","time":66.32643126,"data":"solution file: https://miplib.zib.de/downloads/miplib2017-v32.solu entries 1065\n"}
+,{"stream_name":"stdout","time":66.42846855,"data":"benchmark instances listed: 240\n"}
+,{"stream_name":"stdout","time":66.428508197,"data":"batch: 38 instances, slice [202:240], 300s each, 2 at a time\n"}
+,{"stream_name":"stdout","time":366.964320981,"data":"[  1/38] seymour1                       time_limit         obj=         None gap=    None pub= 410.76370139 valid=False agree=None [301s]\n"}
+,{"stream_name":"stdout","time":368.500226227,"data":"[  2/38] sing326                        time_limit         obj=         None gap=    None pub=7753674.85376 valid=False agree=None [302s]\n"}
+,{"stream_name":"stdout","time":669.17211296,"data":"[  3/38] sing44                         time_limit         obj=         None gap=    None pub= 8128831.1772 valid=False agree=None [603s]\n"}
+,{"stream_name":"stdout","time":673.100262657,"data":"[  4/38] snp-02-004-104                 time_limit         obj=         None gap=    None pub=586803238.656 valid=False agree=None [607s]\n"}
+,{"stream_name":"stdout","time":972.921182167,"data":"[  5/38] sorrell3                       time_limit         obj=         None gap=    None pub=        -16.0 valid=False agree=None [906s]\n"}
+,{"stream_name":"stdout","time":972.921252226,"data":"[  6/38] sp150x300d                     node_limit         obj=           69 gap=0.428571 pub=         69.0 valid=True  agree=None [906s]\n"}
+,{"stream_name":"stdout","time":1049.195230205,"data":"[  7/38] sp97ar                         time_limit         obj=         None gap=    None pub=660705645.759 valid=False agree=None [983s]\n"}
+,{"stream_name":"stdout","time":1275.373215056,"data":"[  8/38] sp98ar                         time_limit         obj=         None gap=    None pub=  529740623.2 valid=False agree=None [1209s]\n"}
+,{"stream_name":"stdout","time":1356.392781167,"data":"[  9/38] splice1k1                      time_limit         obj=         None gap=    None pub=       -394.0 valid=False agree=None [1290s]\n"}
+,{"stream_name":"stdout","time":1658.302973361,"data":"[ 10/38] square41                       time_limit         obj=         None gap=    None pub=         15.0 valid=False agree=None [1592s]\n"}
+,{"stream_name":"stdout","time":1839.097081091,"data":"[ 11/38] square47                       time_limit         obj=         None gap=    None pub=15.9999999997 valid=False agree=None [1773s]\n"}
+,{"stream_name":"stdout","time":1945.881647744,"data":"[ 12/38] supportcase10                  process_error      obj=         None gap=    None pub=          7.0 valid=False agree=None [1879s] exit=2 err=error: resource_limit: sparse LU fill budget\n"}
+,{"stream_name":"stdout","time":2156.558946693,"data":"[ 13/38] supportcase12                  time_limit         obj=         None gap=    None pub=-7559.5330538 valid=False agree=None [2090s]\n"}
+,{"stream_name":"stdout","time":2273.582110569,"data":"[ 14/38] supportcase18                  time_limit         obj=          120 gap=0.595041 pub=         48.0 valid=True  agree=None [2207s]\n"}
+,{"stream_name":"stdout","time":2491.145343458,"data":"[ 15/38] supportcase19                  time_limit         obj=         None gap=    None pub=12677205.9999 valid=False agree=None [2425s]\n"}
+,{"stream_name":"stdout","time":2583.592053101,"data":"[ 16/38] supportcase22                  time_limit         obj=         None gap=    None pub=        110.0 valid=False agree=None [2517s]\n"}
+,{"stream_name":"stdout","time":2614.91894358,"data":"[ 17/38] supportcase26                  node_limit         obj=2048.51402817 gap=0.287846 pub=  1745.123813 valid=True  agree=None [2548s]\n"}
+,{"stream_name":"stdout","time":2885.447963261,"data":"[ 18/38] supportcase33                  time_limit         obj=         None gap=    None pub=       -345.0 valid=False agree=None [2819s]\n"}
+,{"stream_name":"stdout","time":2915.785307032,"data":"[ 19/38] supportcase40                  time_limit         obj=         None gap=    None pub=24256.3122898 valid=False agree=None [2849s]\n"}
+,{"stream_name":"stdout","time":2990.685863638,"data":"[ 20/38] supportcase42                  unresolved_relaxat obj=         None gap=    None pub=7.75863072227 valid=False agree=None [2924s]\n"}
+,{"stream_name":"stdout","time":3219.462245751,"data":"[ 21/38] supportcase6                   time_limit         obj=         None gap=    None pub=  51906.47737 valid=False agree=None [3153s]\n"}
+,{"stream_name":"stdout","time":3219.462706645,"data":"[ 22/38] supportcase7                   unresolved_relaxat obj=         None gap=    None pub= -1132.223177 valid=False agree=None [3153s]\n"}
+,{"stream_name":"stdout","time":3533.17264675,"data":"[ 23/38] swath1                         time_limit         obj=379.071295741 gap=0.029192 pub= 379.07129575 valid=True  agree=None [3467s]\n"}
+,{"stream_name":"stdout","time":3533.173425634,"data":"[ 24/38] swath3                         node_limit         obj=401.433793294 gap=0.098429 pub= 397.76134365 valid=True  agree=None [3467s]\n"}
+,{"stream_name":"stdout","time":3680.905875889,"data":"[ 25/38] tbfp-network                   time_limit         obj=         None gap=    None pub=  24.16319444 valid=False agree=None [3614s]\n"}
+,{"stream_name":"stdout","time":3836.335748252,"data":"[ 26/38] thor50dday                     time_limit         obj=         None gap=    None pub=      40417.0 valid=False agree=None [3770s]\n"}
+,{"stream_name":"stdout","time":3953.782291607,"data":"[ 27/38] timtab1                        node_limit         obj=964175.999932 gap=0.739773 pub=764771.999999 valid=True  agree=None [3887s]\n"}
+,{"stream_name":"stdout","time":4136.610969068,"data":"[ 28/38] tr12-30                        time_limit         obj=         None gap=    None pub=130595.999999 valid=False agree=None [4070s]\n"}
+,{"stream_name":"stdout","time":4136.611750319,"data":"[ 29/38] traininstance2                 unresolved_relaxat obj=         None gap=    None pub=      71820.0 valid=False agree=None [4070s]\n"}
+,{"stream_name":"stdout","time":4395.896260026,"data":"[ 30/38] traininstance6                 time_limit         obj=         None gap=    None pub=      28290.0 valid=False agree=None [4329s]\n"}
+,{"stream_name":"stdout","time":4395.897207008,"data":"[ 31/38] trento1                        unresolved_relaxat obj=         None gap=    None pub=    5189487.0 valid=False agree=None [4329s]\n"}
+,{"stream_name":"stdout","time":4463.814081937,"data":"[ 32/38] triptim1                       unresolved_relaxat obj=         None gap=    None pub=22.8680999999 valid=False agree=None [4397s]\n"}
+,{"stream_name":"stdout","time":4699.633375705,"data":"[ 33/38] uccase12                       time_limit         obj=         None gap=    None pub=11507.4050616 valid=False agree=None [4633s]\n"}
+,{"stream_name":"stdout","time":4699.634067435,"data":"[ 34/38] uccase9                        unresolved_relaxat obj=         None gap=    None pub= 10993.131409 valid=False agree=None [4633s]\n"}
+,{"stream_name":"stdout","time":4849.318670536,"data":"[ 35/38] uct-subprob                    time_limit         obj=335.999999968 gap=0.253145 pub=        314.0 valid=True  agree=None [4783s]\n"}
+,{"stream_name":"stdout","time":4849.319713195,"data":"[ 36/38] unitcal_7                      unresolved_relaxat obj=         None gap=    None pub= 19635558.244 valid=False agree=None [4783s]\n"}
+,{"stream_name":"stdout","time":5052.18560143,"data":"[ 37/38] var-smallemery-m6j6            time_limit         obj=         None gap=    None pub=   -149.37501 valid=False agree=None [4986s]\n"}
+,{"stream_name":"stdout","time":5150.140089832,"data":"[ 38/38] wachplan                       time_limit         obj=         None gap=    None pub=         -8.0 valid=False agree=None [5084s]\n"}
+,{"stream_name":"stdout","time":5150.149726015,"data":"{\n"}
+,{"stream_name":"stdout","time":5150.149765284,"data":" \"slice\": [\n"}
+,{"stream_name":"stdout","time":5150.149772753,"data":"  202,\n"}
+,{"stream_name":"stdout","time":5150.149779021,"data":"  240\n"}
+,{"stream_name":"stdout","time":5150.149784611,"data":" ],\n"}
+,{"stream_name":"stdout","time":5150.149790191,"data":" \"attempted\": 38,\n"}
+,{"stream_name":"stdout","time":5150.14979631,"data":" \"instances\": 38,\n"}
+,{"stream_name":"stdout","time":5150.149801809,"data":" \"limit_seconds\": 300.0,\n"}
+,{"stream_name":"stdout","time":5150.149805708,"data":" \"workers\": 2,\n"}
+,{"stream_name":"stdout","time":5150.149809601,"data":" \"flags\": [\n"}
+,{"stream_name":"stdout","time":5150.1498132,"data":"  \"--milp\",\n"}
+,{"stream_name":"stdout","time":5150.149816908,"data":"  \"--json\",\n"}
+,{"stream_name":"stdout","time":5150.14982053,"data":"  \"--lp-recovery\",\n"}
+,{"stream_name":"stdout","time":5150.149824206,"data":"  \"--improve-incumbent\",\n"}
+,{"stream_name":"stdout","time":5150.149827884,"data":"  \"--repair-candidates\",\n"}
+,{"stream_name":"stdout","time":5150.149831688,"data":"  \"--repair-heuristic-candidates\",\n"}
+,{"stream_name":"stdout","time":5150.149837528,"data":"  \"--late-lifted-covers\",\n"}
+,{"stream_name":"stdout","time":5150.14984321,"data":"  \"--late-compact-equalities\",\n"}
+,{"stream_name":"stdout","time":5150.149848651,"data":"  \"--late-reduced-bound-lp\",\n"}
+,{"stream_name":"stdout","time":5150.149853958,"data":"  \"--binary-proof\",\n"}
+,{"stream_name":"stdout","time":5150.149859358,"data":"  \"--objective-lattice\",\n"}
+,{"stream_name":"stdout","time":5150.149864888,"data":"  \"--raw-lp-priority\",\n"}
+,{"stream_name":"stdout","time":5150.149871281,"data":"  \"--refine-basis\",\n"}
+,{"stream_name":"stdout","time":5150.14987742,"data":"  \"--refine-at-checks\",\n"}
+,{"stream_name":"stdout","time":5150.149882846,"data":"  \"--pump-guided-diving\",\n"}
+,{"stream_name":"stdout","time":5150.149935425,"data":"  \"--pump-distance-diving\",\n"}
+,{"stream_name":"stdout","time":5150.149941396,"data":"  \"--pump-primal-reopt\",\n"}
+,{"stream_name":"stdout","time":5150.149946061,"data":"  \"--pump-distance-reopt\",\n"}
+,{"stream_name":"stdout","time":5150.149950768,"data":"  \"--pump-distance-stage\",\n"}
+,{"stream_name":"stdout","time":5150.149955295,"data":"  \"--bounded-lp\",\n"}
+,{"stream_name":"stdout","time":5150.149959709,"data":"  \"--tree-dives\",\n"}
+,{"stream_name":"stdout","time":5150.149964538,"data":"  \"--fix-propagate\",\n"}
+,{"stream_name":"stdout","time":5150.149969331,"data":"  \"--time-limit\",\n"}
+,{"stream_name":"stdout","time":5150.14997392,"data":"  \"300.0\",\n"}
+,{"stream_name":"stdout","time":5150.149978358,"data":"  \"--node-limit\",\n"}
+,{"stream_name":"stdout","time":5150.149982884,"data":"  \"100000000\",\n"}
+,{"stream_name":"stdout","time":5150.149987463,"data":"  \"--gap\",\n"}
+,{"stream_name":"stdout","time":5150.14999201,"data":"  \"1e-6\"\n"}
+,{"stream_name":"stdout","time":5150.14999658,"data":" ],\n"}
+,{"stream_name":"stdout","time":5150.15000111,"data":" \"solver_sha256\": \"e40e849f69d273777089e3cfd21fdfd7f29803f50cf0ef4f39e26691295c866c\",\n"}
+,{"stream_name":"stdout","time":5150.15000704,"data":" \"solution_file\": \"https://miplib.zib.de/downloads/miplib2017-v32.solu\",\n"}
+,{"stream_name":"stdout","time":5150.150012011,"data":" \"proven\": 0,\n"}
+,{"stream_name":"stdout","time":5150.150016691,"data":" \"completion_agrees\": 0,\n"}
+,{"stream_name":"stdout","time":5150.150021403,"data":" \"completion_disagrees\": [],\n"}
+,{"stream_name":"stdout","time":5150.15002623,"data":" \"point_validated\": 7,\n"}
+,{"stream_name":"stdout","time":5150.150064761,"data":" \"point_rejected\": [],\n"}
+,{"stream_name":"stdout","time":5150.150069848,"data":" \"infeasible_claimed\": [],\n"}
+,{"stream_name":"stdout","time":5150.150074157,"data":" \"process_error\": [\n"}
+,{"stream_name":"stdout","time":5150.150078519,"data":"  \"supportcase10\"\n"}
+,{"stream_name":"stdout","time":5150.150082955,"data":" ],\n"}
+,{"stream_name":"stdout","time":5150.150087036,"data":" \"download_failed\": [],\n"}
+,{"stream_name":"stdout","time":5150.150091728,"data":" \"carry_over\": [\n"}
+,{"stream_name":"stdout","time":5150.150096421,"data":"  \"seymour1\",\n"}
+,{"stream_name":"stdout","time":5150.15010119,"data":"  \"sing326\",\n"}
+,{"stream_name":"stdout","time":5150.150105686,"data":"  \"sing44\",\n"}
+,{"stream_name":"stdout","time":5150.150110179,"data":"  \"snp-02-004-104\",\n"}
+,{"stream_name":"stdout","time":5150.150114775,"data":"  \"sorrell3\",\n"}
+,{"stream_name":"stdout","time":5150.150119146,"data":"  \"sp150x300d\",\n"}
+,{"stream_name":"stdout","time":5150.150123655,"data":"  \"sp97ar\",\n"}
+,{"stream_name":"stdout","time":5150.15012804,"data":"  \"sp98ar\",\n"}
+,{"stream_name":"stdout","time":5150.150132538,"data":"  \"splice1k1\",\n"}
+,{"stream_name":"stdout","time":5150.150137048,"data":"  \"square41\",\n"}
+,{"stream_name":"stdout","time":5150.150141537,"data":"  \"square47\",\n"}
+,{"stream_name":"stdout","time":5150.150145884,"data":"  \"supportcase12\",\n"}
+,{"stream_name":"stdout","time":5150.150150543,"data":"  \"supportcase18\",\n"}
+,{"stream_name":"stdout","time":5150.150155478,"data":"  \"supportcase19\",\n"}
+,{"stream_name":"stdout","time":5150.150159955,"data":"  \"supportcase22\",\n"}
+,{"stream_name":"stdout","time":5150.150183248,"data":"  \"supportcase26\",\n"}
+,{"stream_name":"stdout","time":5150.15018804,"data":"  \"supportcase33\",\n"}
+,{"stream_name":"stdout","time":5150.150197389,"data":"  \"supportcase40\",\n"}
+,{"stream_name":"stdout","time":5150.150233771,"data":"  \"supportcase42\",\n"}
+,{"stream_name":"stdout","time":5150.150239424,"data":"  \"supportcase6\",\n"}
+,{"stream_name":"stdout","time":5150.150244015,"data":"  \"supportcase7\",\n"}
+,{"stream_name":"stdout","time":5150.150248595,"data":"  \"swath1\",\n"}
+,{"stream_name":"stdout","time":5150.150253093,"data":"  \"swath3\",\n"}
+,{"stream_name":"stdout","time":5150.15025792,"data":"  \"tbfp-network\",\n"}
+,{"stream_name":"stdout","time":5150.15026314,"data":"  \"thor50dday\",\n"}
+,{"stream_name":"stdout","time":5150.150267786,"data":"  \"timtab1\",\n"}
+,{"stream_name":"stdout","time":5150.150272268,"data":"  \"tr12-30\",\n"}
+,{"stream_name":"stdout","time":5150.150276668,"data":"  \"traininstance2\",\n"}
+,{"stream_name":"stdout","time":5150.150280924,"data":"  \"traininstance6\",\n"}
+,{"stream_name":"stdout","time":5150.150285506,"data":"  \"trento1\",\n"}
+,{"stream_name":"stdout","time":5150.150289815,"data":"  \"triptim1\",\n"}
+,{"stream_name":"stdout","time":5150.150294013,"data":"  \"uccase12\",\n"}
+,{"stream_name":"stdout","time":5150.150298465,"data":"  \"uccase9\",\n"}
+,{"stream_name":"stdout","time":5150.150302815,"data":"  \"uct-subprob\",\n"}
+,{"stream_name":"stdout","time":5150.150307478,"data":"  \"unitcal_7\",\n"}
+,{"stream_name":"stdout","time":5150.150312053,"data":"  \"var-smallemery-m6j6\",\n"}
+,{"stream_name":"stdout","time":5150.150316617,"data":"  \"wachplan\"\n"}
+,{"stream_name":"stdout","time":5150.150321015,"data":" ],\n"}
+,{"stream_name":"stdout","time":5150.150325371,"data":" \"elapsed_seconds\": 5083.720608711243,\n"}
+,{"stream_name":"stdout","time":5150.150330291,"data":" \"caveat\": \"Two instances share four cloud vCPUs: outcomes at a fixed budget under contention. No timing claim is made from this run.\"\n"}
+,{"stream_name":"stdout","time":5150.150336115,"data":"}\n"}
+,{"stream_name":"stderr","time":5153.32478987,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5153.324841061,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5153.672879115,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5153.67291475,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5154.662852145,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5156.477536744,"data":"[NbConvertApp] Writing 349587 bytes to __results__.html\n"}
+]

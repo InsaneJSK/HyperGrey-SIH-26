@@ -1,0 +1,10 @@
+dcmulti.control.0 {'status': 'process_error', 'objective': None, 'gap': None, 'nodes': None}
+dcmulti.candidate.0 {'status': 'process_error', 'objective': None, 'gap': None, 'nodes': None}
+dsbmip.candidate.0 {'status': 'process_error', 'objective': None, 'gap': None, 'nodes': None}
+dsbmip.control.0 {'status': 'process_error', 'objective': None, 'gap': None, 'nodes': None}
+fiber.control.0 {'status': 'time_limit', 'objective': 3222528.28, 'gap': 0.9483065483326274, 'nodes': 326}
+fiber.candidate.0 {'status': 'time_limit', 'objective': 2273923.4899999998, 'gap': 0.9190765481779782, 'nodes': 22901}
+fixnet6.candidate.0 {'status': 'time_limit', 'objective': 4976.999999865002, 'gap': 0.5817818819083275, 'nodes': 31070}
+fixnet6.control.0 {'status': 'time_limit', 'objective': 10903.999999642008, 'gap': 0.8327985495016212, 'nodes': 1313}
+khb05250.control.0 {'status': 'process_error', 'objective': None, 'gap': None, 'nodes': None}
+khb05250.candidate.0 {'status': 'gap_limit', 'objective': 106940226, 'gap': 9.69713632536654e-07, 'nodes': 7541}

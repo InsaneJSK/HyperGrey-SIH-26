@@ -1,0 +1,142 @@
+[{"stream_name":"stdout","time":1.199740925,"data":"{\n"}
+,{"stream_name":"stdout","time":1.199814303,"data":" \"nvidia_smi\": \"Tesla T4, 15360 MiB, 580.159.04, 7.5\\nTesla T4, 15360 MiB, 580.159.04, 7.5\",\n"}
+,{"stream_name":"stdout","time":1.199820428,"data":" \"nvcc\": [\n"}
+,{"stream_name":"stdout","time":1.199823265,"data":"  \"Build cuda_12.8.r12.8/compiler.35583870_0\"\n"}
+,{"stream_name":"stdout","time":1.199826052,"data":" ],\n"}
+,{"stream_name":"stdout","time":1.19982851,"data":" \"cpu\": \"Intel(R) Xeon(R) CPU @ 2.00GHz\",\n"}
+,{"stream_name":"stdout","time":1.199831237,"data":" \"cpu_count\": 4\n"}
+,{"stream_name":"stdout","time":1.199833882,"data":"}\n"}
+,{"stream_name":"stderr","time":8.178837007,"data":"configure failed\n"}
+,{"stream_name":"stdout","time":8.178870626,"data":"cmake exit 1\n"}
+,{"stream_name":"stdout","time":8.178910889,"data":"-- The CXX compiler identification is GNU 11.4.0\n"}
+,{"stream_name":"stdout","time":8.178917427,"data":"-- Detecting CXX compiler ABI info\n"}
+,{"stream_name":"stdout","time":8.178923109,"data":"-- Detecting CXX compiler ABI info - done\n"}
+,{"stream_name":"stdout","time":8.17892845,"data":"-- Check for working CXX compiler: /usr/bin/c++ - skipped\n"}
+,{"stream_name":"stdout","time":8.178934174,"data":"-- Detecting CXX compile features\n"}
+,{"stream_name":"stdout","time":8.17893924,"data":"-- Detecting CXX compile features - done\n"}
+,{"stream_name":"stdout","time":8.178944611,"data":"-- The CUDA compiler identification is NVIDIA 12.8.93 with host compiler GNU 11.4.0\n"}
+,{"stream_name":"stdout","time":8.178950095,"data":"-- Detecting CUDA compiler ABI info\n"}
+,{"stream_name":"stdout","time":8.17897273,"data":"-- Detecting CUDA compiler ABI info - done\n"}
+,{"stream_name":"stdout","time":8.178978605,"data":"-- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped\n"}
+,{"stream_name":"stdout","time":8.178985449,"data":"-- Detecting CUDA compile features\n"}
+,{"stream_name":"stdout","time":8.178991001,"data":"-- Detecting CUDA compile features - done\n"}
+,{"stream_name":"stdout","time":8.178996409,"data":"-- Found OpenMP_CXX: -fopenmp (found version \"4.5\")\n"}
+,{"stream_name":"stdout","time":8.179002162,"data":"-- Found OpenMP_CUDA: -fopenmp (found version \"4.5\")\n"}
+,{"stream_name":"stdout","time":8.179007622,"data":"-- Found OpenMP: TRUE (found version \"4.5\")\n"}
+,{"stream_name":"stdout","time":8.179013239,"data":"-- Configuring done (6.4s)\n"}
+,{"stream_name":"stdout","time":8.179018523,"data":" s/test_bounded_simplex.cpp\n"}
+,{"stream_name":"stdout","time":8.179023986,"data":"\n"}
+,{"stream_name":"stdout","time":8.179028317,"data":"  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n"}
+,{"stream_name":"stdout","time":8.179032986,"data":"  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n"}
+,{"stream_name":"stdout","time":8.179038408,"data":"  .f95 .f03 .hip .ispc\n"}
+,{"stream_name":"stdout","time":8.179044024,"data":"\n"}
+,{"stream_name":"stdout","time":8.179048845,"data":"\n"}
+,{"stream_name":"stdout","time":8.179054135,"data":"CMake Error at CMakeLists.txt:24 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179059532,"data":"  No SOURCES given to target: solver_tests\n"}
+,{"stream_name":"stdout","time":8.179064479,"data":"\n"}
+,{"stream_name":"stdout","time":8.179069575,"data":"\n"}
+,{"stream_name":"stdout","time":8.17907467,"data":"CMake Error at CMakeLists.txt:28 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179079985,"data":"  No SOURCES given to target: solver_v2_tests\n"}
+,{"stream_name":"stdout","time":8.179096129,"data":"\n"}
+,{"stream_name":"stdout","time":8.179100308,"data":"\n"}
+,{"stream_name":"stdout","time":8.179103924,"data":"CMake Error at CMakeLists.txt:32 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179107935,"data":"  No SOURCES given to target: solver_meet_tests\n"}
+,{"stream_name":"stdout","time":8.179112049,"data":"\n"}
+,{"stream_name":"stdout","time":8.179115953,"data":"\n"}
+,{"stream_name":"stdout","time":8.179119333,"data":"CMake Error at CMakeLists.txt:35 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179122894,"data":"  No SOURCES given to target: solver_binary_proof_tests\n"}
+,{"stream_name":"stdout","time":8.17912697,"data":"\n"}
+,{"stream_name":"stdout","time":8.179130693,"data":"\n"}
+,{"stream_name":"stdout","time":8.179134446,"data":"CMake Error at CMakeLists.txt:38 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179138304,"data":"  No SOURCES given to target: solver_lifted_cover_tests\n"}
+,{"stream_name":"stdout","time":8.179141909,"data":"\n"}
+,{"stream_name":"stdout","time":8.179145478,"data":"\n"}
+,{"stream_name":"stdout","time":8.179149098,"data":"CMake Error at CMakeLists.txt:41 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179153136,"data":"  No SOURCES given to target: solver_compact_equality_tests\n"}
+,{"stream_name":"stdout","time":8.179157044,"data":"\n"}
+,{"stream_name":"stdout","time":8.179160776,"data":"\n"}
+,{"stream_name":"stdout","time":8.179164724,"data":"CMake Error at CMakeLists.txt:44 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179169231,"data":"  No SOURCES given to target: solver_reduced_bound_tests\n"}
+,{"stream_name":"stdout","time":8.179173474,"data":"\n"}
+,{"stream_name":"stdout","time":8.179177288,"data":"\n"}
+,{"stream_name":"stdout","time":8.179180924,"data":"CMake Error at CMakeLists.txt:47 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179185096,"data":"  No SOURCES given to target: solver_mps_contract_tests\n"}
+,{"stream_name":"stdout","time":8.179188924,"data":"\n"}
+,{"stream_name":"stdout","time":8.179193013,"data":"\n"}
+,{"stream_name":"stdout","time":8.179196878,"data":"CMake Error at CMakeLists.txt:50 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179201281,"data":"  No SOURCES given to target: solver_objective_lattice_tests\n"}
+,{"stream_name":"stdout","time":8.179205313,"data":"\n"}
+,{"stream_name":"stdout","time":8.179208849,"data":"\n"}
+,{"stream_name":"stdout","time":8.179212672,"data":"CMake Error at CMakeLists.txt:53 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179227843,"data":"  No SOURCES given to target: solver_frontier_tests\n"}
+,{"stream_name":"stdout","time":8.179231423,"data":"\n"}
+,{"stream_name":"stdout","time":8.179235056,"data":"\n"}
+,{"stream_name":"stdout","time":8.179240825,"data":"CMake Error at CMakeLists.txt:56 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179244986,"data":"  No SOURCES given to target: solver_work_tests\n"}
+,{"stream_name":"stdout","time":8.179248666,"data":"\n"}
+,{"stream_name":"stdout","time":8.179252235,"data":"\n"}
+,{"stream_name":"stdout","time":8.179255636,"data":"CMake Error at CMakeLists.txt:59 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.17925945,"data":"  No SOURCES given to target: solver_cut_policy_tests\n"}
+,{"stream_name":"stdout","time":8.17926309,"data":"\n"}
+,{"stream_name":"stdout","time":8.179267006,"data":"\n"}
+,{"stream_name":"stdout","time":8.179270545,"data":"CMake Error at CMakeLists.txt:62 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179288001,"data":"  No SOURCES given to target: solver_incumbent_cut_tests\n"}
+,{"stream_name":"stdout","time":8.179291661,"data":"\n"}
+,{"stream_name":"stdout","time":8.179295546,"data":"\n"}
+,{"stream_name":"stdout","time":8.179299218,"data":"CMake Error at CMakeLists.txt:65 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.17930306,"data":"  No SOURCES given to target: solver_sparse_accuracy_tests\n"}
+,{"stream_name":"stdout","time":8.179307042,"data":"\n"}
+,{"stream_name":"stdout","time":8.17931059,"data":"\n"}
+,{"stream_name":"stdout","time":8.179314235,"data":"CMake Error at CMakeLists.txt:70 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179318153,"data":"  No SOURCES given to target: solver_refinement_work_tests\n"}
+,{"stream_name":"stdout","time":8.179322116,"data":"\n"}
+,{"stream_name":"stdout","time":8.179325546,"data":"\n"}
+,{"stream_name":"stdout","time":8.179329028,"data":"CMake Error at CMakeLists.txt:76 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179332572,"data":"  No SOURCES given to target: solver_feasibility_trace_tests\n"}
+,{"stream_name":"stdout","time":8.179336333,"data":"\n"}
+,{"stream_name":"stdout","time":8.179339853,"data":"\n"}
+,{"stream_name":"stdout","time":8.17934357,"data":"CMake Error at CMakeLists.txt:79 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179347113,"data":"  No SOURCES given to target: solver_heuristic_polish_tests\n"}
+,{"stream_name":"stdout","time":8.179351008,"data":"\n"}
+,{"stream_name":"stdout","time":8.179354293,"data":"\n"}
+,{"stream_name":"stdout","time":8.179358225,"data":"CMake Error at CMakeLists.txt:84 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179361918,"data":"  No SOURCES given to target: solver_pump_guidance_tests\n"}
+,{"stream_name":"stdout","time":8.179365593,"data":"\n"}
+,{"stream_name":"stdout","time":8.179369576,"data":"\n"}
+,{"stream_name":"stdout","time":8.17937275,"data":"CMake Error at CMakeLists.txt:87 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179376635,"data":"  No SOURCES given to target: solver_pump_distance_tests\n"}
+,{"stream_name":"stdout","time":8.179380633,"data":"\n"}
+,{"stream_name":"stdout","time":8.179384772,"data":"\n"}
+,{"stream_name":"stdout","time":8.179388605,"data":"CMake Error at CMakeLists.txt:90 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179392774,"data":"  No SOURCES given to target: solver_primal_reopt_tests\n"}
+,{"stream_name":"stdout","time":8.179396493,"data":"\n"}
+,{"stream_name":"stdout","time":8.179400225,"data":"\n"}
+,{"stream_name":"stdout","time":8.179403872,"data":"CMake Error at CMakeLists.txt:93 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179407765,"data":"  No SOURCES given to target: solver_distance_reopt_tests\n"}
+,{"stream_name":"stdout","time":8.179410982,"data":"\n"}
+,{"stream_name":"stdout","time":8.179414748,"data":"\n"}
+,{"stream_name":"stdout","time":8.179418534,"data":"CMake Error at CMakeLists.txt:96 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179422215,"data":"  No SOURCES given to target: solver_distance_stage_tests\n"}
+,{"stream_name":"stdout","time":8.179425902,"data":"\n"}
+,{"stream_name":"stdout","time":8.179429514,"data":"\n"}
+,{"stream_name":"stdout","time":8.179432878,"data":"CMake Error at CMakeLists.txt:99 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179436602,"data":"  No SOURCES given to target: solver_private_ranking_tests\n"}
+,{"stream_name":"stdout","time":8.179443671,"data":"\n"}
+,{"stream_name":"stdout","time":8.179447305,"data":"\n"}
+,{"stream_name":"stdout","time":8.179451004,"data":"CMake Error at CMakeLists.txt:102 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179455008,"data":"  No SOURCES given to target: solver_dual_certificate_tests\n"}
+,{"stream_name":"stdout","time":8.179458818,"data":"\n"}
+,{"stream_name":"stdout","time":8.179462803,"data":"\n"}
+,{"stream_name":"stdout","time":8.179466552,"data":"CMake Error at CMakeLists.txt:105 (add_executable):\n"}
+,{"stream_name":"stdout","time":8.179470351,"data":"  No SOURCES given to target: solver_bounded_simplex_tests\n"}
+,{"stream_name":"stdout","time":8.179474114,"data":"\n"}
+,{"stream_name":"stdout","time":8.179477796,"data":"\n"}
+,{"stream_name":"stdout","time":8.179481734,"data":"CMake Generate step failed.  Build files cannot be regenerated correctly.\n"}
+,{"stream_name":"stdout","time":8.179485508,"data":"\n"}
+,{"stream_name":"stderr","time":10.729727366,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10.729759291,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":11.134735623,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":11.134758,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":12.776580546,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":14.238825587000001,"data":"[NbConvertApp] Writing 301878 bytes to __results__.html\n"}
+]

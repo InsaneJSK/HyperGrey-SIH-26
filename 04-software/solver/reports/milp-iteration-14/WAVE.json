@@ -1,0 +1,5 @@
+{
+  "models": ["p0033", "enigma", "flugpl", "stein27", "markshare_4_0", "blend2", "binkar10_1", "egout", "gt2", "lseu", "mod008", "p0201", "p0282", "misc03", "misc07", "pk1", "rgn", "gen-ip002", "assign1-5-8", "lotsize", "eil33-2"],
+  "limit": 30, "profiles": {"baseline": [], "cut1": ["--root-cut-rounds", "1"]},
+  "common": ["--capture-work", "--lp-recovery", "--improve-incumbent", "--repair-candidates", "--capture-lp-failure", "--capture-rejected-candidates", "--late-lifted-covers", "--late-compact-equalities", "--late-reduced-bound-lp", "--binary-proof", "--objective-lattice", "--raw-lp-priority"]
+}

@@ -1,0 +1,48 @@
+{
+  "all_pass": true,
+  "quick": false,
+  "selective": true,
+  "heuristic_repair": true,
+  "pump_guidance": true,
+  "pump_distance": true,
+  "pump_reopt": true,
+  "distance_reopt": true,
+  "distance_stage": true,
+  "private_ranking": false,
+  "distance_reserve": false,
+  "private_certificate": true,
+  "bounded_lp": true,
+  "search_heuristics": true,
+  "gomory_cuts": true,
+  "binary_sha256": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad",
+  "runner_sha256": "71ef83485c62f192062533e4b5600251d9130a3f2c60d7e5040a67de4e9e63a5",
+  "fixture_independent_checks": [
+    "cold",
+    "warm",
+    "selective-cold",
+    "selective-warm"
+  ],
+  "disabled_parity": [
+    "gt2",
+    "lseu",
+    "mod008",
+    "misc03"
+  ],
+  "generated": {
+    "baseline-binary": 40,
+    "baseline-mixed": 40,
+    "refined-binary": 40,
+    "refined-mixed": 40,
+    "refined_compact-binary": 40,
+    "refined_compact-mixed": 40,
+    "refined_guard-binary": 40,
+    "refined_guard-mixed": 40,
+    "refined_bounded-binary": 40,
+    "refined_bounded-mixed": 40,
+    "refined_search-binary": 40,
+    "refined_search-mixed": 40,
+    "refined_gomory-binary": 40,
+    "refined_gomory-mixed": 40
+  },
+  "reused_models": 400
+}

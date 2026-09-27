@@ -1,0 +1,26 @@
+{
+  "command": [
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\lp-pivot-iteration-01\\final_solver_cli.exe",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\lp-pivot-iteration-01\\final-source\\tests\\lp_ratio_bandm.mps",
+    "--json",
+    "--time-limit",
+    "30",
+    "--iteration-limit",
+    "10000",
+    "--stable-primal-ratio"
+  ],
+  "timeout_seconds": 45,
+  "memory_threshold_mib": 1536,
+  "cancel_after_seconds": null,
+  "sample_period_seconds": 0.02,
+  "peak_working_set_bytes": 21377024,
+  "peak_commit_bytes": 17002496,
+  "status": "optimal",
+  "independently_validated": false,
+  "pid": 24872,
+  "exit_code": 0,
+  "process_terminated": true,
+  "wall_seconds": 1.0,
+  "stdout_sha256": "3292bdcc3627dfbce8f9e89f7141809490d6203bc2bba4c0364bbc20084f8680",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

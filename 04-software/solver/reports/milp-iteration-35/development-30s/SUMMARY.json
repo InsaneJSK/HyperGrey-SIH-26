@@ -1,0 +1,15 @@
+{
+  "records": 54,
+  "models": 27,
+  "categories": {
+    "candidate": {
+      "exact_proof_checked": 4,
+      "numerical_completion_checked": 20,
+      "feasible_limit": 26,
+      "no_incumbent_limit": 2,
+      "terminal_status_crosschecked": 2
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "e9b956ac30c7732e1f7a14e04960ab16fcaef1fa26fd6b09610dce4c4f7c5322"
+}

@@ -1,0 +1,10 @@
+{
+  "all_pass": true,
+  "captured": true,
+  "events_checked": 22,
+  "trace_truncated": false,
+  "checkpoints_checked": 8,
+  "resets_checked": 0,
+  "priority_minimum_mismatches_checked": 0,
+  "scope": "Independent event replay of queue selection and global bound bookkeeping.\n\nThis verifies saved operations, not the underlying LP bounds, valid branching\ndomains, incumbent feasibility, or the completeness of a MILP proof trace.\n"
+}

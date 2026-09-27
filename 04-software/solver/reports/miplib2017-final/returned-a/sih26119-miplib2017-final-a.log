@@ -1,0 +1,196 @@
+[{"stream_name":"stdout","time":29.706911645,"data":"highspy install exit 0\n"}
+,{"stream_name":"stdout","time":29.740991307,"data":"source tree: /kaggle/input/datasets/prakhar1803/sih26119-solver-source-it36\n"}
+,{"stream_name":"stdout","time":73.935807502,"data":"compiler exit 0\n"}
+,{"stream_name":"stdout","time":73.940370474,"data":"solver sha256 edadb645910d5107edd97fa832921f86107ff07aa33526e04cd3b14f46ff5afe\n"}
+,{"stream_name":"stdout","time":73.957193424,"data":"Sovereign SIH26119 V2 candidate; C++ core, sparse simplex, branch-and-cut, convex QP\n"}
+,{"stream_name":"stdout","time":73.961117624,"data":"self-test exit 0\n"}
+,{"stream_name":"stdout","time":73.961152926,"data":"self-test stdout: {\"status\":\"optimal\",\"message\":\"\",\"nodes\":1,\"lp_iterations\":1,\"total_seconds\":0.00029486200000000001,\"warm_starts\":1,\"heuristic_solves\":1,\"cuts\":0,\"bound_tightenings\":2,\"rows\":2,\"columns\":2,\"objective\":-20,\"pump_projections\":0,\"pump_restarts\":0,\"pump_incumbents\":0,\"cut_rollbacks\":0,\"first_incumbent_seconds\":0.00011237100000016653,\"best_bound\":-20,\"pump_reopt\":{\"enabled\":true,\"calls\":0,\"compatible\":0,\"primal\":0,\"dual\":0,\"rejected\":0,\"verified\":0,\"phase_one_iterations\":0,\"factorizations\":0,\"canonical_seconds\":0,\"factor_seconds\":0,\"pricing_seconds\":0,\"replay\":null},\"distance_reopt\":{\"enabled\":true\n"}
+,{"stream_name":"stdout","time":73.961170266,"data":"self-test stderr: \n"}
+,{"stream_name":"stdout","time":73.961606731,"data":"self-test status optimal objective -20\n"}
+,{"stream_name":"stdout","time":74.107010878,"data":"solution file: https://miplib.zib.de/downloads/miplib2017-v32.solu entries 1065\n"}
+,{"stream_name":"stdout","time":74.234961183,"data":"benchmark instances listed: 240\n"}
+,{"stream_name":"stdout","time":74.234997693,"data":"batch: 60 instances, slice [0:60], 300s each, 2 at a time\n"}
+,{"stream_name":"stdout","time":375.622188187,"data":"[  1/60] 30n20b8                        time_limit         obj=         None gap=    None pub=        302.0 valid=False agree=None [301s]\n"}
+,{"stream_name":"stdout","time":375.747935624,"data":"[  2/60] 50v-10                         time_limit         obj=3867.36998899 gap=0.216474 pub= 3311.1799841 valid=True  agree=None [302s]\n"}
+,{"stream_name":"stdout","time":677.976916636,"data":"[  3/60] academictimetablesmall         time_limit         obj=         None gap=    None pub=          0.0 valid=False agree=None [604s]\n"}
+,{"stream_name":"stdout","time":798.957603971,"data":"[  4/60] air05                          time_limit         obj=        29888 gap=0.124125 pub=      26374.0 valid=True  agree=None [725s]\n"}
+,{"stream_name":"stdout","time":798.957650539,"data":"[  5/60] app1-1                         gap_limit          obj=           -3 gap=1.110223 pub=         -3.0 valid=True  agree=True [725s]\n"}
+,{"stream_name":"stdout","time":1069.385796298,"data":"[  6/60] app1-2                         time_limit         obj=         None gap=    None pub=        -41.0 valid=False agree=None [995s]\n"}
+,{"stream_name":"stdout","time":1099.663031167,"data":"[  7/60] assign1-5-8                    time_limit         obj=211.999999994 gap=0.087752 pub=211.999999999 valid=True  agree=None [1025s]\n"}
+,{"stream_name":"stdout","time":1371.317636793,"data":"[  8/60] atlanta-ip                     time_limit         obj=         None gap=    None pub= 90.009878614 valid=False agree=None [1297s]\n"}
+,{"stream_name":"stdout","time":1405.423246907,"data":"[  9/60] b1c1s1                         time_limit         obj=50520.7098983 gap=0.866379 pub=     24544.25 valid=True  agree=None [1331s]\n"}
+,{"stream_name":"stdout","time":1682.640459675,"data":"[ 10/60] bab2                           time_limit         obj=         None gap=    None pub= -357544.3115 valid=False agree=None [1608s]\n"}
+,{"stream_name":"stdout","time":1712.776078876,"data":"[ 11/60] bab6                           time_limit         obj=         None gap=    None pub=-284248.23070 valid=False agree=None [1639s]\n"}
+,{"stream_name":"stdout","time":1984.011239906,"data":"[ 12/60] beasleyC3                      time_limit         obj=         2847 gap=0.933988 pub=753.999999999 valid=True  agree=None [1910s]\n"}
+,{"stream_name":"stdout","time":2013.966084245,"data":"[ 13/60] binkar10_1                     time_limit         obj=6762.08001664 gap=0.010158 pub= 6742.1998835 valid=True  agree=None [1940s]\n"}
+,{"stream_name":"stdout","time":2285.383440432,"data":"[ 14/60] blp-ar98                       time_limit         obj=         None gap=    None pub= 6205.2147104 valid=False agree=None [2211s]\n"}
+,{"stream_name":"stdout","time":2315.213722772,"data":"[ 15/60] blp-ic98                       time_limit         obj=         None gap=    None pub=4491.44758395 valid=False agree=None [2241s]\n"}
+,{"stream_name":"stdout","time":2585.752242711,"data":"[ 16/60] bnatt400                       time_limit         obj=         None gap=    None pub=          1.0 valid=False agree=None [2512s]\n"}
+,{"stream_name":"stdout","time":2615.570739429,"data":"[ 17/60] bnatt500                       time_limit         obj=         None gap=    None pub=         None valid=False agree=None [2541s]\n"}
+,{"stream_name":"stdout","time":2899.363993534,"data":"[ 18/60] bppc4-08                       time_limit         obj=           60 gap=0.137868 pub=         53.0 valid=True  agree=None [2825s]\n"}
+,{"stream_name":"stdout","time":2916.658101427,"data":"[ 19/60] brazil3                        time_limit         obj=         None gap=    None pub=         24.0 valid=False agree=None [2842s]\n"}
+,{"stream_name":"stdout","time":3204.821159226,"data":"[ 20/60] buildingenergy                 time_limit         obj=         None gap=    None pub= 33283.853236 valid=False agree=None [3131s]\n"}
+,{"stream_name":"stdout","time":3217.318648574,"data":"[ 21/60] cbs-cta                        time_limit         obj=         None gap=    None pub=          0.0 valid=False agree=None [3143s]\n"}
+,{"stream_name":"stdout","time":3507.445806542,"data":"[ 22/60] chromaticindex1024-7           time_limit         obj=         None gap=    None pub=          4.0 valid=False agree=None [3433s]\n"}
+,{"stream_name":"stdout","time":3518.633230914,"data":"[ 23/60] chromaticindex512-7            time_limit         obj=         None gap=    None pub=          4.0 valid=False agree=None [3444s]\n"}
+,{"stream_name":"stdout","time":3808.457006855,"data":"[ 24/60] cmflsp50-24-8-8                time_limit         obj=         None gap=    None pub= 55789389.886 valid=False agree=None [3734s]\n"}
+,{"stream_name":"stdout","time":3819.162089331,"data":"[ 25/60] CMS750_4                       time_limit         obj=         None gap=    None pub=        252.0 valid=False agree=None [3745s]\n"}
+,{"stream_name":"stdout","time":4117.911369599,"data":"[ 26/60] co-100                         time_limit         obj=         None gap=    None pub=   2639942.06 valid=False agree=None [4044s]\n"}
+,{"stream_name":"stdout","time":4255.677464266,"data":"[ 27/60] cod105                         time_limit         obj=            0 gap=18.00000 pub=        -12.0 valid=True  agree=None [4181s]\n"}
+,{"stream_name":"stdout","time":4418.743206697,"data":"[ 28/60] comp07-2idx                    time_limit         obj=         None gap=    None pub=          6.0 valid=False agree=None [4345s]\n"}
+,{"stream_name":"stdout","time":4556.304472314,"data":"[ 29/60] comp21-2idx                    time_limit         obj=         None gap=    None pub=         74.0 valid=False agree=None [4482s]\n"}
+,{"stream_name":"stdout","time":4724.663031895,"data":"[ 30/60] cost266-UUE                    time_limit         obj=26195964.6399 gap=0.150508 pub=25148940.5599 valid=True  agree=None [4650s]\n"}
+,{"stream_name":"stdout","time":4859.468934456,"data":"[ 31/60] cryptanalysiskb128n5obj14      time_limit         obj=         None gap=    None pub=         None valid=False agree=None [4785s]\n"}
+,{"stream_name":"stdout","time":5027.481809071,"data":"[ 32/60] cryptanalysiskb128n5obj16      time_limit         obj=         None gap=    None pub=          0.0 valid=False agree=None [4953s]\n"}
+,{"stream_name":"stdout","time":5159.770547418,"data":"[ 33/60] csched007                      time_limit         obj=         None gap=    None pub=350.999999999 valid=False agree=None [5086s]\n"}
+,{"stream_name":"stdout","time":5327.70119743,"data":"[ 34/60] csched008                      time_limit         obj=         None gap=    None pub=        173.0 valid=False agree=None [5253s]\n"}
+,{"stream_name":"stdout","time":5465.869695557,"data":"[ 35/60] cvs16r128-89                   time_limit         obj=          -55 gap=1.267857 pub=        -97.0 valid=True  agree=None [5392s]\n"}
+,{"stream_name":"stdout","time":5628.146857014,"data":"[ 36/60] dano3_3                        time_limit         obj=         None gap=    None pub= 576.34463303 valid=False agree=None [5554s]\n"}
+,{"stream_name":"stdout","time":5766.467493188,"data":"[ 37/60] dano3_5                        time_limit         obj=         None gap=    None pub=576.924915956 valid=False agree=None [5692s]\n"}
+,{"stream_name":"stdout","time":5835.114652043,"data":"[ 38/60] decomp2                        gap_limit          obj=         -160 gap=1.765323 pub=       -160.0 valid=True  agree=True [5761s]\n"}
+,{"stream_name":"stdout","time":6067.384186358,"data":"[ 39/60] drayage-100-23                 time_limit         obj=         None gap=    None pub= 103333.87407 valid=False agree=None [5993s]\n"}
+,{"stream_name":"stdout","time":6135.638004718,"data":"[ 40/60] drayage-25-23                  time_limit         obj=         None gap=    None pub=101282.647018 valid=False agree=None [6061s]\n"}
+,{"stream_name":"stdout","time":6367.871525501,"data":"[ 41/60] dws008-01                      time_limit         obj=         None gap=    None pub=37412.6045879 valid=False agree=None [6294s]\n"}
+,{"stream_name":"stdout","time":6367.872583132,"data":"[ 42/60] eil33-2                        gap_limit          obj=   934.007916 gap=9.849375 pub=934.007915999 valid=True  agree=True [6294s]\n"}
+,{"stream_name":"stdout","time":6581.840414303,"data":"[ 43/60] eilA101-2                      time_limit         obj=         None gap=    None pub=880.920107999 valid=False agree=None [6508s]\n"}
+,{"stream_name":"stdout","time":6668.824608587,"data":"[ 44/60] enlight_hard                   time_limit         obj=           37 gap=0.105263 pub=         37.0 valid=True  agree=None [6595s]\n"}
+,{"stream_name":"stdout","time":6891.087156752,"data":"[ 45/60] ex10                           time_limit         obj=         None gap=    None pub=        100.0 valid=False agree=None [6817s]\n"}
+,{"stream_name":"stdout","time":6973.723701462,"data":"[ 46/60] ex9                            time_limit         obj=         None gap=    None pub=         81.0 valid=False agree=None [6899s]\n"}
+,{"stream_name":"stdout","time":7192.002900109,"data":"[ 47/60] exp-1-500-5-5                  time_limit         obj=91483.9999977 gap=0.567344 pub=      65887.0 valid=True  agree=None [7118s]\n"}
+,{"stream_name":"stdout","time":7275.670916915,"data":"[ 48/60] fast0507                       time_limit         obj=         None gap=    None pub=        174.0 valid=False agree=None [7201s]\n"}
+,{"stream_name":"stdout","time":7506.303641858,"data":"[ 49/60] fastxgemm-n2r6s0t2             time_limit         obj=826.999995215 gap=0.966183 pub=        230.0 valid=True  agree=None [7432s]\n"}
+,{"stream_name":"stdout","time":7575.915457547,"data":"[ 50/60] fhnw-binpack4-4                time_limit         obj=         None gap=    None pub=         None valid=False agree=None [7502s]\n"}
+,{"stream_name":"stdout","time":7806.579032767,"data":"[ 51/60] fhnw-binpack4-48               time_limit         obj=         None gap=    None pub=          0.0 valid=False agree=None [7732s]\n"}
+,{"stream_name":"stdout","time":7876.6779836,"data":"[ 52/60] fiball                         time_limit         obj=         None gap=    None pub=        138.0 valid=False agree=None [7802s]\n"}
+,{"stream_name":"stdout","time":8109.209461284,"data":"[ 53/60] gen-ip002                      time_limit         obj=-4757.2489379 gap=0.009011 pub= -4783.733392 valid=True  agree=None [8035s]\n"}
+,{"stream_name":"stdout","time":8150.608939033,"data":"[ 54/60] gen-ip054                      node_limit         obj=6896.07044684 gap=0.013309 pub=6840.96564179 valid=True  agree=None [8076s]\n"}
+,{"stream_name":"stdout","time":8410.204718487,"data":"[ 55/60] germanrr                       time_limit         obj=         None gap=    None pub= 47095869.649 valid=False agree=None [8336s]\n"}
+,{"stream_name":"stdout","time":8460.675246287,"data":"[ 56/60] gfd-schedulen180f7d50m30k18    time_limit         obj=         None gap=    None pub=          1.0 valid=False agree=None [8386s]\n"}
+,{"stream_name":"stdout","time":8710.737647474,"data":"[ 57/60] glass-sc                       time_limit         obj=         None gap=    None pub=         23.0 valid=False agree=None [8637s]\n"}
+,{"stream_name":"stdout","time":8761.815619688,"data":"[ 58/60] glass4                         time_limit         obj=2233352233.33 gap=0.641792 pub=1200012599.97 valid=True  agree=None [8688s]\n"}
+,{"stream_name":"stdout","time":9011.949579956,"data":"[ 59/60] gmu-35-40                      time_limit         obj=-2385387.3258 gap=0.009036 pub=-2406733.3688 valid=True  agree=None [8938s]\n"}
+,{"stream_name":"stdout","time":9064.634206496,"data":"[ 60/60] gmu-35-50                      time_limit         obj=-2604465.4263 gap=0.001384 pub=  -2607958.33 valid=True  agree=None [8990s]\n"}
+,{"stream_name":"stdout","time":9064.639344565,"data":"{\n"}
+,{"stream_name":"stdout","time":9064.639381213,"data":" \"slice\": [\n"}
+,{"stream_name":"stdout","time":9064.639388527,"data":"  0,\n"}
+,{"stream_name":"stdout","time":9064.639395305,"data":"  60\n"}
+,{"stream_name":"stdout","time":9064.639401035,"data":" ],\n"}
+,{"stream_name":"stdout","time":9064.639406775,"data":" \"attempted\": 60,\n"}
+,{"stream_name":"stdout","time":9064.639412529,"data":" \"instances\": 60,\n"}
+,{"stream_name":"stdout","time":9064.639418223,"data":" \"limit_seconds\": 300.0,\n"}
+,{"stream_name":"stdout","time":9064.63942386,"data":" \"workers\": 2,\n"}
+,{"stream_name":"stdout","time":9064.639429903,"data":" \"flags\": [\n"}
+,{"stream_name":"stdout","time":9064.639434143,"data":"  \"--milp\",\n"}
+,{"stream_name":"stdout","time":9064.639437905,"data":"  \"--json\",\n"}
+,{"stream_name":"stdout","time":9064.639441705,"data":"  \"--capture-work\",\n"}
+,{"stream_name":"stdout","time":9064.639454274,"data":"  \"--lp-recovery\",\n"}
+,{"stream_name":"stdout","time":9064.639458352,"data":"  \"--improve-incumbent\",\n"}
+,{"stream_name":"stdout","time":9064.639462494,"data":"  \"--repair-candidates\",\n"}
+,{"stream_name":"stdout","time":9064.639468086,"data":"  \"--repair-heuristic-candidates\",\n"}
+,{"stream_name":"stdout","time":9064.639473836,"data":"  \"--capture-lp-failure\",\n"}
+,{"stream_name":"stdout","time":9064.639479361,"data":"  \"--capture-rejected-candidates\",\n"}
+,{"stream_name":"stdout","time":9064.639485023,"data":"  \"--binary-proof\",\n"}
+,{"stream_name":"stdout","time":9064.639511459,"data":"  \"--objective-lattice\",\n"}
+,{"stream_name":"stdout","time":9064.639533498,"data":"  \"--raw-lp-priority\",\n"}
+,{"stream_name":"stdout","time":9064.639537781,"data":"  \"--capture-cut-rounds\",\n"}
+,{"stream_name":"stdout","time":9064.639541897,"data":"  \"--capture-refinement\",\n"}
+,{"stream_name":"stdout","time":9064.63954579,"data":"  \"--refine-basis\",\n"}
+,{"stream_name":"stdout","time":9064.639549683,"data":"  \"--refine-at-checks\",\n"}
+,{"stream_name":"stdout","time":9064.63955377,"data":"  \"--pump-guided-diving\",\n"}
+,{"stream_name":"stdout","time":9064.639557799,"data":"  \"--capture-feasibility\",\n"}
+,{"stream_name":"stdout","time":9064.639562034,"data":"  \"--pump-distance-diving\",\n"}
+,{"stream_name":"stdout","time":9064.639565866,"data":"  \"--pump-primal-reopt\",\n"}
+,{"stream_name":"stdout","time":9064.639569663,"data":"  \"--pump-distance-reopt\",\n"}
+,{"stream_name":"stdout","time":9064.639581634,"data":"  \"--pump-distance-stage\",\n"}
+,{"stream_name":"stdout","time":9064.639585721,"data":"  \"--lifted-covers\",\n"}
+,{"stream_name":"stdout","time":9064.639590267,"data":"  \"--bounded-lp\",\n"}
+,{"stream_name":"stdout","time":9064.639594895,"data":"  \"--tree-dives\",\n"}
+,{"stream_name":"stdout","time":9064.63961023,"data":"  \"--fix-propagate\",\n"}
+,{"stream_name":"stdout","time":9064.639615043,"data":"  \"--root-iteration-limit\",\n"}
+,{"stream_name":"stdout","time":9064.639619764,"data":"  \"100000000\",\n"}
+,{"stream_name":"stdout","time":9064.639624786,"data":"  \"--time-limit\",\n"}
+,{"stream_name":"stdout","time":9064.639629438,"data":"  \"300.0\",\n"}
+,{"stream_name":"stdout","time":9064.639634198,"data":"  \"--node-limit\",\n"}
+,{"stream_name":"stdout","time":9064.639638873,"data":"  \"100000000\",\n"}
+,{"stream_name":"stdout","time":9064.639643518,"data":"  \"--gap\",\n"}
+,{"stream_name":"stdout","time":9064.639648285,"data":"  \"1e-6\"\n"}
+,{"stream_name":"stdout","time":9064.63965318,"data":" ],\n"}
+,{"stream_name":"stdout","time":9064.639657843,"data":" \"solver_sha256\": \"edadb645910d5107edd97fa832921f86107ff07aa33526e04cd3b14f46ff5afe\",\n"}
+,{"stream_name":"stdout","time":9064.639664016,"data":" \"solution_file\": \"https://miplib.zib.de/downloads/miplib2017-v32.solu\",\n"}
+,{"stream_name":"stdout","time":9064.639668226,"data":" \"proven\": 3,\n"}
+,{"stream_name":"stdout","time":9064.639671329,"data":" \"completion_agrees\": 3,\n"}
+,{"stream_name":"stdout","time":9064.639674443,"data":" \"completion_disagrees\": [],\n"}
+,{"stream_name":"stdout","time":9064.639678362,"data":" \"point_validated\": 21,\n"}
+,{"stream_name":"stdout","time":9064.639683053,"data":" \"point_rejected\": [],\n"}
+,{"stream_name":"stdout","time":9064.639687813,"data":" \"infeasible_claimed\": [],\n"}
+,{"stream_name":"stdout","time":9064.639692374,"data":" \"process_error\": [],\n"}
+,{"stream_name":"stdout","time":9064.639696865,"data":" \"download_failed\": [],\n"}
+,{"stream_name":"stdout","time":9064.639701741,"data":" \"carry_over\": [\n"}
+,{"stream_name":"stdout","time":9064.639706172,"data":"  \"30n20b8\",\n"}
+,{"stream_name":"stdout","time":9064.639710504,"data":"  \"50v-10\",\n"}
+,{"stream_name":"stdout","time":9064.639714817,"data":"  \"academictimetablesmall\",\n"}
+,{"stream_name":"stdout","time":9064.639730694,"data":"  \"air05\",\n"}
+,{"stream_name":"stdout","time":9064.639735498,"data":"  \"app1-2\",\n"}
+,{"stream_name":"stdout","time":9064.63974015,"data":"  \"assign1-5-8\",\n"}
+,{"stream_name":"stdout","time":9064.639744879,"data":"  \"atlanta-ip\",\n"}
+,{"stream_name":"stdout","time":9064.63974956,"data":"  \"b1c1s1\",\n"}
+,{"stream_name":"stdout","time":9064.639760242,"data":"  \"bab2\",\n"}
+,{"stream_name":"stdout","time":9064.63976494,"data":"  \"bab6\",\n"}
+,{"stream_name":"stdout","time":9064.639769906,"data":"  \"beasleyC3\",\n"}
+,{"stream_name":"stdout","time":9064.639774747,"data":"  \"binkar10_1\",\n"}
+,{"stream_name":"stdout","time":9064.639779591,"data":"  \"blp-ar98\",\n"}
+,{"stream_name":"stdout","time":9064.639784027,"data":"  \"blp-ic98\",\n"}
+,{"stream_name":"stdout","time":9064.639788471,"data":"  \"bnatt400\",\n"}
+,{"stream_name":"stdout","time":9064.639792911,"data":"  \"bnatt500\",\n"}
+,{"stream_name":"stdout","time":9064.639797311,"data":"  \"bppc4-08\",\n"}
+,{"stream_name":"stdout","time":9064.639801515,"data":"  \"brazil3\",\n"}
+,{"stream_name":"stdout","time":9064.639805924,"data":"  \"buildingenergy\",\n"}
+,{"stream_name":"stdout","time":9064.639810583,"data":"  \"cbs-cta\",\n"}
+,{"stream_name":"stdout","time":9064.639815171,"data":"  \"chromaticindex1024-7\",\n"}
+,{"stream_name":"stdout","time":9064.639819759,"data":"  \"chromaticindex512-7\",\n"}
+,{"stream_name":"stdout","time":9064.639824296,"data":"  \"cmflsp50-24-8-8\",\n"}
+,{"stream_name":"stdout","time":9064.639849148,"data":"  \"CMS750_4\",\n"}
+,{"stream_name":"stdout","time":9064.639858802,"data":"  \"co-100\",\n"}
+,{"stream_name":"stdout","time":9064.639863677,"data":"  \"cod105\",\n"}
+,{"stream_name":"stdout","time":9064.639868226,"data":"  \"comp07-2idx\",\n"}
+,{"stream_name":"stdout","time":9064.639873066,"data":"  \"comp21-2idx\",\n"}
+,{"stream_name":"stdout","time":9064.63987761,"data":"  \"cost266-UUE\",\n"}
+,{"stream_name":"stdout","time":9064.63988208,"data":"  \"cryptanalysiskb128n5obj14\",\n"}
+,{"stream_name":"stdout","time":9064.639886837,"data":"  \"cryptanalysiskb128n5obj16\",\n"}
+,{"stream_name":"stdout","time":9064.639891355,"data":"  \"csched007\",\n"}
+,{"stream_name":"stdout","time":9064.639895945,"data":"  \"csched008\",\n"}
+,{"stream_name":"stdout","time":9064.639900475,"data":"  \"cvs16r128-89\",\n"}
+,{"stream_name":"stdout","time":9064.639905103,"data":"  \"dano3_3\",\n"}
+,{"stream_name":"stdout","time":9064.6399097,"data":"  \"dano3_5\",\n"}
+,{"stream_name":"stdout","time":9064.639914502,"data":"  \"drayage-100-23\",\n"}
+,{"stream_name":"stdout","time":9064.639919196,"data":"  \"drayage-25-23\",\n"}
+,{"stream_name":"stdout","time":9064.639926434,"data":"  \"dws008-01\",\n"}
+,{"stream_name":"stdout","time":9064.63993086,"data":"  \"eilA101-2\",\n"}
+,{"stream_name":"stdout","time":9064.639935205,"data":"  \"enlight_hard\",\n"}
+,{"stream_name":"stdout","time":9064.639939443,"data":"  \"ex10\",\n"}
+,{"stream_name":"stdout","time":9064.639943772,"data":"  \"ex9\",\n"}
+,{"stream_name":"stdout","time":9064.639948277,"data":"  \"exp-1-500-5-5\",\n"}
+,{"stream_name":"stdout","time":9064.639952765,"data":"  \"fast0507\",\n"}
+,{"stream_name":"stdout","time":9064.639957298,"data":"  \"fastxgemm-n2r6s0t2\",\n"}
+,{"stream_name":"stdout","time":9064.639962421,"data":"  \"fhnw-binpack4-4\",\n"}
+,{"stream_name":"stdout","time":9064.639967042,"data":"  \"fhnw-binpack4-48\",\n"}
+,{"stream_name":"stdout","time":9064.639971586,"data":"  \"fiball\",\n"}
+,{"stream_name":"stdout","time":9064.63997606,"data":"  \"gen-ip002\",\n"}
+,{"stream_name":"stdout","time":9064.639982265,"data":"  \"gen-ip054\",\n"}
+,{"stream_name":"stdout","time":9064.639986998,"data":"  \"germanrr\",\n"}
+,{"stream_name":"stdout","time":9064.63999154,"data":"  \"gfd-schedulen180f7d50m30k18\",\n"}
+,{"stream_name":"stdout","time":9064.639996443,"data":"  \"glass-sc\",\n"}
+,{"stream_name":"stdout","time":9064.640006155,"data":"  \"glass4\",\n"}
+,{"stream_name":"stdout","time":9064.640020504,"data":"  \"gmu-35-40\",\n"}
+,{"stream_name":"stdout","time":9064.64002699,"data":"  \"gmu-35-50\"\n"}
+,{"stream_name":"stdout","time":9064.640031595,"data":" ],\n"}
+,{"stream_name":"stdout","time":9064.640036103,"data":" \"elapsed_seconds\": 8990.403808116913,\n"}
+,{"stream_name":"stdout","time":9064.640040952,"data":" \"caveat\": \"Two instances share four cloud vCPUs: outcomes at a fixed budget under contention. No timing claim is made from this run.\"\n"}
+,{"stream_name":"stdout","time":9064.640046223,"data":"}\n"}
+,{"stream_name":"stderr","time":9067.744710451,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":9067.744752501,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":9068.10678437,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":9068.106817378,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":9069.172678224,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":9071.058443087,"data":"[NbConvertApp] Writing 349874 bytes to __results__.html\n"}
+]

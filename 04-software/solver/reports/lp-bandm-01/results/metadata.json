@@ -1,0 +1,32 @@
+{
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "model_sha256": "696daa77a79a0715c2fad877285e49bd7fcd7f5513f3cb83fbe0be916b6d8c81",
+  "profiles": {
+    "unscaled": [
+      "--no-scaling"
+    ],
+    "compact": [
+      "--compact-equalities"
+    ],
+    "compact_refined": [
+      "--compact-equalities",
+      "--refine-basis",
+      "--refine-at-checks"
+    ],
+    "compact_unscaled": [
+      "--compact-equalities",
+      "--no-scaling"
+    ],
+    "compact_unscaled_refined": [
+      "--compact-equalities",
+      "--no-scaling",
+      "--refine-basis",
+      "--refine-at-checks"
+    ],
+    "dense": [
+      "--lp-method",
+      "dense"
+    ]
+  },
+  "runner_sha256": "7e40784fa60ec9e8ddcae44d0d648730862c3c01f0d8e3fbc054d81f0fcdb784"
+}

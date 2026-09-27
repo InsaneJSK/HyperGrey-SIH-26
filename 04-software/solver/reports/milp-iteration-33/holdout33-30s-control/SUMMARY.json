@@ -1,0 +1,12 @@
+{
+  "records": 10,
+  "models": 10,
+  "categories": {
+    "candidate": {
+      "no_incumbent_limit": 5,
+      "feasible_limit": 5
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "dbe1f70bf5ac09503c96483f51d28f00ab9ddcc782dc87e8f60f97325a0d6b1c"
+}

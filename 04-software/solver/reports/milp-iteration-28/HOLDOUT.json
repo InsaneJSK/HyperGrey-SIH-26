@@ -1,0 +1,48 @@
+{
+  "models": [
+    "vpm1",
+    "vpm2",
+    "bell3a",
+    "bell5",
+    "gesa2",
+    "noswot"
+  ],
+  "repeats": 1,
+  "limit": 30,
+  "nodes": 250000,
+  "gap": 1e-06,
+  "reference_watchdog": 150,
+  "manifests": [
+    "datasets/milp-iteration-28-holdout/manifest.json"
+  ],
+  "common": [
+    "--capture-work",
+    "--lp-recovery",
+    "--improve-incumbent",
+    "--repair-candidates",
+    "--repair-heuristic-candidates",
+    "--capture-lp-failure",
+    "--capture-rejected-candidates",
+    "--late-lifted-covers",
+    "--late-compact-equalities",
+    "--late-reduced-bound-lp",
+    "--binary-proof",
+    "--objective-lattice",
+    "--raw-lp-priority",
+    "--capture-cut-rounds",
+    "--capture-refinement",
+    "--refine-basis",
+    "--refine-at-checks",
+    "--pump-guided-diving",
+    "--capture-feasibility",
+    "--pump-distance-diving",
+    "--pump-primal-reopt",
+    "--pump-distance-reopt",
+    "--pump-distance-stage"
+  ],
+  "profiles": {
+    "candidate": []
+  },
+  "reference_limit": 30,
+  "memory_threshold_mib": 1536
+}

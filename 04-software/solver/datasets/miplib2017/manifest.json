@@ -1,0 +1,34 @@
+{
+  "retrieved_utc": "2026-09-13T20:33:55.739775+00:00",
+  "selection": [
+    "markshare_4_0",
+    "blend2",
+    "binkar10_1"
+  ],
+  "instances": [
+    {
+      "name": "markshare_4_0",
+      "details": "https://miplib.zib.de/instance_details_markshare_4_0.html",
+      "url": "https://miplib.zib.de/WebData/instances/markshare_4_0.mps.gz",
+      "status": "downloaded",
+      "raw_sha256": "1a1feb04f5637db9f69be53bd6224fcd9fe5b8d750870d9b2002b535d25f4353",
+      "model_sha256": "a05d1c8c1a1e0646ea31965fd5e05af7a41801db3cb1820b2ab4cd95c7bc32db"
+    },
+    {
+      "name": "blend2",
+      "details": "https://miplib.zib.de/instance_details_blend2.html",
+      "url": "https://miplib.zib.de/WebData/instances/blend2.mps.gz",
+      "status": "downloaded",
+      "raw_sha256": "f184964447dce4b84ee4ebd8a0144df767319801e99923da53d1b548472cf820",
+      "model_sha256": "48c009606d5e949baa8e5e060c8b0cafd3eb96f9d615d98fff0d626d5b6e503f"
+    },
+    {
+      "name": "binkar10_1",
+      "details": "https://miplib.zib.de/instance_details_binkar10_1.html",
+      "url": "https://miplib.zib.de/WebData/instances/binkar10_1.mps.gz",
+      "status": "downloaded",
+      "raw_sha256": "94282c38edd6c83bb6c2d788d823fd82f218218e8e07c98d1d1ab42c1e91039e",
+      "model_sha256": "71dc18a14f1d26f39473eaf64b81c12691a0c0d4ab00dec43679071ed7f3e09c"
+    }
+  ]
+}

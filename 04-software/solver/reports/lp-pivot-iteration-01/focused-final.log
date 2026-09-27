@@ -1,0 +1,8 @@
+Internal ctest changing into directory: D:/me/CODING/Github/sih-backup-solver/SIH-backup-solver/build-lp-pivot-01
+Test project D:/me/CODING/Github/sih-backup-solver/SIH-backup-solver/build-lp-pivot-01
+    Start 1: primal_ratio_stability
+1/1 Test #1: primal_ratio_stability ...........   Passed    1.76 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   1.77 sec

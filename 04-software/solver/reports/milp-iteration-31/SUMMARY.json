@@ -1,0 +1,158 @@
+{
+  "development-30s": {
+    "control": {
+      "observations": 27,
+      "completions": 10,
+      "checked_points": 25,
+      "no_incumbent_limits": 1,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "exact_proof_checked": 2,
+        "numerical_completion_checked": 8,
+        "feasible_limit": 14,
+        "completion_reference_pending": 1,
+        "no_incumbent_limit": 1,
+        "terminal_reference_pending": 1
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 231.87109375
+    },
+    "candidate": {
+      "observations": 27,
+      "completions": 11,
+      "checked_points": 24,
+      "no_incumbent_limits": 2,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "exact_proof_checked": 2,
+        "numerical_completion_checked": 9,
+        "feasible_limit": 13,
+        "no_incumbent_limit": 2,
+        "terminal_reference_pending": 1
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 302.16015625
+    },
+    "norestart": {
+      "observations": 27,
+      "completions": 11,
+      "checked_points": 25,
+      "no_incumbent_limits": 1,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "exact_proof_checked": 2,
+        "numerical_completion_checked": 9,
+        "feasible_limit": 14,
+        "no_incumbent_limit": 1,
+        "terminal_reference_pending": 1
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 547.78125
+    }
+  },
+  "development-30s-repeat2": {
+    "control": {
+      "observations": 27,
+      "completions": 11,
+      "checked_points": 25,
+      "no_incumbent_limits": 1,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "exact_proof_checked": 2,
+        "numerical_completion_checked": 9,
+        "feasible_limit": 14,
+        "no_incumbent_limit": 1,
+        "terminal_reference_pending": 1
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 500.94140625
+    },
+    "candidate": {
+      "observations": 27,
+      "completions": 11,
+      "checked_points": 25,
+      "no_incumbent_limits": 1,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "exact_proof_checked": 2,
+        "numerical_completion_checked": 9,
+        "feasible_limit": 14,
+        "no_incumbent_limit": 1,
+        "terminal_reference_pending": 1
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 349.64453125
+    },
+    "norestart": {
+      "observations": 27,
+      "completions": 11,
+      "checked_points": 25,
+      "no_incumbent_limits": 1,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "exact_proof_checked": 2,
+        "numerical_completion_checked": 9,
+        "feasible_limit": 14,
+        "no_incumbent_limit": 1,
+        "terminal_reference_pending": 1
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 1088.203125
+    }
+  },
+  "fresh31-30s": {
+    "control": {
+      "observations": 12,
+      "completions": 1,
+      "checked_points": 8,
+      "no_incumbent_limits": 4,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "feasible_limit": 7,
+        "numerical_completion_checked": 1,
+        "no_incumbent_limit": 4
+      },
+      "fallbacks": 3,
+      "peak_commit_mib": 262.9140625
+    },
+    "candidate": {
+      "observations": 12,
+      "completions": 1,
+      "checked_points": 9,
+      "no_incumbent_limits": 3,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "feasible_limit": 8,
+        "numerical_completion_checked": 1,
+        "no_incumbent_limit": 3
+      },
+      "fallbacks": 5,
+      "peak_commit_mib": 267.42578125
+    }
+  },
+  "fresh31-30s-norestart": {
+    "norestart": {
+      "observations": 12,
+      "completions": 1,
+      "checked_points": 10,
+      "no_incumbent_limits": 2,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "feasible_limit": 9,
+        "numerical_completion_checked": 1,
+        "no_incumbent_limit": 2
+      },
+      "fallbacks": 18,
+      "peak_commit_mib": 335.38671875
+    }
+  }
+}

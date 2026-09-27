@@ -1,0 +1,9 @@
+{$API_ADDRESS::80} {
+    encode gzip
+    reverse_proxy api:8000 {
+        transport http {
+            # Longer than the bounded sensitivity request, including startup.
+            response_header_timeout 45s
+        }
+    }
+}

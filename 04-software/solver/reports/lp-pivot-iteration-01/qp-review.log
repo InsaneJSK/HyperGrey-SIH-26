@@ -1,0 +1,36 @@
+{
+  "binary_sha256": "070878750efa73d39aa2815075132212c70f1cbbafd9528f8c2875db3b15cb68",
+  "records": 38,
+  "unvalidated_completions": 0,
+  "profiles": {
+    "compact": {
+      "records": 1,
+      "checked_completions": 1
+    },
+    "control": {
+      "records": 1,
+      "checked_completions": 0
+    },
+    "control_refined": {
+      "records": 1,
+      "checked_completions": 0
+    },
+    "default": {
+      "records": 3,
+      "checked_completions": 3
+    },
+    "stable": {
+      "records": 16,
+      "checked_completions": 16
+    },
+    "stable_refined": {
+      "records": 16,
+      "checked_completions": 16
+    }
+  },
+  "ledger_sha256": "4ec1c283f93a33cddc37a43b3ed93a7cf4bd66d0c247d344f76adb2da39f33d5",
+  "default_changed": false,
+  "original_summary_sha256": "bfb23cf9baff0fb1659d4b310ac90b2277e5abeeccf9b19fd0f08f93ae7da1d8",
+  "review_script_sha256": "f677ab457d5e0a6c1282105252360883d006efb81db41db02058c5946b3b65a7",
+  "correction": "Only diagonal-certificate applicability classification; original Hessians checked, KKT arithmetic/points/tolerance unchanged."
+}

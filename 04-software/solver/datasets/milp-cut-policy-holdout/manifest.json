@@ -1,0 +1,45 @@
+{
+  "utc": "2026-09-15T16:58:06.641018+00:00",
+  "selection": [
+    "mas74",
+    "gen-ip054",
+    "neos859080"
+  ],
+  "plan_sha256": "dedf2d9ea88001e93dd40cda82942eea793d12fee832000792f57f4d26b251a3",
+  "benchmark_index": "https://miplib.zib.de/tag_benchmark.html",
+  "instances": [
+    {
+      "name": "mas74",
+      "url": "https://miplib.zib.de/WebData/instances/mas74.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_mas74.html",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-cut-policy-holdout/mas74.mps",
+      "model_sha256": "181f02fd634306ad6431f21d5e8115f3e8112f2e7d2bebed1690475b49acc4af",
+      "raw_sha256": "019a9ca2dac800342a887cd07e326526b463dca9646ba16ad955a16fa4b6ecc1",
+      "bytes": 64163
+    },
+    {
+      "name": "gen-ip054",
+      "url": "https://miplib.zib.de/WebData/instances/gen-ip054.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_gen-ip054.html",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-cut-policy-holdout/gen-ip054.mps",
+      "model_sha256": "8b71b70a6f92ea9bde78b375f4366e7cc021cfb517df87130775f8b8bdf47333",
+      "raw_sha256": "b5089ebc97c43bd583fcadf30955b8800861044d632d747c0b7ac73f19b9e6f3",
+      "bytes": 29589
+    },
+    {
+      "name": "neos859080",
+      "url": "https://miplib.zib.de/WebData/instances/neos859080.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_neos859080.html",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-cut-policy-holdout/neos859080.mps",
+      "model_sha256": "127e8c4b5e67ac665bd5c7ff062375364c8716c2b31bdb38334ab23befa95fc7",
+      "raw_sha256": "bace2c785ab613cdd997b74197a44eca35b7b7871b18e4d958a9e83fa5ee205b",
+      "bytes": 77225
+    }
+  ]
+}

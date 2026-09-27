@@ -1,0 +1,39 @@
+binary f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb
+downloaded academictimetablesmall 24185808
+downloaded brazil3 10089712
+downloaded irish-electricity 24427488
+downloaded k1mushroom 67651365
+downloaded neos-3216931-puriri 2712673
+academictimetablesmall   control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=yes nodes=       2 obj=None pub=0.0
+brazil3                  control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=24.0
+irish-electricity        control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=3723497.591396
+k1mushroom               control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=yes nodes=      26 obj=None pub=-3288.0
+neos-3216931-puriri      control: unresolved_relaxations root=no  nodes=       1 | candidate: unresolved_relaxations root=yes nodes=       3 obj=None pub=71320.0
+{
+ "control": {
+  "root_solved": 0,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "academictimetablesmall",
+   "brazil3",
+   "irish-electricity",
+   "k1mushroom",
+   "neos-3216931-puriri"
+  ]
+ },
+ "candidate": {
+  "root_solved": 3,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "brazil3",
+   "irish-electricity"
+  ]
+ },
+ "binary_sha256": "f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb"
+}

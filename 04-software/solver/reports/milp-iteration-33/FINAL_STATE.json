@@ -1,0 +1,76 @@
+{
+ "iteration": 33,
+ "date": "2026-09-18",
+ "decision": "Promoted; representation change, executable defaults unchanged.",
+ "binary_sha256": "db61dd2628022491c637526bd5cfc8b11b7361458f97a986633d72917810f045",
+ "control_binary_sha256": "6e073229a08065b6d2fccd7669fb75f99dd89090be39c3ccbcf1d43ca90351a4",
+ "validation_failures": 0,
+ "fixed_work_equivalence": {
+  "comparisons": 32,
+  "mismatches": 0
+ },
+ "development": {
+  "format": "54 records, two repeats, identical flags both builds",
+  "completions_our_status": {
+   "control": 24,
+   "candidate": 24
+  },
+  "checked_points": {
+   "control": 50,
+   "candidate": 50
+  },
+  "peak_commit_mib": {
+   "control": 762.8,
+   "candidate": 183.9
+  },
+  "nodes": {
+   "control": 1999859,
+   "candidate": 2394726
+  },
+  "nodes_per_second": {
+   "control": 2233,
+   "candidate": 2675
+  },
+  "note": "Raw categories show 23 -> 26 completions; all three differences are HiGHS reference timing on blend2 and neos859080, not solver outcomes."
+ },
+ "fresh_holdout": {
+  "format": "10 untouched MIPLIB 2017 benchmark models, positions 180-212",
+  "checked_points": {
+   "control": 5,
+   "candidate": 5
+  },
+  "categories": "identical on all 10",
+  "nodes": {
+   "control": 47947,
+   "candidate": 40621
+  },
+  "peak_commit_mib_worst": {
+   "control": 512.1,
+   "candidate": 407.6
+  }
+ },
+ "fixed_node_memory_ratio": {
+  "gen-ip054": 1.44,
+  "markshare2": 2.27,
+  "swath": 3.01,
+  "gt2": 4.83,
+  "mas74": 4.89,
+  "lotsize": 9.39
+ },
+ "retained_regression": "Holdout nodes fell to 0.85x: materializing bounds on pop walks the whole trail and memoized propagation deltas may hold up to n entries per ancestor. Capping total path entries is iteration 34 item 1.",
+ "not_shown": "No completion gain. The 17 guard-stopped MIPLIB instances have not been re-run on this binary.",
+ "files_sha256": {
+  "CANDIDATE_PROFILE.json": "5f2ed58d71b4e4131d14480e91df1a0d89d2b21f0fa04e7b14eb75ad56c70dbc",
+  "development-30s.log": "e9513fecd2fb1b23fdafb42e25cc2acdef0e587704bdac7a232cbc50c3ce7fab",
+  "DEVELOPMENT.json": "8b6b7517bbe3ae46734ccc51ad2335c4b52308d16053dae839a5c85ef71892ec",
+  "EQUIVALENCE.log": "5ac4105cbd3a19ea51df40fd526572de5890a4f0c4a83abf2ad3760566767814",
+  "FIXED_NODE_MEMORY.log": "0820796f90762bb7936cce1cc213c02ee7daae7dcbe280cbba1150c104a56fa1",
+  "holdout33-30s-control.log": "e5de49841965e60b61c0432e486a924f42a3bf8a3b7fb9914be9d815157aba88",
+  "holdout33-30s.log": "59bd449cbc12dce5437ceef8fda7f4d07a039fa3b37276988af0c30186de3ef1",
+  "HOLDOUT33.json": "93a781269c2ad8222f92bf005a6c89f6cf296409c4afd476839cd28375f8305a",
+  "HOLDOUT_SELECTION.md": "b0be25abb5124bff4fca6b78c54eb6dab116bb2fd69ace7df1bdb39fed3ca4bc",
+  "PLAN.md": "aaaf42fd5121d4b75b53e5d79d1c7fb658bd758cdb504238359975c73538e7e8",
+  "REPORT.md": "c9c1eb9f345e0e27c0dd0a9a48707245ac202245712cc96aed6ad32629443a7d",
+  "SOURCE_IDENTITY.json": "5e8cb5fe7dc1a3c130aaf55f158e04ffb76e47a0980b747993dd254caecdc5b6"
+ }
+}

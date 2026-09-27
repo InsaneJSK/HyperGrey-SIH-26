@@ -1,0 +1,24 @@
+dano3_3                  3202x13873  time_limit              300.2s root_lp=None bounded: calls=1 ok=0 fail=1 verif_rej=0 it=56001 recovery=0/0
+      bounded failure status=time_limit warm=0 it=56001
+dano3_5                  3202x13873  time_limit              300.3s root_lp=None bounded: calls=1 ok=0 fail=1 verif_rej=0 it=55924 recovery=0/0
+      bounded failure status=time_limit warm=0 it=55924
+neos-662469              1085x18235  node_limit               42.8s root_lp=None bounded: calls=12 ok=11 fail=1 verif_rej=0 it=39235 recovery=0/0
+      bounded failure status=time_limit warm=1 it=14
+neos-827175             14187x32504  node_limit               41.5s root_lp=None bounded: calls=9 ok=8 fail=1 verif_rej=0 it=18362 recovery=0/0
+      bounded failure status=time_limit warm=1 it=384
+neos-933966             12047x31762  node_limit              171.8s root_lp=None bounded: calls=2 ok=1 fail=1 verif_rej=0 it=25485 recovery=0/0
+      bounded failure status=time_limit warm=1 it=273
+neos-957323              3757x57756  node_limit              180.8s root_lp=None bounded: calls=6 ok=5 fail=1 verif_rej=0 it=39411 recovery=0/0
+      bounded failure status=time_limit warm=1 it=93
+neos-1354092             3135x13702  node_limit              230.8s root_lp=None bounded: calls=2 ok=1 fail=1 verif_rej=0 it=42567 recovery=0/0
+      bounded failure status=time_limit warm=1 it=189
+mzzv11                   9499x10240  time_limit              301.1s root_lp=None bounded: calls=1 ok=0 fail=1 verif_rej=0 it=19136 recovery=0/0
+      bounded failure status=time_limit warm=0 it=19136
+mzzv42z                 10460x11717  time_limit              300.7s root_lp=None bounded: calls=1 ok=0 fail=1 verif_rej=0 it=71317 recovery=0/0
+      bounded failure status=time_limit warm=0 it=71317
+CMS750_4                16381x11697  node_limit               20.7s root_lp=None bounded: calls=24 ok=23 fail=1 verif_rej=0 it=11261 recovery=0/0
+      bounded failure status=time_limit warm=1 it=0
+ns1208400                4289x2883   node_limit               85.1s root_lp=None bounded: calls=5 ok=3 fail=1 verif_rej=0 it=40240 recovery=0/0
+      bounded failure status=time_limit warm=1 it=1129
+neos-3656078-kumeu      17656x14870  node_limit               25.6s root_lp=None bounded: calls=20 ok=18 fail=1 verif_rej=0 it=19932 recovery=0/0
+      bounded failure status=time_limit warm=1 it=9

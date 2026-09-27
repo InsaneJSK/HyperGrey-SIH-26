@@ -1,0 +1,23 @@
+{
+  "command": [
+    "C:\\Users\\JSK\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\scripts\\sparse_accuracy_gate.py",
+    "--binary",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\build-milp-iter25\\solver_cli.exe",
+    "--output",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\milp-iteration-25\\gate-local",
+    "--selective",
+    "--heuristic-repair",
+    "--pump-guidance",
+    "--pump-distance",
+    "--pump-reopt",
+    "--distance-reopt",
+    "--distance-stage",
+    "--private-ranking"
+  ],
+  "returncode": 0,
+  "binary_sha256": "d1fccd2992876b8faf47bac5c68f0a1fe096878658c8e5707d485231fd1d7022"
+}

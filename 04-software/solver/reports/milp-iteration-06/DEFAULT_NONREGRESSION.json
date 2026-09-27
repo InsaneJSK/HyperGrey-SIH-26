@@ -1,0 +1,11 @@
+{
+  "scope": "Exact comparison of 40 binary and 40 mixed generated guided-mode outputs; timings and new diagnostic fields excluded",
+  "previous_directory": "../milp-iteration-05/pacing-180s-screen",
+  "current_directory": "local-180s",
+  "previous_binary_sha256": "ef1856d074862aa754a81e5bff7bfc44c350c02eae4f0a6b43a309c4f4e53cd6",
+  "current_binary_sha256": "8bcdf69bb0e5b14645615ff738e0970324aac5920df8efe5b13cf61eae1c8e55",
+  "compared_cases": 80,
+  "compared_fields": ["status", "objective", "primal", "best_bound", "gap", "nodes", "lp_iterations", "passed"],
+  "differences": [],
+  "limitation": "Generated-model equality does not establish equal hard-instance timing or general industrial robustness. Both guided profiles enable recovery, incumbent improvement and candidate repair, without pacing or reserved search."
+}

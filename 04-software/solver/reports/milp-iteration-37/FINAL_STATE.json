@@ -1,0 +1,80 @@
+{
+ "iteration": 37,
+ "date": "2026-09-21",
+ "decision": "--gomory-cuts removed from the recommended profile; kept as an opt-in flag.",
+ "binary_sha256": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad",
+ "instances": 60,
+ "budget_seconds": 300,
+ "format": "[with --gomory-cuts, without]",
+ "proven": [
+  2,
+  3
+ ],
+ "validated_solutions": [
+  19,
+  21
+ ],
+ "nodes": [
+  5947089,
+  7753820
+ ],
+ "fallbacks": [
+  1984,
+  305
+ ],
+ "cold_starts": [
+  2030,
+  282
+ ],
+ "unresolved_nodes": [
+  20,
+  9
+ ],
+ "rejected_points": [
+  0,
+  0
+ ],
+ "disagreements": [
+  0,
+  0
+ ],
+ "changed_instances": {
+  "decomp2": "nothing -> proven at the root in 1 node",
+  "b1c1s1": "nothing -> solution",
+  "cvs16r128-89": "nothing -> solution",
+  "csched008": "solution -> nothing (the one instance that preferred cuts)"
+ },
+ "recommended_flags": [
+  "--capture-work",
+  "--lp-recovery",
+  "--improve-incumbent",
+  "--repair-candidates",
+  "--repair-heuristic-candidates",
+  "--capture-lp-failure",
+  "--capture-rejected-candidates",
+  "--binary-proof",
+  "--objective-lattice",
+  "--raw-lp-priority",
+  "--capture-cut-rounds",
+  "--capture-refinement",
+  "--refine-basis",
+  "--refine-at-checks",
+  "--pump-guided-diving",
+  "--capture-feasibility",
+  "--pump-distance-diving",
+  "--pump-primal-reopt",
+  "--pump-distance-reopt",
+  "--pump-distance-stage",
+  "--lifted-covers",
+  "--bounded-lp",
+  "--tree-dives",
+  "--fix-propagate",
+  "--root-iteration-limit",
+  "100000000"
+ ],
+ "files_sha256": {
+  "CANDIDATE_PROFILE.json": "155c2ca30118f99a7f45151afc7caae5ea8fdb64a1b687679af6fb649f030269",
+  "PLAN.md": "460defcf4e434f0e606a25f1e183ca2c410d76f455bf783e400a45f824e83ab1",
+  "REPORT.md": "1c320888e14bbabad80622f60a4ec23e01f7be647ad2297f0d73992c215ba7dc"
+ }
+}

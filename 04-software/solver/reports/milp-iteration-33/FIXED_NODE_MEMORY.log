@@ -1,0 +1,9 @@
+model          cols   old MiB   new MiB   ratio  old nodes  new nodes
+gen-ip054        30     100.8      69.9   1.44x     120000     120000
+mas74           151     375.2      76.8   4.89x     120000     120000
+markshare2       74     182.1      80.3   2.27x     120000     120000
+swath          6805    1013.4     336.4   3.01x       9490      27191
+lotsize        2985    1008.9     107.5   9.39x      19898      25030
+gt2             188     451.0      93.4   4.83x     120000     120000
+
+[exited with code 0]

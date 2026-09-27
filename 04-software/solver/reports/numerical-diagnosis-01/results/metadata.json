@@ -1,0 +1,18 @@
+{
+  "binary_sha256": "5f152420ad03ac30e74ef641e33074e2dd16f76f6216407d4f13542f4ce05051",
+  "source_identity_sha256": "0df0bae992f75e3d30f5c3c019fd58fbd16c3564685f0d453c4346b9ae15394e",
+  "runner_sha256": "fb9f50a6351fded1ad3415844e8054dcab401c403c7e173968f9ab07c753709a",
+  "wrapper_sha256": "284e131b806d7a4dd898cce8a11eb8a9de0417f6b0ca9d2b7723c7083fb19fb3",
+  "runtime": {
+    "libgcc_s_seh-1.dll": "34d768d97ca0cf5f6701da069313038b315c6cdffa5f987975c92163453551e9",
+    "libstdc++-6.dll": "9edefce2889be24c986c376f3ffcfef652a70c12885558668872fe8272e07069",
+    "libgomp-1.dll": "73078a2a25400bc61c1f366648209741498e00b84f74189fe7132c90148dfa70",
+    "libwinpthread-1.dll": "20ceb15217cd5ffa4c20cfac18475186a31dcc618ebdea25ae58bf24f919345c",
+    "libdl.dll": "952fc7b65abe67cadaf274ae21a27ad0ead59337dbebe5d74b7decfc1c66fba3"
+  },
+  "models": {
+    "reports\\cpu-validation-2026-09-17\\results\\inputs\\additional-lp\\bandm.mps": "696daa77a79a0715c2fad877285e49bd7fcd7f5513f3cb83fbe0be916b6d8c81",
+    "reports\\cpu-validation-2026-09-17\\results\\inputs\\qplib\\9002.qplib": "e6aea2b85e49862df5d8ad03339f65506ff149eeadaa74bb25ebacad14f7a664"
+  },
+  "scope": "Logging-only diagnostics; no timing ranking."
+}

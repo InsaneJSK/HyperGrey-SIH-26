@@ -1,0 +1,11 @@
+{
+  "cases": 100,
+  "exhaustive_points_per_case": 625,
+  "independent_reference_completions": 100,
+  "derived_lattices": 66,
+  "direct_lattices": 34,
+  "rounding_events_checked": 742,
+  "all_pass": true,
+  "binary_sha256": "3d29e6a0d5f0ed3bfb6c35e0a3ccee0bc158dda987b619242ed201aff3235a7d",
+  "runner_sha256": "bc6627047b4bddcb7a7c836a917c3bfe335aed54061bb70e8d4f9a09e975310b"
+}

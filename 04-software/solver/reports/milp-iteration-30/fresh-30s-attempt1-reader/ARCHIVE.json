@@ -1,0 +1,46 @@
+{
+ "streams": {
+  "archive_bytes": 331322,
+  "archive_sha256": "fb8feaa88c50e110d1602ac1bdce46d8a0258b2711f9e3a939172ef2c8e0893e",
+  "bytes": 3063574,
+  "files": 9,
+  "members": {
+   "dcmulti.candidate.0.stderr.log": {
+    "bytes": 41,
+    "sha256": "fb5f7dff6b08a2ed5149cdd3c397dfe37da2cae05ea14555b494be5a1d5287a9"
+   },
+   "dcmulti.control.0.stderr.log": {
+    "bytes": 41,
+    "sha256": "fb5f7dff6b08a2ed5149cdd3c397dfe37da2cae05ea14555b494be5a1d5287a9"
+   },
+   "dsbmip.candidate.0.stderr.log": {
+    "bytes": 67,
+    "sha256": "0eedfc3c6029b8f5a1935d57335f87df1a7ac07960c59c8a3f9f384e1d2d5f21"
+   },
+   "dsbmip.control.0.stderr.log": {
+    "bytes": 67,
+    "sha256": "0eedfc3c6029b8f5a1935d57335f87df1a7ac07960c59c8a3f9f384e1d2d5f21"
+   },
+   "fiber.candidate.0.stdout.log": {
+    "bytes": 832844,
+    "sha256": "38e67e1bb8a6d228b94502bf5c6e50647d7609f54b4b47e6a7cd73dc8219f5e3"
+   },
+   "fiber.control.0.stdout.log": {
+    "bytes": 500364,
+    "sha256": "8bd893655b1dc9465360fb0b356eeccea228062fd9233ca711afa9c9db0587cb"
+   },
+   "fixnet6.candidate.0.stdout.log": {
+    "bytes": 582943,
+    "sha256": "517fa59610fcd00c44e25715220d2acbf711f4b1c9366197478aaf6a46d2769f"
+   },
+   "fixnet6.control.0.stdout.log": {
+    "bytes": 582938,
+    "sha256": "3a5668f1bab00e7dfeb2dc1f3e6935228964faff52a82df3947c25d39f9ae535"
+   },
+   "khb05250.candidate.0.stdout.log": {
+    "bytes": 564269,
+    "sha256": "456bd7e6267191b71fc13bfa042f396b26800d3ad8a9bd11fdfba58b3515d685"
+   }
+  }
+ }
+}

@@ -1,0 +1,9 @@
+{
+  "wrapper_sha256": "284e131b806d7a4dd898cce8a11eb8a9de0417f6b0ca9d2b7723c7083fb19fb3",
+  "screen_runner_sha256": "e0998b5568bd4c3b3f8bbe56edff16e5f0b6ce16a55e9420060a89b785cf312c",
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "gate_sha256": "4067680fe61fac9af3a4b7464d6a12a1054908a28ea55143f50ee846752bfc7f",
+  "memory_threshold_mib": 1536,
+  "process_watchdog_seconds": 45,
+  "concurrency": 1
+}

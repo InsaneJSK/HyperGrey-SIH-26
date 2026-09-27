@@ -1,0 +1,24 @@
+{
+  "records": 108,
+  "models": 27,
+  "categories": {
+    "control": {
+      "exact_proof_checked": 4,
+      "numerical_completion_checked": 18,
+      "completion_reference_pending": 2,
+      "feasible_limit": 26,
+      "no_incumbent_limit": 2,
+      "terminal_status_crosschecked": 2
+    },
+    "candidate": {
+      "exact_proof_checked": 4,
+      "numerical_completion_checked": 19,
+      "completion_reference_pending": 1,
+      "feasible_limit": 26,
+      "no_incumbent_limit": 2,
+      "terminal_reference_pending": 2
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "b84ec314479aee68c0e633f51bf96b39dc1cd866faba32f68f3f8f37bc929a33"
+}

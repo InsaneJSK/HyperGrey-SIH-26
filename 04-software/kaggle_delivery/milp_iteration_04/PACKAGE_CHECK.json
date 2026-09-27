@@ -1,0 +1,13 @@
+{
+  "notebook_schema": "passed",
+  "notebook_bytes": 10335,
+  "under_1_mb": true,
+  "external_source_zip": true,
+  "code_cells_parsed": 2,
+  "source_files_verified": 653,
+  "cpu_core_files_matched": 22,
+  "cpu_evidence": "reports/milp-iteration-04/final-smoke",
+  "snapshot_sha256": "402e0c51b9684140cc7f7d41fc2cd44aea197c2f54b4e17b9829c225765dfab2",
+  "cuda_execution": "not yet evidenced for this snapshot",
+  "cuda_evidence_audit": null
+}

@@ -1,0 +1,14 @@
+{
+  "delivery_directory": "D:/sih-2026/SIH-backup-solver/kaggle_delivery/milp_iteration_01",
+  "notebook_bytes": 11492,
+  "source_zip_bytes": 2213886,
+  "source_zip_sha256": "f9b8a366cbdf6d0cf216c21307d9439515e6f46c52d2ad22b612b94e5e29b1d8",
+  "binary_sha256": "696b8518fdec9325fb75231bbe21e02b08e37b3722bcb60e0ac4e4b428e0d22b",
+  "cpu_evidence": "reports/milp-iteration-01/validated-cpu",
+  "notebook_flow_tests_passed": 12,
+  "parser_tests_passed": 3,
+  "mocked_gpu_sampler_tests_passed": 6,
+  "new_kaggle_execution_verified": true,
+  "kaggle_evidence": "reports/kaggle-gpu-02/AUDIT.json",
+  "old_notebook_and_source_unchanged": true
+}

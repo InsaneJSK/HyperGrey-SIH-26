@@ -1,0 +1,71 @@
+adlittle.stable optimal 191
+adlittle.stable_refined optimal 191
+afiro.stable optimal 17
+afiro.stable_refined optimal 17
+blend.stable optimal 162
+blend.stable_refined optimal 162
+boeing2.stable optimal 261
+boeing2.stable_refined optimal 261
+degen2.stable optimal 2949
+degen2.stable_refined optimal 2949
+kb2.stable optimal 96
+kb2.stable_refined optimal 96
+sc105.stable optimal 115
+sc105.stable_refined optimal 115
+sc205.stable optimal 263
+sc205.stable_refined optimal 263
+sc50a.stable optimal 49
+sc50a.stable_refined optimal 49
+sc50b.stable optimal 54
+sc50b.stable_refined optimal 54
+share2b.stable optimal 212
+share2b.stable_refined optimal 212
+stocfor1.stable optimal 143
+stocfor1.stable_refined optimal 143
+agg.stable optimal 152
+agg.stable_refined optimal 152
+bandm.stable optimal 3254
+bandm.stable_refined optimal 3254
+israel.stable optimal 393
+israel.stable_refined optimal 393
+scagr7.stable optimal 384
+scagr7.stable_refined optimal 384
+bandm.control numerical_error 200
+bandm.control_refined numerical_error 200
+bandm.compact optimal 1279
+8792.default optimal 50
+8991.default optimal 25
+9002.default optimal 180
+{
+  "binary_sha256": "070878750efa73d39aa2815075132212c70f1cbbafd9528f8c2875db3b15cb68",
+  "records": 38,
+  "unvalidated_completions": 2,
+  "profiles": {
+    "compact": {
+      "records": 1,
+      "checked_completions": 1
+    },
+    "control": {
+      "records": 1,
+      "checked_completions": 0
+    },
+    "control_refined": {
+      "records": 1,
+      "checked_completions": 0
+    },
+    "default": {
+      "records": 3,
+      "checked_completions": 1
+    },
+    "stable": {
+      "records": 16,
+      "checked_completions": 16
+    },
+    "stable_refined": {
+      "records": 16,
+      "checked_completions": 16
+    }
+  },
+  "ledger_sha256": "7f5cfa440dafe10e53305ba14d60c9942d4f623c3205c85411911debdc4bdf19",
+  "default_changed": false
+}

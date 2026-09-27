@@ -1,0 +1,33 @@
+{
+  "binary_sha256": "070878750efa73d39aa2815075132212c70f1cbbafd9528f8c2875db3b15cb68",
+  "records": 38,
+  "unvalidated_completions": 2,
+  "profiles": {
+    "compact": {
+      "records": 1,
+      "checked_completions": 1
+    },
+    "control": {
+      "records": 1,
+      "checked_completions": 0
+    },
+    "control_refined": {
+      "records": 1,
+      "checked_completions": 0
+    },
+    "default": {
+      "records": 3,
+      "checked_completions": 1
+    },
+    "stable": {
+      "records": 16,
+      "checked_completions": 16
+    },
+    "stable_refined": {
+      "records": 16,
+      "checked_completions": 16
+    }
+  },
+  "ledger_sha256": "7f5cfa440dafe10e53305ba14d60c9942d4f623c3205c85411911debdc4bdf19",
+  "default_changed": false
+}

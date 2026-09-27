@@ -1,0 +1,2258 @@
+{
+  "dual-simplex": {
+    "checked_at_utc": "2026-09-27T05:56:10+00:00",
+    "url": "https://arxiv.org/abs/1503.01889",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/1503.01889",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[1503.01889] Parallelizing the dual revised simplex method",
+      "citation_metadata": {
+        "citation_title": [
+          "Parallelizing the dual revised simplex method"
+        ],
+        "citation_author": [
+          "Huangfu, Q.",
+          "Hall, J. A. J."
+        ],
+        "citation_date": [
+          "2015/03/06"
+        ],
+        "citation_online_date": [
+          "2015/03/06"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1503.01889"
+        ],
+        "citation_arxiv_id": [
+          "1503.01889"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "02-revised-simplex/2018-parallelizing-the-dual-revised-simplex-method.pdf",
+      "requested_url": "https://arxiv.org/pdf/1503.01889",
+      "resolved_url": "https://arxiv.org/pdf/1503.01889",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:10+00:00",
+      "bytes": 243801,
+      "sha256": "7c4f64ded589be566e2ac4e22443d3077fb936144bb70fa4e838bda64060e7af",
+      "pages": 27,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "1503.01889v1",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "boyd-convex": {
+    "checked_at_utc": "2026-09-27T05:56:10+00:00",
+    "url": "https://web.stanford.edu/~boyd/cvxbook/",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://web.stanford.edu/~boyd/cvxbook/",
+      "content_type": "text/html",
+      "title": "Convex Optimization – Boyd and Vandenberghe"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "The author-hosted book is free to read, but its page grants web hosting to the authors, not a general redistribution license. Link only."
+    }
+  },
+  "basis-updates": {
+    "checked_at_utc": "2026-09-27T05:56:10+00:00",
+    "url": "https://webhomes.maths.ed.ac.uk/hall/HuHa12/",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://webhomes.maths.ed.ac.uk/hall/HuHa12/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Novel update techniques for the revised simplex method"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "02-revised-simplex/2015-novel-update-techniques-for-the-revised-simplex-method.pdf",
+      "requested_url": "https://webhomes.maths.ed.ac.uk/hall/HuHa12/ERGO-13-001.pdf",
+      "resolved_url": "https://webhomes.maths.ed.ac.uk/hall/HuHa12/ERGO-13-001.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:10+00:00",
+      "bytes": 203830,
+      "sha256": "c9467da9ee64d0b16e19ff35106f86b0b33ee129dc4b94970947619fa2977c09",
+      "pages": 19,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "hyper-sparsity": {
+    "checked_at_utc": "2026-09-27T05:56:10+00:00",
+    "url": "https://webhomes.maths.ed.ac.uk/hall/Publications.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://webhomes.maths.ed.ac.uk/hall/Publications.html",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Publications of J A Julian Hall"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "02-revised-simplex/2005-hyper-sparsity-in-the-revised-simplex-method-and-how-to-exploit-it.pdf",
+      "requested_url": "https://www.maths.ed.ac.uk/hall/HyperSparsity/HyperSparsityOctober2002.pdf",
+      "resolved_url": "https://webhomes.maths.ed.ac.uk/hall/HyperSparsity/HyperSparsityOctober2002.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:10+00:00",
+      "bytes": 194160,
+      "sha256": "b76989085f1ad83fa72a261b563a8df3eadf0c1f50b75e80d4e4e9fd900ffd22",
+      "pages": 26,
+      "pdf_title": "paper.dvi",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "umfpack-guide": {
+    "checked_at_utc": "2026-09-27T05:56:13+00:00",
+    "url": "https://github.com/DrTimothyAldenDavis/SuiteSparse/blob/dev/UMFPACK/Doc/UMFPACK_UserGuide.pdf",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://github.com/DrTimothyAldenDavis/SuiteSparse/blob/dev/UMFPACK/Doc/UMFPACK_UserGuide.pdf",
+      "content_type": "text/html; charset=utf-8",
+      "title": "SuiteSparse/UMFPACK/Doc/UMFPACK_UserGuide.pdf at dev · DrTimothyAldenDavis/SuiteSparse · GitHub"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "03-sparse-linear-algebra/2026-umfpack-user-guide.pdf",
+      "requested_url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/master/UMFPACK/Doc/UMFPACK_UserGuide.pdf",
+      "resolved_url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/master/UMFPACK/Doc/UMFPACK_UserGuide.pdf",
+      "content_type": "application/octet-stream",
+      "retrieved_at_utc": "2026-09-27T05:56:13+00:00",
+      "bytes": 511757,
+      "sha256": "31e570366a1e22a930d0f47afda5b73c3a8f3760a04dc0919f8bb900489b02db",
+      "pages": 159,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "templates-linear-systems": {
+    "checked_at_utc": "2026-09-27T05:56:11+00:00",
+    "url": "https://www.netlib.org/linalg/html_templates/Templates.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://www.netlib.org/linalg/html_templates/Templates.html",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Templates for the Solution of Linear Systems, 2nd Edition"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "03-sparse-linear-algebra/1994-templates-for-the-solution-of-linear-systems-building-blocks-for-iterative-methods-second-edition.pdf",
+      "requested_url": "https://www.netlib.org/templates/templates.pdf",
+      "resolved_url": "https://www.netlib.org/templates/templates.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:11+00:00",
+      "bytes": 761965,
+      "sha256": "1daad6edfecfc6f069e036cee049065aa64a99ab7c0779b2cb4e2cace0b7a7f3",
+      "pages": 117,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "precision-boosting": {
+    "checked_at_utc": "2026-09-27T05:56:15+00:00",
+    "url": "https://arxiv.org/abs/2311.08037",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2311.08037",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2311.08037] Combining Precision Boosting with LP Iterative Refinement for Exact Linear Optimization",
+      "citation_metadata": {
+        "citation_title": [
+          "Combining Precision Boosting with LP Iterative Refinement for Exact Linear Optimization"
+        ],
+        "citation_author": [
+          "Eifler, Leon",
+          "Nicolas-Thouvenin, Jules",
+          "Gleixner, Ambros"
+        ],
+        "citation_date": [
+          "2023/11/14"
+        ],
+        "citation_online_date": [
+          "2023/11/14"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2311.08037"
+        ],
+        "citation_arxiv_id": [
+          "2311.08037"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "04-numerics-certificates/2023-combining-precision-boosting-with-lp-iterative-refinement-for-exact-linear-optimization.pdf",
+      "requested_url": "https://arxiv.org/pdf/2311.08037",
+      "resolved_url": "https://arxiv.org/pdf/2311.08037",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:15+00:00",
+      "bytes": 881665,
+      "sha256": "b01bdf29413b182c809f8f9b566ffb7d3c9e12b6ccc29818e24181a8a74b2076",
+      "pages": 15,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2311.08037v1",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "saad-iterative": {
+    "checked_at_utc": "2026-09-27T05:56:13+00:00",
+    "url": "https://www-users.cse.umn.edu/~saad/books.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://www-users.cse.umn.edu/~saad/books.html",
+      "content_type": "text/html",
+      "title": "Yousef Saad -- Books"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Link to the author's download page; no book copy is mirrored."
+    }
+  },
+  "branch-numerics": {
+    "checked_at_utc": "2026-09-27T05:56:15+00:00",
+    "url": "https://arxiv.org/abs/2412.14710",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2412.14710",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2412.14710] Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programming",
+      "citation_metadata": {
+        "citation_title": [
+          "Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programming"
+        ],
+        "citation_author": [
+          "Hoen, Alexander",
+          "Gleixner, Ambros"
+        ],
+        "citation_date": [
+          "2024/12/19"
+        ],
+        "citation_online_date": [
+          "2025/04/03"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2412.14710"
+        ],
+        "citation_arxiv_id": [
+          "2412.14710"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "04-numerics-certificates/2025-analyzing-the-numerical-correctness-of-branch-and-bound-decisions-for-mixed-integer-programming.pdf",
+      "requested_url": "https://arxiv.org/pdf/2412.14710",
+      "resolved_url": "https://arxiv.org/pdf/2412.14710",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:15+00:00",
+      "bytes": 382457,
+      "sha256": "39f8146c0470bf5c49b3a5b08ff78fed3376aea780e0b43c180765c3912fc7b3",
+      "pages": 17,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2412.14710v3",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "exact-mip": {
+    "checked_at_utc": "2026-09-27T05:56:16+00:00",
+    "url": "https://arxiv.org/abs/2101.09141",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2101.09141",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2101.09141] A Computational Status Update for Exact Rational Mixed Integer Programming",
+      "citation_metadata": {
+        "citation_title": [
+          "A Computational Status Update for Exact Rational Mixed Integer Programming"
+        ],
+        "citation_author": [
+          "Eifler, Leon",
+          "Gleixner, Ambros"
+        ],
+        "citation_date": [
+          "2021/01/22"
+        ],
+        "citation_online_date": [
+          "2021/01/22"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2101.09141"
+        ],
+        "citation_arxiv_id": [
+          "2101.09141"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "04-numerics-certificates/2021-a-computational-status-update-for-exact-rational-mixed-integer-programming.pdf",
+      "requested_url": "https://arxiv.org/pdf/2101.09141",
+      "resolved_url": "https://arxiv.org/pdf/2101.09141",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:16+00:00",
+      "bytes": 429813,
+      "sha256": "473597b9e3586cd71d36f95aeb6ca0ac820749a63501eb58752ba1bdf0baa9f4",
+      "pages": 17,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2101.09141v1",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "gurobi-numerics": {
+    "checked_at_utc": "2026-09-27T05:56:16+00:00",
+    "url": "https://docs.gurobi.com/projects/optimizer/en/current/concepts/numericguide/tolerances_scaling.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://docs.gurobi.com/projects/optimizer/en/current/concepts/numericguide/tolerances_scaling.html",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Tolerances and User-Scaling - Gurobi Optimizer Reference ManualContentsMenuExpandLight modeDark modeAuto light/dark mode"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Living documentation: 2026 is the access year, not a claimed first-publication year."
+    }
+  },
+  "papilo": {
+    "checked_at_utc": "2026-09-27T05:56:16+00:00",
+    "url": "https://arxiv.org/abs/2206.10709",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2206.10709",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2206.10709] PaPILO: A Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support",
+      "citation_metadata": {
+        "citation_title": [
+          "PaPILO: A Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support"
+        ],
+        "citation_author": [
+          "Gleixner, Ambros",
+          "Gottwald, Leona",
+          "Hoen, Alexander"
+        ],
+        "citation_date": [
+          "2022/06/21"
+        ],
+        "citation_online_date": [
+          "2024/03/20"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2206.10709"
+        ],
+        "citation_arxiv_id": [
+          "2206.10709"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "05-presolve-propagation/2022-papilo-a-parallel-presolving-library-for-integer-and-linear-programming-with-multiprecision-support.pdf",
+      "requested_url": "https://arxiv.org/pdf/2206.10709",
+      "resolved_url": "https://arxiv.org/pdf/2206.10709",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:16+00:00",
+      "bytes": 247674,
+      "sha256": "daf5d8521bf841324c2f0344c65ad33c6f29b19102d8caa55c72a9b238775a89",
+      "pages": 23,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2206.10709v3",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "presolve-reductions": {
+    "checked_at_utc": "2026-09-27T05:56:16+00:00",
+    "url": "https://doi.org/10.1287/ijoc.2018.0857",
+    "landing": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "pdf": {
+      "status": "unavailable",
+      "requested_url": "https://opus4.kobv.de/opus4-zib/files/6037/Presolve.pdf",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    }
+  },
+  "lp-refinement": {
+    "checked_at_utc": "2026-09-27T05:56:14+00:00",
+    "url": "https://doi.org/10.1287/ijoc.2016.0692",
+    "landing": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "04-numerics-certificates/2016-iterative-refinement-for-linear-programming.pdf",
+      "requested_url": "https://optimization-online.org/wp-content/uploads/2015/06/4948.pdf",
+      "resolved_url": "https://optimization-online.org/wp-content/uploads/2015/06/4948.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:14+00:00",
+      "bytes": 812207,
+      "sha256": "7506613442f3f18bacfd2126b522d7e4b7153d8f4a2a8657c5823968281008e4",
+      "pages": 100,
+      "pdf_title": "Iterative Refinement for Linear Programming",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "presolve-certification": {
+    "checked_at_utc": "2026-09-27T05:56:17+00:00",
+    "url": "https://arxiv.org/abs/2401.09277",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2401.09277",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2401.09277] Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs",
+      "citation_metadata": {
+        "citation_title": [
+          "Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs"
+        ],
+        "citation_author": [
+          "Hoen, Alexander",
+          "Oertel, Andy",
+          "Gleixner, Ambros",
+          "Nordström, Jakob"
+        ],
+        "citation_date": [
+          "2024/01/17"
+        ],
+        "citation_online_date": [
+          "2024/03/20"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2401.09277"
+        ],
+        "citation_arxiv_id": [
+          "2401.09277"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "05-presolve-propagation/2024-certifying-mip-based-presolve-reductions-for-0-1-integer-linear-programs.pdf",
+      "requested_url": "https://arxiv.org/pdf/2401.09277",
+      "resolved_url": "https://arxiv.org/pdf/2401.09277",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:17+00:00",
+      "bytes": 538431,
+      "sha256": "4f3cd31796e50305c96a764a6f3478cf7f2a679f3e046a25c71712832402934b",
+      "pages": 19,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2401.09277v2",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "safe-gmi": {
+    "checked_at_utc": "2026-09-27T05:56:18+00:00",
+    "url": "https://arxiv.org/abs/2303.12365",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2303.12365",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2303.12365] Safe and Verified Gomory Mixed Integer Cuts in a Rational MIP Framework",
+      "citation_metadata": {
+        "citation_title": [
+          "Safe and Verified Gomory Mixed Integer Cuts in a Rational MIP Framework"
+        ],
+        "citation_author": [
+          "Eifler, Leon",
+          "Gleixner, Ambros"
+        ],
+        "citation_date": [
+          "2023/03/22"
+        ],
+        "citation_online_date": [
+          "2023/11/07"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2303.12365"
+        ],
+        "citation_arxiv_id": [
+          "2303.12365"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "07-cutting-planes/2023-safe-and-verified-gomory-mixed-integer-cuts-in-a-rational-mip-framework.pdf",
+      "requested_url": "https://arxiv.org/pdf/2303.12365",
+      "resolved_url": "https://arxiv.org/pdf/2303.12365",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:18+00:00",
+      "bytes": 1411419,
+      "sha256": "b018b21b17f160579408f4648152952c56345e59da52de61fe47e5f2752691a0",
+      "pages": 33,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2303.12365v3",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "scip10": {
+    "checked_at_utc": "2026-09-27T05:56:17+00:00",
+    "url": "https://arxiv.org/abs/2511.18580",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2511.18580",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2511.18580] The SCIP Optimization Suite 10.0",
+      "citation_metadata": {
+        "citation_title": [
+          "The SCIP Optimization Suite 10.0"
+        ],
+        "citation_author": [
+          "Hojny, Christopher",
+          "Besançon, Mathieu",
+          "Bestuzheva, Ksenia",
+          "Borst, Sander",
+          "Dionísio, João",
+          "Ehls, Johannes",
+          "Eifler, Leon",
+          "Ghannam, Mohammed",
+          "Gleixner, Ambros",
+          "Göß, Adrian",
+          "Hoen, Alexander",
+          "von Holly-Ponientzietz, Jacob",
+          "van der Hulst, Rolf",
+          "Kamp, Dominik",
+          "Koch, Thorsten",
+          "Kofler, Kevin",
+          "Lentz, Jurgen",
+          "Lübbecke, Marco",
+          "Maher, Stephen J.",
+          "Meinhold, Paul Matti",
+          "Mexi, Gioni",
+          "Mohr, Til",
+          "Mühmer, Erik",
+          "Patel, Krunal Kishor",
+          "Pfetsch, Marc E.",
+          "Pokutta, Sebastian",
+          "Groba, Chantal Reinartz",
+          "Serrano, Felipe",
+          "Shinano, Yuji",
+          "Turner, Mark",
+          "Vigerske, Stefan",
+          "Walter, Matthias",
+          "Weninger, Dieter",
+          "Xu, Liding"
+        ],
+        "citation_date": [
+          "2025/11/23"
+        ],
+        "citation_online_date": [
+          "2025/11/23"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2511.18580"
+        ],
+        "citation_arxiv_id": [
+          "2511.18580"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "06-branch-bound-search/2025-the-scip-optimization-suite-10-0.pdf",
+      "requested_url": "https://arxiv.org/pdf/2511.18580",
+      "resolved_url": "https://arxiv.org/pdf/2511.18580",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:17+00:00",
+      "bytes": 1752356,
+      "sha256": "23630340bd311c11ff3cfcf2fbcaab7ec1eca84c5b3a8ec54d398f37d9c1af8d",
+      "pages": 49,
+      "pdf_title": "The SCIP Optimization Suite 10.0",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2511.18580v1",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "classic-lifted-cover": {
+    "checked_at_utc": "2026-09-27T05:56:19+00:00",
+    "url": "https://doi.org/10.1287/ijoc.10.4.427",
+    "landing": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Citation only; obtain the publisher version through legitimate institutional access."
+    }
+  },
+  "reliability-branching": {
+    "checked_at_utc": "2026-09-27T06:01:01+00:00",
+    "url": "https://doi.org/10.1016/j.orl.2004.04.002",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0167637704000501",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Redirecting"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "06-branch-bound-search/2005-branching-rules-revisited.pdf",
+      "requested_url": "https://miplib2010.zib.de/miplib2003/paper/achterbergkochmartin2005_pp.pdf",
+      "resolved_url": "https://miplib2010.zib.de/miplib2003/paper/achterbergkochmartin2005_pp.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T06:01:01+00:00",
+      "bytes": 454463,
+      "sha256": "79b154a6953f3486e60f1c2363fcb820f37582fd319e135998bb1011c49faef0",
+      "pages": 60,
+      "pdf_title": "Branching rules revisited",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "cover-lifting": {
+    "checked_at_utc": "2026-09-27T05:56:19+00:00",
+    "url": "https://www.ijcai.org/proceedings/2025/298",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://www.ijcai.org/proceedings/2025/298",
+      "content_type": "text/html; charset=utf-8",
+      "title": "New Sequence-Independent Lifting Techniques for Cover Inequalities and When They Induce Facets | IJCAI",
+      "citation_metadata": {
+        "citation_title": [
+          "New Sequence-Independent Lifting Techniques for Cover Inequalities and When They Induce Facets"
+        ],
+        "citation_language": [
+          "en"
+        ],
+        "citation_abstract_html_url": [
+          "https://www.ijcai.org/proceedings/2025/298"
+        ],
+        "citation_author": [
+          "Siddharth Prasad",
+          "Ellen Vitercik",
+          "Maria-Florina Balcan",
+          "Tuomas Sandholm"
+        ],
+        "citation_conference_title": [
+          "Thirty-Fourth International Joint Conference on Artificial Intelligence"
+        ],
+        "citation_publication_date": [
+          "2025/09/16"
+        ],
+        "citation_online_date": [
+          "2025/09/16"
+        ],
+        "citation_date": [
+          "2025/09/16"
+        ],
+        "citation_firstpage": [
+          "2675"
+        ],
+        "citation_lastpage": [
+          "2683"
+        ],
+        "citation_pdf_url": [
+          "https://www.ijcai.org/proceedings/2025/0298.pdf"
+        ],
+        "citation_issn": [
+          "1045-0823"
+        ],
+        "citation_doi": [
+          "10.24963/ijcai.2025/298"
+        ],
+        "citation_volume": [
+          "3"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "07-cutting-planes/2025-new-sequence-independent-lifting-techniques-for-cover-inequalities-and-when-they-induce-facets.pdf",
+      "requested_url": "https://www.ijcai.org/proceedings/2025/0298.pdf",
+      "resolved_url": "https://www.ijcai.org/proceedings/2025/0298.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:19+00:00",
+      "bytes": 279209,
+      "sha256": "49a9ad49193db26097fc2246c5aba3a9a125b7eac3618e2ac6cb20c8c55cff37",
+      "pages": 9,
+      "pdf_title": "New Sequence-Independent Lifting Techniques for Cover Inequalities and When They Induce Facets",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "heuristic-scheduling": {
+    "checked_at_utc": "2026-09-27T06:01:01+00:00",
+    "url": "https://arxiv.org/abs/2103.10294",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2103.10294",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2103.10294] Learning to Schedule Heuristics in Branch-and-Bound",
+      "citation_metadata": {
+        "citation_title": [
+          "Learning to Schedule Heuristics in Branch-and-Bound"
+        ],
+        "citation_author": [
+          "Chmiela, Antonia",
+          "Khalil, Elias B.",
+          "Gleixner, Ambros",
+          "Lodi, Andrea",
+          "Pokutta, Sebastian"
+        ],
+        "citation_date": [
+          "2021/03/18"
+        ],
+        "citation_online_date": [
+          "2021/03/18"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2103.10294"
+        ],
+        "citation_arxiv_id": [
+          "2103.10294"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "08-primal-heuristics/2021-learning-to-schedule-heuristics-in-branch-and-bound.pdf",
+      "requested_url": "https://proceedings.neurips.cc/paper/2021/file/cb7c403aa312160380010ee3dd4bfc53-Paper.pdf",
+      "resolved_url": "https://proceedings.neurips.cc/paper/2021/file/cb7c403aa312160380010ee3dd4bfc53-Paper.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T06:01:01+00:00",
+      "bytes": 1214476,
+      "sha256": "cc4748dbf08585d2475ee31530955ea1aedff8cbbf16d4d6093be8047c699b81",
+      "pages": 12,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "adaptive-lns": {
+    "checked_at_utc": "2026-09-27T06:01:01+00:00",
+    "url": "https://www.zib.de/userpage/hendel/publication/adaptive-large-neighborhood-search-for-mixed-integer-programming/",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://www.zib.de/userpage/hendel/publication/adaptive-large-neighborhood-search-for-mixed-integer-programming/",
+      "content_type": "text/html",
+      "title": "Adaptive Large Neighborhood Search for Mixed Integer Programming | GH"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "08-primal-heuristics/2018-adaptive-large-neighborhood-search-for-mixed-integer-programming.pdf",
+      "requested_url": "https://optimization-online.org/wp-content/uploads/2018/12/6992.pdf",
+      "resolved_url": "https://optimization-online.org/wp-content/uploads/2018/12/6992.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T06:01:01+00:00",
+      "bytes": 611120,
+      "sha256": "687d61769a636ee83ce05cc59b48506de12309ef85a34ca5f667c47237ec8584",
+      "pages": 38,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "valid-inequalities": {
+    "checked_at_utc": "2026-09-27T05:56:17+00:00",
+    "url": "https://www.andrew.cmu.edu/user/gc0v/",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://www.andrew.cmu.edu/user/gc0v/",
+      "content_type": "text/html",
+      "title": "GERARD CORNUEJOLS"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "07-cutting-planes/2008-valid-inequalities-for-mixed-integer-linear-programs.pdf",
+      "requested_url": "https://www.andrew.cmu.edu/user/gc0v/webpub/integerRioMPSjuly.pdf",
+      "resolved_url": "https://www.andrew.cmu.edu/user/gc0v/webpub/integerRioMPSjuly.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:17+00:00",
+      "bytes": 372662,
+      "sha256": "cf6b20b955a6928b88b5d6ebc2ad07a7154ab4443e664470fa7d32b8379c865c",
+      "pages": 41,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "feasibility-pump": {
+    "checked_at_utc": "2026-09-27T05:58:45+00:00",
+    "url": "https://doi.org/10.1007/s10107-004-0570-3",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://link.springer.com/article/10.1007/s10107-004-0570-3?error=cookies_not_supported&code=ea169d8e-81d0-495f-bab2-5a158a5f87e2",
+      "content_type": "text/html; charset=utf-8",
+      "title": "The feasibility pump | Mathematical Programming | Springer Nature Link",
+      "citation_metadata": {
+        "citation_pdf_url": [
+          "https://link.springer.com/content/pdf/10.1007/s10107-004-0570-3.pdf"
+        ],
+        "citation_fulltext_html_url": [
+          "https://link.springer.com/article/10.1007/s10107-004-0570-3"
+        ],
+        "citation_journal_title": [
+          "Mathematical Programming"
+        ],
+        "citation_journal_abbrev": [
+          "Math. Program."
+        ],
+        "citation_publisher": [
+          "Springer-Verlag"
+        ],
+        "citation_issn": [
+          "1436-4646"
+        ],
+        "citation_title": [
+          "The feasibility pump"
+        ],
+        "citation_volume": [
+          "104"
+        ],
+        "citation_issue": [
+          "1"
+        ],
+        "citation_publication_date": [
+          "2005/09"
+        ],
+        "citation_online_date": [
+          "2005/03/14"
+        ],
+        "citation_firstpage": [
+          "91"
+        ],
+        "citation_lastpage": [
+          "104"
+        ],
+        "citation_article_type": [
+          "Article"
+        ],
+        "citation_language": [
+          "en"
+        ],
+        "citation_doi": [
+          "10.1007/s10107-004-0570-3"
+        ],
+        "citation_springer_api_url": [
+          "http://api.springer.com/xmldata/jats?q=doi:10.1007/s10107-004-0570-3&api_key="
+        ],
+        "citation_reference": [
+          "Achterberg, T., Koch, T., Martin, A.: The mixed integer programming library: MIPLIB 2003. \n                    http://miplib.zib.de\n                    \n                  .",
+          "citation_journal_title=Oper. Res.; citation_author=null Balas; citation_volume=49; citation_publication_date=2001; citation_pages=207; citation_doi=10.1287/opre.49.2.207.13535; citation_id=CR2",
+          "citation_journal_title=Management Science; citation_author=null Balas; citation_volume=26; citation_publication_date=1980; citation_pages=86; citation_doi=10.1287/mnsc.26.1.86; citation_id=CR3",
+          "citation_journal_title=Discrete Optimization; citation_author=null Balas; citation_volume=1; citation_publication_date=2004; citation_pages=3; citation_doi=10.1016/j.disopt.2004.03.001; citation_id=CR4",
+          "Bixby, R.E.: Personal communication. 2003",
+          "Chinneck, J.W.: The constraint consesus method for finding approximately feasible points in nonlinear programs. Technical Report Carleton University, Ottawa, Ontario, Canada, October 2002",
+          "citation_journal_title=Mathematical Programming,; citation_author=null Danna; citation_volume=102; citation_publication_date=2005; citation_pages=71; citation_id=CR7",
+          "Double-Click sas.: Personal communication. 2001",
+          "citation_journal_title=Mathematical Programming; citation_author=null Fischetti; citation_volume=98; citation_publication_date=2003; citation_pages=23; citation_doi=10.1007/s10107-003-0395-5; citation_id=CR9",
+          "citation_journal_title=J. Heuristics; citation_author=null Glover; citation_volume=2; citation_publication_date=1997; citation_pages=343; citation_doi=10.1007/BF00132504; citation_id=CR10",
+          "citation_journal_title=J. Heuristics; citation_author=null Glover; citation_volume=3; citation_publication_date=1997; citation_pages=161; citation_doi=10.1023/A:1009631530787; citation_id=CR11",
+          "Glover, F., Laguna, M.: Tabu Search. Kluwer Academic Publisher, Boston, Dordrecht, London, 1997",
+          "citation_journal_title=Oper. Res.; citation_author=null Hillier; citation_volume=17; citation_publication_date=1969; citation_pages=600; citation_id=CR13",
+          "citation_journal_title=Mathematical Programming Study; citation_author=null Ibaraki; citation_volume=2; citation_publication_date=1974; citation_pages=115; citation_id=CR14",
+          "G.W. Klau. Personal communication, 2002.",
+          "Løkketangen, A.: Heuristics for 0-1 Mixed-Integer Programming. In: P.M. Pardalos, M.G.C. Resende (eds.), Handbook of Applied Optimization, Oxford University Press, 2002, pp. 474–477",
+          "citation_journal_title=European J. Oper. Res.; citation_author=null Løkketangen; citation_volume=106; citation_publication_date=1998; citation_pages=624; citation_doi=10.1016/S0377-2217(97)00295-6; citation_id=CR17",
+          "Lübbecke, M.: Personal communication. 2002",
+          "Miller, A.J.: Personal communication. 2003",
+          "Nediak, M., Eckstein, J.: Pivot, Cut, and Dive: A Heuristic for 0-1 Mixed Integer Programming. Research Report RRR 53-2001, RUTCOR, Rutgers University, October 2001",
+          "Patel, J., Chinneck, J.W.: Active-Constraint Variable Ordering for Faster Feasibility of Mixed Integer Linear Programs. Technical Report Carleton University, Ottawa, Ontario, Canada, November 2003",
+          "Rothberg, E.: Personal communication. 2002",
+          "Rothberg, E.: Personal communication. 2003",
+          "Spielberg, K., Guignard, M.: Sequential (Quasi) Hot Start Method for BB (0,1) Mixed Integer Programming. Wharton School Research Report, 2002"
+        ],
+        "citation_author": [
+          "Fischetti, Matteo",
+          "Glover, Fred",
+          "Lodi, Andrea"
+        ],
+        "citation_author_email": [
+          "matteo.fischetti@unipd.it",
+          "Fred.Glover@colorado.edu",
+          "alodi@deis.unibo.it"
+        ],
+        "citation_author_institution": [
+          "DEI, University of Padova, Padova, Italy",
+          "Leeds School of Business, University of Colorado at Boulder, Boulder, USA",
+          "DEIS, University of Bologna, Bologna, Italy"
+        ],
+        "citation_cover_date": [
+          "2005/09/01"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "08-primal-heuristics/2005-the-feasibility-pump.pdf",
+      "requested_url": "https://miplib2010.zib.de/miplib2003/paper/fischettigloverlodi2004.pdf",
+      "resolved_url": "https://miplib2010.zib.de/miplib2003/paper/fischettigloverlodi2004.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:58:45+00:00",
+      "bytes": 205783,
+      "sha256": "feee46057788223b434b7544459e65c8f82cc389d16fbefc8805df01ae4b0bf5",
+      "pages": 17,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "osqp-algorithm-docs": {
+    "checked_at_utc": "2026-09-27T05:56:26+00:00",
+    "url": "https://osqp.org/docs/solver/index.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://osqp.org/docs/solver/index.html",
+      "content_type": "text/html; charset=utf-8",
+      "title": "The solver — OSQP  documentation"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Access-year label for living documentation. Match tolerances when comparing with our QP results."
+    }
+  },
+  "osqp": {
+    "checked_at_utc": "2026-09-27T05:56:23+00:00",
+    "url": "https://web.stanford.edu/~boyd/papers/osqp.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://web.stanford.edu/~boyd/papers/osqp.html",
+      "content_type": "text/html",
+      "title": "OSQP: An Operator Splitting Solver for Quadratic Programs"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "09-convex-quadratic-programming/2020-osqp-an-operator-splitting-solver-for-quadratic-programs.pdf",
+      "requested_url": "https://web.stanford.edu/~boyd/papers/pdf/osqp.pdf",
+      "resolved_url": "https://web.stanford.edu/~boyd/papers/pdf/osqp.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:23+00:00",
+      "bytes": 788859,
+      "sha256": "0e5cd09cd7bd44bf3b7d6e0898721e53ab85c720e976a4a51e424f2e1bda5b39",
+      "pages": 36,
+      "pdf_title": "OSQP: an operator splitting solver for quadratic programs",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "pdlp": {
+    "checked_at_utc": "2026-09-27T05:56:27+00:00",
+    "url": "https://arxiv.org/abs/2501.07018",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2501.07018",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2501.07018] PDLP: A Practical First-Order Method for Large-Scale Linear Programming",
+      "citation_metadata": {
+        "citation_title": [
+          "PDLP: A Practical First-Order Method for Large-Scale Linear Programming"
+        ],
+        "citation_author": [
+          "Applegate, David",
+          "Díaz, Mateo",
+          "Hinder, Oliver",
+          "Lu, Haihao",
+          "Lubin, Miles",
+          "O'Donoghue, Brendan",
+          "Schudy, Warren"
+        ],
+        "citation_date": [
+          "2025/01/13"
+        ],
+        "citation_online_date": [
+          "2026/03/18"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2501.07018"
+        ],
+        "citation_arxiv_id": [
+          "2501.07018"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "10-large-scale-continuous/2025-pdlp-a-practical-first-order-method-for-large-scale-linear-programming.pdf",
+      "requested_url": "https://arxiv.org/pdf/2501.07018",
+      "resolved_url": "https://arxiv.org/pdf/2501.07018",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:27+00:00",
+      "bytes": 1569796,
+      "sha256": "e4d74460180ad94f0528afb99e1203e6356dee358e3cccc07d5fe79153796115",
+      "pages": 38,
+      "pdf_title": "PDLP: A Practical First-Order Method for Large-Scale Linear Programming",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2501.07018v2",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "pdhg-restarts": {
+    "checked_at_utc": "2026-09-27T05:56:29+00:00",
+    "url": "https://arxiv.org/abs/2105.12715",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2105.12715",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2105.12715] Faster First-Order Primal-Dual Methods for Linear Programming using Restarts and Sharpness",
+      "citation_metadata": {
+        "citation_title": [
+          "Faster First-Order Primal-Dual Methods for Linear Programming using Restarts and Sharpness"
+        ],
+        "citation_author": [
+          "Applegate, David",
+          "Hinder, Oliver",
+          "Lu, Haihao",
+          "Lubin, Miles"
+        ],
+        "citation_doi": [
+          "10.1007/s10107-022-01901-9"
+        ],
+        "citation_date": [
+          "2021/05/26"
+        ],
+        "citation_online_date": [
+          "2022/06/14"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2105.12715"
+        ],
+        "citation_arxiv_id": [
+          "2105.12715"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "10-large-scale-continuous/2021-faster-first-order-primal-dual-methods-for-linear-programming-using-restarts-and-sharpness.pdf",
+      "requested_url": "https://arxiv.org/pdf/2105.12715",
+      "resolved_url": "https://arxiv.org/pdf/2105.12715",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:29+00:00",
+      "bytes": 3089221,
+      "sha256": "28d53077c8361385d6559985c0ba2fc4dc0d173269a29edddf6ea55e2aec4e6a",
+      "pages": 44,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2105.12715v4",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "pump-survey": {
+    "checked_at_utc": "2026-09-27T05:56:20+00:00",
+    "url": "https://www.dei.unipd.it/~salvagni/pdf/10yearsFP.pdf",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://www.dei.unipd.it/~salvagni/pdf/10yearsFP.pdf",
+      "content_type": "application/pdf"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "08-primal-heuristics/2018-ten-years-of-feasibility-pump-and-counting.pdf",
+      "requested_url": "https://www.dei.unipd.it/~salvagni/pdf/10yearsFP.pdf",
+      "resolved_url": "https://www.dei.unipd.it/~salvagni/pdf/10yearsFP.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:20+00:00",
+      "bytes": 438423,
+      "sha256": "f19543be4f7c4272903e21326282d5ff36c2388f175c13a11d1b9461b3924d10",
+      "pages": 14,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "proximal-algorithms": {
+    "checked_at_utc": "2026-09-27T05:56:25+00:00",
+    "url": "https://web.stanford.edu/~boyd/papers/prox_algs.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://web.stanford.edu/~boyd/papers/prox_algs.html",
+      "content_type": "text/html",
+      "title": "Proximal Algorithms"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "09-convex-quadratic-programming/2014-proximal-algorithms.pdf",
+      "requested_url": "https://web.stanford.edu/~boyd/papers/pdf/prox_algs.pdf",
+      "resolved_url": "https://web.stanford.edu/~boyd/papers/pdf/prox_algs.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:25+00:00",
+      "bytes": 978151,
+      "sha256": "c261d62dab183f5afe765907f94da12e528542dd9e2dba4751ac2bc1a9e5cc7b",
+      "pages": 113,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "conic-splitting": {
+    "checked_at_utc": "2026-09-27T05:56:32+00:00",
+    "url": "https://arxiv.org/abs/1312.3039",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/1312.3039",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[1312.3039] Conic Optimization via Operator Splitting and Homogeneous Self-Dual Embedding",
+      "citation_metadata": {
+        "citation_title": [
+          "Conic Optimization via Operator Splitting and Homogeneous Self-Dual Embedding"
+        ],
+        "citation_author": [
+          "O'Donoghue, Brendan",
+          "Chu, Eric",
+          "Parikh, Neal",
+          "Boyd, Stephen"
+        ],
+        "citation_date": [
+          "2013/12/11"
+        ],
+        "citation_online_date": [
+          "2016/07/25"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1312.3039"
+        ],
+        "citation_arxiv_id": [
+          "1312.3039"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "10-large-scale-continuous/2013-conic-optimization-via-operator-splitting-and-homogeneous-self-dual-embedding.pdf",
+      "requested_url": "https://arxiv.org/pdf/1312.3039",
+      "resolved_url": "https://arxiv.org/pdf/1312.3039",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:32+00:00",
+      "bytes": 330775,
+      "sha256": "18518a5dce83fb8ee429ac6f32e3446f99216134e064035dce4a7da65d2a96b4",
+      "pages": 24,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "1312.3039v2",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "gpu-admm": {
+    "checked_at_utc": "2026-09-27T05:56:32+00:00",
+    "url": "https://arxiv.org/abs/1912.04263",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/1912.04263",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[1912.04263] GPU Acceleration of ADMM for Large-Scale Quadratic Programming",
+      "citation_metadata": {
+        "citation_title": [
+          "GPU Acceleration of ADMM for Large-Scale Quadratic Programming"
+        ],
+        "citation_author": [
+          "Schubiger, Michel",
+          "Banjac, Goran",
+          "Lygeros, John"
+        ],
+        "citation_doi": [
+          "10.1016/j.jpdc.2020.05.021"
+        ],
+        "citation_date": [
+          "2019/12/09"
+        ],
+        "citation_online_date": [
+          "2020/06/08"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/1912.04263"
+        ],
+        "citation_arxiv_id": [
+          "1912.04263"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "11-gpu-multicore/2020-gpu-acceleration-of-admm-for-large-scale-quadratic-programming.pdf",
+      "requested_url": "https://arxiv.org/pdf/1912.04263",
+      "resolved_url": "https://arxiv.org/pdf/1912.04263",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:32+00:00",
+      "bytes": 376968,
+      "sha256": "7c17fbd9019ca60faee37dde36df139bbe38768c0f973efbf0f249c3cbdc7c7c",
+      "pages": 30,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "1912.04263v2",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "ipm-survey": {
+    "checked_at_utc": "2026-09-27T05:56:30+00:00",
+    "url": "https://doi.org/10.1016/j.ejor.2011.09.017",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0377221711008204",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Redirecting"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "10-large-scale-continuous/2012-interior-point-methods-25-years-later.pdf",
+      "requested_url": "https://www.maths.ed.ac.uk/~gondzio/reports/ipmXXV.pdf",
+      "resolved_url": "https://webhomes.maths.ed.ac.uk/~gondzio/reports/ipmXXV.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:30+00:00",
+      "bytes": 329054,
+      "sha256": "1f8438f0421961562de0629dda1fa0157bd50d08f9812a1040fbb871e77837c9",
+      "pages": 33,
+      "pdf_title": "paperAccepted.dvi",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "cuda-best-practices": {
+    "checked_at_utc": "2026-09-27T05:56:33+00:00",
+    "url": "https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html",
+      "content_type": "text/html",
+      "title": "CUDA Best Practices Guide — CUDA C++ Best Practices Guide 13.4 documentation"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "2026 is the access year for living documentation; hardware-specific advice must be checked on the evaluation GPU."
+    }
+  },
+  "cupdlp-c": {
+    "checked_at_utc": "2026-09-27T05:56:33+00:00",
+    "url": "https://arxiv.org/abs/2312.14832",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2312.14832",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2312.14832] cuPDLP-C: A Strengthened Implementation of cuPDLP for Linear Programming by C language",
+      "citation_metadata": {
+        "citation_title": [
+          "cuPDLP-C: A Strengthened Implementation of cuPDLP for Linear Programming by C language"
+        ],
+        "citation_author": [
+          "Lu, Haihao",
+          "Yang, Jinwen",
+          "Hu, Haodong",
+          "Huangfu, Qi",
+          "Liu, Jinsong",
+          "Liu, Tianhao",
+          "Ye, Yinyu",
+          "Zhang, Chuwen",
+          "Ge, Dongdong"
+        ],
+        "citation_date": [
+          "2023/12/22"
+        ],
+        "citation_online_date": [
+          "2024/01/07"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2312.14832"
+        ],
+        "citation_arxiv_id": [
+          "2312.14832"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "11-gpu-multicore/2023-cupdlp-c-a-strengthened-implementation-of-cupdlp-for-linear-programming-by-c-language.pdf",
+      "requested_url": "https://arxiv.org/pdf/2312.14832",
+      "resolved_url": "https://arxiv.org/pdf/2312.14832",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:33+00:00",
+      "bytes": 192136,
+      "sha256": "29e6391ec65b4ab100ed2fc71f73b810cc9f28eddf66d29223b25932dd2a010f",
+      "pages": 16,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2312.14832v2",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "cupdlp-julia": {
+    "checked_at_utc": "2026-09-27T05:56:32+00:00",
+    "url": "https://arxiv.org/abs/2311.12180",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2311.12180",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2311.12180] cuPDLP.jl: A GPU Implementation of Restarted Primal-Dual Hybrid Gradient for Linear Programming in Julia",
+      "citation_metadata": {
+        "citation_title": [
+          "cuPDLP.jl: A GPU Implementation of Restarted Primal-Dual Hybrid Gradient for Linear Programming in Julia"
+        ],
+        "citation_author": [
+          "Lu, Haihao",
+          "Yang, Jinwen"
+        ],
+        "citation_date": [
+          "2023/11/20"
+        ],
+        "citation_online_date": [
+          "2024/06/07"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2311.12180"
+        ],
+        "citation_arxiv_id": [
+          "2311.12180"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "11-gpu-multicore/2025-cupdlp-jl-a-gpu-implementation-of-restarted-primal-dual-hybrid-gradient-for-linear-programming-in-julia.pdf",
+      "requested_url": "https://arxiv.org/pdf/2311.12180",
+      "resolved_url": "https://arxiv.org/pdf/2311.12180",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:32+00:00",
+      "bytes": 1812639,
+      "sha256": "d6138f5dfc41cb1d18fd2a7caa7e85b25ae138a0520c6ab869aecad80df6ecd1",
+      "pages": 26,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2311.12180v4",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "qplib": {
+    "checked_at_utc": "2026-09-27T05:56:34+00:00",
+    "url": "https://qplib.zib.de/doc.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://qplib.zib.de/doc.html",
+      "content_type": "text/html",
+      "title": "QPLIB Documentation"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "The library includes nonconvex and discrete problems; selecting all QPLIB instances would overstate supported scope."
+    }
+  },
+  "miplib-downloads": {
+    "checked_at_utc": "2026-09-27T05:56:34+00:00",
+    "url": "https://miplib.zib.de/download.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://miplib.zib.de/download.html",
+      "content_type": "text/html",
+      "title": "Download"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Access-year label; retain the solution-file version used by each past experiment."
+    }
+  },
+  "mps-format": {
+    "checked_at_utc": "2026-09-27T05:56:35+00:00",
+    "url": "https://docs.gurobi.com/projects/optimizer/en/current/reference/fileformats/modelformats.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://docs.gurobi.com/projects/optimizer/en/current/reference/fileformats/modelformats.html",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Model File Formats - Gurobi Optimizer Reference ManualContentsMenuExpandLight modeDark modeAuto light/dark mode"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Vendor dialect reference, not a universal standard. Our parser contract must state supported variants. Access year 2026."
+    }
+  },
+  "netlib-lp": {
+    "checked_at_utc": "2026-09-27T05:56:35+00:00",
+    "url": "https://www.netlib.org/lp/data/",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://www.netlib.org/lp/data/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "netlib/lp/data"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Access-year label; preserve original files and any decompression/conversion provenance."
+    }
+  },
+  "mittelmann": {
+    "checked_at_utc": "2026-09-27T05:56:35+00:00",
+    "url": "https://plato.asu.edu/sub/benchm.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://plato.asu.edu/sub/benchm.html",
+      "content_type": "text/html",
+      "title": "Decison Tree for Optimization Software"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Living results and configurations change; no benchmark result is imported as our own. Access year 2026."
+    }
+  },
+  "performance-profiles": {
+    "checked_at_utc": "2026-09-27T05:56:36+00:00",
+    "url": "https://arxiv.org/abs/cs/0102001",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/cs/0102001",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[cs/0102001] Benchmarking Optimization Software with Performance Profiles",
+      "citation_metadata": {
+        "citation_title": [
+          "Benchmarking Optimization Software with Performance Profiles"
+        ],
+        "citation_author": [
+          "Dolan, Elizabeth D.",
+          "Moré, Jorge J."
+        ],
+        "citation_date": [
+          "2001/02/01"
+        ],
+        "citation_online_date": [
+          "2004/03/05"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/cs/0102001"
+        ],
+        "citation_arxiv_id": [
+          "cs/0102001"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "13-evaluation-reproducibility/2002-benchmarking-optimization-software-with-performance-profiles.pdf",
+      "requested_url": "https://arxiv.org/pdf/cs/0102001",
+      "resolved_url": "https://arxiv.org/pdf/cs/0102001",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:36+00:00",
+      "bytes": 149347,
+      "sha256": "e142fd143bb235aa067eb2a56f4ade86209f38ccbda221cb9efc23c03a540b1c",
+      "pages": 13,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "cs/0102001v2",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "benchmark-best-practice": {
+    "checked_at_utc": "2026-09-27T05:56:37+00:00",
+    "url": "https://arxiv.org/abs/2007.03488",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2007.03488",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2007.03488] Benchmarking in Optimization: Best Practice and Open Issues",
+      "citation_metadata": {
+        "citation_title": [
+          "Benchmarking in Optimization: Best Practice and Open Issues"
+        ],
+        "citation_author": [
+          "Bartz-Beielstein, Thomas",
+          "Doerr, Carola",
+          "Berg, Daan van den",
+          "Bossek, Jakob",
+          "Chandrasekaran, Sowmya",
+          "Eftimov, Tome",
+          "Fischbach, Andreas",
+          "Kerschke, Pascal",
+          "La Cava, William",
+          "Lopez-Ibanez, Manuel",
+          "Malan, Katherine M.",
+          "Moore, Jason H.",
+          "Naujoks, Boris",
+          "Orzechowski, Patryk",
+          "Volz, Vanessa",
+          "Wagner, Markus",
+          "Weise, Thomas"
+        ],
+        "citation_date": [
+          "2020/07/07"
+        ],
+        "citation_online_date": [
+          "2020/12/16"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2007.03488"
+        ],
+        "citation_arxiv_id": [
+          "2007.03488"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "13-evaluation-reproducibility/2020-benchmarking-in-optimization-best-practice-and-open-issues.pdf",
+      "requested_url": "https://arxiv.org/pdf/2007.03488",
+      "resolved_url": "https://arxiv.org/pdf/2007.03488",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:37+00:00",
+      "bytes": 1162275,
+      "sha256": "f3b4bd21a424a971ee9bb724cc0414d6a41e6e01aa582e0b8af6685482180117",
+      "pages": 50,
+      "pdf_title": "",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2007.03488v2",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "marco": {
+    "checked_at_utc": "2026-09-27T05:56:37+00:00",
+    "url": "https://www.gams.com/latest/gamslib_ml/libhtml/gamslib_marco.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://www.gams.com/latest/gamslib_ml/libhtml/gamslib_marco.html",
+      "content_type": "text/html",
+      "title": "marco.gms : Mini Oil Refining Model"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Access-year label; underlying teaching references date to 1978/1981. Not operational MRPL data."
+    }
+  },
+  "miplib-paper": {
+    "checked_at_utc": "2026-09-27T05:56:33+00:00",
+    "url": "https://doi.org/10.1007/s12532-020-00194-3",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://link.springer.com/article/10.1007/s12532-020-00194-3?error=cookies_not_supported&code=92fdb4fb-c510-4c8b-b826-8d0849a0fa87",
+      "content_type": "text/html; charset=utf-8",
+      "title": "MIPLIB 2017: data-driven compilation of the 6th mixed-integer programming library | Mathematical Programming Computation | Springer Nature Link",
+      "citation_metadata": {
+        "citation_pdf_url": [
+          "https://link.springer.com/content/pdf/10.1007/s12532-020-00194-3.pdf"
+        ],
+        "citation_fulltext_html_url": [
+          "https://link.springer.com/article/10.1007/s12532-020-00194-3"
+        ],
+        "citation_journal_title": [
+          "Mathematical Programming Computation"
+        ],
+        "citation_journal_abbrev": [
+          "Math. Prog. Comp."
+        ],
+        "citation_publisher": [
+          "Springer Berlin Heidelberg"
+        ],
+        "citation_issn": [
+          "1867-2957"
+        ],
+        "citation_title": [
+          "MIPLIB 2017: data-driven compilation of the 6th mixed-integer programming library"
+        ],
+        "citation_volume": [
+          "13"
+        ],
+        "citation_issue": [
+          "3"
+        ],
+        "citation_publication_date": [
+          "2021/09"
+        ],
+        "citation_online_date": [
+          "2021/01/07"
+        ],
+        "citation_firstpage": [
+          "443"
+        ],
+        "citation_lastpage": [
+          "490"
+        ],
+        "citation_article_type": [
+          "Full Length Paper "
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_language": [
+          "en"
+        ],
+        "citation_doi": [
+          "10.1007/s12532-020-00194-3"
+        ],
+        "citation_springer_api_url": [
+          "http://api.springer.com/xmldata/jats?q=doi:10.1007/s12532-020-00194-3&api_key="
+        ],
+        "citation_reference": [
+          "Achterberg, T.: Constraint integer programming. Ph.D. thesis, Technische Universität Berlin (2007)",
+          "citation_journal_title=INFORMS J. Comput.; citation_title=Presolve reductions in mixed integer programming; citation_author=T Achterberg, RE Bixby, Z Gu, E Rothberg, D Weninger; citation_publication_date=2019; citation_doi=10.1287/ijoc.2018.0857; citation_id=CR2",
+          "citation_journal_title=Oper. Res. Lett.; citation_title=MIPLIB 2003; citation_author=T Achterberg, T Koch, A Martin; citation_volume=34; citation_issue=4; citation_publication_date=2006; citation_pages=361-372; citation_doi=10.1016/j.orl.2005.07.009; citation_id=CR3",
+          "citation_journal_title=J. Oper. Res. Soc.; citation_title=OR-Library: distributing test problems by electronic mail; citation_author=JE Beasley; citation_volume=41; citation_issue=11; citation_publication_date=1990; citation_pages=1069-1072; citation_doi=10.1057/jors.1990.166; citation_id=CR4",
+          "Beyer, K., Goldstein, J., Ramakrishnan, R., Shaft, U.: When is “nearest neighbor” meaningful? In: C. Beeri, P. Buneman (eds.) Database Theory–ICDT’99, pp. 217–235. Springer, Berlin (1999). \n                  https://doi.org/10.1007/3-540-49257-7_15\n                  \n                ",
+          "citation_journal_title=Artif. Intell.; citation_title=ASlib: a benchmark library for algorithm selection; citation_author=B Bischl, P Kerschke, L Kotthoff, M Lindauer, Y Malitsky, A Fréchette, H Hoos, F Hutter, K Leyton-Brown, K Tierney; citation_volume=237; citation_publication_date=2016; citation_pages=41-58; citation_doi=10.1016/j.artint.2016.04.003; citation_id=CR6",
+          "citation_journal_title=Oper. Res.; citation_title=Solving real-world linear programs: a decade and more of progress; citation_author=RE Bixby; citation_volume=50; citation_issue=1; citation_publication_date=2002; citation_pages=3-15; citation_doi=10.1287/opre.50.1.3.17780; citation_id=CR7",
+          "citation_journal_title=SIAM News; citation_title=MIPLIB: a test set of mixed integer programming problems; citation_author=RE Bixby, EA Boyd, RR Indovina; citation_volume=25; citation_publication_date=1992; citation_pages=16; citation_id=CR8",
+          "citation_journal_title=Optima; citation_title=An updated mixed integer programming library: MIPLIB 3.0; citation_author=RE Bixby, S Ceria, C McZeal, M Savelsbergh; citation_volume=58; citation_publication_date=1998; citation_pages=12-15; citation_id=CR9",
+          "Browne, S., Dongarra, J., Grosse, E., Rowan, T.: The Netlib mathematical software repository. D-lib Magazine 1(9), (1995)",
+          "citation_journal_title=INFORMS J. Comput.; citation_title=MINLPLib—a collection of test models for mixed-integer nonlinear programming; citation_author=MR Bussieck, AS Drud, A Meeraus; citation_volume=15; citation_issue=1; citation_publication_date=2003; citation_pages=114-119; citation_doi=10.1287/ijoc.15.1.114.15159; citation_id=CR11",
+          "COIN-OR branch-and-cut MIP solver (2019). \n                  https://github.com/coin-or/Cbc\n                  \n                ",
+          "IBM ILOG CPLEX Optimizer (2019). \n                  http://www-01.ibm.com/software/integration/optimization/cplex-optimizer/\n                  \n                ",
+          "citation_journal_title=Math. Program.; citation_title=Reporting computational experiments in mathematical programming; citation_author=HP Crowder, RS Dembo, JM Mulvey; citation_volume=15; citation_publication_date=1978; citation_pages=316-329; citation_doi=10.1007/BF01609036; citation_id=CR14",
+          "citation_title=AMPL: A Modeling Language for Mathematical Programming; citation_publication_date=2002; citation_id=CR15; citation_author=RM Fourer; citation_author=DW Gay; citation_author=B Kernighan; citation_publisher=Duxbury Press",
+          "citation_journal_title=Math. Program. Comput.; citation_title=QPLIB: a library of quadratic programming instances; citation_author=F Furini, E Traversi, P Belotti, A Frangioni, A Gleixner, N Gould, L Liberti, A Lodi, R Misener, H Mittelmann; citation_volume=11; citation_issue=2; citation_publication_date=2019; citation_pages=237-265; citation_doi=10.1007/s12532-018-0147-4; citation_id=CR16",
+          "Galati, M., Ralphs, T., Wang, J.: Computational Experience with Generic Decomposition using the DIP Framework. In: Proceedings of RAMP 2012 (2012). \n                  http://coral.ie.lehigh.edu/~ted/files/papers/RAMP12.pdf\n                  \n                ",
+          "Galati, M., Ralphs, T., Wang, J.: DIP/DipPy version 0.92 (2019). \n                  https://doi.org/10.5281/zenodo.2656800\n                  \n                . \n                  http://github.com/coin-or/Dip\n                  \n                ",
+          "Galati, M.V.: Decomposition in Integer Programming. Phd, Lehigh University (2009). \n                  http://coral.ie.lehigh.edu/~ted/files/papers/MatthewGalatiDissertation09.pdf\n                  \n                ",
+          "citation_journal_title=Math. Program. Comput.; citation_title=Progress in presolving for mixed integer programming; citation_author=G Gamrath, T Koch, A Martin, M Miltenberger, D Weninger; citation_publication_date=2015; citation_doi=10.1007/s12532-015-0083-5; citation_id=CR20",
+          "Gamrath, G., Lübbecke, M.: Experiments with a generic Dantzig–Wolfe decomposition for integer programs. In: P. Festa (ed.) Experimental Algorithms, Lect. Notes in Comp. Sci., vol. 6049, pp. 239–252. Springer, Berlin (2010). \n                  https://doi.org/10.1007/978-3-642-13193-6_21\n                  \n                ",
+          "Georges, A., Gleixner, A., Gojic, G., Gottwald, R.L., Haley, D., Hendel, G., Matejczyk, B.: Feature-based algorithm selection for mixed integer programming. ZIB-Report 18-17, Zuse Institute Berlin (2018)",
+          "Gleixner, A., Bastubbe, M., Eifler, L., Gally, T., Gamrath, G., Gottwald, R.L., Hendel, G., Hojny, C., Koch, T., Lübbecke, M.E., Maher, S.J., Miltenberger, M., Müller, B., Pfetsch, M.E., Puchert, C., Rehfeldt, D., Schlösser, F., Schubert, C., Serrano, F., Shinano, Y., Viernickel, J.M., Walter, M., Wegscheider, F., Witt, J.T., Witzig, J.: The SCIP Optimization Suite 6.0. ZIB-Report 18–26. Zuse Institute, Berlin (2018)",
+          "Granlund, T., the GMP development team: GNU MP: The GNU Multiple Precision Arithmetic Library, 6.1.2 edn (2016). \n                  http://gmplib.org/\n                  \n                ",
+          "GUROBI Optimizer (2019). \n                  http://www.gurobi.com/products/gurobi-optimizer/gurobi-overview\n                  \n                ",
+          "citation_journal_title=Appl. Stat.; citation_title=Algorithm AS 136: A K-Means clustering algorithm; citation_author=JA Hartigan, MA Wong; citation_volume=28; citation_issue=1; citation_publication_date=1979; citation_pages=100-108; citation_doi=10.2307/2346830; citation_id=CR26",
+          "Hendel, G.: IPET interactive performance evaluation tools. \n                  https://github.com/GregorCH/ipet\n                  \n                ",
+          "citation_journal_title=J. Soc. Ind. Appl. Math.; citation_title=Computational experience in solving linear programs; citation_author=A Hoffman, M Mannos, D Sokolowsky, N Wiegmann; citation_volume=1; citation_issue=1; citation_publication_date=1953; citation_pages=17-33; citation_doi=10.1137/0101002; citation_id=CR28",
+          "citation_journal_title=Oper. Res.; citation_title=Needed: an empirical science of algorithms; citation_author=J Hooker; citation_volume=42; citation_issue=2; citation_publication_date=1993; citation_pages=210-212; citation_id=CR29",
+          "IBM Corporation, White Plains, N.Y.: Mathematical Programming System/360 Version 2, Linear and Separable Programming—User’s Manual, 3 edn. (1969). Publication H20–0476–2",
+          "citation_journal_title=Math. Program.; citation_title=Guidelines for reporting results of computational experiments. Report of the ad hoc committee; citation_author=RHF Jackson, PT Boggs, SG Nash, S Powell; citation_volume=49; citation_publication_date=1991; citation_pages=413-425; citation_doi=10.1007/BF01588801; citation_id=CR31",
+          "citation_journal_title=Math. Program. Comput.; citation_title=MIPLIB 2010; citation_author=T Koch, T Achterberg, E Andersen, O Bastert, T Berthold, RE Bixby, E Danna, G Gamrath, AM Gleixner, S Heinz, A Lodi, H Mittelmann, T Ralphs, D Salvagnin, DE Steffy, K Wolter; citation_volume=3; citation_publication_date=2011; citation_pages=103-163; citation_doi=10.1007/s12532-011-0025-9; citation_id=CR32",
+          "citation_journal_title=INFORMS J. Comput.; citation_title=Solving hard mixed integer programming problems with Xpress-MP: A MIPLIB 2003 case study; citation_author=R Laundy, M Perregaard, G Tavares, H Tipi, A Vazacopoulos; citation_volume=21; citation_publication_date=2009; citation_pages=304-319; citation_doi=10.1287/ijoc.1080.0293; citation_id=CR33",
+          "citation_journal_title=Integ. Program. Theory Pract.; citation_title=Noncommercial software for mixed-integer linear programming; citation_author=JT Linderoth, TK Ralphs; citation_volume=3; citation_issue=253–303; citation_publication_date=2005; citation_pages=144-189; citation_id=CR34",
+          "citation_title=MIP computation; citation_inbook_title=50 Years of Integer Programming 1958–2008; citation_publication_date=2009; citation_pages=619-645; citation_id=CR35; citation_author=A Lodi; citation_publisher=Springer",
+          "MathWorks: MATLAB Optimization Toolbox (2019). \n                  https://de.mathworks.com/products/optimization.html\n                  \n                ",
+          "citation_journal_title=INFORMS J. Comput.; citation_title=Toward an experimental method for algorithm simulation; citation_author=CC McGeoch; citation_volume=8; citation_issue=1; citation_publication_date=1996; citation_pages=1-15; citation_doi=10.1287/ijoc.8.1.1; citation_id=CR37",
+          "citation_journal_title=Notices AMS; citation_title=Experimental analysis of algorithms; citation_author=CC McGeoch; citation_volume=48; citation_issue=3; citation_publication_date=2001; citation_pages=304-311; citation_id=CR38",
+          "MIPLIB 2.0. \n                  http://miplib2010.zib.de/miplib2/miplib2.html\n                  \n                ",
+          "Mittelmann, H.: Benchmarks for optimization software. \n                  http://plato.asu.edu/bench.html\n                  \n                ",
+          "MOSEK (2019). \n                  https://www.mosek.com/\n                  \n                ",
+          "citation_title=Computer Solutions of Linear Programs. Monographs on Numerical Analysis; citation_publication_date=1987; citation_id=CR42; citation_author=JL Nazareth; citation_publisher=Oxford University Press",
+          "Rice, J.R.: The algorithm selection problem. In: Advances in computers, vol. 15, pp. 65–118. Elsevier (1976)",
+          "SAS: SAS/OR (2019). \n                  https://www.sas.com/en_us/software/or.html\n                  \n                ",
+          "Solving Constraint Integer Programs (2019). \n                  http://scip.zib.de/\n                  \n                ",
+          "Shinano, Y.: The Ubiquity Generator framework: 7 years of progress in parallelizing branch-and-bound. In: N. Kliewer, J.F. Ehmke, R. Borndörfer (eds.) Operations Research Proceedings 2017, pp. 143–149. Springer International Publishing, Cham (2018). \n                  https://doi.org/10.1007/978-3-319-89920-6_20\n                  \n                ",
+          "Shinano, Y., Achterberg, T., Berthold, T., Heinz, S., Koch, T., Winkler, M.: Solving Open MIP Instances with ParaSCIP on Supercomputers using up to 80,000 Cores. In: Proceedings of the 30th IEEE International Parallel & Distributed Processing Symposium (2016). \n                  https://doi.org/10.1109/IPDPS.2016.56\n                  \n                ",
+          "citation_journal_title=Comput. Oper. Res.; citation_title=Towards objective measures of algorithm performance across instance space; citation_author=K Smith-Miles, D Baatar, B Wreford, R Lewis; citation_volume=45; citation_publication_date=2014; citation_pages=12-24; citation_doi=10.1016/j.cor.2013.11.015; citation_id=CR48",
+          "citation_journal_title=Comput. Oper. Res.; citation_title=Generating new test instances by evolving in instance space; citation_author=K Smith-Miles, S Bowly; citation_volume=63; citation_publication_date=2015; citation_pages=102-113; citation_doi=10.1016/j.cor.2015.04.022; citation_id=CR49",
+          "citation_journal_title=J. Mach. Learn. Res.; citation_title=Visualizing high-dimensional data using t-SNE; citation_author=L Maaten, G Hinton; citation_volume=9; citation_publication_date=2008; citation_pages=2579-2605; citation_id=CR50",
+          "Xpress: FICO Xpress-Optimizer (2019). \n                  http://www.fico.com/en/Products/DMTools/xpress-overview/Pages/Xpress-Optimizer.aspx\n                  \n                "
+        ],
+        "citation_author": [
+          "Gleixner, Ambros",
+          "Hendel, Gregor",
+          "Gamrath, Gerald",
+          "Achterberg, Tobias",
+          "Bastubbe, Michael",
+          "Berthold, Timo",
+          "Christophel, Philipp",
+          "Jarck, Kati",
+          "Koch, Thorsten",
+          "Linderoth, Jeff",
+          "Lübbecke, Marco",
+          "Mittelmann, Hans D.",
+          "Ozyurt, Derya",
+          "Ralphs, Ted K.",
+          "Salvagnin, Domenico",
+          "Shinano, Yuji"
+        ],
+        "citation_author_email": [
+          "gleixner@zib.de",
+          "hendel@zib.de",
+          "gamrath@zib.de",
+          "achterberg@gurobi.com",
+          "bastubbe@or.rwth-aachen.de",
+          "timoberthold@fico.com",
+          "Philipp.Christophel@sas.com",
+          "kati.jarck@mosek.com",
+          "koch@zib.de",
+          "linderoth@wisc.edu",
+          "luebbecke@or.rwth-aachen.de",
+          "mittelmann@asu.edu",
+          "dozyurt@mathworks.com",
+          "ted@lehigh.edu",
+          "domenico.salvagnin@unipd.it",
+          "shinano@zib.de"
+        ],
+        "citation_author_institution": [
+          "Zuse Institute Berlin, Berlin, Germany",
+          "Zuse Institute Berlin, Berlin, Germany",
+          "Zuse Institute Berlin, Berlin, Germany",
+          "Gurobi GmbH, Frankfurt am Main, Germany",
+          "Lehrstuhl für Operations Research, RWTH Aachen University, Aachen, Germany",
+          "Fair Isaac Germany GmbH, Bensheim, Germany",
+          "Operations Research R&D, Advanced Analytics Division, SAS Institute Inc., Cary, USA",
+          "MOSEK ApS, Copenhagen, Denmark",
+          "Zuse Institute Berlin, Berlin, Germany",
+          "Department of Industrial and Systems Engineering & Wisconsin Institute for Discovery, University of Wisconsin-Madison, Madison, USA",
+          "Lehrstuhl für Operations Research, RWTH Aachen University, Aachen, Germany",
+          "School of Mathematical and Statistical Sciences, Arizona State University, Tempe, USA",
+          "The MathWorks, Inc., Natick, USA",
+          "Department of Industrial and Systems Engineering, Lehigh University, Bethlehem, USA",
+          "Department of Information Engineering, University of Padova, Padova, Italy",
+          "Zuse Institute Berlin, Berlin, Germany"
+        ],
+        "citation_cover_date": [
+          "2021/09/01"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "12-benchmarks-formats/2021-miplib-2017-data-driven-compilation-of-the-6th-mixed-integer-programming-library.pdf",
+      "requested_url": "https://www.dei.unipd.it/~salvagni/pdf/miplib6.pdf",
+      "resolved_url": "https://www.dei.unipd.it/~salvagni/pdf/miplib6.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:33+00:00",
+      "bytes": 689836,
+      "sha256": "e20dc98cc5a596885afc5fcea3a48fd6ef858bb3293219ac87acf7430846fae8",
+      "pages": 38,
+      "pdf_title": "MIPLIB 2017: Data-Driven Compilation of the 6th Mixed-Integer Programming Library",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "transport": {
+    "checked_at_utc": "2026-09-27T05:56:38+00:00",
+    "url": "https://www.gams.com/latest/gamslib_ml/libhtml/gamslib_trnsport.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://www.gams.com/latest/gamslib_ml/libhtml/gamslib_trnsport.html",
+      "content_type": "text/html",
+      "title": "trnsport.gms : A Transportation Problem"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Access-year label; mathematical example traces to Dantzig (1963). Teaching-scale, not industrial-scale evidence."
+    }
+  },
+  "mrpl-annual": {
+    "checked_at_utc": "2026-09-27T05:56:38+00:00",
+    "url": "https://nsearchives.nseindia.com/annual_reports/AR_27132_MRPL_2024_2025_A_28072025171020.pdf",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://nsearchives.nseindia.com/annual_reports/AR_27132_MRPL_2024_2025_A_28072025171020.pdf",
+      "content_type": "application/pdf"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "14-refinery-blending/2025-mangalore-refinery-and-petrochemicals-limited-annual-report-2024-25.pdf",
+      "requested_url": "https://nsearchives.nseindia.com/annual_reports/AR_27132_MRPL_2024_2025_A_28072025171020.pdf",
+      "resolved_url": "https://nsearchives.nseindia.com/annual_reports/AR_27132_MRPL_2024_2025_A_28072025171020.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:38+00:00",
+      "bytes": 7785562,
+      "sha256": "479525d054d3a53b9513e577b98a12d99169f2cb2bc78e44f371cff273f98aae",
+      "pages": 382,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "unitcommitment": {
+    "checked_at_utc": "2026-09-27T05:56:40+00:00",
+    "url": "https://github.com/ANL-CEEESA/UnitCommitment.jl",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://github.com/ANL-CEEESA/UnitCommitment.jl",
+      "content_type": "text/html; charset=utf-8",
+      "title": "GitHub - ANL-CEEESA/UnitCommitment.jl: Extensible Julia/JuMP optimization package for Security-Constrained Unit Commitment (SCUC) · GitHub"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Documentation/data lead only; no modeling package or solver implementation is imported. Access year 2026."
+    }
+  },
+  "primal-integral": {
+    "checked_at_utc": "2026-09-27T05:56:37+00:00",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0167637713001181",
+    "landing": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "13-evaluation-reproducibility/2013-measuring-the-impact-of-primal-heuristics.pdf",
+      "requested_url": "https://webdoc.sub.gwdg.de/ebook/serien/ah/ZIB/ZR-13-17.pdf",
+      "resolved_url": "https://webdoc.sub.gwdg.de/ebook/serien/ah/ZIB/ZR-13-17.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:37+00:00",
+      "bytes": 343924,
+      "sha256": "f6e7dbcd96d146f2372fd14dcee2949d9e6cf61441303864b754fd24a87fd3f6",
+      "pages": 10,
+      "pdf_title": "Measuring the impact of primal heuristics",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "matpower-manual": {
+    "checked_at_utc": "2026-09-27T05:56:39+00:00",
+    "url": "https://matpower.org/docs/MATPOWER-manual-8.0.pdf",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://matpower.org/docs/MATPOWER-manual-8.0.pdf",
+      "content_type": "application/pdf"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "15-production-logistics-power/2024-matpower-user-s-manual-version-8-0.pdf",
+      "requested_url": "https://matpower.org/docs/MATPOWER-manual-8.0.pdf",
+      "resolved_url": "https://matpower.org/docs/MATPOWER-manual-8.0.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:56:39+00:00",
+      "bytes": 1547331,
+      "sha256": "7980ced1654731dda900140cc85152b244febf90f94a160028e865a9b941a1c3",
+      "pages": 259,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "lp-duality": {
+    "checked_at_utc": "2026-09-27T05:58:45+00:00",
+    "url": "https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/resources/mit6_251jf09_rec05/",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/resources/mit6_251jf09_rec05/",
+      "content_type": "text/html",
+      "title": "MIT6_251JF09_rec05.pdf | Introduction to Mathematical Programming | Electrical Engineering and Computer Science | MIT OpenCourseWare"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "01-foundations-duality/2009-duality-theory.pdf",
+      "requested_url": "https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/e8ff186546e198be5e1f7d779aa53f87_MIT6_251JF09_rec05.pdf",
+      "resolved_url": "https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/e8ff186546e198be5e1f7d779aa53f87_MIT6_251JF09_rec05.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:58:45+00:00",
+      "bytes": 85207,
+      "sha256": "d0036df8444e606f2edaeafcab4453841712ee02292c952e867eb216049afab3",
+      "pages": 3,
+      "pdf_title": "Duality theory",
+      "extractable_text": true,
+      "identity_review": "Course source page and rendered first page checked; original PDF text extraction has font-encoding issues.",
+      "text_encoding_warning": true
+    }
+  },
+  "lp-geometry": {
+    "checked_at_utc": "2026-09-27T05:58:45+00:00",
+    "url": "https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/resources/mit6_251jf09_rec03/",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/resources/mit6_251jf09_rec03/",
+      "content_type": "text/html",
+      "title": "MIT6_251JF09_rec03.pdf | Introduction to Mathematical Programming | Electrical Engineering and Computer Science | MIT OpenCourseWare"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "01-foundations-duality/2009-geometry-of-linear-programming.pdf",
+      "requested_url": "https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/b3f98d1e302f9ae6b0db4f6a1e16ac50_MIT6_251JF09_rec03.pdf",
+      "resolved_url": "https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/b3f98d1e302f9ae6b0db4f6a1e16ac50_MIT6_251JF09_rec03.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:58:45+00:00",
+      "bytes": 78559,
+      "sha256": "64c0a21d52a7045ca047e5a2e98fb9bea8f81f7066cd2a1e6f8baf147b21914f",
+      "pages": 3,
+      "pdf_title": "Geometry of linear programming",
+      "extractable_text": true,
+      "identity_review": "Course source page and rendered first page checked; original PDF text extraction has font-encoding issues.",
+      "text_encoding_warning": true
+    }
+  },
+  "conflict-analysis": {
+    "checked_at_utc": "2026-09-27T05:58:45+00:00",
+    "url": "https://arxiv.org/abs/2410.15110",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://arxiv.org/abs/2410.15110",
+      "content_type": "text/html; charset=utf-8",
+      "title": "[2410.15110] Cut-based Conflict Analysis in Mixed Integer Programming",
+      "citation_metadata": {
+        "citation_title": [
+          "Cut-based Conflict Analysis in Mixed Integer Programming"
+        ],
+        "citation_author": [
+          "Mexi, Gioni",
+          "Serrano, Felipe",
+          "Berthold, Timo",
+          "Gleixner, Ambros",
+          "Nordström, Jakob"
+        ],
+        "citation_date": [
+          "2024/10/19"
+        ],
+        "citation_online_date": [
+          "2025/10/19"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2410.15110"
+        ],
+        "citation_arxiv_id": [
+          "2410.15110"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "06-branch-bound-search/2025-cut-based-conflict-analysis-in-mixed-integer-programming.pdf",
+      "requested_url": "https://arxiv.org/pdf/2410.15110",
+      "resolved_url": "https://arxiv.org/pdf/2410.15110",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:58:45+00:00",
+      "bytes": 1376180,
+      "sha256": "e2e0b99c8b9b72a73aaa87c6e3af9424cbcab998beba82274c0f5ea9899882b0",
+      "pages": 25,
+      "pdf_title": "Cut-based Conflict Analysis in Mixed Integer Programming",
+      "extractable_text": true,
+      "observed_arxiv_stamp": "2410.15110v2",
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "performance-variability": {
+    "checked_at_utc": "2026-09-27T05:58:47+00:00",
+    "url": "https://pubsonline.informs.org/doi/10.1287/educ.2013.0112",
+    "landing": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Tutorial volume 2013; publisher page lists online posting in 2014. Reference only."
+    }
+  },
+  "qplib-paper": {
+    "checked_at_utc": "2026-09-27T05:58:46+00:00",
+    "url": "https://optimization-online.org/2017/02/5846/",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://optimization-online.org/2017/02/5846/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "QPLIB: A Library of Quadratic Programming Instances – Optimization Online"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "12-benchmarks-formats/2018-qplib-a-library-of-quadratic-programming-instances.pdf",
+      "requested_url": "https://optimization-online.org/wp-content/uploads/2017/02/5846.pdf",
+      "resolved_url": "https://optimization-online.org/wp-content/uploads/2017/02/5846.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:58:46+00:00",
+      "bytes": 575514,
+      "sha256": "4e0d0d599f245ad78b46f4b34137e8bb3981a3f414521a80f9e035c4160b602f",
+      "pages": 43,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "admm-foundations": {
+    "checked_at_utc": "2026-09-27T05:58:46+00:00",
+    "url": "https://web.stanford.edu/~boyd/papers/admm_distr_stats.html",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://web.stanford.edu/~boyd/papers/admm_distr_stats.html",
+      "content_type": "text/html",
+      "title": "Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "09-convex-quadratic-programming/2011-distributed-optimization-and-statistical-learning-via-the-alternating-direction-method-of-multipliers.pdf",
+      "requested_url": "https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf",
+      "resolved_url": "https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:58:46+00:00",
+      "bytes": 794236,
+      "sha256": "ddc762e7b8b9608571c90a1bcf2a95b6040d1d9b90fa0f48a61a14c4a48611ff",
+      "pages": 125,
+      "pdf_title": "mal-016.dvi",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "crude-scheduling": {
+    "checked_at_utc": "2026-09-27T05:58:47+00:00",
+    "url": "https://egon.cheme.cmu.edu/Papers/Kelly_CBSO_paper.pdf",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://egon.cheme.cmu.edu/Papers/Kelly_CBSO_paper.pdf",
+      "content_type": "application/pdf"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "14-refinery-blending/2017-crude-oil-blend-scheduling-optimization-of-an-industrial-sized-refinery-a-discrete-time-benchmark.pdf",
+      "requested_url": "https://egon.cheme.cmu.edu/Papers/Kelly_CBSO_paper.pdf",
+      "resolved_url": "https://egon.cheme.cmu.edu/Papers/Kelly_CBSO_paper.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:58:47+00:00",
+      "bytes": 1025723,
+      "sha256": "779442a817777e5f60f8086d3668270ad4440853376f4336ee0a7f33880611f5",
+      "pages": 6,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "lot-sizing-review": {
+    "checked_at_utc": "2026-09-27T05:58:51+00:00",
+    "url": "https://link.springer.com/article/10.1007/s00291-008-0150-7",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://link.springer.com/article/10.1007/s00291-008-0150-7?error=cookies_not_supported&code=4d1d39d8-974e-4e8b-ac73-d281b37624b5",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Dynamic capacitated lot-sizing problems: a classification and review of solution approaches | OR Spectrum | Springer Nature Link",
+      "citation_metadata": {
+        "citation_pdf_url": [
+          "https://link.springer.com/content/pdf/10.1007/s00291-008-0150-7.pdf"
+        ],
+        "citation_fulltext_html_url": [
+          "https://link.springer.com/article/10.1007/s00291-008-0150-7"
+        ],
+        "citation_journal_title": [
+          "OR Spectrum"
+        ],
+        "citation_journal_abbrev": [
+          "OR Spectrum"
+        ],
+        "citation_publisher": [
+          "Springer-Verlag"
+        ],
+        "citation_issn": [
+          "1436-6304"
+        ],
+        "citation_title": [
+          "Dynamic capacitated lot-sizing problems: a classification and review of solution approaches"
+        ],
+        "citation_volume": [
+          "32"
+        ],
+        "citation_issue": [
+          "2"
+        ],
+        "citation_publication_date": [
+          "2010/04"
+        ],
+        "citation_online_date": [
+          "2008/10/22"
+        ],
+        "citation_firstpage": [
+          "231"
+        ],
+        "citation_lastpage": [
+          "261"
+        ],
+        "citation_article_type": [
+          "Regular Article"
+        ],
+        "citation_language": [
+          "en"
+        ],
+        "citation_doi": [
+          "10.1007/s00291-008-0150-7"
+        ],
+        "citation_springer_api_url": [
+          "http://api.springer.com/xmldata/jats?q=doi:10.1007/s00291-008-0150-7&api_key="
+        ],
+        "citation_reference": [
+          "Akartunalı K, Miller AJ (2008) A heuristic approach for big bucket multi-level production planning problems. Eur J Oper Res. doi:\n                    10.1016/j.ejor.2007.11.033\n                    \n                  \n                        ",
+          "citation_journal_title=Int J Prod Res; citation_title=LP-based heuristics for the capacitated lot-sizing problem: the interaction of model formulation and solution algorithm; citation_author=A Alfieri, P Brandimarte, S D’Orazio; citation_volume=40; citation_publication_date=2002; citation_pages=441-458; citation_id=CR2",
+          "citation_journal_title=Omega; citation_title=A network flow model for the capacitated lot-sizing problem; citation_author=VA Armentano, PM França, FMB Toledo; citation_volume=27; citation_publication_date=1999; citation_pages=275-284; citation_id=CR3",
+          "citation_journal_title=IIE Trans; citation_title=Column generation based heuristic algorithm for multi-item scheduling; citation_author=HC Bahl; citation_volume=15; citation_publication_date=1983; citation_pages=136-141; citation_id=CR4",
+          "citation_journal_title=Oper Res; citation_title=Determining lot sizes and resource requirements: a review; citation_author=HC Bahl, LP Ritzman, JND Gupta; citation_volume=35; citation_publication_date=1987; citation_pages=329-345; citation_id=CR5",
+          "citation_journal_title=Manage Sci; citation_title=Strong formulations for multi-item capacitated lot sizing; citation_author=I Barany, TJ Roy, LA Wolsey; citation_volume=30; citation_publication_date=1984; citation_pages=1255-1261; citation_id=CR6",
+          "citation_journal_title=Comput Oper Res; citation_title=Analysis of solution space-dependent performance of simulated annealing: the case of the multi-level capacitated lot sizing problem; citation_author=G Barbarosoglu, L Özdamar; citation_volume=27; citation_publication_date=2000; citation_pages=895-903; citation_id=CR7",
+          "citation_journal_title=Manage Sci; citation_title=bc-prod: a specialized branch-and-cut system for lot-sizing problems; citation_author=G Belvaux, LA Wolsey; citation_volume=46; citation_publication_date=2000; citation_pages=724-738; citation_id=CR8",
+          "citation_journal_title=Manage Sci; citation_title=Modelling practical lot-sizing problems as mixed-integer programs; citation_author=G Belvaux, LA Wolsey; citation_volume=47; citation_publication_date=2001; citation_pages=993-1007; citation_id=CR9",
+          "citation_journal_title=Int J Prod Econ; citation_title=A memetic algorithm for a multistage capacitated lot-sizing problem; citation_author=R Berretta, LF Rodrigues; citation_volume=87; citation_publication_date=2004; citation_pages=67-81; citation_id=CR10",
+          "citation_journal_title=Asia Pac J Oper Res; citation_title=Metaheuristic approaches for the multilevel resource-constrained lot-sizing problem with setup and lead times; citation_author=R Berretta, PM França, VA Armentano; citation_volume=22; citation_publication_date=2005; citation_pages=261-286; citation_id=CR11",
+          "citation_journal_title=Manage Sci; citation_title=Mathematical programming approaches to capacity-constrained MRP systems: review, formulation and problem reduction; citation_author=PJ Billington, JO McClain, LJ Thomas; citation_volume=29; citation_publication_date=1983; citation_pages=1126-1141; citation_id=CR12",
+          "citation_journal_title=Manage Sci; citation_title=Heuristics for multilevel lot-sizing with a bottleneck; citation_author=PJ Billington, JO McClain, LJ Thomas; citation_volume=32; citation_publication_date=1986; citation_pages=989-1006; citation_id=CR13",
+          "citation_journal_title=Manage Sci; citation_title=The multi-item capacitated lot size problem: error bounds of Manne’s formulations; citation_author=GR Bitran, H Matsuo; citation_volume=32; citation_publication_date=1986; citation_pages=350-359; citation_id=CR14",
+          "citation_journal_title=Manage Sci; citation_title=Computational complexity of the capacitated lot size problem; citation_author=GR Bitran, HH Yanasse; citation_volume=28; citation_publication_date=1982; citation_pages=1174-1186; citation_id=CR15",
+          "citation_journal_title=Eur J Oper Res; citation_title=Simultaneous lot-sizing and capacity planning in multi-stage assembly processes; citation_author=JD Blackburn, RA Millen; citation_volume=16; citation_publication_date=1984; citation_pages=84-93; citation_id=CR16",
+          "citation_journal_title=Int J Prod Res; citation_title=Heuristics for N-product, M-stage, economic lot sizing and scheduling problem with dynamic demand; citation_author=FF Boctor, P Poulin; citation_volume=43; citation_publication_date=2005; citation_pages=2809-2828; citation_id=CR17",
+          "Bourjolly J-M, Ding K, Gopalakrishnan M, Gramani MCN, Mohan S (2001) On a tactical/operational production planning problem in supply chain management: balancing inventory and setup costs. In: MIC’2001—4th metaheuristics international conference, pp 569–571",
+          "citation_journal_title=Oper Res; citation_title=Capacitated multi-item lot-sizing problems with time windows; citation_author=N Brahimi, S Dauzère-Pérès, NM Najid; citation_volume=54; citation_publication_date=2006; citation_pages=951-967; citation_id=CR19",
+          "citation_journal_title=Eur J Oper Res; citation_title=Single item lot sizing problems; citation_author=N Brahimi, S Dauzère-Pérès, NM Najid, A Nordli; citation_volume=168; citation_publication_date=2006; citation_pages=1-16; citation_id=CR20",
+          "citation_journal_title=Manage Sci; citation_title=Cyclical schedules for capacitated lot sizing with dynamic demands; citation_author=GM Campbell, VA Mabert; citation_volume=37; citation_publication_date=1991; citation_pages=409-427; citation_id=CR21",
+          "citation_journal_title=Eur J Oper Res; citation_title=Set partitioning and column generation heuristics for capacitated dynamic lotsizing; citation_author=D Cattrysse, J Maes, LN Wassenhove; citation_volume=46; citation_publication_date=1990; citation_pages=38-47; citation_id=CR22",
+          "citation_journal_title=J Syst Sci Syst Eng; citation_title=A lagrangian relaxation approach for supply chain planning with order/setup costs and capacity constraints; citation_author=H Chen, C Chu; citation_volume=12; citation_publication_date=2003; citation_pages=98-110; citation_id=CR23",
+          "citation_journal_title=Ann Oper Res; citation_title=Analysis of relaxations for the multi-item capacitated lot-sizing problem; citation_author=W-H Chen, J-M Thizy; citation_volume=26; citation_publication_date=1990; citation_pages=29-72; citation_id=CR24",
+          "citation_journal_title=J Oper Res Soc; citation_title=A heuristic for a resource-capacitated multi-stage lot-sizing problem with lead times; citation_author=AR Clark, VA Armentano; citation_volume=46; citation_publication_date=1995; citation_pages=1208-1222; citation_id=CR25",
+          "citation_journal_title=Oper Res; citation_title=Decomposition principle for linear programs; citation_author=GB Dantzig, P Wolfe; citation_volume=8; citation_publication_date=1960; citation_pages=101-111; citation_id=CR26",
+          "Degraeve Z, Jans R (2003) A new Dantzig–Wolfe reformulation and branch-and-price algorithm for the capacitated lot sizing problem with set up times. (April 2003, 03). In: ERIM report series reference no. ERS-2003-010-LIS. Available at SSRN: \n                    http://ssrn.com/abstract=411647\n                    \n                  \n                        ",
+          "citation_journal_title=IBM Syst J; citation_title=An economic lot-sizing technique i—the part-period algorithm; citation_author=JJ DeMatteis; citation_volume=7; citation_publication_date=1968; citation_pages=30-38; citation_doi=10.1147/sj.71.0030; citation_id=CR28",
+          "citation_journal_title=OR Spectr; citation_title=Equivalence of the LP relaxations of two strong formulations for the capacitated lot-sizing problem with setup times; citation_author=M Denizel, FT Altekin, H Süral, H Stadtler; citation_volume=30; citation_publication_date=2008; citation_pages=773-785; citation_id=CR29",
+          "citation_journal_title=Eur J Oper Res; citation_title=Capacitated lot-sizing and scheduling by Lagrangean relaxation; citation_author=M Diaby, HC Bahl, MH Karwan, S Zionts; citation_volume=59; citation_publication_date=1992; citation_pages=444-458; citation_id=CR30",
+          "citation_journal_title=Manage Sci; citation_title=A lagrangean relaxation approach for very-large-scale capacitated lot-sizing; citation_author=M Diaby, HC Bahl, MH Karwan, S Zionts; citation_volume=38; citation_publication_date=1992; citation_pages=1329-1340; citation_id=CR31",
+          "citation_title=On solving a large-scale resource allocation problem in production planning; citation_inbook_title=Operations research in production planning and control; citation_publication_date=1993; citation_pages=105-119; citation_id=CR32; citation_author=C Dillenberger; citation_author=LF Escudero; citation_author=A Wollensak; citation_author=W Zhang; citation_publisher=Springer",
+          "citation_journal_title=Eur J Oper Res; citation_title=On practical resource allocation for production planning and scheduling with period overlapping setups; citation_author=C Dillenberger, LF Escudero, A Wollensak, W Zhang; citation_volume=75; citation_publication_date=1994; citation_pages=275-286; citation_id=CR33",
+          "citation_journal_title=J Oper Manage; citation_title=A heuristic solution procedure for the multi-item, single-level, limited capacity, lot-sizing problem; citation_author=PS Dixon, EA Silver; citation_volume=2; citation_publication_date=1981; citation_pages=23-39; citation_id=CR34",
+          "citation_journal_title=AIIE Trans; citation_title=The dynamic lot-sizing problem for multiple items under limited capacity; citation_author=A Dogramaci, JC Panayiotopoulos, NR Adam; citation_volume=13; citation_publication_date=1981; citation_pages=294-303; citation_id=CR35",
+          "citation_journal_title=Int J Prod Econ; citation_title=Proportional lotsizing and scheduling; citation_author=A Drexl, K Haase; citation_volume=40; citation_publication_date=1995; citation_pages=73-87; citation_id=CR36",
+          "citation_journal_title=Eur J Oper Res; citation_title=Lot sizing and scheduling: survey and extensions; citation_author=A Drexl, A Kimms; citation_volume=99; citation_publication_date=1997; citation_pages=221-235; citation_id=CR37",
+          "citation_journal_title=Manage Sci; citation_title=Optimal programming of lot sizes, inventory and labor allocations; citation_author=BP Dzielinski, RE Gomory; citation_volume=11; citation_publication_date=1965; citation_pages=874-890; citation_id=CR38",
+          "citation_journal_title=AIIE Trans; citation_title=A dynamic lot sizing algorithm with capacity constraints; citation_author=PS Eisenhut; citation_volume=7; citation_publication_date=1975; citation_pages=170-176; citation_id=CR39",
+          "citation_journal_title=Oper Res; citation_title=Solving multi-item capacitated lot-sizing problems using variable redefinition; citation_author=GD Eppen, RK Martin; citation_volume=35; citation_publication_date=1987; citation_pages=832-848; citation_id=CR40",
+          "citation_journal_title=J Oper Manage; citation_title=An efficient implementation of the Wagner-Whitin algorithm for dynamic lot-sizing; citation_author=JR Evans; citation_volume=5; citation_publication_date=1985; citation_pages=229-235; citation_id=CR41",
+          "citation_journal_title=Manage Sci; citation_title=A simple forward algorithm to solve general dynamic lot sizing models with n periods in o(n log n) or o(n) time; citation_author=A Federgruen, M Tzur; citation_volume=37; citation_publication_date=1991; citation_pages=909-925; citation_id=CR42",
+          "citation_journal_title=Oper Res; citation_title=Progressive interval heuristics for multi-item capacitated lot-sizing problems; citation_author=A Federgruen, J Meissner, M Tzur; citation_volume=55; citation_publication_date=2007; citation_pages=490-502; citation_id=CR43",
+          "citation_journal_title=Eur J Oper Res; citation_title=The discrete lot-sizing and scheduling problem; citation_author=B Fleischmann; citation_volume=44; citation_publication_date=1990; citation_pages=337-348; citation_id=CR44",
+          "citation_journal_title=OR Spektrum; citation_title=The general lotsizing and scheduling problem; citation_author=B Fleischmann, H Meyr; citation_volume=19; citation_publication_date=1997; citation_pages=11-21; citation_id=CR45",
+          "citation_journal_title=Manage Sci; citation_title=Deterministic production planning: algorithms and complexity; citation_author=M Florian, J Lenstra, AR Kan; citation_volume=26; citation_publication_date=1980; citation_pages=669-679; citation_id=CR46",
+          "citation_journal_title=Comput Oper Res; citation_title=A heuristic method for lot-sizing in multi-stage systems; citation_author=PM França, VA Armentano, RE Berretta, AR Clark; citation_volume=24; citation_publication_date=1997; citation_pages=861-874; citation_id=CR47",
+          "citation_title=Computers and intractability: a guide to the theory of NP-completeness; citation_publication_date=1979; citation_id=CR48; citation_author=M Garey; citation_author=D Johnson; citation_publisher=Freeman",
+          "citation_title=A branch and bound algorithm for the multi item single level capacitated dynamic lotsizing problem; citation_inbook_title=Multi-stage production planning and inventory control; citation_publication_date=1986; citation_pages=92-108; citation_id=CR49; citation_author=LF Gelders; citation_author=J Maes; citation_author=LN Wassenhove; citation_publisher=Springer",
+          "citation_journal_title=Comput Oper Res; citation_title=Future paths for integer programming and links to artificial intelligence; citation_author=F Glover; citation_volume=13; citation_publication_date=1986; citation_pages=533-549; citation_id=CR50",
+          "citation_journal_title=Manage Sci; citation_title=A tabu-search heuristic for the capacitated lot-sizing problem with set-up carryover; citation_author=M Gopalakrishnan, K Ding, J-M Bourjolly, S Mohan; citation_volume=47; citation_publication_date=2001; citation_pages=851-863; citation_id=CR51",
+          "citation_journal_title=Prod Inventory Manage; citation_title=A lot sizing rule for time-phased component demand; citation_author=G Groff; citation_volume=20; citation_publication_date=1979; citation_pages=47-53; citation_id=CR52",
+          "citation_journal_title=Eur J Oper Res; citation_title=Planning lot sizes and capacity requirements in a single stage production sytem; citation_author=H-O Günther; citation_volume=31; citation_publication_date=1987; citation_pages=223-231; citation_id=CR53",
+          "citation_journal_title=Int J Oper Prod Manage; citation_title=A review of multi-stage lot-sizing models; citation_author=YP Gupta, Y Keung; citation_volume=10; citation_publication_date=1990; citation_pages=57-73; citation_id=CR54",
+          "citation_journal_title=Comput Oper Res; citation_title=The capacitated lot-sizing and scheduling problem with sequence-dependent setup costs and setup times; citation_author=D Gupta, T Magnusson; citation_volume=32; citation_publication_date=2005; citation_pages=727-747; citation_id=CR55",
+          "Gutierrez E, Hernández W, Süer GA (2001) Genetic algorithms in capacitated lot sizing decisions. In: Computer research conference",
+          "Haase K (1994) Lotsizing and scheduling for production planning. Lecture notes in economics and mathematical systems, vol 408. Springer, Berlin",
+          "citation_title=Capacitated lot-sizing with linked production quantities of adjacent periods; citation_inbook_title=Beyond manufacturing resource planning (MRP II)—advanced models and methods for production planning; citation_publication_date=1998; citation_pages=127-146; citation_id=CR58; citation_author=K Haase; citation_publisher=Springer",
+          "Haase K (2005) Solving large-scale capacitated lot-sizing problems close to optimality. Working paper, Technische Universität Dresden",
+          "citation_title=Parallel genetic algorithm for the capacitated lot-sizing problem; citation_inbook_title=Operations research proceedings; citation_publication_date=1995; citation_pages=370-375; citation_id=CR60; citation_author=K Haase; citation_author=U Kohlmorgen; citation_publisher=Springer",
+          "citation_title=An introduction to variable neighborhood search; citation_inbook_title=Metaheuristics: advances and trends in local search paradigms for optimization; citation_publication_date=1999; citation_pages=433-458; citation_id=CR61; citation_author=P Hansen; citation_author=N Mlaydenović; citation_publisher=Kluwer",
+          "citation_journal_title=Eur J Oper Res; citation_title=Variable neighborhood search: principles and applications; citation_author=P Hansen, N Mlaydenović; citation_volume=130; citation_publication_date=2001; citation_pages=449-467; citation_id=CR62",
+          "citation_journal_title=Manage Sci; citation_title=Lot sizing in serial assembly systems with multiple constrained resources; citation_author=TP Harrison, HS Lewis; citation_volume=42; citation_publication_date=1996; citation_pages=19-36; citation_id=CR63",
+          "Helber S (1994) Kapazitätsorientierte Losgröß enplanung in PPS-Sytemen. M&P",
+          "citation_journal_title=OR Spektrum; citation_title=Lot sizing in capacitated production planning and control systems; citation_author=S Helber; citation_volume=17; citation_publication_date=1995; citation_pages=5-18; citation_id=CR65",
+          "citation_journal_title=Comput Ind Eng; citation_title=Computationally efficient solution of the multi-item, capacitated lot-sizing problem; citation_author=KS Hindi; citation_volume=28; citation_publication_date=1995; citation_pages=709-719; citation_id=CR66",
+          "citation_journal_title=J Oper Res Soc; citation_title=Solving the CLSP by a tabu search heuristic; citation_author=KS Hindi; citation_volume=47; citation_publication_date=1996; citation_pages=151-161; citation_id=CR67",
+          "citation_journal_title=J Oper Res Soc; citation_title=An effective heuristic for the CLSP with set-up times; citation_author=KS Hindi, K Fleszar, C Charalambous; citation_volume=54; citation_publication_date=2003; citation_pages=490-498; citation_id=CR68",
+          "Huisman D, Jans R, Peeters M, Wagelmans APM (2003) Combining column generation and Lagrangian relaxation (1 January 2003). In: ERIM report series reference no. ERS-2003-092-LIS. Available at SSRN: \n                    http://ssrn.com/abstract=496704\n                    \n                  \n                        ",
+          "citation_journal_title=J Oper Res Soc; citation_title=A multi-class multi-level capacitated lot sizing model; citation_author=Y-F Hung, KL Chien; citation_volume=51; citation_publication_date=2000; citation_pages=1309-1318; citation_id=CR70",
+          "citation_journal_title=Comput Oper Res; citation_title=Solving mixed integer programming production planning problems with setups by shadow price information; citation_author=Y-F Hung, Y-C Hu; citation_volume=25; citation_publication_date=1998; citation_pages=1027-1042; citation_id=CR71",
+          "citation_journal_title=J Oper Res Soc; citation_title=Evolutionary algorithms for production planning problems with setup decisions; citation_author=Y-F Hung, C-C Shih, C-P Chen; citation_volume=50; citation_publication_date=1999; citation_pages=857-866; citation_id=CR72",
+          "citation_journal_title=Comput Ind Eng; citation_title=Using tabu search with ranking candidate list to solve production planning problems with setups; citation_author=Y-F Hung, C-P Chen, C-C Shih, M-H Hung; citation_volume=45; citation_publication_date=2003; citation_pages=615-634; citation_id=CR73",
+          "citation_journal_title=Comput Oper Res; citation_title=Multi-level lot sizing in material requirements planning: an empirical investigation; citation_author=F Jacobs, B Khumawala; citation_volume=9; citation_publication_date=1982; citation_pages=139-144; citation_id=CR74",
+          "citation_journal_title=Eur J Oper Res; citation_title=Meta-heuristics for dynamic lot sizing: a review and comparison of solution approaches; citation_author=R Jans, Z Degraeve; citation_volume=177; citation_publication_date=2007; citation_pages=1855-1875; citation_id=CR75",
+          "citation_journal_title=Omega; citation_title=The capacitated lot sizing problem: a review of models and algorithms; citation_author=B Karimi, SMTF Ghomi, JM Wilson; citation_volume=31; citation_publication_date=2003; citation_pages=365-378; citation_id=CR76",
+          "citation_journal_title=Oper Res; citation_title=The deterministic dynamic product cycling problem; citation_author=US Karmarkar, L Schrage; citation_volume=66; citation_publication_date=1985; citation_pages=326-345; citation_id=CR77",
+          "citation_journal_title=IIE Trans; citation_title=A heuristic algorithm for the multi-item lot sizing problem with capacity constraints; citation_author=R Karni, Y Roll; citation_volume=14; citation_publication_date=1982; citation_pages=249-256; citation_id=CR78",
+          "citation_journal_title=Manage Sci; citation_title=Lot sizing in general assembly systems with setup costs, setup times, and multiple constrained resources; citation_author=E Katok, HS Lewis, TP Harrison; citation_volume=44; citation_publication_date=1998; citation_pages=859-877; citation_id=CR79",
+          "citation_journal_title=Eur J Oper Res; citation_title=An efficient algorithm for the capacitated single dynamic lot size problem; citation_author=Ö Kirca; citation_volume=45; citation_publication_date=1990; citation_pages=15-24; citation_id=CR80",
+          "citation_journal_title=Eur J Oper Res; citation_title=A new heuristic approach for the multi-item dynamic lot sizing problem; citation_author=Ö Kirca, M Kökten; citation_volume=75; citation_publication_date=1994; citation_pages=332-341; citation_id=CR81",
+          "citation_journal_title=Science; citation_title=Optimization by simulated annealing; citation_author=S Kirkpatrick, CD Gelatt, MP Vecchi; citation_volume=220; citation_publication_date=1983; citation_pages=671-680; citation_id=CR82",
+          "citation_journal_title=Ann Oper Res; citation_title=Experiences with fine-grained parallel genetic algorithms; citation_author=U Kohlmorgen, H Schmeck, K Haase; citation_volume=90; citation_publication_date=1999; citation_pages=203-219; citation_id=CR83",
+          "citation_title=Plant location, set covering and economic lot size: An ()-algorithm for structured problems; citation_inbook_title=Numerische Methoden bei Optimierungsaufgaben Band 3; citation_publication_date=1977; citation_pages=155-180; citation_id=CR84; citation_author=J Krarup; citation_author=O Bilde; citation_publisher=Birkhäuser",
+          "citation_journal_title=Eur J Oper Res; citation_title=Multi-level lot-sizing problem: evaluation of a simulated-annealing heuristic; citation_author=R Kuik, M Salomon; citation_volume=45; citation_publication_date=1990; citation_pages=25-37; citation_id=CR85",
+          "citation_journal_title=IIE Trans; citation_title=Linear programming, simulated annealing and tabu search heuristics for lotsizing in bottleneck assembly systems; citation_author=R Kuik, M Salomon, LN Wassenhove, J Maes; citation_volume=25; citation_publication_date=1993; citation_pages=62-72; citation_id=CR86",
+          "citation_journal_title=Eur J Oper Res; citation_title=Batching decisions: structure and models; citation_author=R Kuik, M Salomon, LN Wassenhove; citation_volume=75; citation_publication_date=1994; citation_pages=243-263; citation_id=CR87",
+          "citation_journal_title=AIIE Trans; citation_title=Heuristic procedures for the single operation, multi-item loading problem; citation_author=MR Lambrecht, H Vanderveken; citation_volume=11; citation_publication_date=1979; citation_pages=319-326; citation_id=CR88",
+          "citation_journal_title=Oper Res; citation_title=An efficient algorithm for multi-item scheduling; citation_author=LS Lasdon, RC Terjung; citation_volume=19; citation_publication_date=1971; citation_pages=946-969; citation_id=CR89",
+          "citation_journal_title=IIE Trans; citation_title=Multi item single level capacitated dynamic lotsizing heuristics: a computational comparison (part I: static case); citation_author=J Maes, LN Wassenhove; citation_volume=18; citation_publication_date=1986; citation_pages=114-123; citation_id=CR90",
+          "citation_journal_title=IIE Trans; citation_title=Multi item single level capacitated dynamic lotsizing heuristics: a computational comparison (part II: rolling horizon); citation_author=J Maes, LN Wassenhove; citation_volume=18; citation_publication_date=1986; citation_pages=124-129; citation_id=CR91",
+          "citation_journal_title=Oper Res Lett; citation_title=A simple heuristic for the multi item single level capacitated lotsizing problem; citation_author=J Maes, LN Wassenhove; citation_volume=4; citation_publication_date=1986; citation_pages=265-273; citation_id=CR92",
+          "citation_journal_title=J Oper Res Soc; citation_title=Multi-item single-level capacitated dynamic lot-sizing heuristics: a general review; citation_author=J Maes, L Wassenhove; citation_volume=39; citation_publication_date=1988; citation_pages=991-1004; citation_id=CR93",
+          "citation_journal_title=Eur J Oper Res; citation_title=Multilevel capacitated lotsizing complexity and LP-based heuristics; citation_author=J Maes, JO McClain, LN Wassenhove; citation_volume=53; citation_publication_date=1991; citation_pages=131-148; citation_id=CR94",
+          "citation_journal_title=Manage Sci; citation_title=Programming of economic lot sizes; citation_author=AS Manne; citation_volume=4; citation_publication_date=1958; citation_pages=115-135; citation_id=CR95",
+          "citation_journal_title=Int J Prod Econ; citation_title=MIP-based heuristics for capacitated lotsizing problems; citation_author=C Mercé, G Fontan; citation_volume=85; citation_publication_date=2003; citation_pages=97-111; citation_id=CR96",
+          "citation_journal_title=Int J Prod Econ; citation_title=Lagrangian heuristics for the capacitated multi-item lot-sizing problem with backordering; citation_author=HH Millar, M Yang; citation_volume=34; citation_publication_date=1994; citation_pages=1-15; citation_id=CR97",
+          "Miller AJ, Nemhauser GL, Savelsbergh MWP (2000) Solving multi-item capacitated lot-sizing problems with setup times by branch-and-cut. Université Catholique de Louvain, Belgium. Core discussion paper 00/39",
+          "Moorkanat J (2000) Studies in certain resource loading, scheduling and production control problems in multi-stage production control problems in multi-stage production inventory systems. Ph.D. thesis, Indian Institute of Technology, Bombay",
+          "citation_journal_title=Manage Sci; citation_title=Multi-item lot size scheduling by heuristic, part I: with fixed resources; citation_author=EFP Newson; citation_volume=21; citation_publication_date=1975; citation_pages=1186-1193; citation_id=CR100",
+          "citation_journal_title=Manage Sci; citation_title=Multi-item lot size scheduling by heuristic, part II: with variable resources; citation_author=EFP Newson; citation_volume=21; citation_publication_date=1975; citation_pages=1194-1203; citation_id=CR101",
+          "citation_journal_title=J Oper Res Soc; citation_title=Hybrid heuristics for the multi-stage capacitated lot sizing and loading problem; citation_author=L Özdamar, G Barbarosoglu; citation_volume=50; citation_publication_date=1999; citation_pages=810-825; citation_id=CR102",
+          "citation_journal_title=Int J Prod Econ; citation_title=An integrated Lagrangean relaxation-simulated annealing approach to the multi-level multi-item capacitated lot sizing problem; citation_author=L Özdamar, G Barbarosoglu; citation_volume=68; citation_publication_date=2000; citation_pages=319-331; citation_id=CR103",
+          "citation_journal_title=IIE Trans; citation_title=The capacitated lot sizing problem with overtime decisions and setup times; citation_author=L Özdamar, MA Bozyel; citation_volume=32; citation_publication_date=2000; citation_pages=1043-1057; citation_id=CR104",
+          "citation_journal_title=Prod Plann Control; citation_title=Technical note: new results for the capacitated lot sizing problem with overtime decisions and setup times; citation_author=L Özdamar, ŞI Birbil, M-C Portmann; citation_volume=13; citation_publication_date=2002; citation_pages=2-10; citation_id=CR105",
+          "citation_journal_title=Int J Prod Res; citation_title=Combining exact and population-based methods for the constrained multilevel lot sizing problem; citation_author=R Pitakaso, C Almeder, KF Doerner, RF Hartl; citation_volume=44; citation_publication_date=2006; citation_pages=4755-4771; citation_id=CR106",
+          "citation_journal_title=Manage Sci; citation_title=Solving multi-item lot-sizing problems using strong cutting planes; citation_author=Y Pochet, LA Wolsey; citation_volume=37; citation_publication_date=1991; citation_pages=53-67; citation_id=CR107",
+          "citation_journal_title=4OR Q J Oper Res; citation_title=Capacitated lot-sizing with extensions: a review; citation_author=D Quadt, H Kuhn; citation_volume=6; citation_publication_date=2008; citation_pages=61-83; citation_id=CR108",
+          "citation_journal_title=Manage Sci; citation_title=A computational approach to the economic lot scheduling problem; citation_author=J Rogers; citation_volume=4; citation_publication_date=1958; citation_pages=264-291; citation_id=CR109",
+          "citation_title=Optimal lot-sizing for dynamic assembly systems; citation_inbook_title=Multi-stage production planning and inventory control; citation_publication_date=1986; citation_pages=119-131; citation_id=CR110; citation_author=K Rosling; citation_publisher=Springer",
+          "Salomon M (1991) Deterministic lotsizing models for production planning. Lecture notes in economics and mathematical systems, vol 355. Springer, Berlin",
+          "citation_journal_title=Manage Sci; citation_title=Some extensions of the discrete lotsizing and scheduling problem; citation_author=M Salomon, LG Kroon, R Kuik, LN Wassenhove; citation_volume=37; citation_publication_date=1991; citation_pages=801-812; citation_id=CR112",
+          "citation_journal_title=Ann Oper Res; citation_title=Statistical search methods for lotsizing problems; citation_author=M Salomon, R Kuik, LN Wassenhove; citation_volume=41; citation_publication_date=1993; citation_pages=453-468; citation_id=CR113",
+          "citation_journal_title=Comput Oper Res; citation_title=A Lagrangean-based heuristic for multi-plant, multi-item, multi-period capacitated lot-sizing problems with inter-plant transfers; citation_author=M Sambasivan, S Yahya; citation_volume=32; citation_publication_date=2005; citation_pages=537-555; citation_id=CR114",
+          "citation_journal_title=Asia Pac J Oper Res; citation_title=A heuristic procedure for solving multi-plant, multi-item, multi-period capacitated lot-sizing problems; citation_author=M Sambasivan, CP Schmidt; citation_volume=19; citation_publication_date=2002; citation_pages=87-105; citation_id=CR115",
+          "citation_journal_title=Eur J Oper Res; citation_title=A modified priority index for Günther’s lot-sizing heuristic under capacitated single stage production; citation_author=WJ Selen, RM Heuts; citation_volume=41; citation_publication_date=1989; citation_pages=181-185; citation_id=CR116",
+          "citation_journal_title=Prod Inventory Manage; citation_title=A simple modification of the EOQ for the case of a varying demand rate; citation_author=EA Silver, HC Meal; citation_volume=10; citation_publication_date=1969; citation_pages=51-55; citation_id=CR117",
+          "citation_journal_title=Prod Inventory Manage; citation_title=A heuristic for selecting lot size quantities for the case of a deterministic time-varying demand rate and discrete opportunities for replenishment; citation_author=EA Silver, HC Meal; citation_volume=14; citation_publication_date=1973; citation_pages=64-74; citation_id=CR118",
+          "citation_journal_title=IIE Trans; citation_title=The capacitated lot sizing problem with setup carry-over; citation_author=CR Sox, Y Gao; citation_volume=31; citation_publication_date=1999; citation_pages=173-181; citation_id=CR119",
+          "citation_journal_title=Eur J Oper Res; citation_title=Mixed integer programming model formulations for dynamic multi-item multi-level capacitated lotsizing; citation_author=H Stadtler; citation_volume=94; citation_publication_date=1996; citation_pages=561-581; citation_id=CR120",
+          "citation_journal_title=OR Spektrum; citation_title=Reformulations of the shortest route model for dynamic multi-item multi-level capacitated lotsizing; citation_author=H Stadtler; citation_volume=19; citation_publication_date=1997; citation_pages=87-96; citation_id=CR121",
+          "citation_journal_title=Manage Sci; citation_title=Improved rolling schedules for the dynamic single-level lot-sizing problem; citation_author=H Stadtler; citation_volume=46; citation_publication_date=2000; citation_pages=318-326; citation_id=CR122",
+          "citation_journal_title=Oper Res; citation_title=Multilevel lot sizing with setup times and multiple constrained resources: internally rolling schedules with lot-sizing windows; citation_author=H Stadtler; citation_volume=51; citation_publication_date=2003; citation_pages=487-502; citation_id=CR123",
+          "Staggemeier AT, Clark AR (2001) A survey of lot-sizing and scheduling models. In: 23rd annual symposium of the Brazilian Operational Research Society (SOBRAPO), Campos do Jordao SP, Brazil, pp 938–947",
+          "citation_journal_title=Manage Sci; citation_title=The capacitated lot-sizing problem with linked lot sizes; citation_author=C Sürie, H Stadtler; citation_volume=49; citation_publication_date=2003; citation_pages=1039-1054; citation_id=CR125",
+          "citation_journal_title=OR Spektrum; citation_title=Mehrstufige Mehrprodukt-Losgröß enplanung bei beschränkten Ressourcen und genereller Erzeugnisstruktur; citation_author=H Tempelmeier, M Derstroff; citation_volume=15; citation_publication_date=1993; citation_pages=63-73; citation_id=CR126",
+          "citation_journal_title=Manage Sci; citation_title=A Lagrangean-based heuristic for dynamic multilevel multiitem constrained lotsizing with setup times; citation_author=H Tempelmeier, M Derstroff; citation_volume=42; citation_publication_date=1996; citation_pages=738-757; citation_id=CR127",
+          "citation_journal_title=Eur J Oper Res; citation_title=A heuristic for dynamic multi-item multi-level capacitated lotsizing for general product structures; citation_author=H Tempelmeier, S Helber; citation_volume=75; citation_publication_date=1994; citation_pages=296-311; citation_id=CR128",
+          "citation_journal_title=IIE Trans; citation_title=Lagrangean relaxation for the multi-item capacitated lot-sizing problem: A heuristic implementation; citation_author=J-M Thizy, LN Wassenhove; citation_volume=17; citation_publication_date=1985; citation_pages=308-313; citation_id=CR129",
+          "citation_journal_title=IIE Trans; citation_title=A dual-cost heuristic for the capacitated lot sizing problem; citation_author=WW Trigeiro; citation_volume=19; citation_publication_date=1987; citation_pages=67-72; citation_id=CR130",
+          "citation_journal_title=Decis Sci; citation_title=A simple heuristic for lot sizing with setup times; citation_author=WW Trigeiro; citation_volume=20; citation_publication_date=1989; citation_pages=294-303; citation_id=CR131",
+          "citation_journal_title=Manage Sci; citation_title=Capacitated lot sizing with setup times; citation_author=WW Trigeiro, LJ Thomas, JO McClain; citation_volume=35; citation_publication_date=1989; citation_pages=353-366; citation_id=CR132",
+          "citation_journal_title=Eur J Oper Res; citation_title=Multi-item lot size determination and scheduling under capacity constraints; citation_author=JAEE Nunen, J Wessels; citation_volume=2; citation_publication_date=1978; citation_pages=36-41; citation_id=CR133",
+          "citation_journal_title=Oper Res; citation_title=Economic lot sizing: An o (n log n) algorithm that runs in linear time in the Wagner–Whitin case; citation_author=A Wagelmans, S Hoesel, A Kolen; citation_volume=40; citation_publication_date=1992; citation_pages=145-156; citation_id=CR134",
+          "citation_journal_title=Manage Sci; citation_title=Dynamic version of the economic lot size model; citation_author=HM Wagner, TM Whitin; citation_volume=5; citation_publication_date=1958; citation_pages=89-96; citation_id=CR135",
+          "citation_journal_title=Eur J Oper Res; citation_title=Progress with single-item lot-sizing; citation_author=LA Wolsey; citation_volume=86; citation_publication_date=1995; citation_pages=395-401; citation_id=CR136",
+          "citation_journal_title=Comput Math Appl; citation_title=Heuristic genetic algorithms for general capacitated lot-sizing problems; citation_author=J Xie, J Dong; citation_volume=44; citation_publication_date=2002; citation_pages=263-276; citation_id=CR137",
+          "citation_journal_title=Manage Sci; citation_title=A deterministic multi-period production scheduling model with backlogging; citation_author=WI Zangwill; citation_volume=13; citation_publication_date=1966; citation_pages=105-119; citation_id=CR138"
+        ],
+        "citation_author": [
+          "Buschkühl, Lisbeth",
+          "Sahling, Florian",
+          "Helber, Stefan",
+          "Tempelmeier, Horst"
+        ],
+        "citation_author_email": [
+          "buschkuehl@wiso.uni-koeln.de",
+          "sahling@prod.uni-hannover.de",
+          "helber@prod.uni-hannover.de",
+          "tempelmeier@wiso.uni-koeln.de"
+        ],
+        "citation_author_institution": [
+          "Seminar für Supply Chain Management und Produktion, Universität zu Köln, Cologne, Germany",
+          "Institut für Produktionswirtschaft, Leibniz Universität Hannover, Hannover, Germany",
+          "Institut für Produktionswirtschaft, Leibniz Universität Hannover, Hannover, Germany",
+          "Seminar für Supply Chain Management und Produktion, Universität zu Köln, Cologne, Germany"
+        ],
+        "citation_cover_date": [
+          "2010/04/01"
+        ]
+      }
+    },
+    "pdf": {
+      "status": "not-mirrored",
+      "reason": "Citation-only canonical review; model/data acquisition and industrial validation remain separate steps."
+    }
+  },
+  "power-intensive-production": {
+    "checked_at_utc": "2026-09-27T05:58:51+00:00",
+    "url": "https://egon.cheme.cmu.edu/Papers/Basan_Mendez_et_al_NovelMIP_DSM_IEC.pdf",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://egon.cheme.cmu.edu/Papers/Basan_Mendez_et_al_NovelMIP_DSM_IEC.pdf",
+      "content_type": "application/pdf"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "15-production-logistics-power/2017-a-novel-milp-scheduling-model-for-power-intensive-processes-under-time-sensitive-electricity-prices.pdf",
+      "requested_url": "https://egon.cheme.cmu.edu/Papers/Basan_Mendez_et_al_NovelMIP_DSM_IEC.pdf",
+      "resolved_url": "https://egon.cheme.cmu.edu/Papers/Basan_Mendez_et_al_NovelMIP_DSM_IEC.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:58:51+00:00",
+      "bytes": 335753,
+      "sha256": "fbfbc7be5c584aad926160fc9fa53186b77ce9eb35230b9da3a2be7e07e8d8aa",
+      "pages": 35,
+      "pdf_title": "Template for Electronic Submission to ACS Journals",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  },
+  "integrated-refinery": {
+    "checked_at_utc": "2026-09-27T05:58:50+00:00",
+    "url": "https://egon.cheme.cmu.edu/Papers/Su_IntegratedRefineryPlanning-2.pdf",
+    "landing": {
+      "status": "retrieved",
+      "resolved_url": "https://egon.cheme.cmu.edu/Papers/Su_IntegratedRefineryPlanning-2.pdf",
+      "content_type": "application/pdf"
+    },
+    "pdf": {
+      "status": "held",
+      "local_file": "14-refinery-blending/2021-modeling-for-integrated-refinery-planning-with-crude-oil-scheduling.pdf",
+      "requested_url": "https://egon.cheme.cmu.edu/Papers/Su_IntegratedRefineryPlanning-2.pdf",
+      "resolved_url": "https://egon.cheme.cmu.edu/Papers/Su_IntegratedRefineryPlanning-2.pdf",
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-09-27T05:58:50+00:00",
+      "bytes": 873882,
+      "sha256": "a70ae93f87c8f54595b2c398ce6a141a87686b2c54b2b058798458cce0085887",
+      "pages": 46,
+      "pdf_title": "",
+      "extractable_text": true,
+      "identity_review": "Title and bibliographic identity checked against the source page and PDF front matter; not a full peer review."
+    }
+  }
+}

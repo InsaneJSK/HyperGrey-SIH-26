@@ -1,0 +1,3649 @@
+{
+  "screen-30s": {
+    "profiles": {
+      "stage": {
+        "categories": {
+          "no_incumbent_limit": 3,
+          "feasible_limit": 3
+        },
+        "points": 3,
+        "completions": 0
+      },
+      "reserve": {
+        "categories": {
+          "no_incumbent_limit": 3,
+          "feasible_limit": 3
+        },
+        "points": 3,
+        "completions": 0
+      }
+    },
+    "records": [
+      {
+        "key": "lotsize.stage.0",
+        "name": "lotsize",
+        "profile": "stage",
+        "repeat": 0,
+        "status": "time_limit",
+        "objective": null,
+        "best_bound": 377777.4457803661,
+        "gap": null,
+        "nodes": 755,
+        "lp_iterations": 20359,
+        "total_seconds": 30.037021,
+        "category": "no_incumbent_limit",
+        "point": false,
+        "first_incumbent_seconds": null,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": false,
+          "primary_capped": 0,
+          "alternate_calls": 0
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.047365300000000186,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.7635476,
+            "lp_calls": 2,
+            "iterations": 4476,
+            "refinement": {
+              "rhs_calls": 8,
+              "primal_rhs": 4,
+              "dual_rhs": 4,
+              "scans": 8,
+              "entries": 58098,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0.000773
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 7.250044100000005,
+            "lp_calls": 753,
+            "iterations": 3814,
+            "refinement": {
+              "rhs_calls": 1504,
+              "primal_rhs": 752,
+              "dual_rhs": 752,
+              "scans": 1514,
+              "entries": 10736575,
+              "attempts": 10,
+              "accepted": 10,
+              "seconds": 0.11966600000000016
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.020185100000000004,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 5.627212299999998,
+            "lp_calls": 80,
+            "iterations": 4689,
+            "refinement": {
+              "rhs_calls": 322,
+              "primal_rhs": 161,
+              "dual_rhs": 161,
+              "scans": 475,
+              "entries": 3950661,
+              "attempts": 153,
+              "accepted": 153,
+              "seconds": 0.06214250000000001
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 9.9301425,
+            "lp_calls": 275,
+            "iterations": 7380,
+            "refinement": {
+              "rhs_calls": 574,
+              "primal_rhs": 287,
+              "dual_rhs": 287,
+              "scans": 780,
+              "entries": 7722980,
+              "attempts": 206,
+              "accepted": 199,
+              "seconds": 0.10520560000000001
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 3.3441795999999986,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0017335,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 0.007091100000000012,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 0.0103267,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 5.19e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "lotsize.reserve.0",
+        "name": "lotsize",
+        "profile": "reserve",
+        "repeat": 0,
+        "status": "time_limit",
+        "objective": null,
+        "best_bound": 377627.55550463,
+        "gap": null,
+        "nodes": 759,
+        "lp_iterations": 20321,
+        "total_seconds": 30.0387136,
+        "category": "no_incumbent_limit",
+        "point": false,
+        "first_incumbent_seconds": null,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": true,
+          "primary_capped": 16,
+          "alternate_calls": 5
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.04720370000000012,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.8118478,
+            "lp_calls": 2,
+            "iterations": 4476,
+            "refinement": {
+              "rhs_calls": 8,
+              "primal_rhs": 4,
+              "dual_rhs": 4,
+              "scans": 8,
+              "entries": 58098,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0.0005054
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 7.322438800000001,
+            "lp_calls": 757,
+            "iterations": 3801,
+            "refinement": {
+              "rhs_calls": 1512,
+              "primal_rhs": 756,
+              "dual_rhs": 756,
+              "scans": 1524,
+              "entries": 10938942,
+              "attempts": 12,
+              "accepted": 12,
+              "seconds": 0.12405489999999991
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.021517400000000013,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 5.673578399999996,
+            "lp_calls": 80,
+            "iterations": 4689,
+            "refinement": {
+              "rhs_calls": 322,
+              "primal_rhs": 161,
+              "dual_rhs": 161,
+              "scans": 475,
+              "entries": 3950661,
+              "attempts": 153,
+              "accepted": 153,
+              "seconds": 0.06622670000000001
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 9.7148919,
+            "lp_calls": 284,
+            "iterations": 7355,
+            "refinement": {
+              "rhs_calls": 602,
+              "primal_rhs": 301,
+              "dual_rhs": 301,
+              "scans": 828,
+              "entries": 8171084,
+              "attempts": 226,
+              "accepted": 213,
+              "seconds": 0.1045366
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 3.3954327000000015,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0012606,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 0.007175099999999994,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 0.0088845,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 3.46e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "lotsize.reserve.1",
+        "name": "lotsize",
+        "profile": "reserve",
+        "repeat": 1,
+        "status": "time_limit",
+        "objective": null,
+        "best_bound": 377713.2365949653,
+        "gap": null,
+        "nodes": 772,
+        "lp_iterations": 20577,
+        "total_seconds": 30.0478236,
+        "category": "no_incumbent_limit",
+        "point": false,
+        "first_incumbent_seconds": null,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": true,
+          "primary_capped": 16,
+          "alternate_calls": 6
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.04391170000000009,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.9663768999999998,
+            "lp_calls": 2,
+            "iterations": 4476,
+            "refinement": {
+              "rhs_calls": 8,
+              "primal_rhs": 4,
+              "dual_rhs": 4,
+              "scans": 8,
+              "entries": 58098,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0.0005635
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 7.057603699999999,
+            "lp_calls": 770,
+            "iterations": 3855,
+            "refinement": {
+              "rhs_calls": 1538,
+              "primal_rhs": 769,
+              "dual_rhs": 769,
+              "scans": 1550,
+              "entries": 11130838,
+              "attempts": 12,
+              "accepted": 12,
+              "seconds": 0.11883960000000006
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.018431000000000013,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 5.775698800000003,
+            "lp_calls": 80,
+            "iterations": 4689,
+            "refinement": {
+              "rhs_calls": 322,
+              "primal_rhs": 161,
+              "dual_rhs": 161,
+              "scans": 475,
+              "entries": 3950661,
+              "attempts": 153,
+              "accepted": 153,
+              "seconds": 0.05670769999999998
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 9.86332370000001,
+            "lp_calls": 284,
+            "iterations": 7557,
+            "refinement": {
+              "rhs_calls": 602,
+              "primal_rhs": 301,
+              "dual_rhs": 301,
+              "scans": 828,
+              "entries": 8171029,
+              "attempts": 226,
+              "accepted": 213,
+              "seconds": 0.10787279999999996
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 3.264503400000002,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0025654999999999996,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 0.006991100000000023,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 0.008186,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 3.37e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "lotsize.stage.1",
+        "name": "lotsize",
+        "profile": "stage",
+        "repeat": 1,
+        "status": "time_limit",
+        "objective": null,
+        "best_bound": 377627.55550463,
+        "gap": null,
+        "nodes": 783,
+        "lp_iterations": 20691,
+        "total_seconds": 30.0353449,
+        "category": "no_incumbent_limit",
+        "point": false,
+        "first_incumbent_seconds": null,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": false,
+          "primary_capped": 0,
+          "alternate_calls": 0
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.04978400000000027,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.7055195000000003,
+            "lp_calls": 2,
+            "iterations": 4476,
+            "refinement": {
+              "rhs_calls": 8,
+              "primal_rhs": 4,
+              "dual_rhs": 4,
+              "scans": 8,
+              "entries": 58098,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0.000497
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 7.4641137,
+            "lp_calls": 781,
+            "iterations": 3912,
+            "refinement": {
+              "rhs_calls": 1560,
+              "primal_rhs": 780,
+              "dual_rhs": 780,
+              "scans": 1574,
+              "entries": 11438877,
+              "attempts": 14,
+              "accepted": 14,
+              "seconds": 0.12642820000000007
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.017860699999999986,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 5.295751400000001,
+            "lp_calls": 80,
+            "iterations": 4689,
+            "refinement": {
+              "rhs_calls": 322,
+              "primal_rhs": 161,
+              "dual_rhs": 161,
+              "scans": 475,
+              "entries": 3950661,
+              "attempts": 153,
+              "accepted": 153,
+              "seconds": 0.054041900000000004
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 10.094708500000003,
+            "lp_calls": 275,
+            "iterations": 7614,
+            "refinement": {
+              "rhs_calls": 574,
+              "primal_rhs": 287,
+              "dual_rhs": 287,
+              "scans": 780,
+              "entries": 7722940,
+              "attempts": 206,
+              "accepted": 199,
+              "seconds": 0.0963971
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 3.361125900000003,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0014632,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 0.007128300000000003,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 0.006567,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 7.51e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "lotsize.stage.2",
+        "name": "lotsize",
+        "profile": "stage",
+        "repeat": 2,
+        "status": "time_limit",
+        "objective": null,
+        "best_bound": 377911.0882499484,
+        "gap": null,
+        "nodes": 774,
+        "lp_iterations": 20367,
+        "total_seconds": 30.0333364,
+        "category": "no_incumbent_limit",
+        "point": false,
+        "first_incumbent_seconds": null,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": false,
+          "primary_capped": 0,
+          "alternate_calls": 0
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.04269330000000005,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.905862,
+            "lp_calls": 2,
+            "iterations": 4476,
+            "refinement": {
+              "rhs_calls": 8,
+              "primal_rhs": 4,
+              "dual_rhs": 4,
+              "scans": 8,
+              "entries": 58098,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0.0004733
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 7.302974799999994,
+            "lp_calls": 772,
+            "iterations": 3934,
+            "refinement": {
+              "rhs_calls": 1542,
+              "primal_rhs": 771,
+              "dual_rhs": 771,
+              "scans": 1552,
+              "entries": 10958695,
+              "attempts": 10,
+              "accepted": 10,
+              "seconds": 0.1166619000000001
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.017946700000000003,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 5.3842213999999995,
+            "lp_calls": 80,
+            "iterations": 4689,
+            "refinement": {
+              "rhs_calls": 322,
+              "primal_rhs": 161,
+              "dual_rhs": 161,
+              "scans": 475,
+              "entries": 3950661,
+              "attempts": 153,
+              "accepted": 153,
+              "seconds": 0.05639269999999999
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 9.955773999999998,
+            "lp_calls": 275,
+            "iterations": 7268,
+            "refinement": {
+              "rhs_calls": 574,
+              "primal_rhs": 287,
+              "dual_rhs": 287,
+              "scans": 780,
+              "entries": 7722980,
+              "attempts": 206,
+              "accepted": 199,
+              "seconds": 0.09933539999999995
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 3.3782839000000005,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.001263,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 0.007129100000000006,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 0.0064616,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 3.84e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "lotsize.reserve.2",
+        "name": "lotsize",
+        "profile": "reserve",
+        "repeat": 2,
+        "status": "time_limit",
+        "objective": null,
+        "best_bound": 377833.835677926,
+        "gap": null,
+        "nodes": 786,
+        "lp_iterations": 21060,
+        "total_seconds": 30.0309279,
+        "category": "no_incumbent_limit",
+        "point": false,
+        "first_incumbent_seconds": null,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": true,
+          "primary_capped": 15,
+          "alternate_calls": 5
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.04550710000000013,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.8154581,
+            "lp_calls": 2,
+            "iterations": 4476,
+            "refinement": {
+              "rhs_calls": 8,
+              "primal_rhs": 4,
+              "dual_rhs": 4,
+              "scans": 8,
+              "entries": 58098,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0.0005013
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 7.393879300000013,
+            "lp_calls": 784,
+            "iterations": 3964,
+            "refinement": {
+              "rhs_calls": 1568,
+              "primal_rhs": 784,
+              "dual_rhs": 784,
+              "scans": 1580,
+              "entries": 11354124,
+              "attempts": 12,
+              "accepted": 12,
+              "seconds": 0.12327640000000001
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.016514800000000003,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 5.129699499999998,
+            "lp_calls": 80,
+            "iterations": 4689,
+            "refinement": {
+              "rhs_calls": 322,
+              "primal_rhs": 161,
+              "dual_rhs": 161,
+              "scans": 475,
+              "entries": 3950661,
+              "attempts": 153,
+              "accepted": 153,
+              "seconds": 0.05366840000000001
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 10.170655799999997,
+            "lp_calls": 301,
+            "iterations": 7931,
+            "refinement": {
+              "rhs_calls": 638,
+              "primal_rhs": 319,
+              "dual_rhs": 319,
+              "scans": 864,
+              "entries": 8468412,
+              "attempts": 226,
+              "accepted": 213,
+              "seconds": 0.10529090000000002
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 3.4141726,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0015516000000000002,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 0.007137100000000016,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 0.0081682,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 4.56e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "danoint.reserve.0",
+        "name": "danoint",
+        "profile": "reserve",
+        "repeat": 0,
+        "status": "time_limit",
+        "objective": 69.5,
+        "best_bound": 62.6865797031375,
+        "gap": 0.09664425952996458,
+        "nodes": 10,
+        "lp_iterations": 90059,
+        "total_seconds": 30.013355,
+        "category": "feasible_limit",
+        "point": true,
+        "first_incumbent_seconds": 5.1652643000000005,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": true,
+          "primary_capped": 0,
+          "alternate_calls": 0
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.0013129999999999997,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.5639627000000003,
+            "lp_calls": 2,
+            "iterations": 12270,
+            "refinement": {
+              "rhs_calls": 10,
+              "primal_rhs": 5,
+              "dual_rhs": 5,
+              "scans": 17,
+              "entries": 47217,
+              "attempts": 7,
+              "accepted": 7,
+              "seconds": 0.0008748
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 17.231919699999995,
+            "lp_calls": 8,
+            "iterations": 55366,
+            "refinement": {
+              "rhs_calls": 40,
+              "primal_rhs": 20,
+              "dual_rhs": 20,
+              "scans": 67,
+              "entries": 165774,
+              "attempts": 27,
+              "accepted": 27,
+              "seconds": 0.0038812
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.0008556,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0.8091355,
+            "lp_calls": 2,
+            "iterations": 3255,
+            "refinement": {
+              "rhs_calls": 6,
+              "primal_rhs": 3,
+              "dual_rhs": 3,
+              "scans": 12,
+              "entries": 37000,
+              "attempts": 6,
+              "accepted": 6,
+              "seconds": 0.0007595
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 2.5860436,
+            "lp_calls": 8,
+            "iterations": 7346,
+            "refinement": {
+              "rhs_calls": 34,
+              "primal_rhs": 17,
+              "dual_rhs": 17,
+              "scans": 57,
+              "entries": 191279,
+              "attempts": 23,
+              "accepted": 23,
+              "seconds": 0.0031602
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 2.0034674,
+            "lp_calls": 2,
+            "iterations": 3329,
+            "refinement": {
+              "rhs_calls": 2,
+              "primal_rhs": 1,
+              "dual_rhs": 1,
+              "scans": 3,
+              "entries": 10662,
+              "attempts": 1,
+              "accepted": 1,
+              "seconds": 0.0003416
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 2.005994,
+            "lp_calls": 1,
+            "iterations": 3837,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 1.788366,
+            "lp_calls": 1,
+            "iterations": 4656,
+            "refinement": {
+              "rhs_calls": 4,
+              "primal_rhs": 2,
+              "dual_rhs": 2,
+              "scans": 8,
+              "entries": 27244,
+              "attempts": 4,
+              "accepted": 4,
+              "seconds": 0.0007474999999999999
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 0.0095282,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0006339,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 3.81e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 3.5e-06,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 9.64e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "danoint.stage.0",
+        "name": "danoint",
+        "profile": "stage",
+        "repeat": 0,
+        "status": "time_limit",
+        "objective": 69.5,
+        "best_bound": 62.6865797031375,
+        "gap": 0.09664425952996458,
+        "nodes": 11,
+        "lp_iterations": 92459,
+        "total_seconds": 30.0137593,
+        "category": "feasible_limit",
+        "point": true,
+        "first_incumbent_seconds": 5.3130317,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": false,
+          "primary_capped": 0,
+          "alternate_calls": 0
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.0013024,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.5954763,
+            "lp_calls": 2,
+            "iterations": 12270,
+            "refinement": {
+              "rhs_calls": 10,
+              "primal_rhs": 5,
+              "dual_rhs": 5,
+              "scans": 17,
+              "entries": 47217,
+              "attempts": 7,
+              "accepted": 7,
+              "seconds": 0.0010308
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 17.119921899999998,
+            "lp_calls": 9,
+            "iterations": 57712,
+            "refinement": {
+              "rhs_calls": 42,
+              "primal_rhs": 21,
+              "dual_rhs": 21,
+              "scans": 71,
+              "entries": 179250,
+              "attempts": 29,
+              "accepted": 29,
+              "seconds": 0.0040296
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.0007345,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 1.0044952999999999,
+            "lp_calls": 2,
+            "iterations": 3255,
+            "refinement": {
+              "rhs_calls": 6,
+              "primal_rhs": 3,
+              "dual_rhs": 3,
+              "scans": 12,
+              "entries": 37000,
+              "attempts": 6,
+              "accepted": 6,
+              "seconds": 0.0012439
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 2.6027924,
+            "lp_calls": 8,
+            "iterations": 7346,
+            "refinement": {
+              "rhs_calls": 34,
+              "primal_rhs": 17,
+              "dual_rhs": 17,
+              "scans": 57,
+              "entries": 191279,
+              "attempts": 23,
+              "accepted": 23,
+              "seconds": 0.0035984
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 2.0056846,
+            "lp_calls": 2,
+            "iterations": 3630,
+            "refinement": {
+              "rhs_calls": 2,
+              "primal_rhs": 1,
+              "dual_rhs": 1,
+              "scans": 3,
+              "entries": 10662,
+              "attempts": 1,
+              "accepted": 1,
+              "seconds": 0.0001493
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 2.0052906,
+            "lp_calls": 1,
+            "iterations": 3590,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 1.6555189,
+            "lp_calls": 1,
+            "iterations": 4656,
+            "refinement": {
+              "rhs_calls": 4,
+              "primal_rhs": 2,
+              "dual_rhs": 2,
+              "scans": 8,
+              "entries": 27244,
+              "attempts": 4,
+              "accepted": 4,
+              "seconds": 0.0007136
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 0.009239200000000001,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0007366,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 3.5499999999999996e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 7.14e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 5.36e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "danoint.stage.1",
+        "name": "danoint",
+        "profile": "stage",
+        "repeat": 1,
+        "status": "time_limit",
+        "objective": 69.5,
+        "best_bound": 62.6865797031375,
+        "gap": 0.09664425952996458,
+        "nodes": 10,
+        "lp_iterations": 90883,
+        "total_seconds": 30.0098387,
+        "category": "feasible_limit",
+        "point": true,
+        "first_incumbent_seconds": 5.434746400000002,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": false,
+          "primary_capped": 0,
+          "alternate_calls": 0
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.0009333999999999996,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.4869886,
+            "lp_calls": 2,
+            "iterations": 12270,
+            "refinement": {
+              "rhs_calls": 10,
+              "primal_rhs": 5,
+              "dual_rhs": 5,
+              "scans": 17,
+              "entries": 47217,
+              "attempts": 7,
+              "accepted": 7,
+              "seconds": 0.0008738000000000001
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 17.167614,
+            "lp_calls": 8,
+            "iterations": 56405,
+            "refinement": {
+              "rhs_calls": 40,
+              "primal_rhs": 20,
+              "dual_rhs": 20,
+              "scans": 67,
+              "entries": 165774,
+              "attempts": 27,
+              "accepted": 27,
+              "seconds": 0.0034057000000000002
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.0010477,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 1.1015764,
+            "lp_calls": 2,
+            "iterations": 3255,
+            "refinement": {
+              "rhs_calls": 6,
+              "primal_rhs": 3,
+              "dual_rhs": 3,
+              "scans": 12,
+              "entries": 37000,
+              "attempts": 6,
+              "accepted": 6,
+              "seconds": 0.0007713
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 2.621230800000001,
+            "lp_calls": 8,
+            "iterations": 7346,
+            "refinement": {
+              "rhs_calls": 34,
+              "primal_rhs": 17,
+              "dual_rhs": 17,
+              "scans": 57,
+              "entries": 191279,
+              "attempts": 23,
+              "accepted": 23,
+              "seconds": 0.003617
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 2.0058208,
+            "lp_calls": 2,
+            "iterations": 3217,
+            "refinement": {
+              "rhs_calls": 2,
+              "primal_rhs": 1,
+              "dual_rhs": 1,
+              "scans": 3,
+              "entries": 10662,
+              "attempts": 1,
+              "accepted": 1,
+              "seconds": 0.0001838
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 2.006194,
+            "lp_calls": 1,
+            "iterations": 3734,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 1.6013158,
+            "lp_calls": 1,
+            "iterations": 4656,
+            "refinement": {
+              "rhs_calls": 4,
+              "primal_rhs": 2,
+              "dual_rhs": 2,
+              "scans": 8,
+              "entries": 27244,
+              "attempts": 4,
+              "accepted": 4,
+              "seconds": 0.0004935
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 0.008959600000000002,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0012777,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 3.8299999999999996e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 2.6e-06,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 2.38e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "danoint.reserve.1",
+        "name": "danoint",
+        "profile": "reserve",
+        "repeat": 1,
+        "status": "time_limit",
+        "objective": 69.5,
+        "best_bound": 62.6865797031375,
+        "gap": 0.09664425952996458,
+        "nodes": 10,
+        "lp_iterations": 90736,
+        "total_seconds": 30.0164161,
+        "category": "feasible_limit",
+        "point": true,
+        "first_incumbent_seconds": 5.288127299999999,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": true,
+          "primary_capped": 0,
+          "alternate_calls": 0
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.0011755999999999993,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.4989752,
+            "lp_calls": 2,
+            "iterations": 12270,
+            "refinement": {
+              "rhs_calls": 10,
+              "primal_rhs": 5,
+              "dual_rhs": 5,
+              "scans": 17,
+              "entries": 47217,
+              "attempts": 7,
+              "accepted": 7,
+              "seconds": 0.0008939
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 17.24623,
+            "lp_calls": 8,
+            "iterations": 55795,
+            "refinement": {
+              "rhs_calls": 40,
+              "primal_rhs": 20,
+              "dual_rhs": 20,
+              "scans": 67,
+              "entries": 165774,
+              "attempts": 27,
+              "accepted": 27,
+              "seconds": 0.0040244
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.0007461,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0.9793443000000001,
+            "lp_calls": 2,
+            "iterations": 3255,
+            "refinement": {
+              "rhs_calls": 6,
+              "primal_rhs": 3,
+              "dual_rhs": 3,
+              "scans": 12,
+              "entries": 37000,
+              "attempts": 6,
+              "accepted": 6,
+              "seconds": 0.0007647999999999999
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 2.5566932,
+            "lp_calls": 8,
+            "iterations": 7346,
+            "refinement": {
+              "rhs_calls": 34,
+              "primal_rhs": 17,
+              "dual_rhs": 17,
+              "scans": 57,
+              "entries": 191279,
+              "attempts": 23,
+              "accepted": 23,
+              "seconds": 0.003087
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 2.0054109,
+            "lp_calls": 2,
+            "iterations": 3836,
+            "refinement": {
+              "rhs_calls": 2,
+              "primal_rhs": 1,
+              "dual_rhs": 1,
+              "scans": 3,
+              "entries": 10662,
+              "attempts": 1,
+              "accepted": 1,
+              "seconds": 0.0002011
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 2.0047264,
+            "lp_calls": 1,
+            "iterations": 3578,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 1.6985945,
+            "lp_calls": 1,
+            "iterations": 4656,
+            "refinement": {
+              "rhs_calls": 4,
+              "primal_rhs": 2,
+              "dual_rhs": 2,
+              "scans": 8,
+              "entries": 27244,
+              "attempts": 4,
+              "accepted": 4,
+              "seconds": 0.0006588
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 0.009810799999999998,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0008845,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 3.6e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 0.0001161,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 5e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "danoint.reserve.2",
+        "name": "danoint",
+        "profile": "reserve",
+        "repeat": 2,
+        "status": "time_limit",
+        "objective": 69.5,
+        "best_bound": 62.6865797031375,
+        "gap": 0.09664425952996458,
+        "nodes": 11,
+        "lp_iterations": 95289,
+        "total_seconds": 30.0067403,
+        "category": "feasible_limit",
+        "point": true,
+        "first_incumbent_seconds": 5.226198700000001,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": true,
+          "primary_capped": 0,
+          "alternate_calls": 0
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.0008506999999999997,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.4270607,
+            "lp_calls": 2,
+            "iterations": 12270,
+            "refinement": {
+              "rhs_calls": 10,
+              "primal_rhs": 5,
+              "dual_rhs": 5,
+              "scans": 17,
+              "entries": 47217,
+              "attempts": 7,
+              "accepted": 7,
+              "seconds": 0.0011325
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 17.370802299999998,
+            "lp_calls": 9,
+            "iterations": 60115,
+            "refinement": {
+              "rhs_calls": 44,
+              "primal_rhs": 22,
+              "dual_rhs": 22,
+              "scans": 74,
+              "entries": 184836,
+              "attempts": 30,
+              "accepted": 30,
+              "seconds": 0.0040627
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.0007711999999999999,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0.9968608000000001,
+            "lp_calls": 2,
+            "iterations": 3255,
+            "refinement": {
+              "rhs_calls": 6,
+              "primal_rhs": 3,
+              "dual_rhs": 3,
+              "scans": 12,
+              "entries": 37000,
+              "attempts": 6,
+              "accepted": 6,
+              "seconds": 0.0007968000000000001
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 2.5566239,
+            "lp_calls": 8,
+            "iterations": 7346,
+            "refinement": {
+              "rhs_calls": 34,
+              "primal_rhs": 17,
+              "dual_rhs": 17,
+              "scans": 57,
+              "entries": 191279,
+              "attempts": 23,
+              "accepted": 23,
+              "seconds": 0.0031753
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 2.0045649,
+            "lp_calls": 2,
+            "iterations": 3947,
+            "refinement": {
+              "rhs_calls": 2,
+              "primal_rhs": 1,
+              "dual_rhs": 1,
+              "scans": 3,
+              "entries": 10662,
+              "attempts": 1,
+              "accepted": 1,
+              "seconds": 0.0001532
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 2.0087387,
+            "lp_calls": 1,
+            "iterations": 3700,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 1.6258892,
+            "lp_calls": 1,
+            "iterations": 4656,
+            "refinement": {
+              "rhs_calls": 4,
+              "primal_rhs": 2,
+              "dual_rhs": 2,
+              "scans": 8,
+              "entries": 27244,
+              "attempts": 4,
+              "accepted": 4,
+              "seconds": 0.000582
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 0.0086626,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.000805,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 4.019999999999998e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 7.82e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 2.18e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      },
+      {
+        "key": "danoint.stage.2",
+        "name": "danoint",
+        "profile": "stage",
+        "repeat": 2,
+        "status": "time_limit",
+        "objective": 69.5,
+        "best_bound": 62.6865797031375,
+        "gap": 0.09664425952996458,
+        "nodes": 11,
+        "lp_iterations": 96119,
+        "total_seconds": 30.0100464,
+        "category": "feasible_limit",
+        "point": true,
+        "first_incumbent_seconds": 4.9485068000000005,
+        "private_ranking": {
+          "enabled": false,
+          "calls": 0,
+          "ties": 0,
+          "changes": 0
+        },
+        "private_alternate_reserve": {
+          "enabled": false,
+          "primary_capped": 0,
+          "alternate_calls": 0
+        },
+        "cut_restarts": 1,
+        "work": [
+          {
+            "name": "other",
+            "seconds": 0.0007651,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "root_lp",
+            "seconds": 3.4045459,
+            "lp_calls": 2,
+            "iterations": 12270,
+            "refinement": {
+              "rhs_calls": 10,
+              "primal_rhs": 5,
+              "dual_rhs": 5,
+              "scans": 17,
+              "entries": 47217,
+              "attempts": 7,
+              "accepted": 7,
+              "seconds": 0.0009338
+            }
+          },
+          {
+            "name": "cut_lp",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "tree_lp",
+            "seconds": 17.594951499999997,
+            "lp_calls": 9,
+            "iterations": 60874,
+            "refinement": {
+              "rhs_calls": 44,
+              "primal_rhs": 22,
+              "dual_rhs": 22,
+              "scans": 74,
+              "entries": 184836,
+              "attempts": 30,
+              "accepted": 30,
+              "seconds": 0.0034735000000000005
+            }
+          },
+          {
+            "name": "pump",
+            "seconds": 0.0007719999999999999,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "pump_fix",
+            "seconds": 0.9339509,
+            "lp_calls": 2,
+            "iterations": 3255,
+            "refinement": {
+              "rhs_calls": 6,
+              "primal_rhs": 3,
+              "dual_rhs": 3,
+              "scans": 12,
+              "entries": 37000,
+              "attempts": 6,
+              "accepted": 6,
+              "seconds": 0.0010303
+            }
+          },
+          {
+            "name": "pump_projection",
+            "seconds": 2.4217166999999993,
+            "lp_calls": 8,
+            "iterations": 7346,
+            "refinement": {
+              "rhs_calls": 34,
+              "primal_rhs": 17,
+              "dual_rhs": 17,
+              "scans": 57,
+              "entries": 191279,
+              "attempts": 23,
+              "accepted": 23,
+              "seconds": 0.0034103000000000007
+            }
+          },
+          {
+            "name": "dive",
+            "seconds": 2.0045653,
+            "lp_calls": 2,
+            "iterations": 3751,
+            "refinement": {
+              "rhs_calls": 2,
+              "primal_rhs": 1,
+              "dual_rhs": 1,
+              "scans": 3,
+              "entries": 10662,
+              "attempts": 1,
+              "accepted": 1,
+              "seconds": 0.0001606
+            }
+          },
+          {
+            "name": "neighborhood",
+            "seconds": 2.006436,
+            "lp_calls": 1,
+            "iterations": 3967,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "repair",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "branch_probe",
+            "seconds": 0,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "lp_recovery",
+            "seconds": 1.6242147,
+            "lp_calls": 1,
+            "iterations": 4656,
+            "refinement": {
+              "rhs_calls": 4,
+              "primal_rhs": 2,
+              "dual_rhs": 2,
+              "scans": 8,
+              "entries": 27244,
+              "attempts": 4,
+              "accepted": 4,
+              "seconds": 0.0007151
+            }
+          },
+          {
+            "name": "presolve",
+            "seconds": 0.0090616,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "cut_separation",
+            "seconds": 0.0011559,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "validation",
+            "seconds": 3.7e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "restart",
+            "seconds": 5.5e-06,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          },
+          {
+            "name": "binary",
+            "seconds": 2.33e-05,
+            "lp_calls": 0,
+            "iterations": 0,
+            "refinement": {
+              "rhs_calls": 0,
+              "primal_rhs": 0,
+              "dual_rhs": 0,
+              "scans": 0,
+              "entries": 0,
+              "attempts": 0,
+              "accepted": 0,
+              "seconds": 0
+            }
+          }
+        ]
+      }
+    ],
+    "results_sha256": "92d7d1c2969819ca8893bddf42ce2e6487d213be058f31e31fd031580c42e960"
+  }
+}

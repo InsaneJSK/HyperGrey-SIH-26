@@ -1,0 +1,13 @@
+{
+  "notebook_schema": "passed",
+  "notebook_bytes": 11492,
+  "under_1_mb": true,
+  "external_source_zip": true,
+  "code_cells_parsed": 2,
+  "source_files_verified": 128,
+  "cpu_core_files_matched": 22,
+  "cpu_evidence": "reports/milp-iteration-01/validated-cpu",
+  "snapshot_sha256": "f9b8a366cbdf6d0cf216c21307d9439515e6f46c52d2ad22b612b94e5e29b1d8",
+  "cuda_execution": "selected synthetic CUDA cases passed in audited Kaggle return; single timing pass",
+  "cuda_evidence_audit": "reports/kaggle-gpu-02/AUDIT.json"
+}

@@ -1,0 +1,854 @@
+[
+ {
+  "name": "50v-10",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 5522.729990303515,
+  "best_bound": 3011.9016037289207,
+  "gap": 0.454553063053799,
+  "nodes": 29864,
+  "peak_commit_mib": 1025.0546875,
+  "wall_seconds": 24.34299999999348,
+  "published": {
+   "kind": "opt",
+   "value": 3311.1799841
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 5522.729990303515,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 0.667702243483138
+ },
+ {
+  "name": "50v-10",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": 3723.5799882858973,
+  "best_bound": 3029.2849325698025,
+  "gap": 0.18640895292884255,
+  "nodes": 469263,
+  "peak_commit_mib": 446.92578125,
+  "wall_seconds": 300.5469999999914,
+  "published": {
+   "kind": "opt",
+   "value": 3311.1799841
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 3723.579988285897,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.12451014321854742
+ },
+ {
+  "name": "binkar10_1",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 6775.250024556576,
+  "best_bound": 6670.39841694938,
+  "gap": 0.015473397118940831,
+  "nodes": 25940,
+  "peak_commit_mib": 981.8671875,
+  "wall_seconds": 64.375,
+  "published": {
+   "kind": "opt",
+   "value": 6742.1998835
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 1e-09,
+   "integer_violation": 0.0,
+   "objective": 6775.25002455657,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 0.004901254838588789
+ },
+ {
+  "name": "binkar10_1",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": 6766.8300169629665,
+  "best_bound": 6693.06905258302,
+  "gap": 0.010898761374779154,
+  "nodes": 158306,
+  "peak_commit_mib": 232.109375,
+  "wall_seconds": 300.1720000000205,
+  "published": {
+   "kind": "opt",
+   "value": 6742.1998835
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 1e-09,
+   "integer_violation": 0.0,
+   "objective": 6766.83001696296,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.003652588368800074
+ },
+ {
+  "name": "exp-1-500-5-5",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 113356.99999558787,
+  "best_bound": 37964.57681025889,
+  "gap": 0.6650825101736394,
+  "nodes": 59262,
+  "peak_commit_mib": 1160.68359375,
+  "wall_seconds": 43.78100000001723,
+  "published": {
+   "kind": "opt",
+   "value": 65887.0
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 1e-09,
+   "integer_violation": 0.0,
+   "objective": 113356.99999558786,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 0.7204650315017587
+ },
+ {
+  "name": "exp-1-500-5-5",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": 94088.99999699093,
+  "best_bound": 39507.68531653215,
+  "gap": 0.5800968719545576,
+  "nodes": 511875,
+  "peak_commit_mib": 495.5,
+  "wall_seconds": 300.3440000000119,
+  "published": {
+   "kind": "opt",
+   "value": 65887.0
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 1e-09,
+   "integer_violation": 0.0,
+   "objective": 94088.99999699101,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.42802938315005656
+ },
+ {
+  "name": "fiball",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": null,
+  "best_bound": 137.99999999999997,
+  "gap": null,
+  "nodes": 1775,
+  "peak_commit_mib": 1054.64453125,
+  "wall_seconds": 92.20300000000861,
+  "published": {
+   "kind": "opt",
+   "value": 138.0
+  },
+  "check": {
+   "status": "no_point",
+   "columns": 34219
+  },
+  "guard_stop": true,
+  "proven": false
+ },
+ {
+  "name": "fiball",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": 137.99999999999997,
+  "gap": null,
+  "nodes": 5627,
+  "peak_commit_mib": 200.56640625,
+  "wall_seconds": 300.35899999999674,
+  "published": {
+   "kind": "opt",
+   "value": 138.0
+  },
+  "check": {
+   "status": "no_point",
+   "columns": 34219
+  },
+  "guard_stop": false,
+  "proven": false
+ },
+ {
+  "name": "gen-ip054",
+  "build": "old",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": 6880.923487753999,
+  "best_bound": 6801.122340474541,
+  "gap": 0.011595762060049121,
+  "nodes": 2153378,
+  "peak_commit_mib": 1307.01171875,
+  "wall_seconds": 301.71899999998277,
+  "published": {
+   "kind": "opt",
+   "value": 6840.96564179
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 6880.923487754001,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.0058401120461554846
+ },
+ {
+  "name": "gen-ip054",
+  "build": "new",
+  "status": "time_limit",
+  "message": "",
+  "objective": 6880.923487753999,
+  "best_bound": 6801.065757161697,
+  "gap": 0.011603984080091138,
+  "nodes": 2129946,
+  "peak_commit_mib": 1022.66015625,
+  "wall_seconds": 302.81299999999464,
+  "published": {
+   "kind": "opt",
+   "value": 6840.96564179
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 6880.923487754001,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.0058401120461554846
+ },
+ {
+  "name": "glass4",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 2900024850.000005,
+  "best_bound": 800004519.9995241,
+  "gap": 0.7241387360099133,
+  "nodes": 174546,
+  "peak_commit_mib": 1161.1875,
+  "wall_seconds": 70.28099999998813,
+  "published": {
+   "kind": "opt",
+   "value": 1200012599.972384
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 9.313225746154785e-10,
+   "integer_violation": 0.0,
+   "objective": 2900024850.000005,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 1.4166619989240792
+ },
+ {
+  "name": "glass4",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": 2600020900,
+  "best_bound": 800004519.9995241,
+  "gap": 0.6923084269469401,
+  "nodes": 953155,
+  "peak_commit_mib": 512.5234375,
+  "wall_seconds": 300.5,
+  "published": {
+   "kind": "opt",
+   "value": 1200012599.972384
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 2600020900.0,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 1.1666613324669868
+ },
+ {
+  "name": "gmu-35-40",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": -2400688.4668999994,
+  "best_bound": -2406943.788960956,
+  "gap": 0.0026056356505925323,
+  "nodes": 49194,
+  "peak_commit_mib": 1022.34765625,
+  "wall_seconds": 71.28100000001723,
+  "published": {
+   "kind": "opt",
+   "value": -2406733.3688
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 2.2737367544323206e-13,
+   "integer_violation": 0.0,
+   "objective": -2400688.4669,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 0.0025116614356632963
+ },
+ {
+  "name": "gmu-35-40",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": -2397070.7005999996,
+  "best_bound": -2406943.7877984596,
+  "gap": 0.004118811796905667,
+  "nodes": 258444,
+  "peak_commit_mib": 286.3984375,
+  "wall_seconds": 300.2030000000086,
+  "published": {
+   "kind": "opt",
+   "value": -2406733.3688
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": -2397070.7006,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.004014846143913259
+ },
+ {
+  "name": "gmu-35-50",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": -2598862.0856,
+  "best_bound": -2608070.56636966,
+  "gap": 0.0035432727567232965,
+  "nodes": 31208,
+  "peak_commit_mib": 1015.19140625,
+  "wall_seconds": 47.98399999999674,
+  "published": {
+   "kind": "opt",
+   "value": -2607958.33
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 4.547473508864641e-13,
+   "integer_violation": 0.0,
+   "objective": -2598862.0856,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 0.003487878164112398
+ },
+ {
+  "name": "gmu-35-50",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": -2599008.7143999995,
+  "best_bound": -2608070.563677712,
+  "gap": 0.0034866546390744826,
+  "nodes": 238123,
+  "peak_commit_mib": 293.9609375,
+  "wall_seconds": 300.23399999999674,
+  "published": {
+   "kind": "opt",
+   "value": -2607958.33
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 2.2737367544323206e-13,
+   "integer_violation": 0.0,
+   "objective": -2599008.7144,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.003431654587957321
+ },
+ {
+  "name": "h80x6320d",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 20018.19667655249,
+  "best_bound": 5561.236597806483,
+  "gap": 0.7221548552784208,
+  "nodes": 4759,
+  "peak_commit_mib": 989.4765625,
+  "wall_seconds": 46.562999999994645,
+  "published": {
+   "kind": "opt",
+   "value": 6382.099048245999
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 1.0001492967148806e-09,
+   "integer_violation": 0.0,
+   "objective": 20018.19667655249,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 2.1362816909528495
+ },
+ {
+  "name": "h80x6320d",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": 20018.19667655249,
+  "best_bound": 5602.232434329323,
+  "gap": 0.7201070290251899,
+  "nodes": 40562,
+  "peak_commit_mib": 324.4609375,
+  "wall_seconds": 300.5309999999881,
+  "published": {
+   "kind": "opt",
+   "value": 6382.099048245999
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 1.0001492967148806e-09,
+   "integer_violation": 0.0,
+   "objective": 20018.19667655249,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 2.1362816909528495
+ },
+ {
+  "name": "irp",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 12159.492864999998,
+  "best_bound": 12141.159414672806,
+  "gap": 0.0015076239532987568,
+  "nodes": 6451,
+  "peak_commit_mib": 984.46875,
+  "wall_seconds": 73.76500000001397,
+  "published": {
+   "kind": "opt",
+   "value": 12159.49283539698
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 12159.492865,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 2.434360016361278e-09
+ },
+ {
+  "name": "irp",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": 12159.492836,
+  "best_bound": 12143.721712027695,
+  "gap": 0.0012969148689118844,
+  "nodes": 32042,
+  "peak_commit_mib": 238.26171875,
+  "wall_seconds": 300.40600000001723,
+  "published": {
+   "kind": "opt",
+   "value": 12159.49283539698
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 12159.492836000001,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 4.958833842510232e-11
+ },
+ {
+  "name": "markshare2",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 60.999999967702195,
+  "best_bound": -1.0000000088817852e-07,
+  "gap": 0.9838709693464366,
+  "nodes": 664509,
+  "peak_commit_mib": 1044.79296875,
+  "wall_seconds": 59.59299999999348,
+  "published": {
+   "kind": "opt",
+   "value": 1.0
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 1.6230615074164234e-08,
+   "integer_violation": 0.0,
+   "objective": 60.999999967702195,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 29.999999983851097
+ },
+ {
+  "name": "markshare2",
+  "build": "new",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 43.999999967664195,
+  "best_bound": -1.0000000088817852e-07,
+  "gap": 0.9777777799840317,
+  "nodes": 1723514,
+  "peak_commit_mib": 1142.96875,
+  "wall_seconds": 133.10899999999674,
+  "published": {
+   "kind": "opt",
+   "value": 1.0
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 5.964011506875977e-09,
+   "integer_violation": 0.0,
+   "objective": 43.999999967664195,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 21.499999983832097
+ },
+ {
+  "name": "mas74",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 12957.115584599995,
+  "best_bound": 11146.67318779273,
+  "gap": 0.13971494427468104,
+  "nodes": 350255,
+  "peak_commit_mib": 1118.83203125,
+  "wall_seconds": 88.25,
+  "published": {
+   "kind": "opt",
+   "value": 11801.18572
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 12957.115584599995,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 0.09794201616749303
+ },
+ {
+  "name": "mas74",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": 12039.4680306,
+  "best_bound": 11205.574657048533,
+  "gap": 0.06925755472562899,
+  "nodes": 1310573,
+  "peak_commit_mib": 519.3828125,
+  "wall_seconds": 300.9070000000065,
+  "published": {
+   "kind": "opt",
+   "value": 11801.18572
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 12039.4680306,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.020189676408515256
+ },
+ {
+  "name": "mas76",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 40633.601476,
+  "best_bound": 39696.109627966245,
+  "gap": 0.02307126965641508,
+  "nodes": 358711,
+  "peak_commit_mib": 1119.55078125,
+  "wall_seconds": 84.60900000002584,
+  "published": {
+   "kind": "opt",
+   "value": 40005.05398999999
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 40633.601476,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 0.015711309247273514
+ },
+ {
+  "name": "mas76",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": 40116.054142,
+  "best_bound": 39831.562160599744,
+  "gap": 0.007091547160797431,
+  "nodes": 1601830,
+  "peak_commit_mib": 525.1171875,
+  "wall_seconds": 300.9220000000205,
+  "published": {
+   "kind": "opt",
+   "value": 40005.05398999999
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "objective": 40116.054142,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.0027745838674255066
+ },
+ {
+  "name": "neos-2657525-crna",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": null,
+  "best_bound": -1.0000000088817852e-07,
+  "gap": null,
+  "nodes": 154173,
+  "peak_commit_mib": 1214.765625,
+  "wall_seconds": 111.73399999999674,
+  "published": {
+   "kind": "opt",
+   "value": 1.810748
+  },
+  "check": {
+   "status": "no_point",
+   "columns": 524
+  },
+  "guard_stop": true,
+  "proven": false
+ },
+ {
+  "name": "neos-2657525-crna",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": -1.0000000088817852e-07,
+  "gap": null,
+  "nodes": 526935,
+  "peak_commit_mib": 297.11328125,
+  "wall_seconds": 300.23399999999674,
+  "published": {
+   "kind": "opt",
+   "value": 1.810748
+  },
+  "check": {
+   "status": "no_point",
+   "columns": 524
+  },
+  "guard_stop": false,
+  "proven": false
+ },
+ {
+  "name": "neos-3004026-krka",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": null,
+  "best_bound": -1.0000000088817852e-07,
+  "gap": null,
+  "nodes": 3499,
+  "peak_commit_mib": 1045.71875,
+  "wall_seconds": 86.53099999998813,
+  "published": {
+   "kind": "opt",
+   "value": 0.0
+  },
+  "check": {
+   "status": "no_point",
+   "columns": 17030
+  },
+  "guard_stop": true,
+  "proven": false
+ },
+ {
+  "name": "neos-3004026-krka",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": -1.0000000088817852e-07,
+  "gap": null,
+  "nodes": 16468,
+  "peak_commit_mib": 229.96484375,
+  "wall_seconds": 300.2179999999935,
+  "published": {
+   "kind": "opt",
+   "value": 0.0
+  },
+  "check": {
+   "status": "no_point",
+   "columns": 17030
+  },
+  "guard_stop": false,
+  "proven": false
+ },
+ {
+  "name": "neos-3046615-murg",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": 1693.99999993,
+  "best_bound": 526.9999470829991,
+  "gap": 0.688495606427844,
+  "nodes": 209124,
+  "peak_commit_mib": 1158.37109375,
+  "wall_seconds": 72.95300000000861,
+  "published": {
+   "kind": "opt",
+   "value": 1600.0
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 5.199999009164458e-08,
+   "integer_violation": 0.0,
+   "objective": 1693.99999993,
+   "valid": true
+  },
+  "guard_stop": true,
+  "proven": false,
+  "objective_error": 0.05871330414116181
+ },
+ {
+  "name": "neos-3046615-murg",
+  "build": "new",
+  "status": "time_limit",
+  "message": "",
+  "objective": 1622.999999912,
+  "best_bound": 580.999941653999,
+  "gap": 0.641625651671468,
+  "nodes": 1072597,
+  "peak_commit_mib": 814.26171875,
+  "wall_seconds": 300.65600000001723,
+  "published": {
+   "kind": "opt",
+   "value": 1600.0
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 3.6000002978653356e-08,
+   "integer_violation": 0.0,
+   "objective": 1622.999999912,
+   "valid": true
+  },
+  "guard_stop": false,
+  "proven": false,
+  "objective_error": 0.014366021181761413
+ },
+ {
+  "name": "neos-3381206-awhea",
+  "build": "old",
+  "status": "node_limit",
+  "message": "Open-node memory guard",
+  "objective": null,
+  "best_bound": 415.99999999999994,
+  "gap": null,
+  "nodes": 25290,
+  "peak_commit_mib": 1011.89453125,
+  "wall_seconds": 67.75,
+  "published": {
+   "kind": "opt",
+   "value": 453.0
+  },
+  "check": {
+   "status": "no_point",
+   "columns": 2375
+  },
+  "guard_stop": true,
+  "proven": false
+ },
+ {
+  "name": "neos-3381206-awhea",
+  "build": "new",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": 415.99999999999994,
+  "gap": null,
+  "nodes": 190364,
+  "peak_commit_mib": 227.5546875,
+  "wall_seconds": 300.14099999997416,
+  "published": {
+   "kind": "opt",
+   "value": 453.0
+  },
+  "check": {
+   "status": "no_point",
+   "columns": 2375
+  },
+  "guard_stop": false,
+  "proven": false
+ }
+]

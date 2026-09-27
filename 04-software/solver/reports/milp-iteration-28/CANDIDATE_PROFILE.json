@@ -1,0 +1,40 @@
+{
+  "name": "staged CPU MILP evaluation candidate",
+  "experimental": true,
+  "default_changed": false,
+  "binary_sha256": "f74d9fe31411ec2c94452eb302b1967ad8bf85be44df3d6d4d177e93a162cf2c",
+  "flags": [
+    "--capture-work",
+    "--lp-recovery",
+    "--improve-incumbent",
+    "--repair-candidates",
+    "--repair-heuristic-candidates",
+    "--capture-lp-failure",
+    "--capture-rejected-candidates",
+    "--late-lifted-covers",
+    "--late-compact-equalities",
+    "--late-reduced-bound-lp",
+    "--binary-proof",
+    "--objective-lattice",
+    "--raw-lp-priority",
+    "--capture-cut-rounds",
+    "--capture-refinement",
+    "--refine-basis",
+    "--refine-at-checks",
+    "--pump-guided-diving",
+    "--capture-feasibility",
+    "--pump-distance-diving",
+    "--pump-primal-reopt",
+    "--pump-distance-reopt",
+    "--pump-distance-stage"
+  ],
+  "time_limit_seconds": 30,
+  "node_limit": 250000,
+  "relative_gap": 1e-06,
+  "rejected": [
+    "stable private ranking",
+    "same-slice alternate reserve",
+    "deferred restart"
+  ],
+  "decision": "Retain staged control; restart deferral fails counterpart-regression gate. No release promotion implied."
+}

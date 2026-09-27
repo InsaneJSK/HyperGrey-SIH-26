@@ -1,0 +1,54 @@
+{
+ "control": {
+  "root_solved": 49,
+  "proven": 2,
+  "completion_disagrees": [],
+  "validated_points": 19,
+  "rejected_points": [],
+  "unresolved_root": [
+   "atlanta-ip",
+   "bab2",
+   "bab6",
+   "brazil3",
+   "buildingenergy",
+   "chromaticindex1024-7",
+   "dano3_3",
+   "dano3_5",
+   "ex10",
+   "ex9",
+   "gfd-schedulen180f7d50m30k18"
+  ],
+  "fallbacks": 1984,
+  "unresolved_nodes": 20,
+  "cold_starts": 2030,
+  "nodes": 5947089
+ },
+ "candidate": {
+  "root_solved": 49,
+  "proven": 3,
+  "completion_disagrees": [],
+  "validated_points": 21,
+  "rejected_points": [],
+  "unresolved_root": [
+   "atlanta-ip",
+   "bab2",
+   "bab6",
+   "brazil3",
+   "buildingenergy",
+   "chromaticindex1024-7",
+   "dano3_3",
+   "dano3_5",
+   "ex10",
+   "ex9",
+   "gfd-schedulen180f7d50m30k18"
+  ],
+  "fallbacks": 305,
+  "unresolved_nodes": 9,
+  "cold_starts": 282,
+  "nodes": 7753820
+ },
+ "binaries": {
+  "control": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad",
+  "candidate": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad"
+ }
+}

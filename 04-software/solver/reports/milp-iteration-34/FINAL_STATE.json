@@ -1,0 +1,48 @@
+{
+ "iteration": 34,
+ "date": "2026-09-19",
+ "decision": "Promoted; executable defaults unchanged.",
+ "binary_sha256": "f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb",
+ "validation_failures": 0,
+ "rejected_points": 0,
+ "development": {
+  "completions_our_status": [
+   26,
+   26
+  ],
+  "checked_points": [
+   50,
+   50
+  ]
+ },
+ "mechanism_set_300s": {
+  "root_solved": [
+   0,
+   8
+  ],
+  "proven": [
+   0,
+   1
+  ],
+  "proof": "neos-827175 = 112.00152 (published)"
+ },
+ "fresh_holdout_300s": {
+  "root_solved": [
+   0,
+   3
+  ],
+  "proven": [
+   0,
+   0
+  ]
+ },
+ "format": "[control, candidate]",
+ "exposed_defect": "Gomory purge (iteration 32) discards the basis; children cold start and hit the 10,000 node-LP cap.",
+ "files_sha256": {
+  "CANDIDATE_PROFILE.json": "f154d215c25947a64854e5b05bb6a07eda3587560a14e804e98f828ffae3340f",
+  "DEVELOPMENT.json": "2c776f6d2b758ff9730990e40670788ea82243611cb1390cdeb74c48e2577381",
+  "PLAN.md": "8bf121f2fee5825003316206e9e09240b10b3637338e7b03807898956d77981e",
+  "REPORT.md": "313d605cc3ef31c83c472dc7864b442cd91b8c3b66437a7256d32c6a2d701252",
+  "SOURCE_IDENTITY.json": "df42482e618573c8e699bbeafd5e003f2a6c24b06727d27e512a3c62a745ebc9"
+ }
+}

@@ -1,0 +1,32 @@
+rail507.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 10}
+ran14x18-disj-8.candidate.0 {'status': 'time_limit', 'objective': 4108.999999908278, 'gap': 0.15554482408137132, 'nodes': 2015}
+reblock115.candidate.0 {'status': 'time_limit', 'objective': -1105507.95900168, 'gap': 33.618954186736715, 'nodes': 358}
+rmatr100-p10.candidate.0 {'status': 'time_limit', 'objective': 438, 'gap': 0.0643056622946565, 'nodes': 229}
+rocI-4-11.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 719}
+roll3000.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 553}
+s250r10.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 1}
+sct2.candidate.0 {'status': 'time_limit', 'objective': 578.3762998119405, 'gap': 1.3971805350323105, 'nodes': 833}
+sorrell3.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 2}
+sp150x300d.candidate.0 {'status': 'time_limit', 'objective': 69, 'gap': 0.3142857142857144, 'nodes': 43227}
+rail507.candidate.0 no_incumbent_limit []
+ran14x18-disj-8.candidate.0 feasible_limit []
+reblock115.candidate.0 feasible_limit []
+rmatr100-p10.candidate.0 feasible_limit []
+rocI-4-11.candidate.0 no_incumbent_limit []
+roll3000.candidate.0 no_incumbent_limit []
+s250r10.candidate.0 no_incumbent_limit []
+sct2.candidate.0 feasible_limit []
+sorrell3.candidate.0 no_incumbent_limit []
+sp150x300d.candidate.0 feasible_limit []
+{
+  "records": 10,
+  "models": 10,
+  "categories": {
+    "candidate": {
+      "no_incumbent_limit": 5,
+      "feasible_limit": 5
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "dbe1f70bf5ac09503c96483f51d28f00ab9ddcc782dc87e8f60f97325a0d6b1c"
+}

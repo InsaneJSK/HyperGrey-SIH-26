@@ -1,0 +1,30 @@
+{
+ "name": "neos-957323",
+ "status": "time_limit",
+ "message": "LP relaxation did not pass its numerical checks",
+ "wall_seconds": 303.8,
+ "rows": 3757,
+ "columns": 57756,
+ "root_lp_failure_status": null,
+ "root_lp_iterations": null,
+ "bounded": {
+  "calls": 1,
+  "optimal": 0,
+  "failures": 1,
+  "fallbacks": 1,
+  "iterations": 10000,
+  "verification_rejected": 0,
+  "farkas_rejected": 0,
+  "refactors": 157,
+  "singular_repairs": 0,
+  "seconds": 53.6906203
+ },
+ "lp_recovery": {
+  "attempts": 0,
+  "successes": 0,
+  "seconds": 0
+ },
+ "debug": [
+  "bounded failure status=iteration_limit warm=0 it=10000"
+ ]
+}

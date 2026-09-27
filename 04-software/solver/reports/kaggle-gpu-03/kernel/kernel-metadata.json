@@ -1,0 +1,14 @@
+{
+  "id": "prakhar1803/sih26119-gpu-boxqp-validation",
+  "title": "sih26119 gpu boxqp validation",
+  "code_file": "gpu_validation.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["prakhar1803/sih26119-solver-source"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

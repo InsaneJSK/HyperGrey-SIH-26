@@ -1,0 +1,17 @@
+{
+  "all_pass": true,
+  "compared_results": 80,
+  "fields": [
+    "status",
+    "objective",
+    "primal",
+    "best_bound",
+    "gap",
+    "nodes",
+    "lp_iterations",
+    "passed"
+  ],
+  "differences": [],
+  "prior": "reports/milp-iteration-08/late-180s",
+  "current": "reports/milp-iteration-09/delayed-180s"
+}

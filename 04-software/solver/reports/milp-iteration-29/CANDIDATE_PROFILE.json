@@ -1,0 +1,41 @@
+{
+  "name": "Iteration29 experimental private certificate profile",
+  "experimental": true,
+  "default_changed": false,
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "flags": [
+    "--capture-work",
+    "--lp-recovery",
+    "--improve-incumbent",
+    "--repair-candidates",
+    "--repair-heuristic-candidates",
+    "--capture-lp-failure",
+    "--capture-rejected-candidates",
+    "--late-lifted-covers",
+    "--late-compact-equalities",
+    "--late-reduced-bound-lp",
+    "--binary-proof",
+    "--objective-lattice",
+    "--raw-lp-priority",
+    "--capture-cut-rounds",
+    "--capture-refinement",
+    "--refine-basis",
+    "--refine-at-checks",
+    "--pump-guided-diving",
+    "--capture-feasibility",
+    "--pump-distance-diving",
+    "--pump-primal-reopt",
+    "--pump-distance-reopt",
+    "--pump-distance-stage",
+    "--private-dual-certificate"
+  ],
+  "time_limit_seconds": 30,
+  "node_limit": 250000,
+  "relative_gap": 1e-06,
+  "rejected": [
+    "stable private ranking",
+    "same-slice alternate reserve",
+    "deferred restart"
+  ],
+  "decision": "Keep off by default; see repeated screen and REPORT.md."
+}

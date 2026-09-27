@@ -1,0 +1,222 @@
+[
+ {
+  "name": "academictimetablesmall",
+  "profile": "control",
+  "status": "unresolved_relaxations",
+  "message": "Unresolved LP nodes retained in the global bound",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "peak_commit_mib": 4278.734375,
+  "published": {
+   "kind": "opt",
+   "value": 0.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "academictimetablesmall",
+  "profile": "candidate",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": -5e-324,
+  "gap": null,
+  "root_bound": -5e-324,
+  "root_solved": true,
+  "nodes": 2,
+  "bounded_optimal": 6,
+  "peak_commit_mib": 1708.4765625,
+  "published": {
+   "kind": "opt",
+   "value": 0.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "brazil3",
+  "profile": "control",
+  "status": "unresolved_relaxations",
+  "message": "Unresolved LP nodes retained in the global bound",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "peak_commit_mib": 3833.82421875,
+  "published": {
+   "kind": "opt",
+   "value": 24.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "brazil3",
+  "profile": "candidate",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "peak_commit_mib": 40.34375,
+  "published": {
+   "kind": "opt",
+   "value": 24.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "irish-electricity",
+  "profile": "control",
+  "status": "unresolved_relaxations",
+  "message": "Unresolved LP nodes retained in the global bound",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "peak_commit_mib": 1003.44921875,
+  "published": {
+   "kind": "opt",
+   "value": 3723497.591396
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "irish-electricity",
+  "profile": "candidate",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "peak_commit_mib": 144.02734375,
+  "published": {
+   "kind": "opt",
+   "value": 3723497.591396
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "k1mushroom",
+  "profile": "control",
+  "status": "unresolved_relaxations",
+  "message": "Unresolved LP nodes retained in the global bound",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "peak_commit_mib": 2172.17578125,
+  "published": {
+   "kind": "opt",
+   "value": -3288.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "k1mushroom",
+  "profile": "candidate",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": -4149.000000000001,
+  "gap": null,
+  "root_bound": -4165.000000000001,
+  "root_solved": true,
+  "nodes": 26,
+  "bounded_optimal": 30,
+  "peak_commit_mib": 308.140625,
+  "published": {
+   "kind": "opt",
+   "value": -3288.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "neos-3216931-puriri",
+  "profile": "control",
+  "status": "unresolved_relaxations",
+  "message": "Unresolved LP nodes retained in the global bound",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "peak_commit_mib": 137.41796875,
+  "published": {
+   "kind": "opt",
+   "value": 71320.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "neos-3216931-puriri",
+  "profile": "candidate",
+  "status": "unresolved_relaxations",
+  "message": "Unresolved LP nodes retained in the global bound",
+  "objective": null,
+  "best_bound": 58873.56895421885,
+  "gap": null,
+  "root_bound": 58817.347183957885,
+  "root_solved": true,
+  "nodes": 3,
+  "bounded_optimal": 2,
+  "peak_commit_mib": 138.3828125,
+  "published": {
+   "kind": "opt",
+   "value": 71320.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ }
+]

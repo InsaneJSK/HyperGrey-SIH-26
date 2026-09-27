@@ -1,0 +1,29 @@
+{
+  "records": 81,
+  "models": 27,
+  "categories": {
+    "control": {
+      "exact_proof_checked": 2,
+      "numerical_completion_checked": 9,
+      "feasible_limit": 14,
+      "no_incumbent_limit": 1,
+      "terminal_reference_pending": 1
+    },
+    "candidate": {
+      "exact_proof_checked": 2,
+      "numerical_completion_checked": 9,
+      "feasible_limit": 14,
+      "no_incumbent_limit": 1,
+      "terminal_reference_pending": 1
+    },
+    "norestart": {
+      "exact_proof_checked": 2,
+      "numerical_completion_checked": 9,
+      "feasible_limit": 14,
+      "no_incumbent_limit": 1,
+      "terminal_reference_pending": 1
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "e1b493b777d667413e4d41b25836f32b8ff34dd83bcb311c07da9662ef461c44"
+}

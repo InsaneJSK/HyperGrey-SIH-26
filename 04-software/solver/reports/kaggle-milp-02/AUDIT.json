@@ -1,0 +1,522 @@
+{
+  "profile": "milp_focus",
+  "experiment": "recovery",
+  "returned_zip_sha256": "711867e10aba5bc0cb0192faed038a0a86e20c94b03826c1473123b24eabb7fa",
+  "snapshot_sha256": "1ba3309e1cb62c7508af66698dc53defa1f229a8bd4ec8de77f2dde9a0aba889",
+  "source_files_verified": 176,
+  "runtime_source_files_verified": 74,
+  "reported_linux_binary_sha256": "e3ac5b4e239def54f7158c245aafc8f0a568c9b9c01897a2ce774ebbb8ee5593",
+  "groups_recounted": {
+    "generated_control_binary": {
+      "passed": 40,
+      "total": 40
+    },
+    "generated_control_mixed": {
+      "passed": 40,
+      "total": 40
+    },
+    "generated_recovery_neighborhood_binary": {
+      "passed": 40,
+      "total": 40
+    },
+    "generated_recovery_neighborhood_mixed": {
+      "passed": 40,
+      "total": 40
+    },
+    "generated_recovery_only_binary": {
+      "passed": 40,
+      "total": 40
+    },
+    "generated_recovery_only_mixed": {
+      "passed": 40,
+      "total": 40
+    }
+  },
+  "fresh_verified_candidates": 4,
+  "completed_reference_comparisons": 0,
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "physical_cores": 2,
+  "logical_cores": 4,
+  "ram_bytes": 33659379712,
+  "gpu_used": false,
+  "results": [
+    {
+      "status": "node_limit",
+      "objective": 4.999999994,
+      "best_bound": -1.0000000000000001e-07,
+      "gap": 0.8333333498333334,
+      "nodes": 250000,
+      "lp_iterations": 8418521,
+      "total_seconds": 166.318501091,
+      "first_incumbent_seconds": 0.000963092000006327,
+      "strong_branch_probes": 0,
+      "strong_branch_seconds": 0,
+      "pseudocost_updates": 0,
+      "lp_recovery_attempts": 0,
+      "lp_recovery_successes": 0,
+      "lp_recovery_seconds": 0,
+      "deferred_nodes": 0,
+      "unresolved_nodes": 0,
+      "neighborhood_calls": 0,
+      "neighborhood_nodes": 0,
+      "neighborhood_improvements": 0,
+      "neighborhood_seconds": 0,
+      "name": "markshare_4_0",
+      "strategy": "control",
+      "key": "markshare_4_0.control",
+      "model_sha256": "a05d1c8c1a1e0646ea31965fd5e05af7a41801db3cb1820b2ab4cd95c7bc32db",
+      "command": [
+        "/kaggle/working/sih26119_vavrgzxz/build-milp-focus/solver_cli",
+        "/kaggle/working/sih26119_vavrgzxz/datasets/miplib2017/markshare_4_0.mps",
+        "--milp",
+        "--json",
+        "--branching",
+        "fractionality",
+        "--capture-lp-failure",
+        "--time-limit",
+        "180.0",
+        "--node-limit",
+        "250000",
+        "--gap",
+        "1e-6"
+      ],
+      "candidate_verified": true,
+      "independent_max_violation": 5.9999365475960076e-09,
+      "independent_integer_violation": 0.0,
+      "reference_status": "Time limit reached",
+      "reference_objective": 3.999999999999509,
+      "completed_verified": false,
+      "fresh_candidate_verified": true,
+      "fresh_max_violation": 5.9999365475960076e-09,
+      "fresh_integer_violation": 0.0,
+      "incumbent_trace": [
+        [
+          0.000963202000008323,
+          147
+        ],
+        [
+          0.8607290360000093,
+          102.999999893
+        ],
+        [
+          2.1158602879999933,
+          83.999999912
+        ],
+        [
+          2.6593819189999977,
+          80.999999915
+        ],
+        [
+          2.7681461809999917,
+          71.99999992400001
+        ],
+        [
+          4.463567559000012,
+          58.999999938
+        ],
+        [
+          5.511057432999991,
+          50.999999945
+        ],
+        [
+          5.731204506000012,
+          32.999999963
+        ],
+        [
+          12.058514774999992,
+          28.000000000000014
+        ],
+        [
+          14.680231708000008,
+          25.99999997
+        ],
+        [
+          15.225900284000005,
+          20.999999975999998
+        ],
+        [
+          27.136142358,
+          16.999999996000014
+        ],
+        [
+          35.18061213199999,
+          15.99999998
+        ],
+        [
+          85.108264338,
+          11.999999986
+        ],
+        [
+          85.570880916,
+          7.999999999999979
+        ],
+        [
+          101.316466288,
+          4.999999994
+        ]
+      ]
+    },
+    {
+      "status": "node_limit",
+      "objective": 4.999999994,
+      "best_bound": -1.0000000000000001e-07,
+      "gap": 0.8333333498333334,
+      "nodes": 250000,
+      "lp_iterations": 8419801,
+      "total_seconds": 166.8165096,
+      "first_incumbent_seconds": 0.0009806600000104027,
+      "strong_branch_probes": 0,
+      "strong_branch_seconds": 0,
+      "pseudocost_updates": 0,
+      "lp_recovery_attempts": 0,
+      "lp_recovery_successes": 0,
+      "lp_recovery_seconds": 0,
+      "deferred_nodes": 0,
+      "unresolved_nodes": 0,
+      "neighborhood_calls": 16,
+      "neighborhood_nodes": 134,
+      "neighborhood_improvements": 3,
+      "neighborhood_seconds": 0.032899962000000005,
+      "name": "markshare_4_0",
+      "strategy": "recovery_neighborhood",
+      "key": "markshare_4_0.recovery_neighborhood",
+      "model_sha256": "a05d1c8c1a1e0646ea31965fd5e05af7a41801db3cb1820b2ab4cd95c7bc32db",
+      "command": [
+        "/kaggle/working/sih26119_vavrgzxz/build-milp-focus/solver_cli",
+        "/kaggle/working/sih26119_vavrgzxz/datasets/miplib2017/markshare_4_0.mps",
+        "--milp",
+        "--json",
+        "--branching",
+        "fractionality",
+        "--capture-lp-failure",
+        "--lp-recovery",
+        "--improve-incumbent",
+        "--time-limit",
+        "180.0",
+        "--node-limit",
+        "250000",
+        "--gap",
+        "1e-6"
+      ],
+      "candidate_verified": true,
+      "independent_max_violation": 5.9999365475960076e-09,
+      "independent_integer_violation": 0.0,
+      "reference_status": "Time limit reached",
+      "reference_objective": 3.999999999999509,
+      "completed_verified": false,
+      "fresh_candidate_verified": true,
+      "fresh_max_violation": 5.9999365475960076e-09,
+      "fresh_integer_violation": 0.0,
+      "incumbent_trace": [
+        [
+          0.0009807710000018233,
+          147
+        ],
+        [
+          0.014829286000008324,
+          108.99999995815188
+        ],
+        [
+          0.027174107000007552,
+          72.99999995380519
+        ],
+        [
+          0.1465983010000116,
+          72.99999995149295
+        ],
+        [
+          0.27610619899999733,
+          72.999999923
+        ],
+        [
+          2.883950246000012,
+          71.99999992400001
+        ],
+        [
+          4.651171653000006,
+          58.999999938
+        ],
+        [
+          5.675837373000007,
+          50.999999945
+        ],
+        [
+          5.908994269000004,
+          32.999999963
+        ],
+        [
+          12.307771857000006,
+          28.000000000000014
+        ],
+        [
+          14.941803668999995,
+          25.99999997
+        ],
+        [
+          15.456130894000012,
+          20.999999975999998
+        ],
+        [
+          27.47991738600001,
+          16.999999996000014
+        ],
+        [
+          35.441217609000006,
+          15.99999998
+        ],
+        [
+          85.275439912,
+          11.999999986
+        ],
+        [
+          85.753046952,
+          7.999999999999979
+        ],
+        [
+          101.39672877,
+          4.999999994
+        ]
+      ]
+    },
+    {
+      "status": "time_limit",
+      "objective": null,
+      "best_bound": 7.591048200260432,
+      "gap": null,
+      "nodes": 10285,
+      "lp_iterations": 509055,
+      "total_seconds": 180.017816446,
+      "first_incumbent_seconds": null,
+      "strong_branch_probes": 0,
+      "strong_branch_seconds": 0,
+      "pseudocost_updates": 0,
+      "lp_recovery_attempts": 5,
+      "lp_recovery_successes": 5,
+      "lp_recovery_seconds": 0.408647051,
+      "deferred_nodes": 2,
+      "unresolved_nodes": 2,
+      "neighborhood_calls": 0,
+      "neighborhood_nodes": 0,
+      "neighborhood_improvements": 0,
+      "neighborhood_seconds": 0,
+      "name": "blend2",
+      "strategy": "recovery_neighborhood",
+      "key": "blend2.recovery_neighborhood",
+      "model_sha256": "48c009606d5e949baa8e5e060c8b0cafd3eb96f9d615d98fff0d626d5b6e503f",
+      "command": [
+        "/kaggle/working/sih26119_vavrgzxz/build-milp-focus/solver_cli",
+        "/kaggle/working/sih26119_vavrgzxz/datasets/miplib2017/blend2.mps",
+        "--milp",
+        "--json",
+        "--branching",
+        "fractionality",
+        "--capture-lp-failure",
+        "--lp-recovery",
+        "--improve-incumbent",
+        "--time-limit",
+        "180.0",
+        "--node-limit",
+        "250000",
+        "--gap",
+        "1e-6"
+      ],
+      "candidate_verified": false,
+      "independent_max_violation": null,
+      "independent_integer_violation": null,
+      "reference_status": "Optimal",
+      "reference_objective": 7.598985,
+      "completed_verified": false,
+      "fresh_candidate_verified": false,
+      "fresh_max_violation": null,
+      "fresh_integer_violation": null,
+      "incumbent_trace": []
+    },
+    {
+      "status": "iteration_limit",
+      "objective": null,
+      "best_bound": 7.468466152016829,
+      "gap": null,
+      "nodes": 3762,
+      "lp_iterations": 142394,
+      "total_seconds": 45.177456384,
+      "first_incumbent_seconds": null,
+      "strong_branch_probes": 0,
+      "strong_branch_seconds": 0,
+      "pseudocost_updates": 0,
+      "lp_recovery_attempts": 0,
+      "lp_recovery_successes": 0,
+      "lp_recovery_seconds": 0,
+      "deferred_nodes": 0,
+      "unresolved_nodes": 0,
+      "neighborhood_calls": 0,
+      "neighborhood_nodes": 0,
+      "neighborhood_improvements": 0,
+      "neighborhood_seconds": 0,
+      "name": "blend2",
+      "strategy": "control",
+      "key": "blend2.control",
+      "model_sha256": "48c009606d5e949baa8e5e060c8b0cafd3eb96f9d615d98fff0d626d5b6e503f",
+      "command": [
+        "/kaggle/working/sih26119_vavrgzxz/build-milp-focus/solver_cli",
+        "/kaggle/working/sih26119_vavrgzxz/datasets/miplib2017/blend2.mps",
+        "--milp",
+        "--json",
+        "--branching",
+        "fractionality",
+        "--capture-lp-failure",
+        "--time-limit",
+        "180.0",
+        "--node-limit",
+        "250000",
+        "--gap",
+        "1e-6"
+      ],
+      "candidate_verified": false,
+      "independent_max_violation": null,
+      "independent_integer_violation": null,
+      "reference_status": "Optimal",
+      "reference_objective": 7.598985,
+      "completed_verified": false,
+      "fresh_candidate_verified": false,
+      "fresh_max_violation": null,
+      "fresh_integer_violation": null,
+      "incumbent_trace": []
+    },
+    {
+      "status": "time_limit",
+      "objective": 7297.320029000008,
+      "best_bound": 6665.11807082144,
+      "gap": 0.08662294276854153,
+      "nodes": 5268,
+      "lp_iterations": 141714,
+      "total_seconds": 180.026562057,
+      "first_incumbent_seconds": 15.432017790000003,
+      "strong_branch_probes": 0,
+      "strong_branch_seconds": 0,
+      "pseudocost_updates": 0,
+      "lp_recovery_attempts": 0,
+      "lp_recovery_successes": 0,
+      "lp_recovery_seconds": 0,
+      "deferred_nodes": 0,
+      "unresolved_nodes": 0,
+      "neighborhood_calls": 0,
+      "neighborhood_nodes": 0,
+      "neighborhood_improvements": 0,
+      "neighborhood_seconds": 0,
+      "name": "binkar10_1",
+      "strategy": "control",
+      "key": "binkar10_1.control",
+      "model_sha256": "71dc18a14f1d26f39473eaf64b81c12691a0c0d4ab00dec43679071ed7f3e09c",
+      "command": [
+        "/kaggle/working/sih26119_vavrgzxz/build-milp-focus/solver_cli",
+        "/kaggle/working/sih26119_vavrgzxz/datasets/miplib2017/binkar10_1.mps",
+        "--milp",
+        "--json",
+        "--branching",
+        "fractionality",
+        "--capture-lp-failure",
+        "--time-limit",
+        "180.0",
+        "--node-limit",
+        "250000",
+        "--gap",
+        "1e-6"
+      ],
+      "candidate_verified": true,
+      "independent_max_violation": 0.0,
+      "independent_integer_violation": 0.0,
+      "reference_status": "Time limit reached",
+      "reference_objective": 6746.760022999938,
+      "completed_verified": false,
+      "fresh_candidate_verified": true,
+      "fresh_max_violation": 0.0,
+      "fresh_integer_violation": 0.0,
+      "incumbent_trace": [
+        [
+          15.432019625999999,
+          7297.320029000008
+        ]
+      ]
+    },
+    {
+      "status": "time_limit",
+      "objective": 6747.310014559364,
+      "best_bound": 6664.595511776433,
+      "gap": 0.01225706919280174,
+      "nodes": 4417,
+      "lp_iterations": 139594,
+      "total_seconds": 180.018871624,
+      "first_incumbent_seconds": 15.655371459999998,
+      "strong_branch_probes": 0,
+      "strong_branch_seconds": 0,
+      "pseudocost_updates": 0,
+      "lp_recovery_attempts": 0,
+      "lp_recovery_successes": 0,
+      "lp_recovery_seconds": 0,
+      "deferred_nodes": 0,
+      "unresolved_nodes": 0,
+      "neighborhood_calls": 14,
+      "neighborhood_nodes": 632,
+      "neighborhood_improvements": 5,
+      "neighborhood_seconds": 27.005382542999996,
+      "name": "binkar10_1",
+      "strategy": "recovery_neighborhood",
+      "key": "binkar10_1.recovery_neighborhood",
+      "model_sha256": "71dc18a14f1d26f39473eaf64b81c12691a0c0d4ab00dec43679071ed7f3e09c",
+      "command": [
+        "/kaggle/working/sih26119_vavrgzxz/build-milp-focus/solver_cli",
+        "/kaggle/working/sih26119_vavrgzxz/datasets/miplib2017/binkar10_1.mps",
+        "--milp",
+        "--json",
+        "--branching",
+        "fractionality",
+        "--capture-lp-failure",
+        "--lp-recovery",
+        "--improve-incumbent",
+        "--time-limit",
+        "180.0",
+        "--node-limit",
+        "250000",
+        "--gap",
+        "1e-6"
+      ],
+      "candidate_verified": true,
+      "independent_max_violation": 6.000000052353016e-09,
+      "independent_integer_violation": 0.0,
+      "reference_status": "Time limit reached",
+      "reference_objective": 6746.760022999938,
+      "completed_verified": false,
+      "fresh_candidate_verified": true,
+      "fresh_max_violation": 6.000000052353016e-09,
+      "fresh_integer_violation": 0.0,
+      "incumbent_trace": [
+        [
+          15.655373502000003,
+          7297.320029000008
+        ],
+        [
+          18.412192621000003,
+          6810.690025698247
+        ],
+        [
+          29.385325641999998,
+          6789.670034824617
+        ],
+        [
+          47.49169986800001,
+          6757.190021084338
+        ],
+        [
+          59.32688394600001,
+          6752.000011420982
+        ],
+        [
+          77.60148724,
+          6747.310014559364
+        ]
+      ]
+    }
+  ],
+  "conclusion": "Keep experimental options opt-in pending paired result review and repeated evidence; incomplete runs remain incomplete."
+}

@@ -1,0 +1,58 @@
+air04.control.0 {'status': 'time_limit', 'objective': 57528, 'gap': 0.032157694380225754, 'nodes': 67}
+air04.candidate.0 {'status': 'time_limit', 'objective': 57528, 'gap': 0.03236628483025965, 'nodes': 61}
+arki001.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 1630}
+arki001.control.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 1608}
+dano3mip.control.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 1}
+dano3mip.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 1}
+gen.candidate.0 {'status': 'gap_limit', 'objective': 112313.36271680756, 'gap': 9.999136719445969e-08, 'nodes': 1}
+gen.control.0 {'status': 'gap_limit', 'objective': 112313.36271799979, 'gap': 9.999999914593575e-08, 'nodes': 19}
+markshare1.control.0 {'status': 'time_limit', 'objective': 43.9999999725405, 'gap': 0.9777777799864398, 'nodes': 340272}
+markshare1.candidate.0 {'status': 'time_limit', 'objective': 32, 'gap': 0.9696969727272727, 'nodes': 277534}
+markshare2.candidate.0 {'status': 'time_limit', 'objective': 84.99999996007483, 'gap': 0.9883720941806482, 'nodes': 210518}
+markshare2.control.0 {'status': 'time_limit', 'objective': 60.999999967702195, 'gap': 0.9838709693464366, 'nodes': 266624}
+mkc.control.0 {'status': 'time_limit', 'objective': -478.83000000000004, 'gap': 0.27620058199152486, 'nodes': 2996}
+mkc.candidate.0 {'status': 'time_limit', 'objective': -431.26799999999986, 'gap': 0.39926210734423595, 'nodes': 2684}
+rentacar.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 2}
+rentacar.control.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 147}
+seymour.control.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 144}
+seymour.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 76}
+swath.candidate.0 {'status': 'time_limit', 'objective': 633.8990809889298, 'gap': 0.4023059563946814, 'nodes': 1687}
+swath.control.0 {'status': 'time_limit', 'objective': 685.595576, 'gap': 0.48871813252754037, 'nodes': 3884}
+air04.control.0 feasible_limit []
+air04.candidate.0 feasible_limit []
+arki001.candidate.0 no_incumbent_limit []
+arki001.control.0 no_incumbent_limit []
+dano3mip.control.0 no_incumbent_limit []
+dano3mip.candidate.0 no_incumbent_limit []
+gen.candidate.0 numerical_completion_checked []
+gen.control.0 numerical_completion_checked []
+markshare1.control.0 feasible_limit []
+markshare1.candidate.0 feasible_limit []
+markshare2.candidate.0 feasible_limit []
+markshare2.control.0 feasible_limit []
+mkc.control.0 feasible_limit []
+mkc.candidate.0 feasible_limit []
+rentacar.candidate.0 no_incumbent_limit []
+rentacar.control.0 no_incumbent_limit []
+seymour.control.0 no_incumbent_limit []
+seymour.candidate.0 no_incumbent_limit []
+swath.candidate.0 feasible_limit []
+swath.control.0 feasible_limit []
+{
+  "records": 20,
+  "models": 10,
+  "categories": {
+    "control": {
+      "feasible_limit": 5,
+      "no_incumbent_limit": 4,
+      "numerical_completion_checked": 1
+    },
+    "candidate": {
+      "feasible_limit": 5,
+      "no_incumbent_limit": 4,
+      "numerical_completion_checked": 1
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "357bfda62db39f2af3f4c58587377d22aec659a96722c5ee5e2d50f7ca237e28"
+}

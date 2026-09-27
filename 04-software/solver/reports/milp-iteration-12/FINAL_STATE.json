@@ -1,0 +1,124 @@
+{
+  "iteration": "milp-iteration-12",
+  "completed_local_date": "2026-09-15",
+  "status": "optional_lattice_bounds_verified_breadth_incomplete",
+  "build": "build-milp-iter12",
+  "binary_archive": "reports/milp-iteration-12/final_solver_cli.exe",
+  "source_archive": "reports/milp-iteration-12/final-source",
+  "binary_sha256": "3d29e6a0d5f0ed3bfb6c35e0a3ccee0bc158dda987b619242ed201aff3235a7d",
+  "binary_bytes": 735952,
+  "snapshot_files_verified": 139,
+  "cmake_sha256": "b4c2d9e5f26a6878da4e8d5153ce77078c27dd84116b3bfb8948e934f3b0ef1b",
+  "cmake_cache_sha256": "42749f569eb412e1233dcc049a46885048a488460bcf2fb2a38ea2068a0a0827",
+  "prior_iteration11_binary_and_source_preserved": true,
+  "prior_iteration10_binary_preserved": true,
+  "core_files_changed": [
+    "include/objective_lattice.hpp",
+    "include/milp.hpp",
+    "src/milp_v2.cpp",
+    "src/main.cpp"
+  ],
+  "new_option": "--objective-lattice",
+  "default_enabled": false,
+  "core_unchanged_after_timing": true,
+  "wave1_models": 17,
+  "wave1_categories": {
+    "control": {
+      "exact_proof_checked": 2,
+      "numerical_completion_checked": 7,
+      "no_incumbent_limit": 1,
+      "feasible_limit": 7
+    },
+    "lattice": {
+      "exact_proof_checked": 2,
+      "numerical_completion_checked": 8,
+      "no_incumbent_limit": 1,
+      "feasible_limit": 6
+    }
+  },
+  "target_repeated_comparisons": [
+    {
+      "run": "target-repeats-30s",
+      "model": "mod008",
+      "control": {
+        "runs": 3,
+        "completed": 0,
+        "median_seconds": 30.0060928,
+        "median_objective": 307,
+        "median_bound": 306.63730710632757,
+        "median_gap": 0.001177574330105296
+      },
+      "lattice": {
+        "runs": 3,
+        "completed": 3,
+        "median_seconds": 14.2332067,
+        "median_objective": 307,
+        "median_bound": 306.99999999999994,
+        "median_gap": 1.8455655474288318e-16
+      }
+    },
+    {
+      "run": "target-repeats-30s",
+      "model": "misc03",
+      "lattice": {
+        "runs": 3,
+        "completed": 0,
+        "median_seconds": 30.0033719,
+        "median_objective": 3359.999999999999,
+        "median_bound": 3254.9999999999995,
+        "median_gap": 0.0312407021719725
+      },
+      "control": {
+        "runs": 3,
+        "completed": 0,
+        "median_seconds": 30.0033698,
+        "median_objective": 3359.999999999997,
+        "median_bound": 3282.4996716499995,
+        "median_gap": 0.023058711202022422
+      }
+    }
+  ],
+  "observed_public_validation_failures": 0,
+  "public_runs_audited": 50,
+  "saved_public_final_points_checked": 48,
+  "saved_public_lattice_events_rechecked": 65710,
+  "public_truncated_lattice_traces": 16,
+  "public_exact_proofs_recomputed": 4,
+  "public_cuts_rechecked": 64,
+  "ctest_groups": 10,
+  "python_unit_tests": 65,
+  "cpp_exhaustive_models": 300,
+  "cpp_partial_and_zero_time_checks": 600,
+  "cpp_near_grid_checks": 10005,
+  "independent_generated_lattice_models": 100,
+  "posttiming_generated_milp_checks": 160,
+  "independent_marker_domain_checks": 28,
+  "gpu_used": false,
+  "user_upload_needed": false,
+  "all_public_cases_proven": false,
+  "evidence_sha256": {
+    "NEXT_STEP.md": "0cb393978f3469b9502e62fac7645cc9cc86b9fdb7a98cb52e06941c4c6110c3",
+    "PLAN.md": "19b7998f44d9d0ef7e4e297744767e61596850e65530762407198ae05c5d87d7",
+    "REPORT.md": "091e30c74541ad399671abfdee4bea7d7ae7e56280a35d9812ab44e16096d8d6",
+    "final-audit/AUDIT.json": "12172b1a0c4bd69248eac92b180fbeff4ba491db665076f0c70d04d476a4233e",
+    "final-audit/COMPARISON.json": "4347847285698d2b9fbab2e08af869ffd841ebd902a819e86b5f53ca26d375c7",
+    "final-gate/ctest.log": "630c975541e55770d81f00e25a71a93a5c57d73c8d6373468f7e1825a6ecd154",
+    "final-gate/marker-contract.log": "75ec10b29cbff67b28f8b64510099914799e40ae2e1cf71f20e8084801bc8853",
+    "final-gate/python-checkers.log": "78f3f2552eacb410afa8cfe2f2ecc729795d644bd3772f3f569cf3ed4923699f",
+    "final-gate/SUMMARY.json": "9692e6193c54b751c923c22275855f5d08964cc274472607ee40d3d2788dfac3",
+    "generated-lattice/SUMMARY.json": "5123d805f4e15ef0c75286901aa7061f1f088cf4eed3b1c845911bb5273a8924",
+    "target-repeats-30s/SUMMARY.json": "d2244ba01972eb5bec32296fec986b5d7fe3e0f4e3d13c7a75b054792768938b",
+    "target-screen-30s/SUMMARY.json": "535cb4f43410f5f09c5bb981a9990b03ebea34b8c7370f0d3c297416169669bc",
+    "wave1-paired-30s/SUMMARY.json": "99fd403eb7f63755c56e16c5053705b7888542fd89941462db1582250d4a3751",
+    "final-gate/marker-contract/SUMMARY.json": "c0e68670541039d85e186c500732ba05968e513a045f1161488a06b73bff9ba9"
+  },
+  "limitations": [
+    "General LP/MILP bounds remain numerical, not exact rational proofs.",
+    "First-wave selection is small and mostly historical, not full MIPLIB2017.",
+    "Only the two target models have three new matched repetitions.",
+    "Lattice telemetry retains only the first 4096 improvements; truncated events are not independently rechecked.",
+    "Unsupported objective structures keep the original solver; detection does not guarantee a runtime improvement.",
+    "No new full QP/GPU/industrial validation sweep."
+  ],
+  "next_step": "reports/milp-iteration-12/NEXT_STEP.md"
+}

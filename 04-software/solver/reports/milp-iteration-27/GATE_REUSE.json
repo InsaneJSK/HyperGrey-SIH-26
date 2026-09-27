@@ -1,0 +1,7 @@
+{
+  "all_pass": true,
+  "binary_sha256": "f74d9fe31411ec2c94452eb302b1967ad8bf85be44df3d6d4d177e93a162cf2c",
+  "gate": "../milp-iteration-26/gate/SUMMARY.json",
+  "gate_sha256": "59676d37a075c927d2e3f184314f5a8c62adba880d8b2552f234a8119bff497d",
+  "reason": "No core or binary change; existing complete correctness gate plus new independent frontier comparisons."
+}

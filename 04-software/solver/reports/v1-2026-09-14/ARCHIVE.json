@@ -1,0 +1,14 @@
+{
+ "checks": {
+  "archive_bytes": 489,
+  "archive_sha256": "ecd2d3d3b6fd3995d9b7447471a8216add39fd0de228a151921a4cd505c94925",
+  "bytes": 934,
+  "files": 1,
+  "members": {
+   "evidence-check.json": {
+    "bytes": 934,
+    "sha256": "c7bd56cec89b87fab7029c9b2b1976260e22fe208c9632d4d3c386a260e012e2"
+   }
+  }
+ }
+}

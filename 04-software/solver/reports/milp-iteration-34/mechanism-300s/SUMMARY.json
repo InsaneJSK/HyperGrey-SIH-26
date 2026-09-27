@@ -1,0 +1,37 @@
+{
+ "control": {
+  "root_solved": 0,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "dano3_3",
+   "dano3_5",
+   "neos-662469",
+   "neos-827175",
+   "neos-933966",
+   "neos-957323",
+   "neos-1354092",
+   "mzzv11",
+   "mzzv42z",
+   "CMS750_4",
+   "ns1208400",
+   "neos-3656078-kumeu"
+  ]
+ },
+ "candidate": {
+  "root_solved": 8,
+  "proven": 1,
+  "completion_disagrees": [],
+  "validated_points": 1,
+  "rejected_points": [],
+  "unresolved_root": [
+   "dano3_3",
+   "dano3_5",
+   "mzzv11",
+   "mzzv42z"
+  ]
+ },
+ "binary_sha256": "f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb"
+}

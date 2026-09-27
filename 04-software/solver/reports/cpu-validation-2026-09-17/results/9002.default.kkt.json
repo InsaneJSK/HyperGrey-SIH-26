@@ -1,0 +1,12 @@
+{
+  "candidate_valid_shape_and_finite": true,
+  "recomputed_objective": 5698097498.566484,
+  "max_violation": 2.3810224905610085,
+  "scaled_violation": 8.571830500436812e-08,
+  "stationarity": 2.4131729011254766e-16,
+  "complementarity": 4.124794572931911e-11,
+  "independent_kkt_passed": true,
+  "diagonal_certificate_passed": true,
+  "dual_bound_minimization_sense": 5698097498.119152,
+  "relative_dual_gap": 7.850556825961328e-11
+}

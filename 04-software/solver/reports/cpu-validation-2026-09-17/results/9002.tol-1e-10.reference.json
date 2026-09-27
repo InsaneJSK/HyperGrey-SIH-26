@@ -1,0 +1,20 @@
+{
+  "solver": "OSQP",
+  "version": "1.0.5",
+  "parser": "independent Python QPLIB reader",
+  "export_audit_parser": "HiGHS 1.12.0",
+  "export_hessian_max_difference": 9.928072e-10,
+  "export_hessian_changed_entries": 92,
+  "status": "run time limit reached",
+  "objective": 81492452211.80418,
+  "total_seconds": 30.003509100002702,
+  "solve_seconds": 29.9890299,
+  "iterations": 114372,
+  "primal_residual": 51788.89686680815,
+  "dual_residual": 1.086321139382553,
+  "process_seconds": 31.734011200009263,
+  "exit_code": 0,
+  "reference_reused_from": "9002.default.reference.json",
+  "reference_reused_sha256": "5235eb56373ae48c0a846be3a629838365e79fff88ac09c070bb794707f33301",
+  "reuse_scope": "Same original 9002 model; each probe has its own fresh original-model KKT check."
+}

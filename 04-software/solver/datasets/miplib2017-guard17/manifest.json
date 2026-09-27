@@ -1,0 +1,140 @@
+{
+  "instances": [
+    {
+      "name": "50v-10",
+      "url": "https://miplib.zib.de/WebData/instances/50v-10.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/50v-10.mps",
+      "model_sha256": "ab32c42d0b916c3b858dae1f160f4367f0dbe17016b0714955765ff4d8471133",
+      "bytes": 294310
+    },
+    {
+      "name": "binkar10_1",
+      "url": "https://miplib.zib.de/WebData/instances/binkar10_1.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/binkar10_1.mps",
+      "model_sha256": "71dc18a14f1d26f39473eaf64b81c12691a0c0d4ab00dec43679071ed7f3e09c",
+      "bytes": 202279
+    },
+    {
+      "name": "exp-1-500-5-5",
+      "url": "https://miplib.zib.de/WebData/instances/exp-1-500-5-5.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/exp-1-500-5-5.mps",
+      "model_sha256": "32bcb5e23d511b3ee530e7016765cc724e06bc77225648669c443aa7be0a68f2",
+      "bytes": 209869
+    },
+    {
+      "name": "fiball",
+      "url": "https://miplib.zib.de/WebData/instances/fiball.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/fiball.mps",
+      "model_sha256": "4c525e0ccff090039c5cf50a16144f3bf16874e63d7d685cd39dcf88b6524ed4",
+      "bytes": 4827331
+    },
+    {
+      "name": "gen-ip054",
+      "url": "https://miplib.zib.de/WebData/instances/gen-ip054.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/gen-ip054.mps",
+      "model_sha256": "8b71b70a6f92ea9bde78b375f4366e7cc021cfb517df87130775f8b8bdf47333",
+      "bytes": 29589
+    },
+    {
+      "name": "glass4",
+      "url": "https://miplib.zib.de/WebData/instances/glass4.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/glass4.mps",
+      "model_sha256": "5878be05b45cb711cde341110e8a996252b54e456a1e1eac6540d3bf3f395e6d",
+      "bytes": 127661
+    },
+    {
+      "name": "gmu-35-40",
+      "url": "https://miplib.zib.de/WebData/instances/gmu-35-40.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/gmu-35-40.mps",
+      "model_sha256": "c0ae69e1cddf62318987abb2f4fdab189b3c84374e168c532ab4d917d0753895",
+      "bytes": 365484
+    },
+    {
+      "name": "gmu-35-50",
+      "url": "https://miplib.zib.de/WebData/instances/gmu-35-50.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/gmu-35-50.mps",
+      "model_sha256": "b47c8c89fe140ea3d6c28cab124205ef54782245c4b76e2ac0884ade012b9e8b",
+      "bytes": 617099
+    },
+    {
+      "name": "h80x6320d",
+      "url": "https://miplib.zib.de/WebData/instances/h80x6320d.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/h80x6320d.mps",
+      "model_sha256": "468cc10f24029e48c439447b40c4532cb1e4a66fb85a04bcd522b085a54a16b3",
+      "bytes": 1679866
+    },
+    {
+      "name": "irp",
+      "url": "https://miplib.zib.de/WebData/instances/irp.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/irp.mps",
+      "model_sha256": "754905341c843153bd2caa6a73985dcb1b841423b6825370a1293b6d39bfd9da",
+      "bytes": 3800345
+    },
+    {
+      "name": "markshare2",
+      "url": "https://miplib.zib.de/WebData/instances/markshare2.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/markshare2.mps",
+      "model_sha256": "35013a309b073f42e163e01a485909055b52a5d816fdd18345576473f8ed1458",
+      "bytes": 17207
+    },
+    {
+      "name": "mas74",
+      "url": "https://miplib.zib.de/WebData/instances/mas74.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/mas74.mps",
+      "model_sha256": "181f02fd634306ad6431f21d5e8115f3e8112f2e7d2bebed1690475b49acc4af",
+      "bytes": 64163
+    },
+    {
+      "name": "mas76",
+      "url": "https://miplib.zib.de/WebData/instances/mas76.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/mas76.mps",
+      "model_sha256": "114b73dbe17c1d1b4d37a09311424571781225e01edfbec1c6acb320214593f6",
+      "bytes": 62523
+    },
+    {
+      "name": "neos-2657525-crna",
+      "url": "https://miplib.zib.de/WebData/instances/neos-2657525-crna.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/neos-2657525-crna.mps",
+      "model_sha256": "31a5a4880f97d3844a273b57221e88a6491bb392b1185290548d9f18b17402eb",
+      "bytes": 69728
+    },
+    {
+      "name": "neos-3004026-krka",
+      "url": "https://miplib.zib.de/WebData/instances/neos-3004026-krka.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/neos-3004026-krka.mps",
+      "model_sha256": "7f8e828628826311201247f9d3038321cb59cd2da1806ec1cb4e6176e377197b",
+      "bytes": 2002181
+    },
+    {
+      "name": "neos-3046615-murg",
+      "url": "https://miplib.zib.de/WebData/instances/neos-3046615-murg.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/neos-3046615-murg.mps",
+      "model_sha256": "d8bfe7f051fdf60fdd27c0c5e7e6286729561275f13d87e2f71b1e78b19ccaf5",
+      "bytes": 59152
+    },
+    {
+      "name": "neos-3381206-awhea",
+      "url": "https://miplib.zib.de/WebData/instances/neos-3381206-awhea.mps.gz",
+      "status": "ready",
+      "model": "datasets/miplib2017-guard17/neos-3381206-awhea.mps",
+      "model_sha256": "738f0bf51278e4dd1f0418b149de72ee2614a5a9b805c838705565397cd0514d",
+      "bytes": 193646
+    }
+  ]
+}

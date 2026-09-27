@@ -1,0 +1,191 @@
+p0033.control.0 {'status': 'optimal', 'objective': 3089, 'gap': 0, 'nodes': 1}
+p0033.candidate.0 {'status': 'optimal', 'objective': 3089, 'gap': 0, 'nodes': 1}
+p0033.norestart.0 {'status': 'optimal', 'objective': 3089, 'gap': 0, 'nodes': 1}
+enigma.candidate.0 {'status': 'gap_limit', 'objective': 0, 'gap': 5e-324, 'nodes': 21760}
+enigma.norestart.0 {'status': 'gap_limit', 'objective': 0, 'gap': 5e-324, 'nodes': 21760}
+enigma.control.0 {'status': 'gap_limit', 'objective': 0, 'gap': 5e-324, 'nodes': 21760}
+flugpl.norestart.0 {'status': 'gap_limit', 'objective': 1201500, 'gap': 1.0001500712663753e-07, 'nodes': 641}
+flugpl.control.0 {'status': 'gap_limit', 'objective': 1201500, 'gap': 1.0001500712663753e-07, 'nodes': 641}
+flugpl.candidate.0 {'status': 'gap_limit', 'objective': 1201500, 'gap': 1.0001500712663753e-07, 'nodes': 641}
+stein27.control.0 {'status': 'gap_limit', 'objective': 18, 'gap': 1.8698493046318425e-16, 'nodes': 4993}
+stein27.candidate.0 {'status': 'gap_limit', 'objective': 18, 'gap': 1.8698493046318425e-16, 'nodes': 4993}
+stein27.norestart.0 {'status': 'gap_limit', 'objective': 18, 'gap': 1.8698493046318425e-16, 'nodes': 4993}
+markshare_4_0.candidate.0 {'status': 'optimal', 'objective': 1, 'gap': 0, 'nodes': 1}
+markshare_4_0.norestart.0 {'status': 'optimal', 'objective': 1, 'gap': 0, 'nodes': 1}
+markshare_4_0.control.0 {'status': 'optimal', 'objective': 1, 'gap': 0, 'nodes': 1}
+blend2.norestart.0 {'status': 'time_limit', 'objective': 7.9712629999999995, 'gap': 0.04149681710351236, 'nodes': 47572}
+blend2.control.0 {'status': 'time_limit', 'objective': 7.9712629999999995, 'gap': 0.04149681710351236, 'nodes': 39845}
+blend2.candidate.0 {'status': 'time_limit', 'objective': 7.9712629999999995, 'gap': 0.04149681710351236, 'nodes': 44499}
+binkar10_1.control.0 {'status': 'time_limit', 'objective': 6759.380023594845, 'gap': 0.011241906142337022, 'nodes': 6943}
+binkar10_1.candidate.0 {'status': 'time_limit', 'objective': 6775.250024556576, 'gap': 0.01356088891258328, 'nodes': 7629}
+binkar10_1.norestart.0 {'status': 'time_limit', 'objective': 6762.080016642653, 'gap': 0.01136394701139612, 'nodes': 8109}
+egout.candidate.0 {'status': 'gap_limit', 'objective': 568.1007000000001, 'gap': 0, 'nodes': 3827}
+egout.norestart.0 {'status': 'gap_limit', 'objective': 568.1007000000001, 'gap': 0, 'nodes': 3827}
+egout.control.0 {'status': 'gap_limit', 'objective': 568.1007000000001, 'gap': 0, 'nodes': 3827}
+gt2.norestart.0 {'status': 'time_limit', 'objective': 35409, 'gap': 0.605450437729455, 'nodes': 279814}
+gt2.control.0 {'status': 'time_limit', 'objective': 50894, 'gap': 0.7257490912663327, 'nodes': 260837}
+gt2.candidate.0 {'status': 'time_limit', 'objective': 35409, 'gap': 0.60609997175939, 'nodes': 184789}
+lseu.control.0 {'status': 'gap_limit', 'objective': 1120, 'gap': 2.0283111101091175e-16, 'nodes': 26991}
+lseu.candidate.0 {'status': 'gap_limit', 'objective': 1120, 'gap': 2.0283111101091175e-16, 'nodes': 26991}
+lseu.norestart.0 {'status': 'gap_limit', 'objective': 1120, 'gap': 2.0283111101091175e-16, 'nodes': 7167}
+mod008.candidate.0 {'status': 'gap_limit', 'objective': 307, 'gap': 1.8455655474288318e-16, 'nodes': 8793}
+mod008.norestart.0 {'status': 'gap_limit', 'objective': 307, 'gap': 1.8455655474288318e-16, 'nodes': 8793}
+mod008.control.0 {'status': 'gap_limit', 'objective': 307, 'gap': 1.8455655474288318e-16, 'nodes': 8793}
+p0201.norestart.0 {'status': 'gap_limit', 'objective': 7615, 'gap': 1.1941894718657145e-16, 'nodes': 3219}
+p0201.control.0 {'status': 'gap_limit', 'objective': 7615, 'gap': 1.1941894718657145e-16, 'nodes': 4568}
+p0201.candidate.0 {'status': 'gap_limit', 'objective': 7615, 'gap': 1.1941894718657145e-16, 'nodes': 4568}
+p0282.control.0 {'status': 'time_limit', 'objective': 266462, 'gap': 0.03223336823498958, 'nodes': 45443}
+p0282.candidate.0 {'status': 'time_limit', 'objective': 258682, 'gap': 0.002044973964272987, 'nodes': 51935}
+p0282.norestart.0 {'status': 'time_limit', 'objective': 258411, 'gap': 0.04914632447409574, 'nodes': 55120}
+misc03.candidate.0 {'status': 'gap_limit', 'objective': 3359.999999999999, 'gap': 0, 'nodes': 711}
+misc03.norestart.0 {'status': 'gap_limit', 'objective': 3359.999999999999, 'gap': 0, 'nodes': 711}
+misc03.control.0 {'status': 'gap_limit', 'objective': 3359.999999999999, 'gap': 0, 'nodes': 711}
+misc07.norestart.0 {'status': 'time_limit', 'objective': 2810, 'gap': 0.1405193881181076, 'nodes': 11464}
+misc07.control.0 {'status': 'time_limit', 'objective': 3130, 'gap': 0.29064196742254883, 'nodes': 9687}
+misc07.candidate.0 {'status': 'time_limit', 'objective': 2810, 'gap': 0.19032372821060137, 'nodes': 12330}
+pk1.control.0 {'status': 'time_limit', 'objective': 16.999999963999997, 'gap': 0.6305870632086092, 'nodes': 80422}
+pk1.candidate.0 {'status': 'time_limit', 'objective': 16, 'gap': 0.6134720527432179, 'nodes': 78020}
+pk1.norestart.0 {'status': 'time_limit', 'objective': 16, 'gap': 0.542256300294244, 'nodes': 81242}
+rgn.candidate.0 {'status': 'gap_limit', 'objective': 82.19999922999997, 'gap': 1.0228366299955167e-07, 'nodes': 5591}
+rgn.norestart.0 {'status': 'gap_limit', 'objective': 82.19999922999997, 'gap': 1.0228366299955167e-07, 'nodes': 5591}
+rgn.control.0 {'status': 'gap_limit', 'objective': 82.19999922999997, 'gap': 1.0228366299955167e-07, 'nodes': 5591}
+gen-ip002.norestart.0 {'status': 'time_limit', 'objective': -4711.5219194, 'gap': 0.02136710153219586, 'nodes': 101172}
+gen-ip002.control.0 {'status': 'time_limit', 'objective': -4681.758266, 'gap': 0.0284045634490528, 'nodes': 109142}
+gen-ip002.candidate.0 {'status': 'time_limit', 'objective': -4715.114695000001, 'gap': 0.021181292771717358, 'nodes': 101708}
+assign1-5-8.control.0 {'status': 'time_limit', 'objective': 211.999999995, 'gap': 0.10343780208187904, 'nodes': 8470}
+assign1-5-8.candidate.0 {'status': 'time_limit', 'objective': 213, 'gap': 0.10747672476635768, 'nodes': 8309}
+assign1-5-8.norestart.0 {'status': 'time_limit', 'objective': 213, 'gap': 0.10675213002040955, 'nodes': 5376}
+lotsize.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 1639}
+lotsize.norestart.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 2194}
+lotsize.control.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 1858}
+eil33-2.norestart.0 {'status': 'time_limit', 'objective': 989.386363, 'gap': 0.11528127765149732, 'nodes': 1895}
+eil33-2.control.0 {'status': 'time_limit', 'objective': 989.386363, 'gap': 0.1237077465321952, 'nodes': 1898}
+eil33-2.candidate.0 {'status': 'time_limit', 'objective': 989.386363, 'gap': 0.1281743517448184, 'nodes': 1670}
+mas74.control.0 {'status': 'time_limit', 'objective': 12590.371258200006, 'gap': 0.12889912605014386, 'nodes': 67626}
+mas74.candidate.0 {'status': 'time_limit', 'objective': 12341.947158700006, 'gap': 0.11049995256720768, 'nodes': 78829}
+mas74.norestart.0 {'status': 'time_limit', 'objective': 12929.589689300008, 'gap': 0.14733214258970773, 'nodes': 78478}
+gen-ip054.candidate.0 {'status': 'time_limit', 'objective': 6898.674835483, 'gap': 0.015906624768504903, 'nodes': 167456}
+gen-ip054.norestart.0 {'status': 'time_limit', 'objective': 6911.255517897, 'gap': 0.01737052409316959, 'nodes': 146196}
+gen-ip054.control.0 {'status': 'time_limit', 'objective': 6911.5315241809985, 'gap': 0.017762991690312837, 'nodes': 157054}
+neos859080.norestart.0 {'status': 'infeasible', 'objective': None, 'gap': None, 'nodes': 93}
+neos859080.control.0 {'status': 'infeasible', 'objective': None, 'gap': None, 'nodes': 93}
+neos859080.candidate.0 {'status': 'infeasible', 'objective': None, 'gap': None, 'nodes': 93}
+danoint.control.0 {'status': 'time_limit', 'objective': 71.2499999898364, 'gap': 0.11683947452995799, 'nodes': 549}
+danoint.candidate.0 {'status': 'time_limit', 'objective': 71.99999997242098, 'gap': 0.1259757111221635, 'nodes': 557}
+danoint.norestart.0 {'status': 'time_limit', 'objective': 85.99999998000001, 'gap': 0.2658954132800678, 'nodes': 866}
+rout.candidate.0 {'status': 'time_limit', 'objective': 1131.7199999999998, 'gap': 0.11798306481987432, 'nodes': 13406}
+rout.norestart.0 {'status': 'time_limit', 'objective': 1131.7199999999998, 'gap': 0.11752110389527126, 'nodes': 14861}
+rout.control.0 {'status': 'time_limit', 'objective': 1305.77, 'gap': 0.2353932312634222, 'nodes': 15114}
+mas76.norestart.0 {'status': 'time_limit', 'objective': 40990.366868200006, 'gap': 0.035735159112249545, 'nodes': 95935}
+mas76.control.0 {'status': 'time_limit', 'objective': 41519.9957396, 'gap': 0.04949240984804971, 'nodes': 112543}
+mas76.candidate.0 {'status': 'time_limit', 'objective': 41278.0250111, 'gap': 0.04392794489867377, 'nodes': 107173}
+p0033.control.0 exact_proof_checked []
+p0033.candidate.0 exact_proof_checked []
+p0033.norestart.0 exact_proof_checked []
+enigma.candidate.0 numerical_completion_checked []
+enigma.norestart.0 numerical_completion_checked []
+enigma.control.0 numerical_completion_checked []
+flugpl.norestart.0 numerical_completion_checked []
+flugpl.control.0 numerical_completion_checked []
+flugpl.candidate.0 numerical_completion_checked []
+stein27.control.0 numerical_completion_checked []
+stein27.candidate.0 numerical_completion_checked []
+stein27.norestart.0 numerical_completion_checked []
+markshare_4_0.candidate.0 exact_proof_checked []
+markshare_4_0.norestart.0 exact_proof_checked []
+markshare_4_0.control.0 exact_proof_checked []
+blend2.norestart.0 feasible_limit []
+blend2.control.0 feasible_limit []
+blend2.candidate.0 feasible_limit []
+binkar10_1.control.0 feasible_limit []
+binkar10_1.candidate.0 feasible_limit []
+binkar10_1.norestart.0 feasible_limit []
+egout.candidate.0 numerical_completion_checked []
+egout.norestart.0 numerical_completion_checked []
+egout.control.0 numerical_completion_checked []
+gt2.norestart.0 feasible_limit []
+gt2.control.0 feasible_limit []
+gt2.candidate.0 feasible_limit []
+lseu.control.0 numerical_completion_checked []
+lseu.candidate.0 numerical_completion_checked []
+lseu.norestart.0 numerical_completion_checked []
+mod008.candidate.0 numerical_completion_checked []
+mod008.norestart.0 numerical_completion_checked []
+mod008.control.0 numerical_completion_checked []
+p0201.norestart.0 numerical_completion_checked []
+p0201.control.0 numerical_completion_checked []
+p0201.candidate.0 numerical_completion_checked []
+p0282.control.0 feasible_limit []
+p0282.candidate.0 feasible_limit []
+p0282.norestart.0 feasible_limit []
+misc03.candidate.0 numerical_completion_checked []
+misc03.norestart.0 numerical_completion_checked []
+misc03.control.0 numerical_completion_checked []
+misc07.norestart.0 feasible_limit []
+misc07.control.0 feasible_limit []
+misc07.candidate.0 feasible_limit []
+pk1.control.0 feasible_limit []
+pk1.candidate.0 feasible_limit []
+pk1.norestart.0 feasible_limit []
+rgn.candidate.0 numerical_completion_checked []
+rgn.norestart.0 numerical_completion_checked []
+rgn.control.0 numerical_completion_checked []
+gen-ip002.norestart.0 feasible_limit []
+gen-ip002.control.0 feasible_limit []
+gen-ip002.candidate.0 feasible_limit []
+assign1-5-8.control.0 feasible_limit []
+assign1-5-8.candidate.0 feasible_limit []
+assign1-5-8.norestart.0 feasible_limit []
+lotsize.candidate.0 no_incumbent_limit []
+lotsize.norestart.0 no_incumbent_limit []
+lotsize.control.0 no_incumbent_limit []
+eil33-2.norestart.0 feasible_limit []
+eil33-2.control.0 feasible_limit []
+eil33-2.candidate.0 feasible_limit []
+mas74.control.0 feasible_limit []
+mas74.candidate.0 feasible_limit []
+mas74.norestart.0 feasible_limit []
+gen-ip054.candidate.0 feasible_limit []
+gen-ip054.norestart.0 feasible_limit []
+gen-ip054.control.0 feasible_limit []
+neos859080.norestart.0 terminal_reference_pending []
+neos859080.control.0 terminal_reference_pending []
+neos859080.candidate.0 terminal_reference_pending []
+danoint.control.0 feasible_limit []
+danoint.candidate.0 feasible_limit []
+danoint.norestart.0 feasible_limit []
+rout.candidate.0 feasible_limit []
+rout.norestart.0 feasible_limit []
+rout.control.0 feasible_limit []
+mas76.norestart.0 feasible_limit []
+mas76.control.0 feasible_limit []
+mas76.candidate.0 feasible_limit []
+{
+  "records": 81,
+  "models": 27,
+  "categories": {
+    "control": {
+      "exact_proof_checked": 2,
+      "numerical_completion_checked": 9,
+      "feasible_limit": 14,
+      "no_incumbent_limit": 1,
+      "terminal_reference_pending": 1
+    },
+    "candidate": {
+      "exact_proof_checked": 2,
+      "numerical_completion_checked": 9,
+      "feasible_limit": 14,
+      "no_incumbent_limit": 1,
+      "terminal_reference_pending": 1
+    },
+    "norestart": {
+      "exact_proof_checked": 2,
+      "numerical_completion_checked": 9,
+      "feasible_limit": 14,
+      "no_incumbent_limit": 1,
+      "terminal_reference_pending": 1
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "e1b493b777d667413e4d41b25836f32b8ff34dd83bcb311c07da9662ef461c44"
+}

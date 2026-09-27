@@ -1,0 +1,14 @@
+{
+  "id": "prakhar1803/sih26119-miplib2017-benchmark-sweep",
+  "title": "SIH26119 MIPLIB2017 benchmark sweep",
+  "code_file": "sweep.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["prakhar1803/sih26119-solver-source"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

@@ -1,0 +1,55 @@
+{
+ "models": [
+  "rail507",
+  "ran14x18-disj-8",
+  "reblock115",
+  "rmatr100-p10",
+  "rocI-4-11",
+  "roll3000",
+  "s250r10",
+  "sct2",
+  "sorrell3",
+  "sp150x300d"
+ ],
+ "repeats": 1,
+ "limit": 30,
+ "nodes": 100000000,
+ "gap": 1e-06,
+ "reference_limit": 30,
+ "reference_watchdog": 400,
+ "memory_threshold_mib": 1536,
+ "manifests": [
+  "datasets/milp-iteration-33-holdout/manifest.json"
+ ],
+ "common": [
+  "--capture-work",
+  "--lp-recovery",
+  "--improve-incumbent",
+  "--repair-candidates",
+  "--repair-heuristic-candidates",
+  "--capture-lp-failure",
+  "--capture-rejected-candidates",
+  "--binary-proof",
+  "--objective-lattice",
+  "--raw-lp-priority",
+  "--capture-cut-rounds",
+  "--capture-refinement",
+  "--refine-basis",
+  "--refine-at-checks",
+  "--pump-guided-diving",
+  "--capture-feasibility",
+  "--pump-distance-diving",
+  "--pump-primal-reopt",
+  "--pump-distance-reopt",
+  "--pump-distance-stage"
+ ],
+ "profiles": {
+  "candidate": [
+   "--lifted-covers",
+   "--bounded-lp",
+   "--tree-dives",
+   "--fix-propagate",
+   "--gomory-cuts"
+  ]
+ }
+}

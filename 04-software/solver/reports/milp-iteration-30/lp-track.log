@@ -1,0 +1,42 @@
+adlittle.default optimal 225494.9631623802 191
+adlittle.bounded optimal 225494.96316238045 115
+afiro.bounded optimal -464.75314285714285 18
+afiro.default optimal -464.75314285714285 17
+blend.default optimal -30.81214984582797 162
+blend.bounded optimal -30.812149845828166 92
+boeing2.bounded optimal -315.0187280152029 217
+boeing2.default optimal -315.0187280152027 261
+degen2.default optimal -1435.178 2949
+degen2.bounded optimal -1435.1779999999999 919
+kb2.bounded optimal -1749.9001299062056 52
+kb2.default optimal -1749.9001299062058 96
+sc105.default optimal -52.20206121170721 115
+sc105.bounded optimal -52.20206121170723 98
+sc205.bounded optimal -52.202061211707196 210
+sc205.default optimal -52.202061211707296 263
+sc50a.default optimal -64.5750770585645 49
+sc50a.bounded optimal -64.57507705856449 46
+sc50b.bounded optimal -70 48
+sc50b.default optimal -69.99999999999999 54
+share2b.default optimal -415.73224074141865 212
+share2b.bounded optimal -415.7322407414193 122
+stocfor1.bounded optimal -41131.97621943641 126
+stocfor1.default optimal -41131.9762194364 143
+agg.default optimal -35991767.28657654 152
+agg.bounded optimal -35991767.28657652 280
+bandm.bounded optimal -158.6280184501209 833
+bandm.default numerical_error None 200
+israel.default optimal -896644.8218630459 393
+israel.bounded optimal -896644.8218630458 252
+scagr7.bounded optimal -2331389.824330984 177
+scagr7.default optimal -2331389.824330984 384
+{
+  "records": 32,
+  "binary_sha256": "2bc720dbe31772af9ffb8f806f8b65b2809cb5b7badc6e092187004a792d9d10",
+  "ledger_sha256": "25ac61fc145d6eef9aac4ac6c7e4a09ec775c1ded5d3c11803c960f9e802074a",
+  "checked_completions": {
+    "default": 15,
+    "bounded": 16
+  },
+  "false_optimal_claims": 0
+}

@@ -1,0 +1,7 @@
+bandm.default numerical_error 200
+bandm.refined numerical_error 200
+bandm.compact optimal 1279
+9002.1e-7 optimal 180
+9002.1e-10 time_limit 51725
+9002.1e-12 time_limit 54125
+All declared diagnostic solves finished.

@@ -1,0 +1,12 @@
+{
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "flags": [
+    "--compact-equalities",
+    "--refine-basis",
+    "--refine-at-checks"
+  ],
+  "source_metadata_sha256": "2f36cd329572adc56ec85b7afb55f348ec1f4142e8ec45dbbb35f72a3561590f",
+  "runner_sha256": "298405e8c18393aa28a1fcd9bfa5a4425f1bb40299aa7ad289f9640a64b28430",
+  "own_before_references": true,
+  "purpose": "One explicit LP profile, not default promotion or a speed ranking."
+}

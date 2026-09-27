@@ -1,0 +1,60 @@
+{
+  "models": [
+    "dcmulti",
+    "dsbmip",
+    "fiber",
+    "fixnet6",
+    "khb05250",
+    "l152lav",
+    "misc06",
+    "mod010",
+    "p0548",
+    "pp08a",
+    "qiu",
+    "set1ch",
+    "stein45",
+    "gesa3",
+    "modglob"
+  ],
+  "repeats": 1,
+  "limit": 30,
+  "nodes": 100000000,
+  "gap": 1e-06,
+  "reference_watchdog": 150,
+  "manifests": [
+    "datasets/milp-iteration-30-holdout/manifest.json"
+  ],
+  "common": [
+    "--capture-work",
+    "--lp-recovery",
+    "--improve-incumbent",
+    "--repair-candidates",
+    "--repair-heuristic-candidates",
+    "--capture-lp-failure",
+    "--capture-rejected-candidates",
+    "--late-lifted-covers",
+    "--late-compact-equalities",
+    "--late-reduced-bound-lp",
+    "--binary-proof",
+    "--objective-lattice",
+    "--raw-lp-priority",
+    "--capture-cut-rounds",
+    "--capture-refinement",
+    "--refine-basis",
+    "--refine-at-checks",
+    "--pump-guided-diving",
+    "--capture-feasibility",
+    "--pump-distance-diving",
+    "--pump-primal-reopt",
+    "--pump-distance-reopt",
+    "--pump-distance-stage"
+  ],
+  "profiles": {
+    "control": [],
+    "candidate": [
+      "--bounded-lp"
+    ]
+  },
+  "reference_limit": 30,
+  "memory_threshold_mib": 1536
+}

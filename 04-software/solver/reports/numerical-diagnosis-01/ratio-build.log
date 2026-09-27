@@ -1,0 +1,13 @@
+[ 18%] Building CXX object CMakeFiles/solver.dir/src/solver.cpp.obj
+[ 18%] Building CXX object CMakeFiles/solver.dir/src/mps.cpp.obj
+[ 27%] Building CXX object CMakeFiles/solver.dir/src/milp_v2.cpp.obj
+[ 36%] Building CXX object CMakeFiles/solver.dir/src/qp.cpp.obj
+[ 45%] Building CXX object CMakeFiles/solver.dir/src/qp_admm.cpp.obj
+[ 54%] Building CXX object CMakeFiles/solver.dir/src/qp_dual_newton.cpp.obj
+[ 63%] Building CXX object CMakeFiles/solver.dir/src/sparse_lp.cpp.obj
+[ 72%] Building CXX object CMakeFiles/solver.dir/src/accelerated_qp.cpp.obj
+[ 81%] Linking CXX static library libsolver.a
+[ 81%] Built target solver
+[ 90%] Building CXX object CMakeFiles/solver_cli.dir/src/main.cpp.obj
+[100%] Linking CXX executable solver_cli.exe
+[100%] Built target solver_cli

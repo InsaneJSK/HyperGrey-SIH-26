@@ -1,0 +1,19 @@
+[
+  "C:\\Users\\JSK\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "-B",
+  "-X",
+  "utf8",
+  "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\scripts\\sparse_accuracy_gate.py",
+  "--binary",
+  "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\build-milp-iter29\\solver_cli.exe",
+  "--output",
+  "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\milp-iteration-29\\gate",
+  "--selective",
+  "--heuristic-repair",
+  "--pump-guidance",
+  "--pump-distance",
+  "--pump-reopt",
+  "--distance-reopt",
+  "--distance-stage",
+  "--private-certificate"
+]

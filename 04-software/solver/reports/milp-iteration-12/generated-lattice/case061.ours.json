@@ -1,0 +1,271 @@
+{
+  "status": "gap_limit",
+  "message": "",
+  "nodes": 11,
+  "lp_iterations": 49,
+  "total_seconds": 0.0055588,
+  "warm_starts": 14,
+  "heuristic_solves": 6,
+  "cuts": 0,
+  "bound_tightenings": 54,
+  "rows": 4,
+  "columns": 5,
+  "objective": 36.75,
+  "pump_projections": 1,
+  "pump_restarts": 1,
+  "pump_incumbents": 1,
+  "cut_rollbacks": 0,
+  "first_incumbent_seconds": 0.0002472999999998393,
+  "best_bound": 36.75000000000001,
+  "objective_lattice": {
+    "enabled": true,
+    "eligible": true,
+    "reason": "checked_parsed_model_lattice",
+    "offset_minimization": 3.25,
+    "step": 2,
+    "coefficients_minimization": [
+      -10,
+      -4,
+      -10,
+      -8,
+      0
+    ],
+    "substitutions": [
+      {
+        "column": 4,
+        "row": 0
+      }
+    ],
+    "bound_calls": 22,
+    "bound_improvements": 22,
+    "trace_truncated": false,
+    "trace": [
+      {
+        "node": 0,
+        "before_minimization": -45.0000046,
+        "after_minimization": -44.75000000000001
+      },
+      {
+        "node": 0,
+        "before_minimization": -45.0000046,
+        "after_minimization": -44.75000000000001
+      },
+      {
+        "node": 1,
+        "before_minimization": -41.50000425,
+        "after_minimization": -40.75000000000001
+      },
+      {
+        "node": 1,
+        "before_minimization": -41.50000425,
+        "after_minimization": -40.75000000000001
+      },
+      {
+        "node": 2,
+        "before_minimization": -39.750004075,
+        "after_minimization": -38.75000000000001
+      },
+      {
+        "node": 2,
+        "before_minimization": -39.750004075,
+        "after_minimization": -38.75000000000001
+      },
+      {
+        "node": 3,
+        "before_minimization": -32.750003375,
+        "after_minimization": -32.75000000000001
+      },
+      {
+        "node": 3,
+        "before_minimization": -32.750003375,
+        "after_minimization": -32.75000000000001
+      },
+      {
+        "node": 4,
+        "before_minimization": -41.41667090833333,
+        "after_minimization": -40.75000000000001
+      },
+      {
+        "node": 4,
+        "before_minimization": -41.41667090833333,
+        "after_minimization": -40.75000000000001
+      },
+      {
+        "node": 7,
+        "before_minimization": -39.50000405000001,
+        "after_minimization": -38.75000000000001
+      },
+      {
+        "node": 7,
+        "before_minimization": -39.50000405000001,
+        "after_minimization": -38.75000000000001
+      },
+      {
+        "node": 8,
+        "before_minimization": -24.750002597,
+        "after_minimization": -24.750000000000004
+      },
+      {
+        "node": 8,
+        "before_minimization": -24.750002597,
+        "after_minimization": -24.750000000000004
+      },
+      {
+        "node": 9,
+        "before_minimization": -37.000003799999995,
+        "after_minimization": -36.75000000000001
+      },
+      {
+        "node": 9,
+        "before_minimization": -37.000003799999995,
+        "after_minimization": -36.75000000000001
+      },
+      {
+        "node": 10,
+        "before_minimization": -34.75000358966667,
+        "after_minimization": -34.75000000000001
+      },
+      {
+        "node": 10,
+        "before_minimization": -34.75000358966667,
+        "after_minimization": -34.75000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -36.75000377500001,
+        "after_minimization": -36.75000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -36.75000377500001,
+        "after_minimization": -36.75000000000001
+      },
+      {
+        "node": 6,
+        "before_minimization": -30.750003175,
+        "after_minimization": -30.750000000000004
+      },
+      {
+        "node": 6,
+        "before_minimization": -30.750003175,
+        "after_minimization": -30.750000000000004
+      }
+    ]
+  },
+  "compact_equalities_enabled": false,
+  "late_compact_equalities_enabled": false,
+  "compact_lp_calls": 0,
+  "compact_lp_fallbacks": 0,
+  "root_lp_rows": 10,
+  "root_compact_equalities": 0,
+  "branching": "fractionality",
+  "pseudocost_updates": 0,
+  "reduced_bound_lp_enabled": false,
+  "late_reduced_bound_lp_enabled": false,
+  "reduced_bound_lp_calls": 0,
+  "reduced_bound_lp_fallbacks": 0,
+  "reduced_bound_lp_accepted": 0,
+  "reduced_upper_candidates": 0,
+  "root_reduced_upper_bounds": 0,
+  "strong_branch_probes": 0,
+  "strong_branch_seconds": 0,
+  "gap": 1.882232412609537e-16,
+  "lp_recovery_attempts": 0,
+  "lp_recovery_successes": 0,
+  "lp_recovery_seconds": 0,
+  "deferred_nodes": 0,
+  "unresolved_nodes": 0,
+  "neighborhood_calls": 0,
+  "neighborhood_nodes": 0,
+  "neighborhood_improvements": 0,
+  "neighborhood_seconds": 0,
+  "neighborhood_paced": false,
+  "neighborhood_min_spacing_seconds": 0,
+  "neighborhood": "guided",
+  "neighborhood_trace": [],
+  "first_lp_failure": null,
+  "rejected_integer_candidates": 0,
+  "rejected_candidates": [],
+  "candidate_repair_attempts": 0,
+  "candidate_repair_successes": 0,
+  "repair_branch_nodes": 0,
+  "candidate_repair_seconds": 0,
+  "binary_meet_enabled": false,
+  "binary_meet_attempts": 0,
+  "binary_meet_eligible": false,
+  "binary_meet_completed": false,
+  "binary_meet_improved": false,
+  "binary_meet_left_states": 0,
+  "binary_meet_right_states": 0,
+  "binary_meet_query_nodes": 0,
+  "binary_meet_seconds": 0,
+  "binary_meet_budget": 0,
+  "binary_meet_primal": [],
+  "lifted_covers_enabled": false,
+  "lifted_cover_states": 0,
+  "lifted_cover_checked": 0,
+  "lifted_cover_seconds": 0,
+  "late_lifted_covers_enabled": false,
+  "cut_restarts": 0,
+  "cut_restart_nodes": 0,
+  "cut_restart_seconds": 0,
+  "cut_restart_bound": null,
+  "cut_restart_objective": null,
+  "cut_restart_primal": [],
+  "root_bound_before_cuts": 44.75000000000001,
+  "root_bound_after_cuts": 44.75000000000001,
+  "lifted_cover_trace": [],
+  "binary_proof_enabled": false,
+  "binary_proof_attempts": 0,
+  "binary_proof_budget": 0,
+  "binary_proof": {
+    "version": 1,
+    "arithmetic": "checked_int64",
+    "status": "not_run",
+    "reason": "",
+    "eligible": false,
+    "completed": false,
+    "verified": false,
+    "feasible": false,
+    "seconds": 0,
+    "work": 0,
+    "work_limit": 50000000,
+    "left_states": 0,
+    "right_states": 0,
+    "query_nodes": 0,
+    "objective_minimization": null,
+    "binary_indices": [],
+    "primal": []
+  },
+  "incumbent_trace": [
+    [
+      0.00024740000000011975,
+      28.75
+    ],
+    [
+      0.0003276999999997088,
+      30.75
+    ],
+    [
+      0.0004911999999999139,
+      32.75
+    ],
+    [
+      0.0006468000000001695,
+      34.749999978000005
+    ],
+    [
+      0.0006754000000004368,
+      36.75
+    ]
+  ],
+  "primal": [
+    2,
+    1,
+    0,
+    2,
+    3
+  ],
+  "process_seconds": 0.02128939999965951,
+  "exit_code": 0
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Exact comparison of 40 binary and 40 mixed generated guided-mode outputs, excluding timings and new diagnostic fields",
+  "previous_directory": "local-180s",
+  "current_directory": "pacing-180s-screen",
+  "previous_binary_sha256": "855c3413c056c7ede4e180774991801413549b561f8cca4c6305b9f1d293f6ca",
+  "current_binary_sha256": "ef1856d074862aa754a81e5bff7bfc44c350c02eae4f0a6b43a309c4f4e53cd6",
+  "compared_cases": 80,
+  "compared_fields": ["status", "objective", "primal", "best_bound", "gap", "nodes", "lp_iterations", "passed"],
+  "differences": [],
+  "limitation": "Generated-model equality is not evidence of equal hard-instance timings or broad industrial robustness. Both guided profiles explicitly enable recovery, incumbent improvement and candidate repair; experimental pacing/diversification are disabled."
+}

@@ -1,0 +1,191 @@
+[{"stream_name":"stdout","time":26.161470723,"data":"highspy install exit 0\n"}
+,{"stream_name":"stdout","time":26.202120335,"data":"source tree: /kaggle/input/datasets/prakhar1803/sih26119-solver-source\n"}
+,{"stream_name":"stdout","time":66.407047615,"data":"compiler exit 0\n"}
+,{"stream_name":"stdout","time":66.410903473,"data":"solver sha256 e40e849f69d273777089e3cfd21fdfd7f29803f50cf0ef4f39e26691295c866c\n"}
+,{"stream_name":"stdout","time":66.423882266,"data":"Sovereign SIH26119 V2 candidate; C++ core, sparse simplex, branch-and-cut, convex QP\n"}
+,{"stream_name":"stdout","time":66.427564893,"data":"self-test exit 0\n"}
+,{"stream_name":"stdout","time":66.42759238,"data":"self-test stdout: {\"status\":\"optimal\",\"message\":\"\",\"nodes\":1,\"lp_iterations\":1,\"total_seconds\":0.000243644,\"warm_starts\":1,\"heuristic_solves\":1,\"cuts\":0,\"bound_tightenings\":2,\"rows\":2,\"columns\":2,\"objective\":-20,\"pump_projections\":0,\"pump_restarts\":0,\"pump_incumbents\":0,\"cut_rollbacks\":0,\"first_incumbent_seconds\":9.680400000888767e-05,\"best_bound\":-20,\"pump_reopt\":{\"enabled\":true,\"calls\":0,\"compatible\":0,\"primal\":0,\"dual\":0,\"rejected\":0,\"verified\":0,\"phase_one_iterations\":0,\"factorizations\":0,\"canonical_seconds\":0,\"factor_seconds\":0,\"pricing_seconds\":0,\"replay\":null},\"distance_reopt\":{\"enabled\":true,\"seed_updat\n"}
+,{"stream_name":"stdout","time":66.427609272,"data":"self-test stderr: \n"}
+,{"stream_name":"stdout","time":66.427959964,"data":"self-test status optimal objective -20\n"}
+,{"stream_name":"stdout","time":67.08768624,"data":"solution file: https://miplib.zib.de/downloads/miplib2017-v32.solu entries 1065\n"}
+,{"stream_name":"stdout","time":67.597842841,"data":"benchmark instances listed: 240\n"}
+,{"stream_name":"stdout","time":67.597882262,"data":"batch: 60 instances, slice [60:120], 300s each, 2 at a time\n"}
+,{"stream_name":"stdout","time":368.682446164,"data":"[  1/60] graph20-20-1rand               time_limit         obj=         None gap=    None pub=         -9.0 valid=False agree=None [301s]\n"}
+,{"stream_name":"stdout","time":368.823808672,"data":"[  2/60] graphdraw-domain               time_limit         obj=24654.9999999 gap=0.480928 pub=19685.9999755 valid=True  agree=None [301s]\n"}
+,{"stream_name":"stdout","time":490.077824287,"data":"[  3/60] h80x6320d                      node_limit         obj=20018.1966765 gap=0.722154 pub=6382.09904824 valid=True  agree=None [422s]\n"}
+,{"stream_name":"stdout","time":688.83686196,"data":"[  4/60] highschool1-aigio              time_limit         obj=         None gap=    None pub=          0.0 valid=False agree=None [621s]\n"}
+,{"stream_name":"stdout","time":11201.544915821,"data":"[  5/60] hypothyroid-k1                 gap_limit          obj=        -2851 gap=1.594485 pub=      -2851.0 valid=True  agree=True [11134s]\n"}
+,{"stream_name":"stdout","time":11201.545704656,"data":"[  6/60] ic97_potential                 time_limit         obj=4107.99999980 gap=0.058408 pub=3941.99993090 valid=True  agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.546106266,"data":"[  7/60] icir97_tension                 time_limit         obj=         None gap=    None pub=       6375.0 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.546526243,"data":"[  8/60] irish-electricity              unresolved_relaxat obj=         None gap=    None pub=3723497.59139 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.546966179,"data":"[  9/60] irp                            node_limit         obj=12159.4928649 gap=0.001506 pub=12159.4928353 valid=True  agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.547579329,"data":"[ 10/60] istanbul-no-cutoff             time_limit         obj=         None gap=    None pub= 204.08170701 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.547959601,"data":"[ 11/60] k1mushroom                     unresolved_relaxat obj=         None gap=    None pub=      -3288.0 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.548446042,"data":"[ 12/60] lectsched-5-obj                time_limit         obj=         None gap=    None pub=         24.0 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.548905395,"data":"[ 13/60] leo1                           time_limit         obj=463864420.319 gap=0.161103 pub= 404227536.16 valid=True  agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.549356834,"data":"[ 14/60] leo2                           time_limit         obj=         None gap=    None pub= 404077441.12 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.549857376,"data":"[ 15/60] lotsize                        time_limit         obj=         None gap=    None pub=    1480195.0 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.550344068,"data":"[ 16/60] mad                            time_limit         obj=0.37999999999 gap=0.275362 pub=       0.0268 valid=True  agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.550796708,"data":"[ 17/60] map10                          time_limit         obj=         None gap=    None pub=       -495.0 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.551318237,"data":"[ 18/60] map16715-04                    time_limit         obj=         None gap=    None pub=       -111.0 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.551823695,"data":"[ 19/60] markshare_4_0                  optimal            obj=            1 gap=       0 pub=          1.0 valid=True  agree=True [11134s]\n"}
+,{"stream_name":"stdout","time":11201.552450333,"data":"[ 20/60] markshare2                     node_limit         obj=60.9999999677 gap=0.983870 pub=          1.0 valid=True  agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.553194,"data":"[ 21/60] mas74                          node_limit         obj=12681.2642449 gap=0.121002 pub=  11801.18572 valid=True  agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.553827983,"data":"[ 22/60] mas76                          node_limit         obj=40707.2055932 gap=0.024853 pub=40005.0539899 valid=True  agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.554435015,"data":"[ 23/60] mc11                           time_limit         obj=         None gap=    None pub=11688.9999999 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.555000639,"data":"[ 24/60] mcsched                        time_limit         obj=       213879 gap=0.080862 pub=     211913.0 valid=True  agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.555603078,"data":"[ 25/60] mik-250-20-75-4                time_limit         obj=-51882.000000 gap=0.084682 pub=     -52301.0 valid=True  agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11201.556331252,"data":"[ 26/60] milo-v12-6-r2-40-1             time_limit         obj=         None gap=    None pub=326481.142827 valid=False agree=None [11134s]\n"}
+,{"stream_name":"stdout","time":11298.772559161,"data":"[ 27/60] momentum1                      time_limit         obj=         None gap=    None pub=  109143.4935 valid=False agree=None [11231s]\n"}
+,{"stream_name":"stdout","time":15857.837969478,"data":"[ 28/60] mushroom-best                  time_limit         obj=         3916 gap=0.999742 pub= 0.0553337612 valid=True  agree=None [15790s]\n"}
+,{"stream_name":"stdout","time":15857.962818884,"data":"[ 29/60] mzzv11                         unresolved_relaxat obj=         None gap=    None pub=     -21718.0 valid=False agree=None [15790s]\n"}
+,{"stream_name":"stdout","time":15858.104808065,"data":"[ 30/60] mzzv42z                        unresolved_relaxat obj=         None gap=    None pub=     -20540.0 valid=False agree=None [15790s]\n"}
+,{"stream_name":"stdout","time":15858.219050729,"data":"[ 31/60] n2seq36q                       time_limit         obj=         None gap=    None pub=      52200.0 valid=False agree=None [15791s]\n"}
+,{"stream_name":"stdout","time":19333.337038525,"data":"[ 32/60] n3div36                        time_limit         obj=       162200 gap=0.279899 pub=     130800.0 valid=True  agree=None [19266s]\n"}
+,{"stream_name":"stdout","time":19333.338389829,"data":"[ 33/60] n5-3                           time_limit         obj=        10410 gap=0.487142 pub=8104.99999999 valid=True  agree=None [19266s]\n"}
+,{"stream_name":"stdout","time":19333.339850041,"data":"[ 34/60] neos-1122047                   time_limit         obj=         None gap=    None pub=        161.0 valid=False agree=None [19266s]\n"}
+,{"stream_name":"stdout","time":19333.340987644,"data":"[ 35/60] neos-1171448                   time_limit         obj=         None gap=    None pub=       -309.0 valid=False agree=None [19266s]\n"}
+,{"stream_name":"stdout","time":19333.342120585,"data":"[ 36/60] neos-1171737                   time_limit         obj=-166.00000009 gap=0.173652 pub=       -195.0 valid=True  agree=None [19266s]\n"}
+,{"stream_name":"stdout","time":19333.343283715,"data":"[ 37/60] neos-1354092                   unresolved_relaxat obj=         None gap=    None pub=         46.0 valid=False agree=None [19266s]\n"}
+,{"stream_name":"stdout","time":19333.344527161,"data":"[ 38/60] neos-1445765                   time_limit         obj=        -3795 gap=5.379083 pub=     -17783.0 valid=True  agree=None [19266s]\n"}
+,{"stream_name":"stdout","time":19333.34576812,"data":"[ 39/60] neos-1456979                   time_limit         obj=         None gap=    None pub=        176.0 valid=False agree=None [19266s]\n"}
+,{"stream_name":"stdout","time":19333.346911792,"data":"[ 40/60] neos-1582420                   time_limit         obj=          110 gap=0.180180 pub=90.9999999999 valid=True  agree=None [19266s]\n"}
+,{"stream_name":"stdout","time":19584.1694831,"data":"[ 41/60] neos-2075418-temuka            time_limit         obj=         None gap=    None pub=         None valid=False agree=None [19517s]\n"}
+,{"stream_name":"stdout","time":19584.171150959,"data":"[ 42/60] neos-2657525-crna              node_limit         obj=         None gap=    None pub=     1.810748 valid=False agree=None [19517s]\n"}
+,{"stream_name":"stdout","time":19782.892668442,"data":"[ 43/60] neos-2746589-doon              time_limit         obj=         None gap=    None pub=2008.19999999 valid=False agree=None [19715s]\n"}
+,{"stream_name":"stdout","time":19954.287894929,"data":"[ 44/60] neos-2978193-inde              time_limit         obj= -2.388061686 gap=0.008989 pub=  -2.38806169 valid=True  agree=None [19887s]\n"}
+,{"stream_name":"stdout","time":20086.748816983,"data":"[ 45/60] neos-2987310-joes              time_limit         obj=         None gap=    None pub= -607702988.3 valid=False agree=None [20019s]\n"}
+,{"stream_name":"stdout","time":20086.750081797,"data":"[ 46/60] neos-3004026-krka              node_limit         obj=         None gap=    None pub=          0.0 valid=False agree=None [20019s]\n"}
+,{"stream_name":"stdout","time":20359.902144437,"data":"[ 47/60] neos-3024952-loue              time_limit         obj=         None gap=    None pub=      26756.0 valid=False agree=None [20292s]\n"}
+,{"stream_name":"stdout","time":20359.903752713,"data":"[ 48/60] neos-3046615-murg              node_limit         obj=1739.99999988 gap=0.696726 pub=       1600.0 valid=True  agree=None [20292s]\n"}
+,{"stream_name":"stdout","time":20506.199870212,"data":"[ 49/60] neos-3083819-nubu              time_limit         obj=      6327336 gap=0.004929 pub=    6307996.0 valid=True  agree=None [20439s]\n"}
+,{"stream_name":"stdout","time":20506.200975146,"data":"[ 50/60] neos-3216931-puriri            unresolved_relaxat obj=         None gap=    None pub=      71320.0 valid=False agree=None [20439s]\n"}
+,{"stream_name":"stdout","time":20506.202782744,"data":"[ 51/60] neos-3381206-awhea             node_limit         obj=         None gap=    None pub=        453.0 valid=False agree=None [20439s]\n"}
+,{"stream_name":"stdout","time":20769.646089087,"data":"[ 52/60] neos-3402294-bobin             time_limit         obj=         None gap=    None pub=0.06724999999 valid=False agree=None [20702s]\n"}
+,{"stream_name":"stdout","time":20871.153222923,"data":"[ 53/60] neos-3402454-bohle             time_limit         obj=         None gap=    None pub=         None valid=False agree=None [20804s]\n"}
+,{"stream_name":"stdout","time":21074.972456691,"data":"[ 54/60] neos-3555904-turama            time_limit         obj=         None gap=    None pub=        -34.7 valid=False agree=None [21007s]\n"}
+,{"stream_name":"stdout","time":21172.659952964,"data":"[ 55/60] neos-3627168-kasai             time_limit         obj=1004229.39999 gap=0.057324 pub=988585.619999 valid=True  agree=None [21105s]\n"}
+,{"stream_name":"stdout","time":21201.319325104,"data":"[ 56/60] neos-3656078-kumeu             unresolved_relaxat obj=         None gap=    None pub=     -13172.2 valid=False agree=None [21134s]\n"}
+,{"stream_name":"stdout","time":21473.687737759,"data":"[ 57/60] neos-3754480-nidda             time_limit         obj=13425.1798316 gap=35.49902 pub=12941.7383856 valid=True  agree=None [21406s]\n"}
+,{"stream_name":"stdout","time":21504.939945599,"data":"[ 58/60] neos-3988577-wolgan            time_limit         obj=         None gap=    None pub=         None valid=False agree=None [21437s]\n"}
+,{"stream_name":"stdout","time":21775.77233898,"data":"[ 59/60] neos-4300652-rahue             time_limit         obj=         None gap=    None pub=       2.1416 valid=False agree=None [21708s]\n"}
+,{"stream_name":"stdout","time":21807.111020064,"data":"[ 60/60] neos-4338804-snowy             time_limit         obj=4258.99998734 gap=0.660093 pub=       1471.0 valid=True  agree=None [21740s]\n"}
+,{"stream_name":"stdout","time":21807.116402726,"data":"{\n"}
+,{"stream_name":"stdout","time":21807.116442339,"data":" \"slice\": [\n"}
+,{"stream_name":"stdout","time":21807.116450273,"data":"  60,\n"}
+,{"stream_name":"stdout","time":21807.116456753,"data":"  120\n"}
+,{"stream_name":"stdout","time":21807.11646097,"data":" ],\n"}
+,{"stream_name":"stdout","time":21807.116464796,"data":" \"attempted\": 60,\n"}
+,{"stream_name":"stdout","time":21807.116468838,"data":" \"instances\": 60,\n"}
+,{"stream_name":"stdout","time":21807.116473058,"data":" \"limit_seconds\": 300.0,\n"}
+,{"stream_name":"stdout","time":21807.116478533,"data":" \"workers\": 2,\n"}
+,{"stream_name":"stdout","time":21807.11648451,"data":" \"flags\": [\n"}
+,{"stream_name":"stdout","time":21807.116488245,"data":"  \"--milp\",\n"}
+,{"stream_name":"stdout","time":21807.116492083,"data":"  \"--json\",\n"}
+,{"stream_name":"stdout","time":21807.116495708,"data":"  \"--lp-recovery\",\n"}
+,{"stream_name":"stdout","time":21807.116499368,"data":"  \"--improve-incumbent\",\n"}
+,{"stream_name":"stdout","time":21807.116503106,"data":"  \"--repair-candidates\",\n"}
+,{"stream_name":"stdout","time":21807.116506939,"data":"  \"--repair-heuristic-candidates\",\n"}
+,{"stream_name":"stdout","time":21807.116511093,"data":"  \"--late-lifted-covers\",\n"}
+,{"stream_name":"stdout","time":21807.116514808,"data":"  \"--late-compact-equalities\",\n"}
+,{"stream_name":"stdout","time":21807.116518451,"data":"  \"--late-reduced-bound-lp\",\n"}
+,{"stream_name":"stdout","time":21807.11652218,"data":"  \"--binary-proof\",\n"}
+,{"stream_name":"stdout","time":21807.116539872,"data":"  \"--objective-lattice\",\n"}
+,{"stream_name":"stdout","time":21807.11654352,"data":"  \"--raw-lp-priority\",\n"}
+,{"stream_name":"stdout","time":21807.116546553,"data":"  \"--refine-basis\",\n"}
+,{"stream_name":"stdout","time":21807.11654958,"data":"  \"--refine-at-checks\",\n"}
+,{"stream_name":"stdout","time":21807.116552588,"data":"  \"--pump-guided-diving\",\n"}
+,{"stream_name":"stdout","time":21807.116555608,"data":"  \"--pump-distance-diving\",\n"}
+,{"stream_name":"stdout","time":21807.116558716,"data":"  \"--pump-primal-reopt\",\n"}
+,{"stream_name":"stdout","time":21807.116561613,"data":"  \"--pump-distance-reopt\",\n"}
+,{"stream_name":"stdout","time":21807.116564548,"data":"  \"--pump-distance-stage\",\n"}
+,{"stream_name":"stdout","time":21807.116567536,"data":"  \"--bounded-lp\",\n"}
+,{"stream_name":"stdout","time":21807.11657047,"data":"  \"--tree-dives\",\n"}
+,{"stream_name":"stdout","time":21807.116573492,"data":"  \"--fix-propagate\",\n"}
+,{"stream_name":"stdout","time":21807.11657647,"data":"  \"--time-limit\",\n"}
+,{"stream_name":"stdout","time":21807.116579581,"data":"  \"300.0\",\n"}
+,{"stream_name":"stdout","time":21807.116582508,"data":"  \"--node-limit\",\n"}
+,{"stream_name":"stdout","time":21807.116585417,"data":"  \"100000000\",\n"}
+,{"stream_name":"stdout","time":21807.116588339,"data":"  \"--gap\",\n"}
+,{"stream_name":"stdout","time":21807.116591258,"data":"  \"1e-6\"\n"}
+,{"stream_name":"stdout","time":21807.116594233,"data":" ],\n"}
+,{"stream_name":"stdout","time":21807.116597288,"data":" \"solver_sha256\": \"e40e849f69d273777089e3cfd21fdfd7f29803f50cf0ef4f39e26691295c866c\",\n"}
+,{"stream_name":"stdout","time":21807.116600838,"data":" \"solution_file\": \"https://miplib.zib.de/downloads/miplib2017-v32.solu\",\n"}
+,{"stream_name":"stdout","time":21807.116604019,"data":" \"proven\": 2,\n"}
+,{"stream_name":"stdout","time":21807.116607136,"data":" \"completion_agrees\": 2,\n"}
+,{"stream_name":"stdout","time":21807.116610181,"data":" \"completion_disagrees\": [],\n"}
+,{"stream_name":"stdout","time":21807.116613293,"data":" \"point_validated\": 25,\n"}
+,{"stream_name":"stdout","time":21807.116616278,"data":" \"point_rejected\": [],\n"}
+,{"stream_name":"stdout","time":21807.1166193,"data":" \"infeasible_claimed\": [],\n"}
+,{"stream_name":"stdout","time":21807.116622326,"data":" \"process_error\": [],\n"}
+,{"stream_name":"stdout","time":21807.116625332,"data":" \"download_failed\": [],\n"}
+,{"stream_name":"stdout","time":21807.116629881,"data":" \"carry_over\": [\n"}
+,{"stream_name":"stdout","time":21807.116634288,"data":"  \"graph20-20-1rand\",\n"}
+,{"stream_name":"stdout","time":21807.116638624,"data":"  \"graphdraw-domain\",\n"}
+,{"stream_name":"stdout","time":21807.116642769,"data":"  \"h80x6320d\",\n"}
+,{"stream_name":"stdout","time":21807.116646895,"data":"  \"highschool1-aigio\",\n"}
+,{"stream_name":"stdout","time":21807.116651008,"data":"  \"ic97_potential\",\n"}
+,{"stream_name":"stdout","time":21807.116655378,"data":"  \"icir97_tension\",\n"}
+,{"stream_name":"stdout","time":21807.116659311,"data":"  \"irish-electricity\",\n"}
+,{"stream_name":"stdout","time":21807.116663378,"data":"  \"irp\",\n"}
+,{"stream_name":"stdout","time":21807.116667412,"data":"  \"istanbul-no-cutoff\",\n"}
+,{"stream_name":"stdout","time":21807.116671765,"data":"  \"k1mushroom\",\n"}
+,{"stream_name":"stdout","time":21807.11667578,"data":"  \"lectsched-5-obj\",\n"}
+,{"stream_name":"stdout","time":21807.116679631,"data":"  \"leo1\",\n"}
+,{"stream_name":"stdout","time":21807.116683866,"data":"  \"leo2\",\n"}
+,{"stream_name":"stdout","time":21807.116687789,"data":"  \"lotsize\",\n"}
+,{"stream_name":"stdout","time":21807.116696938,"data":"  \"mad\",\n"}
+,{"stream_name":"stdout","time":21807.11670097,"data":"  \"map10\",\n"}
+,{"stream_name":"stdout","time":21807.116705021,"data":"  \"map16715-04\",\n"}
+,{"stream_name":"stdout","time":21807.116709445,"data":"  \"markshare2\",\n"}
+,{"stream_name":"stdout","time":21807.116713255,"data":"  \"mas74\",\n"}
+,{"stream_name":"stdout","time":21807.116717304,"data":"  \"mas76\",\n"}
+,{"stream_name":"stdout","time":21807.116721176,"data":"  \"mc11\",\n"}
+,{"stream_name":"stdout","time":21807.116725122,"data":"  \"mcsched\",\n"}
+,{"stream_name":"stdout","time":21807.116729155,"data":"  \"mik-250-20-75-4\",\n"}
+,{"stream_name":"stdout","time":21807.116733984,"data":"  \"milo-v12-6-r2-40-1\",\n"}
+,{"stream_name":"stdout","time":21807.116737256,"data":"  \"momentum1\",\n"}
+,{"stream_name":"stdout","time":21807.116740243,"data":"  \"mushroom-best\",\n"}
+,{"stream_name":"stdout","time":21807.116743148,"data":"  \"mzzv11\",\n"}
+,{"stream_name":"stdout","time":21807.116746116,"data":"  \"mzzv42z\",\n"}
+,{"stream_name":"stdout","time":21807.116749033,"data":"  \"n2seq36q\",\n"}
+,{"stream_name":"stdout","time":21807.116752048,"data":"  \"n3div36\",\n"}
+,{"stream_name":"stdout","time":21807.116755083,"data":"  \"n5-3\",\n"}
+,{"stream_name":"stdout","time":21807.116758323,"data":"  \"neos-1122047\",\n"}
+,{"stream_name":"stdout","time":21807.116768695,"data":"  \"neos-1171448\",\n"}
+,{"stream_name":"stdout","time":21807.116771862,"data":"  \"neos-1171737\",\n"}
+,{"stream_name":"stdout","time":21807.116774889,"data":"  \"neos-1354092\",\n"}
+,{"stream_name":"stdout","time":21807.11677787,"data":"  \"neos-1445765\",\n"}
+,{"stream_name":"stdout","time":21807.116785605,"data":"  \"neos-1456979\",\n"}
+,{"stream_name":"stdout","time":21807.116788789,"data":"  \"neos-1582420\",\n"}
+,{"stream_name":"stdout","time":21807.116791748,"data":"  \"neos-2075418-temuka\",\n"}
+,{"stream_name":"stdout","time":21807.116794748,"data":"  \"neos-2657525-crna\",\n"}
+,{"stream_name":"stdout","time":21807.116797715,"data":"  \"neos-2746589-doon\",\n"}
+,{"stream_name":"stdout","time":21807.116800698,"data":"  \"neos-2978193-inde\",\n"}
+,{"stream_name":"stdout","time":21807.116803696,"data":"  \"neos-2987310-joes\",\n"}
+,{"stream_name":"stdout","time":21807.116806595,"data":"  \"neos-3004026-krka\",\n"}
+,{"stream_name":"stdout","time":21807.116809631,"data":"  \"neos-3024952-loue\",\n"}
+,{"stream_name":"stdout","time":21807.11681269,"data":"  \"neos-3046615-murg\",\n"}
+,{"stream_name":"stdout","time":21807.11681556,"data":"  \"neos-3083819-nubu\",\n"}
+,{"stream_name":"stdout","time":21807.116818446,"data":"  \"neos-3216931-puriri\",\n"}
+,{"stream_name":"stdout","time":21807.116821351,"data":"  \"neos-3381206-awhea\",\n"}
+,{"stream_name":"stdout","time":21807.116824335,"data":"  \"neos-3402294-bobin\",\n"}
+,{"stream_name":"stdout","time":21807.116827289,"data":"  \"neos-3402454-bohle\",\n"}
+,{"stream_name":"stdout","time":21807.116830196,"data":"  \"neos-3555904-turama\",\n"}
+,{"stream_name":"stdout","time":21807.116834993,"data":"  \"neos-3627168-kasai\",\n"}
+,{"stream_name":"stdout","time":21807.116838203,"data":"  \"neos-3656078-kumeu\",\n"}
+,{"stream_name":"stdout","time":21807.11684126,"data":"  \"neos-3754480-nidda\",\n"}
+,{"stream_name":"stdout","time":21807.116844216,"data":"  \"neos-3988577-wolgan\",\n"}
+,{"stream_name":"stdout","time":21807.11684714,"data":"  \"neos-4300652-rahue\",\n"}
+,{"stream_name":"stdout","time":21807.116850125,"data":"  \"neos-4338804-snowy\"\n"}
+,{"stream_name":"stdout","time":21807.116853291,"data":" ],\n"}
+,{"stream_name":"stdout","time":21807.116859638,"data":" \"elapsed_seconds\": 21739.518119335175,\n"}
+,{"stream_name":"stdout","time":21807.116863078,"data":" \"caveat\": \"Two instances share four cloud vCPUs: outcomes at a fixed budget under contention. No timing claim is made from this run.\"\n"}
+,{"stream_name":"stdout","time":21807.116866841,"data":"}\n"}
+,{"stream_name":"stderr","time":21810.249286001,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":21810.24936078,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":21810.611020168,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":21810.611058076,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":21811.713853278,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":21813.587011635,"data":"[NbConvertApp] Writing 349597 bytes to __results__.html\n"}
+]

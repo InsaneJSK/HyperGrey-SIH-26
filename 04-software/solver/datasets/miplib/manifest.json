@@ -1,0 +1,30 @@
+{
+  "retrieved_utc": "2026-09-13T18:17:24.261053+00:00",
+  "policy": "Predeclared first-version smoke subset; all attempts retained. MIPLIB instances are historical 3.0, not 2017.",
+  "instances": [
+    {
+      "name": "p0033",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/p0033.mps.gz",
+      "raw_sha256": "d606d733c9c7165d4e6ed621b20870e2b0dbce3c3dfd42f0f8e5b35d418f6a5e",
+      "model_sha256": "8ccff819023237c79ef32e238a5da9348725ce9a4425d48888baf3a0b3b42628"
+    },
+    {
+      "name": "enigma",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/enigma.mps.gz",
+      "raw_sha256": "eeae727af2ec40bf6cf330f254b91186c852fb63f0e13ffca1f232f69a10aa1c",
+      "model_sha256": "bbc4a1a6e9ab30d2615b5e0391f0df1782d29b0a125eb38ef852e8dda6ebc323"
+    },
+    {
+      "name": "flugpl",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/flugpl.mps.gz",
+      "raw_sha256": "a4ba311dafaf013adee3417c547130f6a58698215a58531b222a6e4ee31df388",
+      "model_sha256": "ed4b1fcb07d26b513027721d61344c2c4371cb506bf66098df328047c183b0c0"
+    },
+    {
+      "name": "stein27",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/stein27.mps.gz",
+      "raw_sha256": "559caf031adb6e3536d47b39325c82e52dc60507487e73ff046e6a43268c4abb",
+      "model_sha256": "b8889994eda0853d71bad6ba9bf45755d4e59f33a13a3f43008e1ba681738c5b"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+ "instances": 240,
+ "proven_optimal": 7,
+ "proven_infeasible": 1,
+ "validated_points_including_optima": 69,
+ "rejected_points": [],
+ "disagreeing_with_published": [],
+ "memory_guard_stops": 31,
+ "root_lp_unresolved": 27,
+ "resource_limit_exits": [
+  "buildingenergy",
+  "supportcase10"
+ ],
+ "no_point": 170,
+ "outcomes": {
+  "no point": 132,
+  "validated point": 62,
+  "root LP unresolved": 27,
+  "proven optimal": 7,
+  "resource limit exit": 2,
+  "memory guard, no point": 9,
+  "proven infeasible": 1
+ },
+ "solver_sha256": "e40e849f69d273777089e3cfd21fdfd7f29803f50cf0ef4f39e26691295c866c",
+ "budget_seconds": 300,
+ "workers_per_session": 2,
+ "caveat": "Two instances shared four cloud vCPUs per session: outcomes at a fixed budget under contention. No timing claim."
+}

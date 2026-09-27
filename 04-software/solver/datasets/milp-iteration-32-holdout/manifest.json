@@ -1,0 +1,128 @@
+{
+  "utc": "2026-09-17T21:43:42.625331+00:00",
+  "selection": [
+    "air04",
+    "arki001",
+    "dano3mip",
+    "gen",
+    "markshare1",
+    "markshare2",
+    "mkc",
+    "rentacar",
+    "seymour",
+    "swath"
+  ],
+  "selection_sha256": "dd6f61b7ff82bd722d9d6b90595eb3e2c3a993a21e4c10d5ab6224835bf9f1bc",
+  "instances": [
+    {
+      "name": "air04",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/air04.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/air04.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/air04.mps",
+      "model_sha256": "30132c4ee69bbef89a711c42791f39f281003c05dbbc1e6960a77a00f3d1b121",
+      "raw_sha256": "c94b09076a1acd6b2e6c47d6ab0e41eb71fe6fe09b26d2c0bcc3b28c6ec6096f",
+      "bytes": 2939613
+    },
+    {
+      "name": "arki001",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/arki001.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/arki001.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/arki001.mps",
+      "model_sha256": "597eb014a6f34d870f3b2060eb74f16cb7bb0289b2971bc848fcb3809ac42ca7",
+      "raw_sha256": "fada80d1aab73993cfd3d5ff908d7d8b512841fa100ee5d66a0484e155599376",
+      "bytes": 749775
+    },
+    {
+      "name": "dano3mip",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/dano3mip.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/dano3mip.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/dano3mip.mps",
+      "model_sha256": "0a35b68b11aedd4ed9076aef4564a8661e6ebae81a53e56a480c212badbb7c9e",
+      "raw_sha256": "e91edef565356612f1266daf4e18b6f3a4e5f27e062d43f85d38906b132d36a1",
+      "bytes": 2610469
+    },
+    {
+      "name": "gen",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/gen.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/gen.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/gen.mps",
+      "model_sha256": "f22c4b12ca0182c5c2efe7d777772644ea54fd4fd84720ae74c520132d59bb97",
+      "raw_sha256": "3a06712c23d04139507a3737fb39efe991e8f555f00060238d746b4aabf08c29",
+      "bytes": 125423
+    },
+    {
+      "name": "markshare1",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/markshare1.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/markshare1.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/markshare1.mps",
+      "model_sha256": "7c3668bde9f1c80f1a4ba10baa99a0bcbaead027325d471c6661d814a2c17fe9",
+      "raw_sha256": "9430f90c4c8c8d1d4e758b0c7305464ac7d5714cd8169e0e7c99e3ccf3075119",
+      "bytes": 12536
+    },
+    {
+      "name": "markshare2",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/markshare2.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/markshare2.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/markshare2.mps",
+      "model_sha256": "112c91eaa2c00c8fabe355407ec8ed0264a069ee8d937f855e5a4165fabb13f3",
+      "raw_sha256": "db5cc83d38dcfad40a976641f41dd53a5c1cd7768972fd9e0fdd9d4025f89a16",
+      "bytes": 17197
+    },
+    {
+      "name": "mkc",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/mkc.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/mkc.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/mkc.mps",
+      "model_sha256": "ca676a5cad5b01d946038e2063a3b79c838b333fa4dcaa6ef3447cc7f9e17873",
+      "raw_sha256": "b4ccfec40c413b8e6cdd641126aaeb56a85d66b0b55f04f65d71655754d939ad",
+      "bytes": 895235
+    },
+    {
+      "name": "rentacar",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/rentacar.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/rentacar.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/rentacar.mps",
+      "model_sha256": "9cb3425254adc4415ab591d526b2c29c3899dffcce15d8ba4da5dcfb1dfdfe81",
+      "raw_sha256": "8d571477fd15b573d98edced7e6cff0d7ef84602fc3e5f7536d3b5ebcbb41d49",
+      "bytes": 1470713
+    },
+    {
+      "name": "seymour",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/seymour.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/seymour.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/seymour.mps",
+      "model_sha256": "48bcd17a805be73c68e0af115d7fcbc520a5e52da2fb81dde51beaa4d396aa69",
+      "raw_sha256": "2b782471798091dbf116a1a5601e704fce3359bab72d790ec4a2f59912712634",
+      "bytes": 1355245
+    },
+    {
+      "name": "swath",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/swath.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/swath.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-32-holdout/swath.mps",
+      "model_sha256": "eb8d979a2e89d9dc7a1d5dea23954f56dab60eb2828127aa8266f391abc1e45d",
+      "raw_sha256": "5bb08bceedb38e8fe8f4b7c28bd5a6474edd47bc424d2cafafd7ee004ea22835",
+      "bytes": 1762355
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+ "streams": {
+  "archive_bytes": 471535,
+  "archive_sha256": "7d8bae44a747faf09ab27a6b75648c0f82604f754f3bf96034ac48ad9a027f4c",
+  "bytes": 7283139,
+  "files": 14,
+  "members": {
+   "neos-4954672-berkel.candidate.stdout.log": {
+    "bytes": 760278,
+    "sha256": "a3420884678e9972c65ab729115d1202b8c06f597a0c7efb53dbe930e9b3a1c7"
+   },
+   "neos-4954672-berkel.control.stdout.log": {
+    "bytes": 734536,
+    "sha256": "7ee309c6e5f0dbf64f6de77649c4778377316b9c466434f9f3a05223c1f3747b"
+   },
+   "neos-860300.candidate.stdout.log": {
+    "bytes": 844233,
+    "sha256": "b2d14675ca7bba2bed95c37be02cbc37845d2a0d05fef898c634024544f3ea00"
+   },
+   "neos-860300.control.stdout.log": {
+    "bytes": 850750,
+    "sha256": "d06c8a3187d6afb7d7681a60a40022d5d0a65cbcba0bf6041248affcef8efa07"
+   },
+   "neos-911970.candidate.stdout.log": {
+    "bytes": 455661,
+    "sha256": "7abe8456b15bdfb9b24918dd6819c87cf7b137a2e0ad2d127bea416530593d9e"
+   },
+   "neos-911970.control.stdout.log": {
+    "bytes": 455573,
+    "sha256": "9887dba2ab64cbc73a3bb20dae817e0f01ff3d8669f0279d9a4a2f1686045f17"
+   },
+   "neos17.candidate.stdout.log": {
+    "bytes": 645401,
+    "sha256": "6b127ec5fbfb97c6de7d91dea86be25dc436ea8a20af355b84d53e548588ea90"
+   },
+   "neos17.control.stdout.log": {
+    "bytes": 645579,
+    "sha256": "6f3198af41fb9ae807bbc383dd554c10d28f640c42ef99020878d7e17028b912"
+   },
+   "neos5.candidate.stdout.log": {
+    "bytes": 402549,
+    "sha256": "855fc44c56bf39a9f976c5727a7b040fe29513e44f295633e70f1cfce3f6e50a"
+   },
+   "neos5.control.stdout.log": {
+    "bytes": 377554,
+    "sha256": "a5fca84c36deed851c21a20479aa31c4b3387e40a49495d73acd4e04452e4fb3"
+   },
+   "neos8.candidate.stderr.log": {
+    "bytes": 46,
+    "sha256": "6b9cdf8def361ae8dabf622ddbab4250825882ac3461b0128130ea32b9a497cd"
+   },
+   "neos8.control.stderr.log": {
+    "bytes": 46,
+    "sha256": "6b9cdf8def361ae8dabf622ddbab4250825882ac3461b0128130ea32b9a497cd"
+   },
+   "nu25-pr12.candidate.stdout.log": {
+    "bytes": 555556,
+    "sha256": "fe69dc9f243a02c57cac38fac1e5482a312772643766fd817faaea2303ebcd74"
+   },
+   "nu25-pr12.control.stdout.log": {
+    "bytes": 555377,
+    "sha256": "2c32c60f35c4a4626c3bb6565ffcdc29712bfe7cb10fd2c9b3440660dd2c49ec"
+   }
+  }
+ }
+}

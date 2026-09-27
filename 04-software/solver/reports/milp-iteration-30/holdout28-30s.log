@@ -1,0 +1,40 @@
+vpm1.control.0 {'status': 'time_limit', 'objective': 20, 'gap': 0.14285714285714302, 'nodes': 8401}
+vpm1.candidate.0 {'status': 'time_limit', 'objective': 20, 'gap': 0.09523809523809541, 'nodes': 75647}
+vpm2.candidate.0 {'status': 'time_limit', 'objective': 14.25, 'gap': 0.18032997030296685, 'nodes': 51273}
+vpm2.control.0 {'status': 'time_limit', 'objective': 17.5, 'gap': 0.34482411367893573, 'nodes': 8983}
+bell3a.control.0 {'status': 'time_limit', 'objective': 879000.592, 'gap': 0.003281258822449678, 'nodes': 12599}
+bell3a.candidate.0 {'status': 'time_limit', 'objective': 879000.592, 'gap': 0.00211257066006108, 'nodes': 73971}
+bell5.candidate.0 {'status': 'time_limit', 'objective': 9083879.36982604, 'gap': 0.049341340061612525, 'nodes': 124886}
+bell5.control.0 {'status': 'time_limit', 'objective': 9001765.680200031, 'gap': 0.041470531166621874, 'nodes': 24456}
+gesa2.control.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 635}
+gesa2.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 2945}
+noswot.candidate.0 {'status': 'time_limit', 'objective': -40, 'gap': 0.07317073170731725, 'nodes': 74963}
+noswot.control.0 {'status': 'time_limit', 'objective': -41, 'gap': 0.04761904761904779, 'nodes': 20771}
+vpm1.control.0 feasible_limit []
+vpm1.candidate.0 feasible_limit []
+vpm2.candidate.0 feasible_limit []
+vpm2.control.0 feasible_limit []
+bell3a.control.0 feasible_limit []
+bell3a.candidate.0 feasible_limit []
+bell5.candidate.0 feasible_limit []
+bell5.control.0 feasible_limit []
+gesa2.control.0 no_incumbent_limit []
+gesa2.candidate.0 no_incumbent_limit []
+noswot.candidate.0 feasible_limit []
+noswot.control.0 feasible_limit []
+{
+  "records": 12,
+  "models": 6,
+  "categories": {
+    "control": {
+      "feasible_limit": 5,
+      "no_incumbent_limit": 1
+    },
+    "candidate": {
+      "feasible_limit": 5,
+      "no_incumbent_limit": 1
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "0cacfee9cae3b7378fd3861fd618c22887134e52fa2eea9baf2991b825a9d56c"
+}

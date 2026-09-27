@@ -1,0 +1,43 @@
+NAME LATTICE_GENERATED
+OBJSENSE
+ MAX
+ROWS
+ N OBJ
+ E R0
+ L R1
+ L R2
+ L R3
+COLUMNS
+ x0 OBJ 3
+ x0 R2 2
+ x0 R3 2
+ x1 OBJ -12
+ x1 R0 3
+ x1 R1 -2
+ x1 R2 -2
+ x1 R3 -1
+ x2 OBJ -9
+ x2 R1 3
+ x2 R2 2
+ x3 OBJ 18
+ x3 R2 4
+ x3 R3 -3
+ y OBJ 2
+ y R0 -1
+RHS
+ B OBJ -1.5
+ B R0 -3
+ B R1 -3.5
+ B R2 -8.5
+ B R3 1.5
+BOUNDS
+ LI B x0 -2
+ UI B x0 2
+ LI B x1 -2
+ UI B x1 2
+ LI B x2 -2
+ UI B x2 2
+ LI B x3 -2
+ UI B x3 2
+ MI B y
+ENDATA

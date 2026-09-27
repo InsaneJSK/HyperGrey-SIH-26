@@ -1,0 +1,456 @@
+{
+ "method": "fixed node limit, --no-heuristics (the profile is nondeterministic without it)",
+ "node_limit": 2000,
+ "compared": 16,
+ "mismatches": 0,
+ "rows": [
+  {
+   "model": "p0033",
+   "differs": [],
+   "control": {
+    "status": "optimal",
+    "objective": 3089,
+    "best_bound": 3089,
+    "gap": 0,
+    "nodes": 1,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 0,
+    "warm_starts": 0,
+    "bound_tightenings": 0
+   },
+   "merged": {
+    "status": "optimal",
+    "objective": 3089,
+    "best_bound": 3089,
+    "gap": 0,
+    "nodes": 1,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 0,
+    "warm_starts": 0,
+    "bound_tightenings": 0
+   }
+  },
+  {
+   "model": "flugpl",
+   "differs": [],
+   "control": {
+    "status": "unresolved_relaxations",
+    "objective": 1201500,
+    "best_bound": 1201499.879831869,
+    "gap": 1.0001500712663753e-07,
+    "nodes": 661,
+    "cuts": 0,
+    "unresolved_nodes": 1,
+    "lp_iterations": 686,
+    "warm_starts": 374,
+    "bound_tightenings": 8034
+   },
+   "merged": {
+    "status": "unresolved_relaxations",
+    "objective": 1201500,
+    "best_bound": 1201499.879831869,
+    "gap": 1.0001500712663753e-07,
+    "nodes": 661,
+    "cuts": 0,
+    "unresolved_nodes": 1,
+    "lp_iterations": 686,
+    "warm_starts": 374,
+    "bound_tightenings": 8034
+   }
+  },
+  {
+   "model": "stein27",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": 18,
+    "best_bound": 16.999999999999996,
+    "gap": 0.052631578947368605,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 8410,
+    "warm_starts": 1999,
+    "bound_tightenings": 2078
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": 18,
+    "best_bound": 16.999999999999996,
+    "gap": 0.052631578947368605,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 8410,
+    "warm_starts": 1999,
+    "bound_tightenings": 2078
+   }
+  },
+  {
+   "model": "egout",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 542.3583124857622,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 3982,
+    "warm_starts": 1999,
+    "bound_tightenings": 9984
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 542.3583124857622,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 3982,
+    "warm_starts": 1999,
+    "bound_tightenings": 9984
+   }
+  },
+  {
+   "model": "lseu",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 1090.9999999999998,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 12,
+    "unresolved_nodes": 0,
+    "lp_iterations": 8504,
+    "warm_starts": 2002,
+    "bound_tightenings": 2820
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 1090.9999999999998,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 12,
+    "unresolved_nodes": 0,
+    "lp_iterations": 8504,
+    "warm_starts": 2002,
+    "bound_tightenings": 2820
+   }
+  },
+  {
+   "model": "mod008",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": 307,
+    "best_bound": 302.99999999999994,
+    "gap": 0.012987012987013172,
+    "nodes": 2000,
+    "cuts": 9,
+    "unresolved_nodes": 0,
+    "lp_iterations": 8633,
+    "warm_starts": 2004,
+    "bound_tightenings": 0
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": 307,
+    "best_bound": 302.99999999999994,
+    "gap": 0.012987012987013172,
+    "nodes": 2000,
+    "cuts": 9,
+    "unresolved_nodes": 0,
+    "lp_iterations": 8633,
+    "warm_starts": 2004,
+    "bound_tightenings": 0
+   }
+  },
+  {
+   "model": "p0201",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 7574.999999999999,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 5,
+    "unresolved_nodes": 0,
+    "lp_iterations": 27388,
+    "warm_starts": 2001,
+    "bound_tightenings": 11894
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 7574.999999999999,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 5,
+    "unresolved_nodes": 0,
+    "lp_iterations": 27388,
+    "warm_starts": 2001,
+    "bound_tightenings": 11894
+   }
+  },
+  {
+   "model": "misc03",
+   "differs": [],
+   "control": {
+    "status": "gap_limit",
+    "objective": 3359.999999999999,
+    "best_bound": 3359.999999999999,
+    "gap": 0,
+    "nodes": 711,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 7998,
+    "warm_starts": 692,
+    "bound_tightenings": 9661
+   },
+   "merged": {
+    "status": "gap_limit",
+    "objective": 3359.999999999999,
+    "best_bound": 3359.999999999999,
+    "gap": 0,
+    "nodes": 711,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 7998,
+    "warm_starts": 692,
+    "bound_tightenings": 9661
+   }
+  },
+  {
+   "model": "pk1",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 0.9846632169723666,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 23987,
+    "warm_starts": 1999,
+    "bound_tightenings": 0
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 0.9846632169723666,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 23987,
+    "warm_starts": 1999,
+    "bound_tightenings": 0
+   }
+  },
+  {
+   "model": "rgn",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": 82.19999922999997,
+    "best_bound": 72.7999915699994,
+    "gap": 0.11298086234369994,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 13061,
+    "warm_starts": 1999,
+    "bound_tightenings": 23508
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": 82.19999922999997,
+    "best_bound": 72.7999915699994,
+    "gap": 0.11298086234369994,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 13061,
+    "warm_starts": 1999,
+    "bound_tightenings": 23508
+   }
+  },
+  {
+   "model": "gen-ip002",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": -4827.398697591987,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 12238,
+    "warm_starts": 1999,
+    "bound_tightenings": 858
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": -4827.398697591987,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 12238,
+    "warm_starts": 1999,
+    "bound_tightenings": 858
+   }
+  },
+  {
+   "model": "blend2",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 7.40185541459971,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 22758,
+    "warm_starts": 1999,
+    "bound_tightenings": 8749
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 7.40185541459971,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 22758,
+    "warm_starts": 1999,
+    "bound_tightenings": 8749
+   }
+  },
+  {
+   "model": "gt2",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 13891.999999999998,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 3397,
+    "warm_starts": 1999,
+    "bound_tightenings": 8298
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 13891.999999999998,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 3397,
+    "warm_starts": 1999,
+    "bound_tightenings": 8298
+   }
+  },
+  {
+   "model": "mas74",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 10776.902819886516,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 11988,
+    "warm_starts": 1999,
+    "bound_tightenings": 0
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 10776.902819886516,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 0,
+    "unresolved_nodes": 0,
+    "lp_iterations": 11988,
+    "warm_starts": 1999,
+    "bound_tightenings": 0
+   }
+  },
+  {
+   "model": "p0282",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 243053.99999999997,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 35,
+    "unresolved_nodes": 0,
+    "lp_iterations": 21520,
+    "warm_starts": 2004,
+    "bound_tightenings": 876
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 243053.99999999997,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 35,
+    "unresolved_nodes": 0,
+    "lp_iterations": 21520,
+    "warm_starts": 2004,
+    "bound_tightenings": 876
+   }
+  },
+  {
+   "model": "binkar10_1",
+   "differs": [],
+   "control": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 6681.052349230309,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 29,
+    "unresolved_nodes": 0,
+    "lp_iterations": 41580,
+    "warm_starts": 2003,
+    "bound_tightenings": 15855
+   },
+   "merged": {
+    "status": "node_limit",
+    "objective": null,
+    "best_bound": 6681.052349230309,
+    "gap": null,
+    "nodes": 2000,
+    "cuts": 29,
+    "unresolved_nodes": 0,
+    "lp_iterations": 41580,
+    "warm_starts": 2003,
+    "bound_tightenings": 15855
+   }
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+  "eligible": true,
+  "step": 3,
+  "offset": "-8",
+  "substitutions_checked": 1,
+  "events_checked": 2,
+  "trace_truncated": false,
+  "all_checks_pass": true,
+  "scope": "Exact parsed-model algebra and saved rounding events; LP input bounds remain numerical."
+}

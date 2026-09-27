@@ -1,0 +1,22 @@
+{
+  "delivery_directory": "D:/sih-2026/SIH-backup-solver/kaggle_delivery/qp_iteration_01",
+  "notebook": "SIH26119_V2_Kaggle.ipynb",
+  "notebook_bytes": 11492,
+  "under_1000000_bytes": true,
+  "code_cells": 2,
+  "source_zip": "SIH26119_V2_source.zip",
+  "source_zip_bytes": 2361456,
+  "source_sha256": "f840453501c39a975d78cec449adb120690a3a9d0ff7d8df6d6a010f1327bf8e",
+  "source_files_verified": 140,
+  "cpu_core_files_verified": 22,
+  "cpu_evidence": "reports/qp-iteration-01/validated-cpu",
+  "repeat_evidence": "reports/qp-iteration-01/final-repeats",
+  "retained_binary_sha256": "4786604e43e70efdaf92c93c9294df1fa12fc71aa97358c2ebfc89ca509c8a2c",
+  "generated_cases_passed": 251,
+  "independent_certificate_tests_passed": 7,
+  "notebook_mock_flow_tests_passed": 12,
+  "new_kaggle_execution_verified": false,
+  "expected_return": "sih26119_kaggle_results.zip",
+  "prior_deliveries_preserved": true,
+  "caveat": "Independent 9002 numerical certificate passes locally; unchanged external-reference comparison still times out. Modern MILP gaps and broader industrial validation remain open."
+}

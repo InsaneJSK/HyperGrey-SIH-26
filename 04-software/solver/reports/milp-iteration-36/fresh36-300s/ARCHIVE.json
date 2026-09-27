@@ -1,0 +1,66 @@
+{
+ "streams": {
+  "archive_bytes": 6332869,
+  "archive_sha256": "929906a103e1ee2994d4a707e2d7f575d72b1d9999e1c5cab01dd06d972d489a",
+  "bytes": 17898731,
+  "files": 14,
+  "members": {
+   "gfd-schedulen180f7d50m30k18.candidate.stdout.log": {
+    "bytes": 464617,
+    "sha256": "9ac007a0c2cf646af2b2d23e020cd98e88926791d29207064a199362e5eb690c"
+   },
+   "gfd-schedulen180f7d50m30k18.control.stdout.log": {
+    "bytes": 464565,
+    "sha256": "4e757455326d5a152d07e2eebaa56b5c7c636a2d843ce1c52b490f4d36167236"
+   },
+   "neos-3402454-bohle.candidate.stdout.log": {
+    "bytes": 9561,
+    "sha256": "72cff43b6430532684387b5fe30561fbaad03576b4e76345b4cdd054d58ac6c7"
+   },
+   "neos-3402454-bohle.control.stdout.log": {
+    "bytes": 9523,
+    "sha256": "4e99da3ab57a5515fd168c330101e62c6a92f2e95fd6b903ce14ec29d040f97e"
+   },
+   "neos-5114902-kasavu.candidate.stdout.log": {
+    "bytes": 9577,
+    "sha256": "87d399e82dfaa213d6696aec312809bac531720cc1513f747d858865e75d2a73"
+   },
+   "neos-5114902-kasavu.control.stdout.log": {
+    "bytes": 9514,
+    "sha256": "82e67a65c65cb0df68e3d2f4aa32387dbd28daa183e42b7eb3b34dcb8ff5772d"
+   },
+   "ns1760995.candidate.stdout.log": {
+    "bytes": 9510,
+    "sha256": "0bb6e2b4d7de42cfcfb230b3fa88377d80efdef040a82902466a796ca20c419c"
+   },
+   "ns1760995.control.stdout.log": {
+    "bytes": 9506,
+    "sha256": "7d383809cb2542bc261b253687fba3e60ff25a65b6c0fac15f826e0f24099ab0"
+   },
+   "savsched1.candidate.stdout.log": {
+    "bytes": 9546,
+    "sha256": "2d58611556809e2852926b45bcb781ba74b78469cf8935d5bea815e8806915a4"
+   },
+   "savsched1.control.stdout.log": {
+    "bytes": 9501,
+    "sha256": "7e29aed9df5a1349c34681ae48fe4c321905772f6b9eeca4e2d622843343c228"
+   },
+   "supportcase12.candidate.stdout.log": {
+    "bytes": 9572,
+    "sha256": "51e9218be16cd43f6ccfeb868c02e2b7b7aed8c00b645b0af2e1f5d7831745dd"
+   },
+   "supportcase12.control.stdout.log": {
+    "bytes": 9506,
+    "sha256": "0b2cafb3260f4eb369052196790f522f061ce0679856d150fc853d276adcbb32"
+   },
+   "supportcase19.candidate.stdout.log": {
+    "bytes": 8437137,
+    "sha256": "d8cddf6da2879682996f3c78b7c3ac5bbe97cf79b246de9b2ecde33e6bb3b0e0"
+   },
+   "supportcase19.control.stdout.log": {
+    "bytes": 8437096,
+    "sha256": "22f740eba5e6c0b0d7604df12623f24d5db7c4dd0f31b1842f80b06f0ae9e7d4"
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "binary_sha256": "2bc720dbe31772af9ffb8f806f8b65b2809cb5b7badc6e092187004a792d9d10",
+  "profiles": {
+    "default": [],
+    "bounded": [
+      "--lp-method",
+      "bounded"
+    ]
+  },
+  "runner_sha256": "5e212318a18195097e97653d8f1017dc7f8359b39b96d9afacc3fd084185a4b0",
+  "own_before_references": true,
+  "purpose": "Checked LP coverage per method; not a matched-accuracy speed ranking."
+}

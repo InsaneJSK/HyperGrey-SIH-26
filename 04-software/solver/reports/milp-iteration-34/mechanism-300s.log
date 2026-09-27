@@ -1,0 +1,50 @@
+binary f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb
+dano3_3                  control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=576.34463303
+dano3_5                  control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=576.9249159565619
+neos-662469              control: unresolved_relaxations root=no  nodes=       1 | candidate: unresolved_relaxations root=yes nodes=       3 obj=None pub=184379.9999999999
+neos-827175              control: unresolved_relaxations root=no  nodes=       1 | candidate: gap_limit              root=yes nodes=       3 obj=112.00152 pub=112.00152
+neos-933966              control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=yes nodes=       9 obj=None pub=318.0
+neos-957323              control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=yes nodes=       2 obj=None pub=-237.7566815
+neos-1354092             control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=yes nodes=       1 obj=None pub=46.0
+mzzv11                   control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=-21718.0
+mzzv42z                  control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=-20540.0
+CMS750_4                 control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=yes nodes=       3 obj=None pub=252.0
+ns1208400                control: unresolved_relaxations root=no  nodes=       1 | candidate: time_limit             root=yes nodes=     213 obj=None pub=2.0
+neos-3656078-kumeu       control: unresolved_relaxations root=no  nodes=       1 | candidate: unresolved_relaxations root=yes nodes=       3 obj=None pub=-13172.2
+{
+ "control": {
+  "root_solved": 0,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "dano3_3",
+   "dano3_5",
+   "neos-662469",
+   "neos-827175",
+   "neos-933966",
+   "neos-957323",
+   "neos-1354092",
+   "mzzv11",
+   "mzzv42z",
+   "CMS750_4",
+   "ns1208400",
+   "neos-3656078-kumeu"
+  ]
+ },
+ "candidate": {
+  "root_solved": 8,
+  "proven": 1,
+  "completion_disagrees": [],
+  "validated_points": 1,
+  "rejected_points": [],
+  "unresolved_root": [
+   "dano3_3",
+   "dano3_5",
+   "mzzv11",
+   "mzzv42z"
+  ]
+ },
+ "binary_sha256": "f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb"
+}

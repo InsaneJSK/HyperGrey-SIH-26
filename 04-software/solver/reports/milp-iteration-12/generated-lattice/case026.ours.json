@@ -1,0 +1,283 @@
+{
+  "status": "gap_limit",
+  "message": "",
+  "nodes": 15,
+  "lp_iterations": 77,
+  "total_seconds": 0.0069368,
+  "warm_starts": 26,
+  "heuristic_solves": 16,
+  "cuts": 0,
+  "bound_tightenings": 95,
+  "rows": 4,
+  "columns": 5,
+  "objective": 1.5000000000000053,
+  "pump_projections": 4,
+  "pump_restarts": 3,
+  "pump_incumbents": 1,
+  "cut_rollbacks": 0,
+  "first_incumbent_seconds": 0.00041289999999971627,
+  "best_bound": 1.5000000000000053,
+  "objective_lattice": {
+    "enabled": true,
+    "eligible": true,
+    "reason": "checked_parsed_model_lattice",
+    "offset_minimization": -7.5,
+    "step": 1,
+    "coefficients_minimization": [
+      -10,
+      -17,
+      -1,
+      -20,
+      0
+    ],
+    "substitutions": [
+      {
+        "column": 4,
+        "row": 0
+      }
+    ],
+    "bound_calls": 26,
+    "bound_improvements": 26,
+    "trace_truncated": false,
+    "trace": [
+      {
+        "node": 0,
+        "before_minimization": -7.182693125961538,
+        "after_minimization": -6.500000000000001
+      },
+      {
+        "node": 0,
+        "before_minimization": -7.182693125961538,
+        "after_minimization": -6.500000000000001
+      },
+      {
+        "node": 1,
+        "before_minimization": -0.2500001249999858,
+        "after_minimization": 0.49999999999999994
+      },
+      {
+        "node": 1,
+        "before_minimization": -0.2500001249999858,
+        "after_minimization": 0.49999999999999994
+      },
+      {
+        "node": 2,
+        "before_minimization": -6.3750007375,
+        "after_minimization": -5.500000000000001
+      },
+      {
+        "node": 2,
+        "before_minimization": -6.3750007375,
+        "after_minimization": -5.500000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -5.325000632500017,
+        "after_minimization": -4.500000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -5.325000632500017,
+        "after_minimization": -4.500000000000001
+      },
+      {
+        "node": 7,
+        "before_minimization": -1.1250002125,
+        "after_minimization": -0.5000000000000001
+      },
+      {
+        "node": 7,
+        "before_minimization": -1.1250002125,
+        "after_minimization": -0.5000000000000001
+      },
+      {
+        "node": 8,
+        "before_minimization": -4.6250005625000075,
+        "after_minimization": -4.500000000000001
+      },
+      {
+        "node": 8,
+        "before_minimization": -4.6250005625000075,
+        "after_minimization": -4.500000000000001
+      },
+      {
+        "node": 11,
+        "before_minimization": 2.3749996625000143,
+        "after_minimization": 2.4999999999999996
+      },
+      {
+        "node": 11,
+        "before_minimization": 2.3749996625000143,
+        "after_minimization": 2.4999999999999996
+      },
+      {
+        "node": 9,
+        "before_minimization": -0.6250001625,
+        "after_minimization": -0.5000000000000001
+      },
+      {
+        "node": 9,
+        "before_minimization": -0.6250001625,
+        "after_minimization": -0.5000000000000001
+      },
+      {
+        "node": 15,
+        "before_minimization": 1.499999750000007,
+        "after_minimization": 1.4999999999999998
+      },
+      {
+        "node": 15,
+        "before_minimization": 1.499999750000007,
+        "after_minimization": 1.4999999999999998
+      },
+      {
+        "node": 16,
+        "before_minimization": 24.49999745,
+        "after_minimization": 24.499999999999996
+      },
+      {
+        "node": 16,
+        "before_minimization": 24.49999745,
+        "after_minimization": 24.499999999999996
+      },
+      {
+        "node": 10,
+        "before_minimization": 9.8749989125,
+        "after_minimization": 10.499999999999998
+      },
+      {
+        "node": 10,
+        "before_minimization": 9.8749989125,
+        "after_minimization": 10.499999999999998
+      },
+      {
+        "node": 3,
+        "before_minimization": 47.499995149200004,
+        "after_minimization": 47.49999999999999
+      },
+      {
+        "node": 3,
+        "before_minimization": 47.499995149200004,
+        "after_minimization": 47.49999999999999
+      },
+      {
+        "node": 4,
+        "before_minimization": 8.374999062499993,
+        "after_minimization": 8.499999999999998
+      },
+      {
+        "node": 4,
+        "before_minimization": 8.374999062499993,
+        "after_minimization": 8.499999999999998
+      }
+    ]
+  },
+  "compact_equalities_enabled": false,
+  "late_compact_equalities_enabled": false,
+  "compact_lp_calls": 0,
+  "compact_lp_fallbacks": 0,
+  "root_lp_rows": 10,
+  "root_compact_equalities": 0,
+  "branching": "fractionality",
+  "pseudocost_updates": 0,
+  "reduced_bound_lp_enabled": false,
+  "late_reduced_bound_lp_enabled": false,
+  "reduced_bound_lp_calls": 0,
+  "reduced_bound_lp_fallbacks": 0,
+  "reduced_bound_lp_accepted": 0,
+  "reduced_upper_candidates": 0,
+  "root_reduced_upper_bounds": 0,
+  "strong_branch_probes": 0,
+  "strong_branch_seconds": 0,
+  "gap": 0,
+  "lp_recovery_attempts": 0,
+  "lp_recovery_successes": 0,
+  "lp_recovery_seconds": 0,
+  "deferred_nodes": 0,
+  "unresolved_nodes": 0,
+  "neighborhood_calls": 0,
+  "neighborhood_nodes": 0,
+  "neighborhood_improvements": 0,
+  "neighborhood_seconds": 0,
+  "neighborhood_paced": false,
+  "neighborhood_min_spacing_seconds": 0,
+  "neighborhood": "guided",
+  "neighborhood_trace": [],
+  "first_lp_failure": null,
+  "rejected_integer_candidates": 0,
+  "rejected_candidates": [],
+  "candidate_repair_attempts": 0,
+  "candidate_repair_successes": 0,
+  "repair_branch_nodes": 0,
+  "candidate_repair_seconds": 0,
+  "binary_meet_enabled": false,
+  "binary_meet_attempts": 0,
+  "binary_meet_eligible": false,
+  "binary_meet_completed": false,
+  "binary_meet_improved": false,
+  "binary_meet_left_states": 0,
+  "binary_meet_right_states": 0,
+  "binary_meet_query_nodes": 0,
+  "binary_meet_seconds": 0,
+  "binary_meet_budget": 0,
+  "binary_meet_primal": [],
+  "lifted_covers_enabled": false,
+  "lifted_cover_states": 0,
+  "lifted_cover_checked": 0,
+  "lifted_cover_seconds": 0,
+  "late_lifted_covers_enabled": false,
+  "cut_restarts": 0,
+  "cut_restart_nodes": 0,
+  "cut_restart_seconds": 0,
+  "cut_restart_bound": null,
+  "cut_restart_objective": null,
+  "cut_restart_primal": [],
+  "root_bound_before_cuts": -6.500000000000001,
+  "root_bound_after_cuts": -6.500000000000001,
+  "lifted_cover_trace": [],
+  "binary_proof_enabled": false,
+  "binary_proof_attempts": 0,
+  "binary_proof_budget": 0,
+  "binary_proof": {
+    "version": 1,
+    "arithmetic": "checked_int64",
+    "status": "not_run",
+    "reason": "",
+    "eligible": false,
+    "completed": false,
+    "verified": false,
+    "feasible": false,
+    "seconds": 0,
+    "work": 0,
+    "work_limit": 50000000,
+    "left_states": 0,
+    "right_states": 0,
+    "query_nodes": 0,
+    "objective_minimization": null,
+    "binary_indices": [],
+    "primal": []
+  },
+  "incumbent_trace": [
+    [
+      0.0004129999999999967,
+      31.5
+    ],
+    [
+      0.0005844000000001515,
+      15.499999982000004
+    ],
+    [
+      0.0010628999999999778,
+      1.5000000000000053
+    ]
+  ],
+  "primal": [
+    -1,
+    0,
+    1,
+    0,
+    4.999999999999998
+  ],
+  "process_seconds": 0.02246720000403002,
+  "exit_code": 0
+}

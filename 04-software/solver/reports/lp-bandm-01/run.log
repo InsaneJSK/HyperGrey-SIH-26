@@ -1,0 +1,7 @@
+{'profile': 'unscaled', 'status': 'numerical_error', 'objective': None, 'iterations': 350, 'process_seconds': 0.10899999999674037, 'peak_rss_mib': 7.734375}
+{'profile': 'compact', 'status': 'optimal', 'objective': -158.62801845012078, 'iterations': 1279, 'process_seconds': 0.1409999999887077, 'peak_rss_mib': 8.6640625}
+{'profile': 'compact_refined', 'status': 'optimal', 'objective': -158.62801845012072, 'iterations': 1279, 'process_seconds': 0.15600000000267755, 'peak_rss_mib': 8.58984375}
+{'profile': 'compact_unscaled', 'status': 'optimal', 'objective': -158.62801845012112, 'iterations': 1518, 'process_seconds': 0.23399999999674037, 'peak_rss_mib': 9.60546875}
+{'profile': 'compact_unscaled_refined', 'status': 'optimal', 'objective': -158.62801845012078, 'iterations': 1518, 'process_seconds': 0.23399999999674037, 'peak_rss_mib': 9.5859375}
+{'profile': 'dense', 'status': 'iteration_limit', 'objective': None, 'iterations': 10000, 'process_seconds': 9.968999999997322, 'peak_rss_mib': 65.4296875}
+Bandm diagnostic complete

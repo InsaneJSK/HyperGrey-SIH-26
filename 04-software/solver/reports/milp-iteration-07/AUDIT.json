@@ -1,0 +1,24 @@
+{
+  "all_pass": true,
+  "binary_sha256": "3e623c0cec0a943d042a1310be84f0962dbeaec021de7220f705dd1c6f8f7a90",
+  "identity_files_checked": 67,
+  "public_runs": 12,
+  "linked_independent_exact_checks": 6,
+  "replayed_generated_exact_checks": 40,
+  "raw_sha256": {
+    "markshare_4_0.binary_meet.0.ours.json": "96764f6ed9e3c4e3d2a6a1ded8b26240b68975f203608f299c94d8ee0c74859b",
+    "markshare_4_0.binary_proof.0.ours.json": "229a672fd023d062b9597b7ffcd2479ac41db2121ab226ea53349997f7eec80d",
+    "markshare_4_0.binary_proof.1.ours.json": "e2c86a2bc0128550eac899452864c47333634b1bb2d255b0350f92f65cbc1702",
+    "markshare_4_0.binary_meet.1.ours.json": "ae53d8dfea13878d3fb929a725e98bc058bce3c812eef56f785b48acfd3dc309",
+    "markshare_4_0.binary_meet.2.ours.json": "7b3b74f7d6fcc3842328848e1057811306dd5fa7cbaaed0b96f7cedd7d8e081b",
+    "markshare_4_0.binary_proof.2.ours.json": "cd2edd863e2c412a0d7833383c2acddc6832dd20a875aa24e024bfae6fe43a99",
+    "p0033.binary_proof.0.ours.json": "c38e6dec37249dcc40f694ca9033a128f5a106f57d89615a5166f59bac9ec309",
+    "p0033.binary_meet.0.ours.json": "ae8783da14171f701f0502dd620b10da47eed2135783172fa9e327e9831aee0c",
+    "p0033.binary_meet.1.ours.json": "bd5d3f5d0350538dd7281f130731a2b774b1ad9a65e8059abd7cbc578280f232",
+    "p0033.binary_proof.1.ours.json": "1492b6e14ba5b4e9f9d2bb8ffc0d35a383afed23f533c4445405913aa8766fe1",
+    "p0033.binary_proof.2.ours.json": "2b7e774eb53ef6c8cf852fc5ecd2a21d91a05265c73df01649cc1020df70cf4d",
+    "p0033.binary_meet.2.ours.json": "40fc57cb9c64bbb04a6e2878a4b10b38d4029e39ed1ec53a09a361e70ed73707"
+  },
+  "audit_script_sha256": "2aaa4235c61a5e4dff8507918a4bf5b91af76747a3595482f414c2a277cb2cb8",
+  "limitation": "Replays generated proofs and verifies provenance links for already completed public independent checks; no new timed comparison."
+}

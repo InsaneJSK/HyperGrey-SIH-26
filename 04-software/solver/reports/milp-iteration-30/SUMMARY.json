@@ -1,0 +1,102 @@
+{
+  "development-30s": {
+    "control": {
+      "observations": 54,
+      "completions": 17,
+      "checked_points": 46,
+      "no_incumbent_limits": 6,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "exact_proof_checked": 4,
+        "numerical_completion_checked": 13,
+        "feasible_limit": 29,
+        "no_incumbent_limit": 6,
+        "terminal_reference_pending": 2
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 116.8828125
+    },
+    "candidate": {
+      "observations": 54,
+      "completions": 23,
+      "checked_points": 48,
+      "no_incumbent_limits": 4,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "exact_proof_checked": 4,
+        "numerical_completion_checked": 18,
+        "feasible_limit": 26,
+        "no_incumbent_limit": 4,
+        "terminal_reference_pending": 1,
+        "terminal_status_crosschecked": 1
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 593.58984375
+    }
+  },
+  "holdout28-30s": {
+    "control": {
+      "observations": 6,
+      "completions": 0,
+      "checked_points": 5,
+      "no_incumbent_limits": 1,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "feasible_limit": 5,
+        "no_incumbent_limit": 1
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 84.84375
+    },
+    "candidate": {
+      "observations": 6,
+      "completions": 0,
+      "checked_points": 5,
+      "no_incumbent_limits": 1,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "feasible_limit": 5,
+        "no_incumbent_limit": 1
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 306.27734375
+    }
+  },
+  "fresh-30s": {
+    "control": {
+      "observations": 15,
+      "completions": 1,
+      "checked_points": 10,
+      "no_incumbent_limits": 3,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "feasible_limit": 8,
+        "numerical_or_unresolved": 3,
+        "numerical_completion_checked": 1,
+        "no_incumbent_limit": 3
+      },
+      "fallbacks": 0,
+      "peak_commit_mib": 145.8984375
+    },
+    "candidate": {
+      "observations": 15,
+      "completions": 5,
+      "checked_points": 14,
+      "no_incumbent_limits": 1,
+      "validation_failures": 0,
+      "process_failures": 0,
+      "categories": {
+        "numerical_completion_checked": 5,
+        "feasible_limit": 9,
+        "no_incumbent_limit": 1
+      },
+      "fallbacks": 2,
+      "peak_commit_mib": 419.6953125
+    }
+  }
+}

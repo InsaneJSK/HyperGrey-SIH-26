@@ -1,0 +1,49 @@
+binary 58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a
+downloaded neos-4954672-berkel 277625
+downloaded neos-860300 10469173
+downloaded neos-911970 118807
+downloaded neos17 977794
+downloaded neos5 69767
+downloaded neos8 10028362
+downloaded nu25-pr12 810164
+neos-4954672-berkel      control: time_limit             root=yes nodes=   33044 | candidate: time_limit             root=yes nodes=   41192 obj=9948006 pub=2612710.0
+neos-860300              control: time_limit             root=yes nodes=    8521 | candidate: time_limit             root=yes nodes=    8410 obj=3429 pub=3200.999999999998
+neos-911970              control: time_limit             root=yes nodes=  240960 | candidate: time_limit             root=yes nodes=  216591 obj=87.0599999588 pub=54.76
+neos17                   control: time_limit             root=yes nodes=  244728 | candidate: time_limit             root=yes nodes=  244276 obj=0.26698066045066043 pub=0.1500025774
+neos5                    control: time_limit             root=yes nodes=  654356 | candidate: time_limit             root=yes nodes=  650143 obj=15 pub=15.0
+neos8                    control: process_error          root=no  nodes=    None | candidate: process_error          root=no  nodes=    None obj=None pub=-3719.0
+nu25-pr12                control: time_limit             root=yes nodes=   49127 | candidate: time_limit             root=yes nodes=   45590 obj=53980 pub=53904.99999999999
+{
+ "control": {
+  "root_solved": 6,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 6,
+  "rejected_points": [],
+  "unresolved_root": [
+   "neos8"
+  ],
+  "fallbacks": 88,
+  "unresolved_nodes": 0,
+  "cold_starts": 37,
+  "nodes": 1230736
+ },
+ "candidate": {
+  "root_solved": 6,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 6,
+  "rejected_points": [],
+  "unresolved_root": [
+   "neos8"
+  ],
+  "fallbacks": 72,
+  "unresolved_nodes": 0,
+  "cold_starts": 8,
+  "nodes": 1206202
+ },
+ "binaries": {
+  "control": "f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb",
+  "candidate": "58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a"
+ }
+}

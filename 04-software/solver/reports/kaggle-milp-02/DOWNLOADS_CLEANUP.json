@@ -1,0 +1,34 @@
+{
+  "date_local": "2026-09-15",
+  "timezone": "Asia/Calcutta",
+  "operation": "Windows Recycle Bin, not permanent deletion",
+  "all_hashes_and_lengths_verified_before_cleanup": true,
+  "all_removed_from_downloads": true,
+  "all_preserved_copies_rehashed_after_cleanup": true,
+  "files": [
+    {
+      "download": "C:/Users/Admin/Downloads/sih26119_kaggle_results.zip",
+      "saved": "D:/sih-2026/SIH-backup-solver/SIH-backup-solver/reports/kaggle-gpu-01/returned_results.zip",
+      "bytes": 466197,
+      "sha256": "307152f3596dd9d17127b31257b540fb07adb8bb0d4fd90ad8f46d22f906c9f8"
+    },
+    {
+      "download": "C:/Users/Admin/Downloads/sih26119_kaggle_results (1).zip",
+      "saved": "D:/sih-2026/SIH-backup-solver/SIH-backup-solver/reports/kaggle-gpu-02/returned_results.zip",
+      "bytes": 483206,
+      "sha256": "fad71cb475ec23450b9e919926f06a30f2b1fac9b80e6912bf6a877c9fb95731"
+    },
+    {
+      "download": "C:/Users/Admin/Downloads/sih26119_milp_results.zip",
+      "saved": "D:/sih-2026/SIH-backup-solver/SIH-backup-solver/reports/kaggle-milp-01/returned_results.zip",
+      "bytes": 193277,
+      "sha256": "f70ee00fcd9df87da3c9e9ef759c8558747d2b350de431ddf2a98261fbe497e8"
+    },
+    {
+      "download": "C:/Users/Admin/Downloads/sih26119_milp_results (1).zip",
+      "saved": "D:/sih-2026/SIH-backup-solver/SIH-backup-solver/reports/kaggle-milp-02/returned_results.zip",
+      "bytes": 315780,
+      "sha256": "711867e10aba5bc0cb0192faed038a0a86e20c94b03826c1473123b24eabb7fa"
+    }
+  ]
+}

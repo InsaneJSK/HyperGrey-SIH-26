@@ -1,0 +1,86 @@
+{
+  "iteration": 31,
+  "date": "2026-09-18",
+  "decision": "Promoted: iteration 28 flags with --bounded-lp --tree-dives --fix-propagate and --lifted-covers replacing the three --late-* flags (norestart_flags). Executable defaults unchanged.",
+  "binary_sha256": "40270cdb965fc73a8d88ce359f50cb422975f7d9ee0e118e7215167a2bbc8c47",
+  "validation_failures": 0,
+  "development": {
+    "repeat1": {
+      "control": [
+        10,
+        25
+      ],
+      "candidate": [
+        11,
+        24
+      ],
+      "norestart": [
+        11,
+        25
+      ]
+    },
+    "repeat2": {
+      "control": [
+        11,
+        25
+      ],
+      "candidate": [
+        11,
+        25
+      ],
+      "norestart": [
+        11,
+        25
+      ]
+    },
+    "format": "[completions, checked points] of 27 records"
+  },
+  "fresh_holdout": {
+    "control": [
+      1,
+      8
+    ],
+    "candidate": [
+      1,
+      9
+    ],
+    "norestart": [
+      1,
+      10
+    ],
+    "format": "[completions, checked points] of 12"
+  },
+  "peak_commit_mib": {
+    "control": 501,
+    "candidate": 350,
+    "norestart": 1088,
+    "threshold": 1536
+  },
+  "files_sha256": {
+    "final_solver_cli.exe": "40270cdb965fc73a8d88ce359f50cb422975f7d9ee0e118e7215167a2bbc8c47",
+    "CANDIDATE_PROFILE.json": "d1b95c77d1c35b91405607a944776fac51dea145a7ff86d06d6b735991c1a717",
+    "PLAN.md": "18c2703c6f74d983ee9b4e9028b769f7f2f31fc640b61a14f48b9c49d48c3617",
+    "HOLDOUT_SELECTION.md": "61ab44147350f10cfa035fbbf1d569fffdea48bd82a9e17d1717189afa6d69b5",
+    "DEVELOPMENT.json": "dd89957406479201a0d6528df11425ed15d4c18ae3c7e1677e6994c2f93ade04",
+    "DEVELOPMENT2.json": "dd89957406479201a0d6528df11425ed15d4c18ae3c7e1677e6994c2f93ade04",
+    "FRESH31.json": "ebc3a0f53b48ed8cb7de37134e903241e2b2e3854177f0ca91eb3a04f928521e",
+    "FRESH31_NORESTART.json": "3e95a6894e5ad503dfecec3cb192962c46d6508bc4b250f625267e50776608b9",
+    "SOURCE_IDENTITY.json": "4cac1ec3f4d265b36f24a4f001c90f53d2d7f832c77f14da80c09f8b7e8ff4c1",
+    "gate/SUMMARY.json": "98b713fa93434edbc8a47c970976fdf4c4d3f038cf55c6989b8e58d904cd8994",
+    "development-30s/SUMMARY.json": "eb9e5cc412ee83aa0b6978cd10ed587347018a0adb786f1223cb0e64c1497f7f",
+    "development-30s/results.json": "93c0787f6c232e1139bdc499578eeba9fd9399a471d24c1132f0b813755d020a",
+    "development-30s-repeat2/SUMMARY.json": "658d496fc0e922e09a4d22498c4f3cf3e49e1d033ae881580f58a9c8171eb8b1",
+    "development-30s-repeat2/results.json": "e1b493b777d667413e4d41b25836f32b8ff34dd83bcb311c07da9662ef461c44",
+    "fresh31-30s/SUMMARY.json": "e7b7bdb72ceed1ce553a1685ef63669978394b1a636e03d61942c2f8ad8cf39a",
+    "fresh31-30s/results.json": "2b3cfd2744895043d9d8995307ced0a3f88e875c90a3817f6d41ade9cc023b49",
+    "fresh31-30s-norestart/SUMMARY.json": "a3d5cc4d11618691fe357c9539cb17fda6e095d8b7a5c4ff2f4ea07ad36fe894",
+    "fresh31-30s-norestart/results.json": "284c5b4bb829bcefad83dabaaf79a9a4995a1b74d7787115fd7187f9054d32bc",
+    "SUMMARY.json": "f4906482eece101f16db032aa3ab0f34d73019dd9c369793923fa68d06367b16",
+    "MODEL_LEDGER.md": "83c217f2f315a1ba2b068f97b230405e438021dba1e73b382556bf72e6b8d0f6",
+    "COMPARISON.md": "b0aef16bcf8738d918abb9a82d59ebca93f592fee3d03def2916a783afbdef38",
+    "REPORT.md": "f24751c6c3540c1ab8b4384ee5a234dc6d66439b70c91e3679628edda3009f56",
+    "run_models.py": "5bfd790bb9227f5e670038f6dceb78349ad5cf3283025628eb330fad0d4939df",
+    "analyze.py": "6756d39983f924875c6e5e7028b6364804e0f76135c7a3ab7546467924e66b91",
+    "../../datasets/milp-iteration-31-holdout/manifest.json": "eabd605771b51f52233fa657e40aa7803b62576303a6d9ecabb61eae763fc5a1"
+  }
+}

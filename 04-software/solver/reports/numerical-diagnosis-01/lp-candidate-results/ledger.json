@@ -1,0 +1,200 @@
+[
+  {
+    "key": "bandm.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\additional-lp\\bandm.mps",
+    "status": "numerical_error",
+    "objective": null,
+    "iterations": 273,
+    "refreshes": 4,
+    "checked_completion": false,
+    "absolute_violation": null,
+    "scaled_violation": null
+  },
+  {
+    "key": "adlittle.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\adlittle.mps",
+    "status": "optimal",
+    "objective": 225494.9631623802,
+    "iterations": 191,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 4.547473508864641e-13,
+    "scaled_violation": 6.6768987669579144e-15
+  },
+  {
+    "key": "afiro.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\afiro.mps",
+    "status": "optimal",
+    "objective": -464.75314285714285,
+    "iterations": 17,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 5.684341886080802e-14,
+    "scaled_violation": 1.7980651568433357e-16
+  },
+  {
+    "key": "blend.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\blend.mps",
+    "status": "optimal",
+    "objective": -30.81214984582797,
+    "iterations": 162,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 1.0231815394945443e-12,
+    "scaled_violation": 1.0588444708125046e-14
+  },
+  {
+    "key": "boeing2.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\boeing2.mps",
+    "status": "optimal",
+    "objective": -315.0187280152027,
+    "iterations": 261,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 3.836930773104541e-13,
+    "scaled_violation": 2.385241948301604e-13
+  },
+  {
+    "key": "degen2.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\degen2.mps",
+    "status": "optimal",
+    "objective": -1435.178,
+    "iterations": 2949,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 4.440892098500626e-16,
+    "scaled_violation": 7.401486830834377e-17
+  },
+  {
+    "key": "kb2.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\kb2.mps",
+    "status": "optimal",
+    "objective": -1749.9001299062058,
+    "iterations": 96,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 3.183231456205249e-12,
+    "scaled_violation": 4.990716834505503e-15
+  },
+  {
+    "key": "sc105.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\sc105.mps",
+    "status": "optimal",
+    "objective": -52.20206121170721,
+    "iterations": 115,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 2.2737367544323206e-13,
+    "scaled_violation": 6.4882060267493185e-15
+  },
+  {
+    "key": "sc205.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\sc205.mps",
+    "status": "optimal",
+    "objective": -52.202061211707296,
+    "iterations": 263,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 2.2737367544323206e-12,
+    "scaled_violation": 1.4333322116581759e-12
+  },
+  {
+    "key": "sc50a.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\sc50a.mps",
+    "status": "optimal",
+    "objective": -64.5750770585645,
+    "iterations": 49,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 1.1368683772161603e-13,
+    "scaled_violation": 1.8935628618245143e-16
+  },
+  {
+    "key": "sc50b.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\sc50b.mps",
+    "status": "optimal",
+    "objective": -69.99999999999999,
+    "iterations": 54,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 1.1368683772161603e-13,
+    "scaled_violation": 3.8537911092073254e-16
+  },
+  {
+    "key": "share2b.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\share2b.mps",
+    "status": "optimal",
+    "objective": -415.73224074141865,
+    "iterations": 212,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 4.547473508864641e-13,
+    "scaled_violation": 4.8893683241043044e-14
+  },
+  {
+    "key": "stocfor1.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\netlib\\stocfor1.mps",
+    "status": "optimal",
+    "objective": -41131.9762194364,
+    "iterations": 143,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 2.2737367544323206e-12,
+    "scaled_violation": 1.5110417468109404e-14
+  },
+  {
+    "key": "agg.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\additional-lp\\agg.mps",
+    "status": "optimal",
+    "objective": -35991767.28657654,
+    "iterations": 152,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 5.413312464952469e-09,
+    "scaled_violation": 5.279927375506678e-15
+  },
+  {
+    "key": "israel.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\additional-lp\\israel.mps",
+    "status": "optimal",
+    "objective": -896644.8218630459,
+    "iterations": 393,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 1.1641532182693481e-10,
+    "scaled_violation": 5.470247026267377e-13
+  },
+  {
+    "key": "scagr7.default",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\additional-lp\\scagr7.mps",
+    "status": "optimal",
+    "objective": -2331389.824330984,
+    "iterations": 384,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 7.275957614183426e-12,
+    "scaled_violation": 7.270705024211367e-16
+  },
+  {
+    "key": "bandm.refined",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\additional-lp\\bandm.mps",
+    "status": "numerical_error",
+    "objective": null,
+    "iterations": 273,
+    "refreshes": 4,
+    "checked_completion": false,
+    "absolute_violation": null,
+    "scaled_violation": null
+  },
+  {
+    "key": "bandm.compact",
+    "model": "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\cpu-validation-2026-09-17\\results\\inputs\\additional-lp\\bandm.mps",
+    "status": "optimal",
+    "objective": -158.62801845012072,
+    "iterations": 1279,
+    "refreshes": 0,
+    "checked_completion": true,
+    "absolute_violation": 1.4210854715202004e-13,
+    "scaled_violation": 2.5716078305413843e-16
+  }
+]

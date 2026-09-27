@@ -1,0 +1,93 @@
+{
+ "binary": "build-iter31\\solver_cli.exe",
+ "steps": [
+  {
+   "label": "refinery",
+   "exit_code": 0,
+   "status": "optimal",
+   "objective": -6.588421476681436,
+   "reference_status": "Optimal",
+   "reference_objective": -6.588421476681447,
+   "candidate_max_violation": 1.1368683772161603e-13
+  },
+  {
+   "label": "refinery_low_sulfur",
+   "exit_code": 0,
+   "status": "optimal",
+   "objective": 0,
+   "reference_status": "Optimal",
+   "reference_objective": 0.0,
+   "candidate_max_violation": 0.0
+  },
+  {
+   "label": "production_lotsizing",
+   "exit_code": 0,
+   "status": "optimal",
+   "objective": 762,
+   "reference_status": "Optimal",
+   "reference_objective": 762.0,
+   "candidate_max_violation": 0.0
+  },
+  {
+   "label": "mas74_short",
+   "exit_code": 1,
+   "status": "time_limit",
+   "objective": 12590.371258200006,
+   "reference_status": null,
+   "reference_objective": null,
+   "candidate_max_violation": null
+  },
+  {
+   "label": "unsupported",
+   "exit_code": 2,
+   "status": null,
+   "objective": null,
+   "reference_status": null,
+   "reference_objective": null,
+   "candidate_max_violation": null
+  }
+ ],
+ "sensitivity": [
+  {
+   "sulfur_limit": 3.5,
+   "profit": 6.588421476681436,
+   "status": "optimal",
+   "reference_agrees": true
+  },
+  {
+   "sulfur_limit": 3.48,
+   "profit": 2.5755621743875525,
+   "status": "optimal",
+   "reference_agrees": true
+  },
+  {
+   "sulfur_limit": 3.46,
+   "profit": 0,
+   "status": "optimal",
+   "reference_agrees": true
+  },
+  {
+   "sulfur_limit": 3.44,
+   "profit": 0,
+   "status": "optimal",
+   "reference_agrees": true
+  },
+  {
+   "sulfur_limit": 3.42,
+   "profit": 0,
+   "status": "optimal",
+   "reference_agrees": true
+  },
+  {
+   "sulfur_limit": 3.4,
+   "profit": 0,
+   "status": "optimal",
+   "reference_agrees": true
+  }
+ ],
+ "what_if": {
+  "profit": 6.588421476681436,
+  "profit_after": 0,
+  "monotone": true
+ }
+}

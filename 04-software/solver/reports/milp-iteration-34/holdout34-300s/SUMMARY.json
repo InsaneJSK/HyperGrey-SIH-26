@@ -1,0 +1,28 @@
+{
+ "control": {
+  "root_solved": 0,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "academictimetablesmall",
+   "brazil3",
+   "irish-electricity",
+   "k1mushroom",
+   "neos-3216931-puriri"
+  ]
+ },
+ "candidate": {
+  "root_solved": 3,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "brazil3",
+   "irish-electricity"
+  ]
+ },
+ "binary_sha256": "f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb"
+}

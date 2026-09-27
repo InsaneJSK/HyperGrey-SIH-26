@@ -1,0 +1,30 @@
+{
+ "name": "neos-3656078-kumeu",
+ "status": "unresolved_relaxations",
+ "message": "Unresolved LP nodes retained in the global bound",
+ "wall_seconds": 159.1,
+ "rows": 17656,
+ "columns": 14870,
+ "root_lp_failure_status": "numerical_error",
+ "root_lp_iterations": 8336,
+ "bounded": {
+  "calls": 1,
+  "optimal": 0,
+  "failures": 1,
+  "fallbacks": 1,
+  "iterations": 10000,
+  "verification_rejected": 0,
+  "farkas_rejected": 0,
+  "refactors": 157,
+  "singular_repairs": 0,
+  "seconds": 11.6525571
+ },
+ "lp_recovery": {
+  "attempts": 1,
+  "successes": 0,
+  "seconds": 2.1538941
+ },
+ "debug": [
+  "bounded failure status=iteration_limit warm=0 it=10000"
+ ]
+}

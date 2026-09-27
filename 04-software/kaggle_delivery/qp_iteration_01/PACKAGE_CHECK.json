@@ -1,0 +1,13 @@
+{
+  "notebook_schema": "passed",
+  "notebook_bytes": 11492,
+  "under_1_mb": true,
+  "external_source_zip": true,
+  "code_cells_parsed": 2,
+  "source_files_verified": 140,
+  "cpu_core_files_matched": 22,
+  "cpu_evidence": "reports/qp-iteration-01/validated-cpu",
+  "snapshot_sha256": "f840453501c39a975d78cec449adb120690a3a9d0ff7d8df6d6a010f1327bf8e",
+  "cuda_execution": "not yet evidenced for this snapshot",
+  "cuda_evidence_audit": null
+}

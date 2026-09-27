@@ -1,0 +1,8 @@
+{
+  "all_pass": true,
+  "passed": 28,
+  "cases": 28,
+  "binary_sha256": "575917dddaa9182aea764298b2ce03db5a1246113e5fc9cf8bd8eff58913fede",
+  "script_sha256": "c9d0d2817c9dc2e9d0e4e611462d14516ab1b2e4ad4d7dd90de6aeb3c3304c64",
+  "reference_version": "1.12.0"
+}

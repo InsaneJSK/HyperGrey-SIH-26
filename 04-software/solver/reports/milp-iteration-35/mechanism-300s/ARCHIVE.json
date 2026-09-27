@@ -1,0 +1,58 @@
+{
+ "streams": {
+  "archive_bytes": 336674,
+  "archive_sha256": "1a731e8e00e4f9062486152e4f4eded7cc3840d2135fb9dbcbb02a00c0174923",
+  "bytes": 3037796,
+  "files": 12,
+  "members": {
+   "CMS750_4.candidate.stdout.log": {
+    "bytes": 552225,
+    "sha256": "7c428d0c53979ba16759a5bdf62cbeaa6d38f1b5ad7df77afbc783900ab6d24b"
+   },
+   "CMS750_4.control.stdout.log": {
+    "bytes": 37314,
+    "sha256": "51497903a9b4353b0cb7abda765d1ed19b911581d7c40d0b686526e2732e1c33"
+   },
+   "academictimetablesmall.candidate.stdout.log": {
+    "bytes": 83039,
+    "sha256": "7541cd5023a49fc2f5f2d4cdbc31ec8a6799e7ca6bdd42fb7c2065341e8d8d79"
+   },
+   "academictimetablesmall.control.stdout.log": {
+    "bytes": 78036,
+    "sha256": "1bd44eb5eeff0e3ccd04452bcd5f8d2d5c832ec36aa4e985ee0b811029883d9b"
+   },
+   "neos-3216931-puriri.candidate.stdout.log": {
+    "bytes": 1011403,
+    "sha256": "2fd2f7860deb502bc10a0e8fa6b048d25d54dd4b99d0f678c314c187a248fa58"
+   },
+   "neos-3216931-puriri.control.stdout.log": {
+    "bytes": 1011357,
+    "sha256": "fdd894e13b74e92371b2b0613eb5e52761e25b6acfe4881bff4d52276418522f"
+   },
+   "neos-3656078-kumeu.candidate.stdout.log": {
+    "bytes": 122777,
+    "sha256": "1c345b3ac3a6ee6e117dc92f9f12724ba48cecd675bc3852c8c5e9708325ea54"
+   },
+   "neos-3656078-kumeu.control.stdout.log": {
+    "bytes": 17706,
+    "sha256": "9b397e3a3ec3cd648f3f675025da69d02722efd687307ff6750ff81386510eef"
+   },
+   "neos-662469.candidate.stdout.log": {
+    "bytes": 70045,
+    "sha256": "c1acd966ac0917158abfd187d7ba38b3daa566a98250b8d84e60ffc70af13a14"
+   },
+   "neos-662469.control.stdout.log": {
+    "bytes": 13025,
+    "sha256": "2e22008930897d1714ce65510d37c07093d86349692102a4fd7b37db0ae4297d"
+   },
+   "neos-957323.candidate.stdout.log": {
+    "bytes": 25911,
+    "sha256": "b4e0476222bd722be9867ced089b9773b8fcdce67f50c53eed0eddea6c62714d"
+   },
+   "neos-957323.control.stdout.log": {
+    "bytes": 14958,
+    "sha256": "2d6dc511da173803639f1a2dce95cf1284a2ab85022ce552a9dbefdf04dff0bb"
+   }
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "streams": {
+  "archive_bytes": 14307,
+  "archive_sha256": "0c1a6a4d75f28150264bf527ce21cbed1b80b54bef93c66521735fe070b96ca0",
+  "bytes": 217671,
+  "files": 6,
+  "members": {
+   "buildingenergy.candidate.stdout.log": {
+    "bytes": 9549,
+    "sha256": "2d91bad204cc6f5ee170f46456d5b40b51fe8c39da00252175dc17c217dda7cb"
+   },
+   "buildingenergy.control.stdout.log": {
+    "bytes": 9515,
+    "sha256": "def9bdf6c17b64d4d3a3c8ea13cc73372484ae102183b46450364d51096cc7af"
+   },
+   "neos8.candidate.stdout.log": {
+    "bytes": 120441,
+    "sha256": "3478c21a2200f6825d5c21f7f3059d6aa9f7e73b0f8c5a20ad84b9e18b4538cc"
+   },
+   "neos8.control.stderr.log": {
+    "bytes": 46,
+    "sha256": "6b9cdf8def361ae8dabf622ddbab4250825882ac3461b0128130ea32b9a497cd"
+   },
+   "supportcase10.candidate.stdout.log": {
+    "bytes": 39086,
+    "sha256": "33d3ca3b365d422c34163203980c1a6813c90014653cf9e3bfaf662591e7f369"
+   },
+   "supportcase10.control.stdout.log": {
+    "bytes": 39034,
+    "sha256": "6953b2b580e2b19d0f28643c896090afbae117e2dddb99b636821db0a3a3ada6"
+   }
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"status":"optimal","iterations":650,"total_seconds":0.00099700000000000006,"rows":1,"columns":2,"objective":966.66666639715754,"primal_residual":1.2580134392945767e-010,"stationarity_residual":7.3368122704669597e-008,"complementarity_residual":2.787303409500434e-010,"primal":[33.333416768813564,66.666583205900366],"row_dual":[-10.666665816397938]}

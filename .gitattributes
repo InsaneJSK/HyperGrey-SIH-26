@@ -1,0 +1,16 @@
+# Imported project bytes, including frozen evidence, must survive Git round trips.
+04-software/solver/** -text
+04-software/backend/** -text
+04-software/kaggle_delivery/** -text
+07-documentation/technical-report/** -text
+09-business/market/*.tex -text
+*.mps -text
+*.qplib -text
+*.lp -text
+*.exe binary
+*.dll binary
+*.pyd binary
+*.pdf binary
+*.zip binary
+*.whl binary
+04-software/backend/deploy/*.sh text eol=lf

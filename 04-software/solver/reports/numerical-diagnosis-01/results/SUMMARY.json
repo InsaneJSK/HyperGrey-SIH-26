@@ -1,0 +1,32 @@
+[
+  {
+    "name": "bandm.default",
+    "status": "numerical_error",
+    "iterations": 200
+  },
+  {
+    "name": "bandm.refined",
+    "status": "numerical_error",
+    "iterations": 200
+  },
+  {
+    "name": "bandm.compact",
+    "status": "optimal",
+    "iterations": 1279
+  },
+  {
+    "name": "9002.1e-7",
+    "status": "optimal",
+    "iterations": 180
+  },
+  {
+    "name": "9002.1e-10",
+    "status": "time_limit",
+    "iterations": 51725
+  },
+  {
+    "name": "9002.1e-12",
+    "status": "time_limit",
+    "iterations": 54125
+  }
+]

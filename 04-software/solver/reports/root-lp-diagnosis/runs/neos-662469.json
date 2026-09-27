@@ -1,0 +1,30 @@
+{
+ "name": "neos-662469",
+ "status": "unresolved_relaxations",
+ "message": "Unresolved LP nodes retained in the global bound",
+ "wall_seconds": 164.2,
+ "rows": 1085,
+ "columns": 18235,
+ "root_lp_failure_status": "iteration_limit",
+ "root_lp_iterations": 10000,
+ "bounded": {
+  "calls": 1,
+  "optimal": 0,
+  "failures": 1,
+  "fallbacks": 1,
+  "iterations": 10000,
+  "verification_rejected": 0,
+  "farkas_rejected": 0,
+  "refactors": 157,
+  "singular_repairs": 0,
+  "seconds": 11.3378264
+ },
+ "lp_recovery": {
+  "attempts": 1,
+  "successes": 0,
+  "seconds": 2.2803284
+ },
+ "debug": [
+  "bounded failure status=iteration_limit warm=0 it=10000"
+ ]
+}

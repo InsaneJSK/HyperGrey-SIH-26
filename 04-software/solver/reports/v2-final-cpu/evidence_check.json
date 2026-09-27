@@ -1,0 +1,53 @@
+{
+  "core_files_verified": 22,
+  "binary_sha256": "9740e7ee673fd65062dde2769895d0d7be55b7bf35ef74d839147a12fd8b3aab",
+  "groups": {
+    "generated_lp": {
+      "passed": 120,
+      "total": 120
+    },
+    "generated_milp": {
+      "passed": 40,
+      "total": 40
+    },
+    "generated_qp": {
+      "passed": 30,
+      "total": 30
+    },
+    "generated_mixed": {
+      "passed": 40,
+      "total": 40
+    },
+    "industrial": {
+      "passed": 4,
+      "total": 4
+    },
+    "miplib": {
+      "passed": 4,
+      "total": 4
+    },
+    "miplib2017": {
+      "passed": 0,
+      "total": 3
+    },
+    "netlib": {
+      "passed": 12,
+      "total": 12
+    },
+    "qplib": {
+      "passed": 2,
+      "total": 3
+    },
+    "scale": {
+      "passed": 18,
+      "total": 18
+    }
+  },
+  "incomplete_public_cases": [
+    "qplib/9002",
+    "miplib2017/markshare_4_0",
+    "miplib2017/blend2",
+    "miplib2017/binkar10_1"
+  ],
+  "gpu_verified": false
+}

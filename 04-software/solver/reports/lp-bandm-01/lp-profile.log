@@ -1,0 +1,24 @@
+adlittle optimal 225494.96316238036
+afiro optimal -464.75314285714285
+blend optimal -30.812149845828237
+boeing2 optimal -315.01872801520284
+degen2 optimal -1435.178
+kb2 optimal -1749.9001299062058
+sc105 optimal -52.202061211707246
+sc205 optimal -52.20206121170724
+sc50a optimal -64.5750770585645
+sc50b optimal -69.99999999999999
+share2b optimal -415.7322407414191
+stocfor1 optimal -41131.976219436394
+agg optimal -35991767.28657651
+bandm optimal -158.62801845012072
+israel optimal -896644.821863046
+scagr7 optimal -2331389.8243309837
+{
+  "all_pass": true,
+  "records": 16,
+  "checked_completions": 16,
+  "compact_fallbacks": 1,
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "ledger_sha256": "fd9ca165c59ab89f3f94a3caa59defb91c6c98c125abf9699a92e040a5dfd5f3"
+}

@@ -1,0 +1,96 @@
+[  1%] Building CXX object CMakeFiles/solver.dir/src/solver.cpp.obj
+[  3%] Building CXX object CMakeFiles/solver.dir/src/mps.cpp.obj
+[  4%] Building CXX object CMakeFiles/solver.dir/src/milp_v2.cpp.obj
+[  6%] Building CXX object CMakeFiles/solver.dir/src/qp.cpp.obj
+[  7%] Building CXX object CMakeFiles/solver.dir/src/qp_admm.cpp.obj
+[  9%] Building CXX object CMakeFiles/solver.dir/src/qp_dual_newton.cpp.obj
+[ 11%] Building CXX object CMakeFiles/solver.dir/src/sparse_lp.cpp.obj
+[ 12%] Building CXX object CMakeFiles/solver.dir/src/accelerated_qp.cpp.obj
+[ 14%] Linking CXX static library libsolver.a
+[ 14%] Built target solver
+[ 15%] Building CXX object CMakeFiles/solver_cli.dir/src/main.cpp.obj
+[ 17%] Building CXX object CMakeFiles/solver_scale.dir/src/scale_benchmark.cpp.obj
+[ 19%] Building CXX object CMakeFiles/solver_tests.dir/tests/test_solver.cpp.obj
+[ 20%] Building CXX object CMakeFiles/solver_primal_ratio_tests.dir/tests/test_primal_ratio.cpp.obj
+D:\me\CODING\Github\sih-backup-solver\SIH-backup-solver\tests\test_primal_ratio.cpp: In function 'int main(int, char**)':
+D:\me\CODING\Github\sih-backup-solver\SIH-backup-solver\tests\test_primal_ratio.cpp:24:42: warning: narrowing conversion of '(1 + (k % 5))' from 'unsigned int' to 'double' [-Wnarrowing]
+   24 |             std::vector<double> d={2e-9,1+(k%5),.5+(k%3)};
+      |                                         ~^~~~~~
+D:\me\CODING\Github\sih-backup-solver\SIH-backup-solver\tests\test_primal_ratio.cpp:24:42: warning: narrowing conversion of '(1 + (k % 5))' from 'unsigned int' to 'double' [-Wnarrowing]
+[ 22%] Linking CXX executable solver_scale.exe
+[ 23%] Linking CXX executable solver_primal_ratio_tests.exe
+[ 23%] Built target solver_scale
+[ 23%] Built target solver_primal_ratio_tests
+[ 25%] Building CXX object CMakeFiles/solver_v2_tests.dir/tests/test_v2.cpp.obj
+[ 26%] Building CXX object CMakeFiles/solver_meet_tests.dir/tests/test_mitm.cpp.obj
+[ 28%] Linking CXX executable solver_tests.exe
+[ 28%] Built target solver_tests
+[ 30%] Building CXX object CMakeFiles/solver_binary_proof_tests.dir/tests/test_binary_proof.cpp.obj
+[ 31%] Linking CXX executable solver_cli.exe
+[ 31%] Built target solver_cli
+[ 33%] Building CXX object CMakeFiles/solver_lifted_cover_tests.dir/tests/test_lifted_cover.cpp.obj
+[ 34%] Linking CXX executable solver_meet_tests.exe
+[ 34%] Built target solver_meet_tests
+[ 36%] Building CXX object CMakeFiles/solver_compact_equality_tests.dir/tests/test_compact_equalities.cpp.obj
+[ 38%] Linking CXX executable solver_v2_tests.exe
+[ 38%] Built target solver_v2_tests
+[ 39%] Building CXX object CMakeFiles/solver_reduced_bound_tests.dir/tests/test_reduced_bounds.cpp.obj
+[ 41%] Linking CXX executable solver_binary_proof_tests.exe
+[ 41%] Built target solver_binary_proof_tests
+[ 42%] Building CXX object CMakeFiles/solver_mps_contract_tests.dir/tests/test_mps_contract.cpp.obj
+[ 44%] Linking CXX executable solver_lifted_cover_tests.exe
+[ 44%] Built target solver_lifted_cover_tests
+[ 46%] Building CXX object CMakeFiles/solver_objective_lattice_tests.dir/tests/test_objective_lattice.cpp.obj
+[ 47%] Linking CXX executable solver_compact_equality_tests.exe
+[ 47%] Built target solver_compact_equality_tests
+[ 49%] Building CXX object CMakeFiles/solver_frontier_tests.dir/tests/test_frontier.cpp.obj
+[ 50%] Linking CXX executable solver_reduced_bound_tests.exe
+[ 52%] Linking CXX executable solver_mps_contract_tests.exe
+[ 52%] Built target solver_reduced_bound_tests
+[ 53%] Building CXX object CMakeFiles/solver_work_tests.dir/tests/test_work.cpp.obj
+[ 53%] Built target solver_mps_contract_tests
+[ 55%] Building CXX object CMakeFiles/solver_cut_policy_tests.dir/tests/test_cut_policy.cpp.obj
+[ 57%] Linking CXX executable solver_objective_lattice_tests.exe
+[ 57%] Built target solver_objective_lattice_tests
+[ 58%] Linking CXX executable solver_frontier_tests.exe
+[ 60%] Building CXX object CMakeFiles/solver_incumbent_cut_tests.dir/tests/test_incumbent_cuts.cpp.obj
+[ 60%] Built target solver_frontier_tests
+[ 61%] Building CXX object CMakeFiles/solver_sparse_accuracy_tests.dir/tests/test_sparse_accuracy.cpp.obj
+[ 63%] Linking CXX executable solver_work_tests.exe
+[ 65%] Linking CXX executable solver_cut_policy_tests.exe
+[ 65%] Built target solver_work_tests
+[ 66%] Building CXX object CMakeFiles/solver_refinement_work_tests.dir/tests/test_refinement_work.cpp.obj
+[ 66%] Built target solver_cut_policy_tests
+[ 68%] Building CXX object CMakeFiles/solver_feasibility_trace_tests.dir/tests/test_feasibility_trace.cpp.obj
+[ 69%] Linking CXX executable solver_incumbent_cut_tests.exe
+[ 69%] Built target solver_incumbent_cut_tests
+[ 71%] Building CXX object CMakeFiles/solver_heuristic_polish_tests.dir/tests/test_heuristic_polish.cpp.obj
+[ 73%] Linking CXX executable solver_sparse_accuracy_tests.exe
+[ 73%] Built target solver_sparse_accuracy_tests
+[ 74%] Linking CXX executable solver_refinement_work_tests.exe
+[ 76%] Building CXX object CMakeFiles/solver_pump_guidance_tests.dir/tests/test_pump_guidance.cpp.obj
+[ 76%] Built target solver_refinement_work_tests
+[ 77%] Linking CXX executable solver_feasibility_trace_tests.exe
+[ 79%] Building CXX object CMakeFiles/solver_pump_distance_tests.dir/tests/test_pump_distance.cpp.obj
+[ 79%] Built target solver_feasibility_trace_tests
+[ 80%] Building CXX object CMakeFiles/solver_primal_reopt_tests.dir/tests/test_primal_reopt.cpp.obj
+[ 82%] Linking CXX executable solver_heuristic_polish_tests.exe
+[ 82%] Built target solver_heuristic_polish_tests
+[ 84%] Building CXX object CMakeFiles/solver_distance_reopt_tests.dir/tests/test_distance_reopt.cpp.obj
+[ 85%] Linking CXX executable solver_pump_guidance_tests.exe
+[ 85%] Built target solver_pump_guidance_tests
+[ 87%] Building CXX object CMakeFiles/solver_distance_stage_tests.dir/tests/test_distance_stage.cpp.obj
+[ 88%] Linking CXX executable solver_pump_distance_tests.exe
+[ 88%] Built target solver_pump_distance_tests
+[ 90%] Building CXX object CMakeFiles/solver_private_ranking_tests.dir/tests/test_private_dive_ranking.cpp.obj
+[ 92%] Linking CXX executable solver_primal_reopt_tests.exe
+[ 92%] Built target solver_primal_reopt_tests
+[ 93%] Linking CXX executable solver_distance_reopt_tests.exe
+[ 95%] Building CXX object CMakeFiles/solver_dual_certificate_tests.dir/tests/test_dual_certificate.cpp.obj
+[ 95%] Built target solver_distance_reopt_tests
+[ 96%] Linking CXX executable solver_distance_stage_tests.exe
+[ 96%] Built target solver_distance_stage_tests
+[ 98%] Linking CXX executable solver_private_ranking_tests.exe
+[ 98%] Built target solver_private_ranking_tests
+[100%] Linking CXX executable solver_dual_certificate_tests.exe
+[100%] Built target solver_dual_certificate_tests

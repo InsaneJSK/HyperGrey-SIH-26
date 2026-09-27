@@ -1,0 +1,10 @@
+{
+  "records": 32,
+  "binary_sha256": "2bc720dbe31772af9ffb8f806f8b65b2809cb5b7badc6e092187004a792d9d10",
+  "ledger_sha256": "25ac61fc145d6eef9aac4ac6c7e4a09ec775c1ded5d3c11803c960f9e802074a",
+  "checked_completions": {
+    "default": 15,
+    "bounded": 16
+  },
+  "false_optimal_claims": 0
+}

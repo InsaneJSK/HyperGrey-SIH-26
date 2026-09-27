@@ -1,0 +1,8 @@
+{
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "logical_processors": 12,
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "toolchain": "GCC 14.2.0 x64 UCRT POSIX SEH r2",
+  "timed_own_solves": "serial",
+  "memory_peak_measurement": "not collected in iteration25"
+}

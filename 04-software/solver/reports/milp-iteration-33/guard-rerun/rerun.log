@@ -1,0 +1,45 @@
+old 6e073229a08065b6d2fccd7669fb75f99dd89090be39c3ccbcf1d43ca90351a4
+new db61dd2628022491c637526bd5cfc8b11b7361458f97a986633d72917810f045
+50v-10               old: node_limit  GUARD nodes=    29864    1025MiB | new: time_limit        nodes=   469263     447MiB
+binkar10_1           old: node_limit  GUARD nodes=    25940     982MiB | new: time_limit        nodes=   158306     232MiB
+exp-1-500-5-5        old: node_limit  GUARD nodes=    59262    1161MiB | new: time_limit        nodes=   511875     496MiB
+fiball               old: node_limit  GUARD nodes=     1775    1055MiB | new: time_limit        nodes=     5627     201MiB
+gen-ip054            old: time_limit        nodes=  2153378    1307MiB | new: time_limit        nodes=  2129946    1023MiB
+glass4               old: node_limit  GUARD nodes=   174546    1161MiB | new: time_limit        nodes=   953155     513MiB
+gmu-35-40            old: node_limit  GUARD nodes=    49194    1022MiB | new: time_limit        nodes=   258444     286MiB
+gmu-35-50            old: node_limit  GUARD nodes=    31208    1015MiB | new: time_limit        nodes=   238123     294MiB
+h80x6320d            old: node_limit  GUARD nodes=     4759     989MiB | new: time_limit        nodes=    40562     324MiB
+irp                  old: node_limit  GUARD nodes=     6451     984MiB | new: time_limit        nodes=    32042     238MiB
+markshare2           old: node_limit  GUARD nodes=   664509    1045MiB | new: node_limit  GUARD nodes=  1723514    1143MiB
+mas74                old: node_limit  GUARD nodes=   350255    1119MiB | new: time_limit        nodes=  1310573     519MiB
+mas76                old: node_limit  GUARD nodes=   358711    1120MiB | new: time_limit        nodes=  1601830     525MiB
+neos-2657525-crna    old: node_limit  GUARD nodes=   154173    1215MiB | new: time_limit        nodes=   526935     297MiB
+neos-3004026-krka    old: node_limit  GUARD nodes=     3499    1046MiB | new: time_limit        nodes=    16468     230MiB
+neos-3046615-murg    old: node_limit  GUARD nodes=   209124    1158MiB | new: time_limit        nodes=  1072597     814MiB
+neos-3381206-awhea   old: node_limit  GUARD nodes=    25290    1012MiB | new: time_limit        nodes=   190364     228MiB
+{
+ "old": {
+  "guard_stops": 16,
+  "proven": 0,
+  "completion_agrees": 0,
+  "completion_disagrees": [],
+  "validated_points": 13,
+  "rejected_points": [],
+  "nodes": 4301938,
+  "peak_commit_mib_max": 1307.01171875
+ },
+ "new": {
+  "guard_stops": 1,
+  "proven": 0,
+  "completion_agrees": 0,
+  "completion_disagrees": [],
+  "validated_points": 13,
+  "rejected_points": [],
+  "nodes": 11239624,
+  "peak_commit_mib_max": 1142.96875
+ },
+ "binaries": {
+  "old": "6e073229a08065b6d2fccd7669fb75f99dd89090be39c3ccbcf1d43ca90351a4",
+  "new": "db61dd2628022491c637526bd5cfc8b11b7361458f97a986633d72917810f045"
+ }
+}

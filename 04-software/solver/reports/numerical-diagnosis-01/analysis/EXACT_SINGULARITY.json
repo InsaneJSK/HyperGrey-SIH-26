@@ -1,0 +1,34 @@
+[
+  {
+    "capture": "bandm.default",
+    "dimension": 610,
+    "rows": [
+      500,
+      501
+    ],
+    "multipliers": [
+      1,
+      1
+    ],
+    "every_basis_column_exactly_zero": true,
+    "rhs_exactly_zero": true,
+    "rank_upper_bound": 609,
+    "scope": "Nonzero left null vector proves this captured basis singular. It does not prove the LP infeasible."
+  },
+  {
+    "capture": "bandm.refined",
+    "dimension": 610,
+    "rows": [
+      500,
+      501
+    ],
+    "multipliers": [
+      1,
+      1
+    ],
+    "every_basis_column_exactly_zero": true,
+    "rhs_exactly_zero": true,
+    "rank_upper_bound": 609,
+    "scope": "Nonzero left null vector proves this captured basis singular. It does not prove the LP infeasible."
+  }
+]

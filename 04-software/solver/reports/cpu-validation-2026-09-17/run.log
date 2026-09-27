@@ -1,0 +1,107 @@
+adlittle.default optimal 225494.9631623802
+adlittle.refined optimal 225494.96316238036
+afiro.default optimal -464.75314285714285
+afiro.refined optimal -464.75314285714285
+blend.default optimal -30.81214984582797
+blend.refined optimal -30.812149845828237
+boeing2.default optimal -315.0187280152027
+boeing2.refined optimal -315.01872801520284
+degen2.default optimal -1435.178
+degen2.refined optimal -1435.178
+kb2.default optimal -1749.9001299062058
+kb2.refined optimal -1749.9001299062058
+sc105.default optimal -52.20206121170721
+sc105.refined optimal -52.202061211707246
+sc205.default optimal -52.202061211707296
+sc205.refined optimal -52.20206121170724
+sc50a.default optimal -64.5750770585645
+sc50a.refined optimal -64.5750770585645
+sc50b.default optimal -69.99999999999999
+sc50b.refined optimal -69.99999999999999
+share2b.default optimal -415.73224074141865
+share2b.refined optimal -415.73224074141865
+stocfor1.default optimal -41131.9762194364
+stocfor1.refined optimal -41131.976219436394
+agg.default optimal -35991767.28657654
+agg.refined optimal -35991767.28657651
+bandm.default numerical_error None
+bandm.refined numerical_error None
+israel.default optimal -896644.8218630459
+israel.refined optimal -896644.821863046
+scagr7.default optimal -2331389.824330984
+scagr7.refined optimal -2331389.8243309837
+8792.default optimal 3593.5162939294105
+8991.default optimal -0.0016678673619609664
+9002.default optimal 5698097498.5664835
+9002.tol-1e-10 time_limit 5698097496.709882
+9002.tol-1e-12 time_limit 5698097496.71157
+adlittle.default original check True reference Optimal
+adlittle.refined original check True reference Optimal
+afiro.default original check True reference Optimal
+afiro.refined original check True reference Optimal
+blend.default original check True reference Optimal
+blend.refined original check True reference Optimal
+boeing2.default original check True reference Optimal
+boeing2.refined original check True reference Optimal
+degen2.default original check True reference Optimal
+degen2.refined original check True reference Optimal
+kb2.default original check True reference Optimal
+kb2.refined original check True reference Optimal
+sc105.default original check True reference Optimal
+sc105.refined original check True reference Optimal
+sc205.default original check True reference Optimal
+sc205.refined original check True reference Optimal
+sc50a.default original check True reference Optimal
+sc50a.refined original check True reference Optimal
+sc50b.default original check True reference Optimal
+sc50b.refined original check True reference Optimal
+share2b.default original check True reference Optimal
+share2b.refined original check True reference Optimal
+stocfor1.default original check True reference Optimal
+stocfor1.refined original check True reference Optimal
+agg.default original check True reference Optimal
+agg.refined original check True reference Optimal
+bandm.default original check False reference Optimal
+bandm.refined original check False reference Optimal
+israel.default original check True reference Optimal
+israel.refined original check True reference Optimal
+scagr7.default original check True reference Optimal
+scagr7.refined original check True reference Optimal
+8792.default original check True reference Optimal
+8991.default original check True reference Optimal
+9002.default original check True reference run time limit reached
+9002.tol-1e-10 original check False reference run time limit reached
+9002.tol-1e-12 original check False reference run time limit reached
+{
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "records": 37,
+  "unvalidated_native_completions": 0,
+  "groups": {
+    "additional_lp.default": {
+      "records": 4,
+      "checked_completions": 3
+    },
+    "additional_lp.refined": {
+      "records": 4,
+      "checked_completions": 3
+    },
+    "lp.default": {
+      "records": 12,
+      "checked_completions": 12
+    },
+    "lp.refined": {
+      "records": 12,
+      "checked_completions": 12
+    },
+    "qp.default": {
+      "records": 3,
+      "checked_completions": 3
+    },
+    "qp.tolerance_probe": {
+      "records": 2,
+      "checked_completions": 0
+    }
+  },
+  "ledger_sha256": "e919d0dda4aac43ce62b0953f49b2fc9f6df2bfb489f4f6b5f67809e9ac9b87a",
+  "scope": "Reused retained inputs; no GPU, fresh-holdout or fair-speed-ranking claim."
+}

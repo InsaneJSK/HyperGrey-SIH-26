@@ -1,0 +1,9 @@
+{
+  "model": "reports/milp-iteration-04/proof-counterexample.mps",
+  "common_flags": ["--milp", "--json", "--no-presolve", "--no-heuristics", "--no-cuts", "--time-limit", "5"],
+  "previous_binary_sha256": "ae6d294de68e932ae3c48ea784a34651a040cc530f1e91540eab0ad96e88e19f",
+  "previous_result": {"status": "optimal", "objective": 80, "best_bound": 80, "gap": 0, "nodes": 1, "primal": [1, 80]},
+  "new_binary_sha256": "17ba159a72eaf04e34f6754795ac0013c8bc6c0a75b7bca9d1ce46318139a679",
+  "new_result_without_experimental_fallback": {"status": "optimal", "objective": 0.99999992000000004, "best_bound": 0.99999992000000004, "gap": 0, "nodes": 3, "repair_branch_nodes": 1, "primal": [2, 0.99999992000000004]},
+  "interpretation": "Previous binary incorrectly closed the whole node after solving one integer fixing. Shared proof-safety correction now branches on the tiny fraction and finds the better integer assignment. The new dense fallback flag is not needed for this regression."
+}

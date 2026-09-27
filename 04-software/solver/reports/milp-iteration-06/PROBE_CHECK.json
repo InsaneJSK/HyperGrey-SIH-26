@@ -1,0 +1,15 @@
+{
+  "model": "markshare_4_0",
+  "candidate_file": "meet-probe.result.json",
+  "header_sha256": "5e0a53b4f039b1a13ea9b8f0225166f4b527893559cde2a5db432039d9e00cbf",
+  "independent_reader": "HiGHS 1.12.0 via scripts/benchmark_lp.py",
+  "reference_time_limit_seconds": 0,
+  "reference_status": "Time limit reached",
+  "reference_objective": null,
+  "candidate_recomputed_objective": 1.0,
+  "candidate_max_violation": 0.0,
+  "candidate_integer_violation": 0.0,
+  "prototype_search_seconds": 0.20598859999999999,
+  "unsupported_structure_checks": {"blend2": {"eligible": false, "left_states": 0, "right_states": 0}, "binkar10_1": {"eligible": false, "left_states": 0, "right_states": 0}},
+  "limitation": "Standalone single-run prototype, not the final full-solver benchmark. This is an independent feasibility/objective check, not an independently proved optimum."
+}

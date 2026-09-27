@@ -1,0 +1,37 @@
+10teams.norestart.0 {'status': 'time_limit', 'objective': 934, 'gap': 0.018181916363648347, 'nodes': 744}
+air03.norestart.0 {'status': 'optimal', 'objective': 340160, 'gap': 0, 'nodes': 3}
+cap6000.norestart.0 {'status': 'time_limit', 'objective': -2451336, 'gap': 2.9779667177734297e-05, 'nodes': 2005}
+gesa2_o.norestart.0 {'status': 'time_limit', 'objective': 25973473.612743933, 'gap': 0.01636998463069051, 'nodes': 10284}
+gesa3_o.norestart.0 {'status': 'time_limit', 'objective': 27991430.123783845, 'gap': 0.0018163194855777265, 'nodes': 11369}
+harp2.norestart.0 {'status': 'time_limit', 'objective': -70566414, 'gap': 0.05199989258346219, 'nodes': 6211}
+mitre.norestart.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 1615}
+mod011.norestart.0 {'status': 'time_limit', 'objective': -51986929.018301055, 'gap': 0.11420865034393643, 'nodes': 436}
+p2756.norestart.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 4404}
+pp08aCUTS.norestart.0 {'status': 'time_limit', 'objective': 7769.999999927988, 'gap': 0.17188602132009037, 'nodes': 42482}
+qnet1.norestart.0 {'status': 'time_limit', 'objective': 17290.928499, 'gap': 0.15333011986599815, 'nodes': 3839}
+nw04.norestart.0 {'status': 'time_limit', 'objective': 17004, 'gap': 0.030461628932667077, 'nodes': 108}
+10teams.norestart.0 feasible_limit []
+air03.norestart.0 numerical_completion_checked []
+cap6000.norestart.0 feasible_limit []
+gesa2_o.norestart.0 feasible_limit []
+gesa3_o.norestart.0 feasible_limit []
+harp2.norestart.0 feasible_limit []
+mitre.norestart.0 no_incumbent_limit []
+mod011.norestart.0 feasible_limit []
+p2756.norestart.0 no_incumbent_limit []
+pp08aCUTS.norestart.0 feasible_limit []
+qnet1.norestart.0 feasible_limit []
+nw04.norestart.0 feasible_limit []
+{
+  "records": 12,
+  "models": 12,
+  "categories": {
+    "norestart": {
+      "feasible_limit": 9,
+      "numerical_completion_checked": 1,
+      "no_incumbent_limit": 2
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "284c5b4bb829bcefad83dabaaf79a9a4995a1b74d7787115fd7187f9054d32bc"
+}

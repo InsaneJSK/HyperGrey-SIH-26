@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\JSK\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\milp-iteration-28\\run_models.py",
+    "--binary",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\build-milp-iter26\\solver_cli.exe",
+    "--plan",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\milp-iteration-28\\DEVELOPMENT.json",
+    "--output",
+    "D:\\me\\CODING\\Github\\sih-backup-solver\\SIH-backup-solver\\reports\\milp-iteration-28\\development-30s"
+  ],
+  "exit_code": 0
+}

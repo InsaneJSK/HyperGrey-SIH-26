@@ -1,0 +1,22 @@
+[{"stream_name":"stdout","time":30.477081459,"data":"highspy install exit 0 \n"}
+,{"stream_name":"stdout","time":30.764749347,"data":"highspy version 1.12.0\n"}
+,{"stream_name":"stderr","time":30.765416042,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":30.765483151,"data":"  File \"/kaggle/src/script.py\", line 220, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":30.765662067,"data":"    main()\n"}
+,{"stream_name":"stderr","time":30.765673797,"data":"  File \"/kaggle/src/script.py\", line 190, in main\n"}
+,{"stream_name":"stderr","time":30.765892617,"data":"    binary = build()\n"}
+,{"stream_name":"stderr","time":30.765987071,"data":"             ^^^^^^^\n"}
+,{"stream_name":"stderr","time":30.76599818,"data":"  File \"/kaggle/src/script.py\", line 59, in build\n"}
+,{"stream_name":"stderr","time":30.766107274,"data":"    with zipfile.ZipFile(SOURCE_ZIP) as z:\n"}
+,{"stream_name":"stderr","time":30.766170461,"data":"         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":30.766198243,"data":"  File \"/usr/lib/python3.12/zipfile/__init__.py\", line 1352, in __init__\n"}
+,{"stream_name":"stderr","time":30.768540099,"data":"    self.fp = io.open(file, filemode)\n"}
+,{"stream_name":"stderr","time":30.768572864,"data":"              ^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":30.768578399,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/input/sih26119-solver-source/source.zip'\n"}
+,{"stream_name":"stderr","time":33.64854233,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":33.648603863,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":34.010793936,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":34.010840616,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":35.047211768,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":36.778050675,"data":"[NbConvertApp] Writing 328590 bytes to __results__.html\n"}
+]

@@ -1,0 +1,1 @@
+{"version": "1.12.0", "status": "Optimal", "objective": -41131.97621943641, "solve_seconds": 0.0019198999943910167, "total_seconds": 0.003834399991319515, "rows": 117, "columns": 111, "candidate_max_violation": 9.094947017729282e-13, "candidate_scaled_violation": 9.94509950202392e-17, "candidate_recomputed_objective": -41131.9762194364, "candidate_integer_violation": 0.0}

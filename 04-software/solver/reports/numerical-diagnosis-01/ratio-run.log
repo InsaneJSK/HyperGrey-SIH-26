@@ -1,0 +1,24 @@
+bandm.default optimal 2818 refreshes 0
+adlittle.default optimal 144 refreshes 0
+afiro.default optimal 17 refreshes 0
+blend.default optimal 133 refreshes 0
+boeing2.default optimal 243 refreshes 0
+degen2.default optimal 2772 refreshes 0
+kb2.default optimal 83 refreshes 0
+sc105.default optimal 114 refreshes 0
+sc205.default optimal 268 refreshes 0
+sc50a.default optimal 48 refreshes 0
+sc50b.default optimal 55 refreshes 0
+share2b.default optimal 158 refreshes 0
+stocfor1.default optimal 143 refreshes 0
+agg.default optimal 144 refreshes 0
+israel.default optimal 393 refreshes 0
+scagr7.default optimal 356 refreshes 0
+bandm.refined optimal 2818 refreshes 0
+bandm.compact optimal 1170 refreshes 0
+{
+  "records": 18,
+  "checked_completions": 18,
+  "all_pass": true,
+  "binary_sha256": "b31a33f4feb8ce6be9560f310e94fb70f85d238a351a78901049df083d3b6eb5"
+}

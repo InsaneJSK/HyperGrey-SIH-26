@@ -1,0 +1,24 @@
+dano3_3                  3202x13873  unresolved_relaxations  175.9s root_lp=iteration_limit bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=1/0
+      bounded failure status=iteration_limit warm=0 it=10000
+dano3_5                  3202x13873  unresolved_relaxations  176.3s root_lp=iteration_limit bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=1/0
+      bounded failure status=iteration_limit warm=0 it=10000
+neos-662469              1085x18235  unresolved_relaxations  164.2s root_lp=iteration_limit bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=1/0
+      bounded failure status=iteration_limit warm=0 it=10000
+neos-827175             14187x32504  time_limit              302.3s root_lp=None bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=0/0
+      bounded failure status=iteration_limit warm=0 it=10000
+neos-933966             12047x31762  time_limit              302.8s root_lp=None bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=0/0
+      bounded failure status=iteration_limit warm=0 it=10000
+neos-957323              3757x57756  time_limit              303.8s root_lp=None bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=0/0
+      bounded failure status=iteration_limit warm=0 it=10000
+neos-1354092             3135x13702  unresolved_relaxations  196.3s root_lp=iteration_limit bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=1/0
+      bounded failure status=iteration_limit warm=0 it=10000
+mzzv11                   9499x10240  unresolved_relaxations  234.7s root_lp=iteration_limit bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=1/0
+      bounded failure status=iteration_limit warm=0 it=10000
+mzzv42z                 10460x11717  unresolved_relaxations  228.2s root_lp=iteration_limit bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=1/0
+      bounded failure status=iteration_limit warm=0 it=10000
+CMS750_4                16381x11697  unresolved_relaxations  221.8s root_lp=iteration_limit bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=1/0
+      bounded failure status=iteration_limit warm=0 it=10000
+ns1208400                4289x2883   unresolved_relaxations  104.5s root_lp=iteration_limit bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=1/0
+      bounded failure status=iteration_limit warm=0 it=10000
+neos-3656078-kumeu      17656x14870  unresolved_relaxations  159.1s root_lp=numerical_error bounded: calls=1 ok=0 fail=1 verif_rej=0 it=10000 recovery=1/0
+      bounded failure status=iteration_limit warm=0 it=10000

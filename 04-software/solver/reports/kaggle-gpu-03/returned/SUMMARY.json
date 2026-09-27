@@ -1,0 +1,114 @@
+{
+ "device": {
+  "nvidia_smi": "Tesla T4, 15360 MiB, 580.159.04, 7.5\nTesla T4, 15360 MiB, 580.159.04, 7.5",
+  "nvcc": [
+   "Build cuda_12.8.r12.8/compiler.35583870_0"
+  ],
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "cpu_count": 4
+ },
+ "sizes": [
+  10000,
+  50000,
+  200000,
+  500000,
+  1000000
+ ],
+ "backends": [
+  [
+   "cpu",
+   1
+  ],
+  [
+   "cpu",
+   4
+  ],
+  [
+   "cuda",
+   1
+  ]
+ ],
+ "repeats": 3,
+ "limit_seconds": 120,
+ "records": 45,
+ "passed": 45,
+ "failed": [],
+ "per_size": {
+  "10000": {
+   "cpu:1": {
+    "median_solve_seconds": 0.115910375,
+    "runs": 3
+   },
+   "cpu:4": {
+    "median_solve_seconds": 0.083822134,
+    "runs": 3
+   },
+   "cuda:1": {
+    "median_solve_seconds": 0.38212575,
+    "runs": 3
+   },
+   "objective_spread": 0.0
+  },
+  "50000": {
+   "cpu:1": {
+    "median_solve_seconds": 0.572917063,
+    "runs": 3
+   },
+   "cpu:4": {
+    "median_solve_seconds": 0.395517485,
+    "runs": 3
+   },
+   "cuda:1": {
+    "median_solve_seconds": 0.51386679,
+    "runs": 3
+   },
+   "objective_spread": 9.094947017729282e-13
+  },
+  "200000": {
+   "cpu:1": {
+    "median_solve_seconds": 2.550901775,
+    "runs": 3
+   },
+   "cpu:4": {
+    "median_solve_seconds": 1.615818305,
+    "runs": 3
+   },
+   "cuda:1": {
+    "median_solve_seconds": 0.979924912,
+    "runs": 3
+   },
+   "objective_spread": 0.0
+  },
+  "500000": {
+   "cpu:1": {
+    "median_solve_seconds": 7.31443244,
+    "runs": 3
+   },
+   "cpu:4": {
+    "median_solve_seconds": 4.085954575,
+    "runs": 3
+   },
+   "cuda:1": {
+    "median_solve_seconds": 1.899622931,
+    "runs": 3
+   },
+   "objective_spread": 0.0
+  },
+  "1000000": {
+   "cpu:1": {
+    "median_solve_seconds": 15.922824207,
+    "runs": 3
+   },
+   "cpu:4": {
+    "median_solve_seconds": 8.341628819,
+    "runs": 3
+   },
+   "cuda:1": {
+    "median_solve_seconds": 3.501480354,
+    "runs": 3
+   },
+   "objective_spread": 0.0
+  }
+ },
+ "caveat": "Box-constrained convex QP only, one planted family, one session. Timings are end-to-end process measurements including transfers and setup."
+}

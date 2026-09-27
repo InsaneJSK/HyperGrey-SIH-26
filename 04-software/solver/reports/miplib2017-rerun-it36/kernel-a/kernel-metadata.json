@@ -1,0 +1,16 @@
+{
+  "id": "prakhar1803/sih26119-miplib-rerun-a",
+  "title": "SIH26119 MIPLIB2017 rerun a",
+  "code_file": "sweep.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "prakhar1803/sih26119-solver-source-it36"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

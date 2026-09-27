@@ -1,0 +1,16 @@
+{
+  "status": "Optimal",
+  "version": "1.12.0",
+  "rows": 4,
+  "columns": 5,
+  "maximize": true,
+  "objective": 16.5,
+  "best_bound": 16.5,
+  "gap": 0.0,
+  "solve_seconds": 0.02906780000193976,
+  "integers": 4,
+  "candidate_checked": true,
+  "candidate_max_violation": 1.7763568394002505e-15,
+  "candidate_integer_violation": 0.0,
+  "candidate_objective": 16.499999999999996
+}

@@ -1,0 +1,219 @@
+{
+  "status": "optimal",
+  "message": "",
+  "nodes": 9,
+  "lp_iterations": 60,
+  "total_seconds": 0.0064951,
+  "warm_starts": 16,
+  "heuristic_solves": 12,
+  "cuts": 0,
+  "bound_tightenings": 90,
+  "rows": 4,
+  "columns": 5,
+  "objective": -9.749999984,
+  "pump_projections": 3,
+  "pump_restarts": 1,
+  "pump_incumbents": 1,
+  "cut_rollbacks": 0,
+  "first_incumbent_seconds": 0.00031979999999975917,
+  "best_bound": -9.749999984,
+  "objective_lattice": {
+    "enabled": true,
+    "eligible": true,
+    "reason": "checked_parsed_model_lattice",
+    "offset_minimization": -4.25,
+    "step": 1,
+    "coefficients_minimization": [
+      -5,
+      -2,
+      -4,
+      -12,
+      0
+    ],
+    "substitutions": [
+      {
+        "column": 4,
+        "row": 0
+      }
+    ],
+    "bound_calls": 14,
+    "bound_improvements": 14,
+    "trace_truncated": false,
+    "trace": [
+      {
+        "node": 0,
+        "before_minimization": -0.2500001249999929,
+        "after_minimization": -0.25000000000000006
+      },
+      {
+        "node": 0,
+        "before_minimization": -0.2500001249999929,
+        "after_minimization": -0.25000000000000006
+      },
+      {
+        "node": 1,
+        "before_minimization": 1.5833330750000023,
+        "after_minimization": 1.7499999999999998
+      },
+      {
+        "node": 1,
+        "before_minimization": 1.5833330750000023,
+        "after_minimization": 1.7499999999999998
+      },
+      {
+        "node": 4,
+        "before_minimization": 1.9499997049999993,
+        "after_minimization": 2.7499999999999996
+      },
+      {
+        "node": 4,
+        "before_minimization": 1.9499997049999993,
+        "after_minimization": 2.7499999999999996
+      },
+      {
+        "node": 5,
+        "before_minimization": 8.749999025,
+        "after_minimization": 8.749999999999998
+      },
+      {
+        "node": 5,
+        "before_minimization": 8.749999025,
+        "after_minimization": 8.749999999999998
+      },
+      {
+        "node": 6,
+        "before_minimization": 18.749998005000002,
+        "after_minimization": 18.749999999999996
+      },
+      {
+        "node": 6,
+        "before_minimization": 18.749998005000002,
+        "after_minimization": 18.749999999999996
+      },
+      {
+        "node": 7,
+        "before_minimization": 9.749998911666669,
+        "after_minimization": 9.749999999999998
+      },
+      {
+        "node": 7,
+        "before_minimization": 9.749998911666669,
+        "after_minimization": 9.749999999999998
+      },
+      {
+        "node": 8,
+        "before_minimization": 17.74999810666667,
+        "after_minimization": 17.749999999999996
+      },
+      {
+        "node": 8,
+        "before_minimization": 17.74999810666667,
+        "after_minimization": 17.749999999999996
+      }
+    ]
+  },
+  "compact_equalities_enabled": false,
+  "late_compact_equalities_enabled": false,
+  "compact_lp_calls": 0,
+  "compact_lp_fallbacks": 0,
+  "root_lp_rows": 10,
+  "root_compact_equalities": 0,
+  "branching": "fractionality",
+  "pseudocost_updates": 0,
+  "reduced_bound_lp_enabled": false,
+  "late_reduced_bound_lp_enabled": false,
+  "reduced_bound_lp_calls": 0,
+  "reduced_bound_lp_fallbacks": 0,
+  "reduced_bound_lp_accepted": 0,
+  "reduced_upper_candidates": 0,
+  "root_reduced_upper_bounds": 0,
+  "strong_branch_probes": 0,
+  "strong_branch_seconds": 0,
+  "gap": 0,
+  "lp_recovery_attempts": 0,
+  "lp_recovery_successes": 0,
+  "lp_recovery_seconds": 0,
+  "deferred_nodes": 0,
+  "unresolved_nodes": 0,
+  "neighborhood_calls": 0,
+  "neighborhood_nodes": 0,
+  "neighborhood_improvements": 0,
+  "neighborhood_seconds": 0,
+  "neighborhood_paced": false,
+  "neighborhood_min_spacing_seconds": 0,
+  "neighborhood": "guided",
+  "neighborhood_trace": [],
+  "first_lp_failure": null,
+  "rejected_integer_candidates": 0,
+  "rejected_candidates": [],
+  "candidate_repair_attempts": 0,
+  "candidate_repair_successes": 0,
+  "repair_branch_nodes": 0,
+  "candidate_repair_seconds": 0,
+  "binary_meet_enabled": false,
+  "binary_meet_attempts": 0,
+  "binary_meet_eligible": false,
+  "binary_meet_completed": false,
+  "binary_meet_improved": false,
+  "binary_meet_left_states": 0,
+  "binary_meet_right_states": 0,
+  "binary_meet_query_nodes": 0,
+  "binary_meet_seconds": 0,
+  "binary_meet_budget": 0,
+  "binary_meet_primal": [],
+  "lifted_covers_enabled": false,
+  "lifted_cover_states": 0,
+  "lifted_cover_checked": 0,
+  "lifted_cover_seconds": 0,
+  "late_lifted_covers_enabled": false,
+  "cut_restarts": 0,
+  "cut_restart_nodes": 0,
+  "cut_restart_seconds": 0,
+  "cut_restart_bound": null,
+  "cut_restart_objective": null,
+  "cut_restart_primal": [],
+  "root_bound_before_cuts": 0.25000000000000006,
+  "root_bound_after_cuts": 0.25000000000000006,
+  "lifted_cover_trace": [],
+  "binary_proof_enabled": false,
+  "binary_proof_attempts": 0,
+  "binary_proof_budget": 0,
+  "binary_proof": {
+    "version": 1,
+    "arithmetic": "checked_int64",
+    "status": "not_run",
+    "reason": "",
+    "eligible": false,
+    "completed": false,
+    "verified": false,
+    "feasible": false,
+    "seconds": 0,
+    "work": 0,
+    "work_limit": 50000000,
+    "left_states": 0,
+    "right_states": 0,
+    "query_nodes": 0,
+    "objective_minimization": null,
+    "binary_indices": [],
+    "primal": []
+  },
+  "incumbent_trace": [
+    [
+      0.0003199000000000396,
+      -9.75
+    ],
+    [
+      0.00045330000000021187,
+      -9.749999984
+    ]
+  ],
+  "primal": [
+    -2,
+    2,
+    1,
+    -1,
+    -6.999999992
+  ],
+  "process_seconds": 0.023007199983112514,
+  "exit_code": 0
+}

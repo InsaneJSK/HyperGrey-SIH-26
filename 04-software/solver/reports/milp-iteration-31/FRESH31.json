@@ -1,0 +1,64 @@
+{
+  "models": [
+    "10teams",
+    "air03",
+    "cap6000",
+    "gesa2_o",
+    "gesa3_o",
+    "harp2",
+    "mitre",
+    "mod011",
+    "p2756",
+    "pp08aCUTS",
+    "qnet1",
+    "nw04"
+  ],
+  "repeats": 1,
+  "limit": 30,
+  "nodes": 100000000,
+  "gap": 1e-06,
+  "reference_watchdog": 150,
+  "manifests": [
+    "datasets/milp-iteration-31-holdout/manifest.json"
+  ],
+  "common": [
+    "--capture-work",
+    "--lp-recovery",
+    "--improve-incumbent",
+    "--repair-candidates",
+    "--repair-heuristic-candidates",
+    "--capture-lp-failure",
+    "--capture-rejected-candidates",
+    "--binary-proof",
+    "--objective-lattice",
+    "--raw-lp-priority",
+    "--capture-cut-rounds",
+    "--capture-refinement",
+    "--refine-basis",
+    "--refine-at-checks",
+    "--pump-guided-diving",
+    "--capture-feasibility",
+    "--pump-distance-diving",
+    "--pump-primal-reopt",
+    "--pump-distance-reopt",
+    "--pump-distance-stage"
+  ],
+  "profiles": {
+    "control": [
+      "--late-lifted-covers",
+      "--late-compact-equalities",
+      "--late-reduced-bound-lp",
+      "--bounded-lp"
+    ],
+    "candidate": [
+      "--late-lifted-covers",
+      "--late-compact-equalities",
+      "--late-reduced-bound-lp",
+      "--bounded-lp",
+      "--tree-dives",
+      "--fix-propagate"
+    ]
+  },
+  "reference_limit": 30,
+  "memory_threshold_mib": 1536
+}

@@ -1,0 +1,8 @@
+{
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "highs": "1.12.0",
+  "osqp": "1.0.5",
+  "compiler": "GCC14.2 x64 UCRT project-local toolchain; see iteration29 ENVIRONMENT.md",
+  "reference_role": "Independent validation only; no reference points or bounds enter measured own solves."
+}

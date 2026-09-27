@@ -1,0 +1,48 @@
+{
+ "control": {
+  "root_solved": 0,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "neos-3402454-bohle",
+   "neos-5114902-kasavu",
+   "supportcase19",
+   "supportcase12",
+   "neos-5104907-jarama",
+   "gfd-schedulen180f7d50m30k18",
+   "ns1760995",
+   "savsched1"
+  ],
+  "fallbacks": 0,
+  "unresolved_nodes": 0,
+  "cold_starts": 7,
+  "nodes": 7
+ },
+ "candidate": {
+  "root_solved": 0,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "neos-3402454-bohle",
+   "neos-5114902-kasavu",
+   "supportcase19",
+   "supportcase12",
+   "neos-5104907-jarama",
+   "gfd-schedulen180f7d50m30k18",
+   "ns1760995",
+   "savsched1"
+  ],
+  "fallbacks": 0,
+  "unresolved_nodes": 0,
+  "cold_starts": 7,
+  "nodes": 7
+ },
+ "binaries": {
+  "control": "58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a",
+  "candidate": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad"
+ }
+}

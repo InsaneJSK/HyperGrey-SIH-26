@@ -1,0 +1,56 @@
+{
+  "models": [
+    "p0033",
+    "markshare_4_0",
+    "gt2",
+    "lseu"
+  ],
+  "repeats": 1,
+  "limit": 120,
+  "nodes": 64,
+  "gap": 1e-06,
+  "reference_watchdog": 150,
+  "manifests": [
+    "datasets/milp-robustness-wave1/manifest.json",
+    "datasets/milp-frontier-holdout/manifest.json",
+    "datasets/milp-cut-policy-holdout/manifest.json",
+    "datasets/milp-accuracy-holdout/manifest.json"
+  ],
+  "common": [
+    "--capture-work",
+    "--lp-recovery",
+    "--improve-incumbent",
+    "--repair-candidates",
+    "--repair-heuristic-candidates",
+    "--capture-lp-failure",
+    "--capture-rejected-candidates",
+    "--late-lifted-covers",
+    "--late-compact-equalities",
+    "--late-reduced-bound-lp",
+    "--binary-proof",
+    "--objective-lattice",
+    "--raw-lp-priority",
+    "--capture-cut-rounds",
+    "--capture-refinement",
+    "--refine-basis",
+    "--refine-at-checks",
+    "--pump-guided-diving",
+    "--capture-feasibility",
+    "--pump-distance-diving",
+    "--pump-primal-reopt",
+    "--pump-distance-reopt",
+    "--pump-distance-stage",
+    "--no-heuristics",
+    "--capture-frontier"
+  ],
+  "profiles": {
+    "restart": [
+      "--restart-nodes",
+      "2"
+    ],
+    "retain_tree": [
+      "--restart-nodes",
+      "250000"
+    ]
+  }
+}

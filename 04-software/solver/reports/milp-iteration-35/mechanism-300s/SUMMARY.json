@@ -1,0 +1,30 @@
+{
+ "control": {
+  "root_solved": 6,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [],
+  "fallbacks": 9,
+  "unresolved_nodes": 6,
+  "cold_starts": 21,
+  "nodes": 16
+ },
+ "candidate": {
+  "root_solved": 6,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [],
+  "fallbacks": 8,
+  "unresolved_nodes": 7,
+  "cold_starts": 7,
+  "nodes": 6618
+ },
+ "binaries": {
+  "control": "f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb",
+  "candidate": "58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a"
+ }
+}

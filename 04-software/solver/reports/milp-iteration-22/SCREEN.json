@@ -1,0 +1,52 @@
+{
+  "models": [
+    "misc07",
+    "lotsize",
+    "danoint",
+    "eil33-2",
+    "rout",
+    "blend2",
+    "p0201",
+    "gt2",
+    "pk1"
+  ],
+  "repeats": 2,
+  "limit": 30,
+  "nodes": 250000,
+  "gap": 1e-06,
+  "reference_watchdog": 150,
+  "manifests": [
+    "datasets/milp-robustness-wave1/manifest.json",
+    "datasets/milp-frontier-holdout/manifest.json",
+    "datasets/milp-cut-policy-holdout/manifest.json",
+    "datasets/milp-accuracy-holdout/manifest.json"
+  ],
+  "common": [
+    "--capture-work",
+    "--lp-recovery",
+    "--improve-incumbent",
+    "--repair-candidates",
+    "--repair-heuristic-candidates",
+    "--capture-lp-failure",
+    "--capture-rejected-candidates",
+    "--late-lifted-covers",
+    "--late-compact-equalities",
+    "--late-reduced-bound-lp",
+    "--binary-proof",
+    "--objective-lattice",
+    "--raw-lp-priority",
+    "--capture-cut-rounds",
+    "--capture-refinement",
+    "--refine-basis",
+    "--refine-at-checks",
+    "--pump-guided-diving",
+    "--capture-feasibility",
+    "--pump-distance-diving"
+  ],
+  "profiles": {
+    "distance": [],
+    "reopt": [
+      "--pump-primal-reopt"
+    ]
+  }
+}

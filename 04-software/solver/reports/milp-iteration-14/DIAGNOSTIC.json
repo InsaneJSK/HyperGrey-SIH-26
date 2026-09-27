@@ -1,0 +1,6 @@
+{
+  "models": ["binkar10_1", "blend2", "misc07", "lotsize", "eil33-2"],
+  "limit": 30,
+  "profiles": {"diagnostic": ["--capture-work"]},
+  "common": ["--lp-recovery", "--improve-incumbent", "--repair-candidates", "--capture-lp-failure", "--capture-rejected-candidates", "--late-lifted-covers", "--late-compact-equalities", "--late-reduced-bound-lp", "--binary-proof", "--objective-lattice", "--raw-lp-priority"]
+}

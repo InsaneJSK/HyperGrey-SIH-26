@@ -1,0 +1,27 @@
+{
+  "iteration": "milp-iteration-05",
+  "execution": "local CPU",
+  "build": "build-milp-iter5",
+  "binary_sha256": "ef1856d074862aa754a81e5bff7bfc44c350c02eae4f0a6b43a309c4f4e53cd6",
+  "binary_snapshot": "final_solver_cli.exe",
+  "source_snapshot": "final-source",
+  "final_objective_improvement_established": false,
+  "experimental_diversification_promoted": false,
+  "experimental_pacing_promoted": false,
+  "default_neighborhood": "guided",
+  "default_pacing": false,
+  "candidate_tolerances_changed": false,
+  "ctest_groups_passed": 3,
+  "latest_generated_checks_passed": 240,
+  "latest_generated_checks_total": 240,
+  "diagnostic_checker_tests_passed": 11,
+  "generated_guided_outputs_matching_previous_build": 80,
+  "experiments": [
+    {"directory": "probe-90s", "hard_runs": 2, "audit_points_passed": 7, "interpretation": "Early trigger regressed; not promoted"},
+    {"directory": "local-180s", "hard_runs": 6, "audit_points_passed": 28, "interpretation": "Paired guided/diversified run retains final objectives"},
+    {"directory": "pacing-180s-screen", "hard_runs": 3, "audit_points_passed": 12, "interpretation": "Single-strategy screen, not a fresh paired timing comparison; final objectives unchanged"}
+  ],
+  "kaggle_run_requested": false,
+  "gpu_verified_by_this_iteration": false,
+  "user_output_required": null
+}

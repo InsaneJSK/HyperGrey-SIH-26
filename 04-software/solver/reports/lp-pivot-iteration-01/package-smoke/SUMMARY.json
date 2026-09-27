@@ -1,0 +1,7 @@
+{
+  "all_pass": true,
+  "binary_sha256": "070878750efa73d39aa2815075132212c70f1cbbafd9528f8c2875db3b15cb68",
+  "objective": -158.62801845012092,
+  "scaled_violation": 2.108774995225618e-15,
+  "scope": "Same-host restricted-PATH launcher and original-model check; not a fresh OS."
+}

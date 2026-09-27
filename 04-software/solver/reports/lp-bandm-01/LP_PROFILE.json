@@ -1,0 +1,13 @@
+{
+  "name": "Compact equality LP evaluation profile",
+  "flags": [
+    "--compact-equalities",
+    "--refine-basis",
+    "--refine-at-checks"
+  ],
+  "default_changed": false,
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "models": 16,
+  "checked_completions": 16,
+  "limitations": "Small public LP set, including reused cases. No timing/industrial/general-MILP claim."
+}

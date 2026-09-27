@@ -1,0 +1,560 @@
+% Curated source citations. See source notes for stored-version differences.
+
+@misc{boyd-convex,
+  title = {{Convex Optimization}},
+  author = {Stephen Boyd and Lieven Vandenberghe},
+  year = {2004},
+  howpublished = {Cambridge University Press},
+  url = {https://web.stanford.edu/~boyd/cvxbook/},
+  note = {The author-hosted book is free to read, but its page grants web hosting to the authors, not a general redistribution license. Link only.},
+}
+
+@misc{dual-simplex,
+  title = {{Parallelizing the dual revised simplex method}},
+  author = {Qi Huangfu and J. A. J. Hall},
+  year = {2018},
+  howpublished = {Mathematical Programming Computation 10, 119-142},
+  url = {https://arxiv.org/abs/1503.01889},
+  note = {Held arXiv file is stamped 1503.01889v1 (March 6, 2015) and has an October 16, 2018 title-page date. The final journal citation is 2018. Cross-reference GPU/multicore folder.},
+  doi = {10.1007/s12532-017-0130-5},
+}
+
+@misc{basis-updates,
+  title = {{Novel update techniques for the revised simplex method}},
+  author = {Qi Huangfu and J. A. J. Hall},
+  year = {2015},
+  howpublished = {Computational Optimization and Applications 60, 587-608},
+  url = {https://webhomes.maths.ed.ac.uk/hall/HuHa12/},
+  note = {Stored technical report ERGO-13-001; final journal citation is 2015.},
+  doi = {10.1007/s10589-014-9689-1},
+}
+
+@misc{hyper-sparsity,
+  title = {{Hyper-sparsity in the revised simplex method and how to exploit it}},
+  author = {J. A. J. Hall and K. I. M. McKinnon},
+  year = {2005},
+  howpublished = {Computational Optimization and Applications 32, 259-283},
+  url = {https://webhomes.maths.ed.ac.uk/hall/Publications.html},
+  note = {Stored October 2002 manuscript; final journal publication 2005.},
+  doi = {10.1007/s10589-005-4802-0},
+}
+
+@misc{templates-linear-systems,
+  title = {{Templates for the Solution of Linear Systems: Building Blocks for Iterative Methods, Second Edition}},
+  author = {Richard Barrett and Michael Berry and Tony F. Chan and James Demmel and June Donato and Jack Dongarra and Victor Eijkhout and Roldan Pozo and Charles Romine and Henk van der Vorst},
+  year = {1994},
+  howpublished = {SIAM / Netlib},
+  url = {https://www.netlib.org/linalg/html_templates/Templates.html},
+  note = {Use the mathematics and pseudocode for independent implementation; do not silently incorporate external solver code.},
+}
+
+@misc{saad-iterative,
+  title = {{Iterative Methods for Sparse Linear Systems, Second Edition}},
+  author = {Yousef Saad},
+  year = {2003},
+  howpublished = {SIAM / author-hosted book},
+  url = {https://www-users.cse.umn.edu/~saad/books.html},
+  note = {Link to the author's download page; no book copy is mirrored.},
+}
+
+@misc{umfpack-guide,
+  title = {{UMFPACK User Guide}},
+  author = {Timothy A. Davis},
+  year = {2026},
+  howpublished = {SuiteSparse official documentation},
+  url = {https://github.com/DrTimothyAldenDavis/SuiteSparse/blob/dev/UMFPACK/Doc/UMFPACK_UserGuide.pdf},
+  note = {Stored official guide version 6.3.8, July 31, 2026. Documentation only, not a dependency recommendation.},
+}
+
+@misc{lp-refinement,
+  title = {{Iterative Refinement for Linear Programming}},
+  author = {Ambros M. Gleixner and Daniel E. Steffy and Kati Wolter},
+  year = {2016},
+  howpublished = {INFORMS Journal on Computing 28(3), 449-464},
+  url = {https://doi.org/10.1287/ijoc.2016.0692},
+  note = {Stored ZIB Report 15-15 (May 2015), including extended tables/appendices; journal publication 2016.},
+  doi = {10.1287/ijoc.2016.0692},
+}
+
+@misc{precision-boosting,
+  title = {{Combining Precision Boosting with LP Iterative Refinement for Exact Linear Optimization}},
+  author = {Leon Eifler and Jules Nicolas-Thouvenin and Ambros Gleixner},
+  year = {2023},
+  howpublished = {arXiv preprint},
+  url = {https://arxiv.org/abs/2311.08037},
+  note = {Exact rational LP is an extension; current floating-point checks are not equivalent.},
+}
+
+@misc{branch-numerics,
+  title = {{Analyzing the numerical correctness of branch-and-bound decisions for mixed-integer programming}},
+  author = {Alexander Hoen and Ambros Gleixner},
+  year = {2025},
+  howpublished = {CPAIOR 2025; arXiv author version},
+  url = {https://arxiv.org/abs/2412.14710},
+  note = {Preprint first submitted 2024; final conference publication 2025.},
+  doi = {10.1007/978-3-031-95976-9_3},
+}
+
+@misc{exact-mip,
+  title = {{A Computational Status Update for Exact Rational Mixed Integer Programming}},
+  author = {Leon Eifler and Ambros Gleixner},
+  year = {2021},
+  howpublished = {IPCO 2021; arXiv author report},
+  url = {https://arxiv.org/abs/2101.09141},
+  note = {The held report states acceptance to IPCO 2021. Relevant to proof-status terminology, not a claim of implemented exact general MILP.},
+}
+
+@misc{gurobi-numerics,
+  title = {{Tolerances and User-Scaling}},
+  author = {Gurobi Optimization},
+  year = {2026},
+  howpublished = {Gurobi Optimizer Reference Manual},
+  url = {https://docs.gurobi.com/projects/optimizer/en/current/concepts/numericguide/tolerances_scaling.html},
+  note = {Living documentation: 2026 is the access year, not a claimed first-publication year.},
+}
+
+@misc{presolve-reductions,
+  title = {{Presolve Reductions in Mixed Integer Programming}},
+  author = {Tobias Achterberg and Robert E. Bixby and Zonghao Gu and Edward Rothberg and Dieter Weninger},
+  year = {2020},
+  howpublished = {INFORMS Journal on Computing 32(2), 473-506},
+  url = {https://doi.org/10.1287/ijoc.2018.0857},
+  note = {ZIB report version 2016; first online 2019; journal issue 2020. The public ZIB PDF could not be collected: the Python request failed certificate validation, and a second check using Windows certificate validation returned a bot-check HTML page, not a PDF. Citation retained; no access control was bypassed.},
+  doi = {10.1287/ijoc.2018.0857},
+}
+
+@misc{papilo,
+  title = {{PaPILO: A Parallel Presolving Library for Integer and Linear Programming with Multiprecision Support}},
+  author = {Ambros Gleixner and Leona Gottwald and Alexander Hoen},
+  year = {2022},
+  howpublished = {arXiv preprint},
+  url = {https://arxiv.org/abs/2206.10709},
+  note = {Catalog follows the original 2022 arXiv title/author metadata. Stored v3 (March 20, 2024) uses Integer and Linear Optimization in the title and lists Gleixner, Hoen, Gottwald. Algorithm reference only, not a solver dependency.},
+}
+
+@misc{presolve-certification,
+  title = {{Certifying MIP-based Presolve Reductions for 0-1 Integer Linear Programs}},
+  author = {Alexander Hoen and Andy Oertel and Ambros Gleixner and Jakob Nordstrom},
+  year = {2024},
+  howpublished = {arXiv preprint},
+  url = {https://arxiv.org/abs/2401.09277},
+  note = {Scope is 0-1 ILP; do not generalize the guarantee to arbitrary mixed continuous models.},
+}
+
+@misc{reliability-branching,
+  title = {{Branching Rules Revisited}},
+  author = {Tobias Achterberg and Thorsten Koch and Alexander Martin},
+  year = {2005},
+  howpublished = {Operations Research Letters 33(1), 42-54},
+  url = {https://doi.org/10.1016/j.orl.2004.04.002},
+  note = {Stored ZIB Report 04-13 from 2004; final journal publication 2005.},
+  doi = {10.1016/j.orl.2004.04.002},
+}
+
+@misc{scip10,
+  title = {{The SCIP Optimization Suite 10.0}},
+  author = {Christopher Hojny and others},
+  year = {2025},
+  howpublished = {arXiv technical report},
+  url = {https://arxiv.org/abs/2511.18580},
+  note = {Comparative technical report; no SCIP source or solver library is added.},
+}
+
+@misc{valid-inequalities,
+  title = {{Valid Inequalities for Mixed Integer Linear Programs}},
+  author = {Gerard Cornuejols},
+  year = {2008},
+  howpublished = {Mathematical Programming B 112, 3-44},
+  url = {https://www.andrew.cmu.edu/user/gc0v/},
+  note = {Stored July 2006 revision; journal publication 2008.},
+  doi = {10.1007/s10107-006-0086-0},
+}
+
+@misc{safe-gmi,
+  title = {{Safe and Verified Gomory Mixed Integer Cuts in a Rational MIP Framework}},
+  author = {Leon Eifler and Ambros Gleixner},
+  year = {2023},
+  howpublished = {arXiv preprint},
+  url = {https://arxiv.org/abs/2303.12365},
+  note = {Our enumeration-based cut tests are useful checks, not this paper's general rational verification.},
+}
+
+@misc{cover-lifting,
+  title = {{New Sequence-Independent Lifting Techniques for Cover Inequalities and When They Induce Facets}},
+  author = {Siddharth Prasad and Ellen Vitercik and Maria-Florina Balcan and Tuomas Sandholm},
+  year = {2025},
+  howpublished = {IJCAI 2025},
+  url = {https://www.ijcai.org/proceedings/2025/298},
+  note = {Potential extension to lifted-cover work; requires independent validity and end-to-end evaluation.},
+}
+
+@misc{classic-lifted-cover,
+  title = {{Lifted Cover Inequalities for 0-1 Integer Programs: Computation}},
+  author = {Zonghao Gu and George L. Nemhauser and Martin W. P. Savelsbergh},
+  year = {1998},
+  howpublished = {INFORMS Journal on Computing 10(4), 427-437},
+  url = {https://doi.org/10.1287/ijoc.10.4.427},
+  note = {Citation only; obtain the publisher version through legitimate institutional access.},
+  doi = {10.1287/ijoc.10.4.427},
+}
+
+@misc{pump-survey,
+  title = {{Ten years of Feasibility Pump, and counting}},
+  author = {Timo Berthold and Andrea Lodi and Domenico Salvagnin},
+  year = {2018},
+  howpublished = {Author survey manuscript},
+  url = {https://www.dei.unipd.it/~salvagni/pdf/10yearsFP.pdf},
+  note = {Stored manuscript dated February 20, 2018.},
+}
+
+@misc{adaptive-lns,
+  title = {{Adaptive Large Neighborhood Search for Mixed Integer Programming}},
+  author = {Gregor Hendel},
+  year = {2018},
+  howpublished = {ZIB Report 18-60},
+  url = {https://www.zib.de/userpage/hendel/publication/adaptive-large-neighborhood-search-for-mixed-integer-programming/},
+  note = {Cite as the stored 2018 report unless using the later final journal article.},
+}
+
+@misc{heuristic-scheduling,
+  title = {{Learning to Schedule Heuristics in Branch-and-Bound}},
+  author = {Antonia Chmiela and Elias B. Khalil and Ambros Gleixner and Andrea Lodi and Sebastian Pokutta},
+  year = {2021},
+  howpublished = {NeurIPS 2021, volume 34, 24235-24246},
+  url = {https://arxiv.org/abs/2103.10294},
+  note = {Stored final NeurIPS paper is titled Learning to Schedule Heuristics in Branch and Bound; the catalog retains the arXiv title. Data-driven scheduling is future work; separate tuning from evaluation.},
+}
+
+@misc{feasibility-pump,
+  title = {{The Feasibility Pump}},
+  author = {Matteo Fischetti and Fred Glover and Andrea Lodi},
+  year = {2005},
+  howpublished = {Mathematical Programming 104, 91-104},
+  url = {https://doi.org/10.1007/s10107-004-0570-3},
+  note = {Stored 2004 technical report from the MIPLIB bibliography; journal publication 2005.},
+  doi = {10.1007/s10107-004-0570-3},
+}
+
+@misc{osqp,
+  title = {{OSQP: An Operator Splitting Solver for Quadratic Programs}},
+  author = {Bartolomeo Stellato and Goran Banjac and Paul Goulart and Alberto Bemporad and Stephen Boyd},
+  year = {2020},
+  howpublished = {Mathematical Programming Computation 12, 637-672},
+  url = {https://web.stanford.edu/~boyd/papers/osqp.html},
+  note = {OSQP remains an independent comparison process, not the shipped solver core.},
+  doi = {10.1007/s12532-020-00179-2},
+}
+
+@misc{proximal-algorithms,
+  title = {{Proximal Algorithms}},
+  author = {Neal Parikh and Stephen Boyd},
+  year = {2014},
+  howpublished = {Foundations and Trends in Optimization 1(3), 123-231},
+  url = {https://web.stanford.edu/~boyd/papers/prox_algs.html},
+  note = {The author page cites the final work as 2014; the stored author PDF has a 2013 draft imprint and a placeholder DOI. These are recorded separately rather than silently treating the draft as the final publisher PDF.},
+}
+
+@misc{osqp-algorithm-docs,
+  title = {{OSQP solver documentation: The solver}},
+  author = {OSQP developers},
+  year = {2026},
+  howpublished = {Official algorithm documentation},
+  url = {https://osqp.org/docs/solver/index.html},
+  note = {Access-year label for living documentation. Match tolerances when comparing with our QP results.},
+}
+
+@misc{pdlp,
+  title = {{PDLP: A Practical First-Order Method for Large-Scale Linear Programming}},
+  author = {David Applegate and Mateo Diaz and Oliver Hinder and Haihao Lu and Miles Lubin and Brendan O'Donoghue and Warren Schudy},
+  year = {2025},
+  howpublished = {arXiv preprint},
+  url = {https://arxiv.org/abs/2501.07018},
+  note = {Expanded follow-up to the 2021 NeurIPS paper; stored as its own work.},
+}
+
+@misc{pdhg-restarts,
+  title = {{Faster First-Order Primal-Dual Methods for Linear Programming using Restarts and Sharpness}},
+  author = {David Applegate and Oliver Hinder and Haihao Lu and Miles Lubin},
+  year = {2021},
+  howpublished = {arXiv preprint},
+  url = {https://arxiv.org/abs/2105.12715},
+}
+
+@misc{ipm-survey,
+  title = {{Interior Point Methods 25 Years Later}},
+  author = {Jacek Gondzio},
+  year = {2012},
+  howpublished = {European Journal of Operational Research 218(3), 587-601},
+  url = {https://doi.org/10.1016/j.ejor.2011.09.017},
+  note = {Stored revised 2011 report, published 2012; not a measured performance claim for HyperGrey.},
+  doi = {10.1016/j.ejor.2011.09.017},
+}
+
+@misc{conic-splitting,
+  title = {{Conic Optimization via Operator Splitting and Homogeneous Self-Dual Embedding}},
+  author = {Brendan O'Donoghue and Eric Chu and Neal Parikh and Stephen Boyd},
+  year = {2013},
+  howpublished = {arXiv author preprint},
+  url = {https://arxiv.org/abs/1312.3039},
+  note = {First-submission year 2013 used in the catalog; the held arXiv v2 is revised July 2016. Conic extensions are outside the current implemented scope.},
+}
+
+@misc{gpu-admm,
+  title = {{GPU Acceleration of ADMM for Large-Scale Quadratic Programming}},
+  author = {Michel Schubiger and Goran Banjac and John Lygeros},
+  year = {2020},
+  howpublished = {Journal of Parallel and Distributed Computing 144, 55-67},
+  url = {https://arxiv.org/abs/1912.04263},
+  note = {Stored arXiv author version first submitted 2019; journal publication 2020.},
+  doi = {10.1016/j.jpdc.2020.05.021},
+}
+
+@misc{cupdlp-julia,
+  title = {{cuPDLP.jl: A GPU Implementation of Restarted Primal-Dual Hybrid Gradient for Linear Programming in Julia}},
+  author = {Haihao Lu and Jinwen Yang},
+  year = {2025},
+  howpublished = {Operations Research 73(6), 3440-3452; arXiv author version},
+  url = {https://arxiv.org/abs/2311.12180},
+  note = {Preprint first submitted 2023; published 2025. No general GPU-LP capability is implied for our code.},
+  doi = {10.1287/opre.2024.1069},
+}
+
+@misc{cupdlp-c,
+  title = {{cuPDLP-C: A Strengthened Implementation of cuPDLP for Linear Programming by C language}},
+  author = {Haihao Lu and Jinwen Yang and Haodong Hu and Qi Huangfu and Jinsong Liu and Tianhao Liu and Yinyu Ye and Chuwen Zhang and Dongdong Ge},
+  year = {2023},
+  howpublished = {arXiv technical report},
+  url = {https://arxiv.org/abs/2312.14832},
+}
+
+@misc{cuda-best-practices,
+  title = {{CUDA C++ Best Practices Guide}},
+  author = {NVIDIA},
+  year = {2026},
+  howpublished = {Official developer documentation},
+  url = {https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html},
+  note = {2026 is the access year for living documentation; hardware-specific advice must be checked on the evaluation GPU.},
+}
+
+@misc{miplib-paper,
+  title = {{MIPLIB 2017: Data-Driven Compilation of the 6th Mixed-Integer Programming Library}},
+  author = {Ambros Gleixner and others},
+  year = {2021},
+  howpublished = {Mathematical Programming Computation 13, 443-490},
+  url = {https://doi.org/10.1007/s12532-020-00194-3},
+  note = {Stored author manuscript may predate the final 2021 article.},
+  doi = {10.1007/s12532-020-00194-3},
+}
+
+@misc{miplib-downloads,
+  title = {{MIPLIB 2017: Downloads and solution files}},
+  author = {MIPLIB maintainers / Zuse Institute Berlin},
+  year = {2026},
+  howpublished = {Official benchmark documentation},
+  url = {https://miplib.zib.de/download.html},
+  note = {Access-year label; retain the solution-file version used by each past experiment.},
+}
+
+@misc{qplib,
+  title = {{QPLIB Documentation: Problem Types and File Format}},
+  author = {QPLIB maintainers},
+  year = {2026},
+  howpublished = {Official QPLIB documentation},
+  url = {https://qplib.zib.de/doc.html},
+  note = {Access year 2026. The library includes nonconvex and discrete problems; selecting all QPLIB instances would overstate supported scope.},
+}
+
+@misc{netlib-lp,
+  title = {{Netlib LP test problems}},
+  author = {David M. Gay / Netlib contributors},
+  year = {2026},
+  howpublished = {Official benchmark archive},
+  url = {https://www.netlib.org/lp/data/},
+  note = {Access-year label; preserve original files and any decompression/conversion provenance.},
+}
+
+@misc{mps-format,
+  title = {{Model File Formats: MPS Format}},
+  author = {Gurobi Optimization},
+  year = {2026},
+  howpublished = {Gurobi Optimizer Reference Manual},
+  url = {https://docs.gurobi.com/projects/optimizer/en/current/reference/fileformats/modelformats.html},
+  note = {Vendor dialect reference, not a universal standard. Our parser contract must state supported variants. Access year 2026.},
+}
+
+@misc{mittelmann,
+  title = {{Decision Tree for Optimization Software: Benchmarks}},
+  author = {Hans D. Mittelmann},
+  year = {2026},
+  howpublished = {Arizona State University benchmark service},
+  url = {https://plato.asu.edu/sub/benchm.html},
+  note = {Living results and configurations change; no benchmark result is imported as our own. Access year 2026.},
+}
+
+@misc{performance-profiles,
+  title = {{Benchmarking Optimization Software with Performance Profiles}},
+  author = {Elizabeth D. Dolan and Jorge J. More},
+  year = {2002},
+  howpublished = {Mathematical Programming 91, 201-213},
+  url = {https://arxiv.org/abs/cs/0102001},
+  note = {First submitted to arXiv in 2001; the held file is arXiv cs/0102001v2 dated March 5, 2004. The canonical journal publication is 2002.},
+  doi = {10.1007/s101070100263},
+}
+
+@misc{benchmark-best-practice,
+  title = {{Benchmarking in Optimization: Best Practice and Open Issues}},
+  author = {Thomas Bartz-Beielstein and others},
+  year = {2020},
+  howpublished = {arXiv survey},
+  url = {https://arxiv.org/abs/2007.03488},
+  note = {General optimization methodology; adapt metrics to LP/MILP/QP rather than applying unrelated benchmark recipes.},
+}
+
+@misc{primal-integral,
+  title = {{Measuring the impact of primal heuristics}},
+  author = {Timo Berthold},
+  year = {2013},
+  howpublished = {Operations Research Letters 41(6), 611-614},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167637713001181},
+  note = {Stored ZIB Report 13-17; journal publication 2013.},
+}
+
+@misc{marco,
+  title = {{MARCO: Mini Oil Refining Model}},
+  author = {GAMS Development Corporation; model references Kendrick and Meeraus and Suh},
+  year = {2026},
+  howpublished = {GAMS Model Library},
+  url = {https://www.gams.com/latest/gamslib_ml/libhtml/gamslib_marco.html},
+  note = {Access-year label; underlying teaching references date to 1978/1981. Not operational MRPL data.},
+}
+
+@misc{mrpl-annual,
+  title = {{Mangalore Refinery and Petrochemicals Limited: Annual Report 2024-25}},
+  author = {Mangalore Refinery and Petrochemicals Limited},
+  year = {2025},
+  howpublished = {Company report filed with the National Stock Exchange of India},
+  url = {https://nsearchives.nseindia.com/annual_reports/AR_27132_MRPL_2024_2025_A_28072025171020.pdf},
+  note = {FY 2024-25 context, not a latest-year claim or a source of optimization-ready plant data. The filed PDF includes AGM material with the annual report.},
+}
+
+@misc{transport,
+  title = {{TRNSPORT: A Transportation Problem}},
+  author = {GAMS Development Corporation; model reference George B. Dantzig},
+  year = {2026},
+  howpublished = {GAMS Model Library},
+  url = {https://www.gams.com/latest/gamslib_ml/libhtml/gamslib_trnsport.html},
+  note = {Access-year label; mathematical example traces to Dantzig (1963). Teaching-scale, not industrial-scale evidence.},
+}
+
+@misc{matpower-manual,
+  title = {{MATPOWER User's Manual, Version 8.0}},
+  author = {Ray D. Zimmerman and Carlos E. Murillo-Sanchez},
+  year = {2024},
+  howpublished = {MATPOWER official documentation},
+  url = {https://matpower.org/docs/MATPOWER-manual-8.0.pdf},
+  note = {Use the DC formulation with convex quadratic costs for supported QP demonstrations; AC OPF is future NLP work.},
+}
+
+@misc{unitcommitment,
+  title = {{UnitCommitment.jl: Security-Constrained Unit Commitment}},
+  author = {ANL-CEEESA / UnitCommitment.jl contributors},
+  year = {2026},
+  howpublished = {Official project and benchmark documentation},
+  url = {https://github.com/ANL-CEEESA/UnitCommitment.jl},
+  note = {Documentation/data lead only; no modeling package or solver implementation is imported. Access year 2026.},
+}
+
+@misc{lp-geometry,
+  title = {{Geometry of Linear Programming}},
+  author = {Chaithanya Bandi; course instructor Dimitris Bertsimas},
+  year = {2009},
+  howpublished = {MIT OpenCourseWare 6.251J / 15.081, Recitation 3},
+  url = {https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/resources/mit6_251jf09_rec03/},
+  note = {Teaching notes; MIT OCW terms apply, including any attributed third-party exceptions.},
+}
+
+@misc{lp-duality,
+  title = {{Duality Theory}},
+  author = {Chaithanya Bandi; course instructor Dimitris Bertsimas},
+  year = {2009},
+  howpublished = {MIT OpenCourseWare 6.251J / 15.081, Recitation 5},
+  url = {https://ocw.mit.edu/courses/6-251j-introduction-to-mathematical-programming-fall-2009/resources/mit6_251jf09_rec05/},
+  note = {Teaching notes; MIT OCW terms apply. Some PDF font encodings may affect text extraction.},
+}
+
+@misc{conflict-analysis,
+  title = {{Cut-based Conflict Analysis in Mixed Integer Programming}},
+  author = {Gioni Mexi and Felipe Serrano and Timo Berthold and Ambros Gleixner and Jakob Nordstrom},
+  year = {2025},
+  howpublished = {INFORMS Journal on Computing; arXiv author version},
+  url = {https://arxiv.org/abs/2410.15110},
+  note = {Preprint first submitted 2024, revised and published online 2025. Not an implemented HyperGrey feature.},
+  doi = {10.1287/ijoc.2024.0999},
+}
+
+@misc{admm-foundations,
+  title = {{Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers}},
+  author = {Stephen Boyd and Neal Parikh and Eric Chu and Borja Peleato and Jonathan Eckstein},
+  year = {2011},
+  howpublished = {Foundations and Trends in Machine Learning 3(1), 1-122},
+  url = {https://web.stanford.edu/~boyd/papers/admm_distr_stats.html},
+  note = {Author page publication year 2011; PDF volume imprint 2010 with copyright 2011. Focus on convex sections relevant to QP; distributed applications do not imply our implementation is distributed.},
+  doi = {10.1561/2200000016},
+}
+
+@misc{qplib-paper,
+  title = {{QPLIB: A Library of Quadratic Programming Instances}},
+  author = {Fabio Furini and Emiliano Traversi and Pietro Belotti and Antonio Frangioni and Ambros Gleixner and Nick Gould and Leo Liberti and Andrea Lodi and Ruth Misener and Hans Mittelmann and Nikolaos V. Sahinidis and Stefan Vigerske and Angelika Wiegele},
+  year = {2018},
+  howpublished = {Mathematical Programming Computation; author manuscript},
+  url = {https://optimization-online.org/2017/02/5846/},
+  note = {Repository entry 2017, updated 2018; journal first online 2018. The separate documentation entry covers file semantics.},
+  doi = {10.1007/s12532-018-0147-4},
+}
+
+@misc{performance-variability,
+  title = {{Performance Variability in Mixed-Integer Programming}},
+  author = {Andrea Lodi and Andrea Tramontani},
+  year = {2013},
+  howpublished = {Theory Driven by Influential Applications, INFORMS Tutorials in Operations Research},
+  url = {https://pubsonline.informs.org/doi/10.1287/educ.2013.0112},
+  note = {Tutorial volume 2013; publisher page lists online posting in 2014. Reference only.},
+  doi = {10.1287/educ.2013.0112},
+}
+
+@misc{crude-scheduling,
+  title = {{Crude-Oil Blend Scheduling Optimization of an Industrial-Sized Refinery: A Discrete-Time Benchmark}},
+  author = {J. D. Kelly and B. C. Menezes and F. Engineer and I. E. Grossmann},
+  year = {2017},
+  howpublished = {FOCAPO 2017 author manuscript},
+  url = {https://egon.cheme.cmu.edu/Papers/Kelly_CBSO_paper.pdf},
+  note = {The complete model is nonconvex MINLP; its MILP logistics subproblem is the directly relevant initial scope.},
+}
+
+@misc{integrated-refinery,
+  title = {{Modeling for Integrated Refinery Planning with Crude-Oil Scheduling}},
+  author = {Lijie Su and David E. Bernal and Ignacio E. Grossmann and Lixin Tang},
+  year = {2021},
+  howpublished = {CMU Grossmann research group manuscript},
+  url = {https://egon.cheme.cmu.edu/Papers/Su_IntegratedRefineryPlanning-2.pdf},
+  note = {Author site lists a 2021 submission. Treat as the stored manuscript; nonlinear aspects are a future extension, not present solver coverage.},
+}
+
+@misc{lot-sizing-review,
+  title = {{Dynamic capacitated lot-sizing problems: a classification and review of solution approaches}},
+  author = {Lisbeth Buschkuehl and Florian Sahling and Stefan Helber and Horst Tempelmeier},
+  year = {2010},
+  howpublished = {OR Spectrum 32(2), 231-261},
+  url = {https://link.springer.com/article/10.1007/s00291-008-0150-7},
+  note = {Citation-only canonical review; model/data acquisition and industrial validation remain separate steps.},
+  doi = {10.1007/s00291-008-0150-7},
+}
+
+@misc{power-intensive-production,
+  title = {{A Novel MILP Scheduling Model for Power-Intensive Processes under Time-Sensitive Electricity Prices}},
+  author = {Natalia P. Basan and Ignacio E. Grossmann and Ajit Gopalakrishnan and Irene Lotero and Carlos A. Mendez},
+  year = {2017},
+  howpublished = {Industrial \& Engineering Chemistry Research author manuscript},
+  url = {https://egon.cheme.cmu.edu/Papers/Basan_Mendez_et_al_NovelMIP_DSM_IEC.pdf},
+  note = {Author-hosted manuscript listed as accepted in 2017. A source for a new literature case, not a case already benchmarked by HyperGrey.},
+}

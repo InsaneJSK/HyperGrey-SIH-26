@@ -1,0 +1,32 @@
+{
+  "solver": "OSQP",
+  "version": "1.0.5",
+  "parser": "independent Python QPLIB reader",
+  "export_audit_parser": "HiGHS 1.12.0",
+  "export_hessian_max_difference": 0.0,
+  "export_hessian_changed_entries": 0,
+  "status": "Optimal",
+  "objective": 3593.516293929405,
+  "total_seconds": 0.09378619999915827,
+  "solve_seconds": 0.0665431,
+  "iterations": 75,
+  "primal_residual": 1.880555814812162e-14,
+  "dual_residual": 3.227154975579533e-12,
+  "candidate_max_violation": 1.1102230246251565e-16,
+  "candidate_scaled_violation": 4.706585818649316e-17,
+  "candidate_recomputed_objective": 3593.516293929411,
+  "candidate_mapping": "Original QPLIB variable indices; supplied start ignored",
+  "candidate_independent_stationarity": 3.5614233881590786e-10,
+  "candidate_certificate": {
+    "candidate_valid_shape_and_finite": true,
+    "recomputed_objective": 3593.516293929411,
+    "max_violation": 1.1102230246251565e-16,
+    "scaled_violation": 4.706585818649316e-17,
+    "stationarity": 3.5614233881590786e-10,
+    "complementarity": 0.0,
+    "independent_kkt_passed": true,
+    "diagonal_certificate_passed": false
+  },
+  "process_seconds": 12.417483700002776,
+  "exit_code": 0
+}

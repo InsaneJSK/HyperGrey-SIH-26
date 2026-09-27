@@ -1,0 +1,165 @@
+binary e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad
+downloaded bab6 71052447
+downloaded beasleyC3 262195
+downloaded binkar10_1 202279
+downloaded blp-ar98 16582536
+downloaded blp-ic98 15698419
+downloaded bnatt400 1414073
+downloaded bnatt500 1770868
+downloaded bppc4-08 1222796
+downloaded brazil3 10089712
+downloaded buildingenergy 45882968
+downloaded cbs-cta 4695624
+downloaded chromaticindex1024-7 23033500
+downloaded chromaticindex512-7 10724031
+downloaded cmflsp50-24-8-8 11539198
+downloaded CMS750_4 3517292
+downloaded co-100 100426160
+downloaded cod105 2913441
+downloaded comp07-2idx 7103278
+downloaded comp21-2idx 4669267
+downloaded cost266-UUE 1978151
+downloaded cryptanalysiskb128n5obj14 17578348
+downloaded cryptanalysiskb128n5obj16 17578328
+downloaded csched007 422471
+downloaded csched008 375623
+downloaded cvs16r128-89 931762
+downloaded dano3_3 2610503
+downloaded dano3_5 2610503
+downloaded decomp2 5711736
+downloaded drayage-100-23 2946495
+downloaded drayage-25-23 2946494
+downloaded dws008-01 3381418
+downloaded eil33-2 1527787
+downloaded eilA101-2 31983859
+downloaded enlight_hard 56971
+downloaded ex10 35369401
+downloaded ex9 16298238
+downloaded exp-1-500-5-5 209869
+downloaded fast0507 17204497
+downloaded fastxgemm-n2r6s0t2 1554811
+downloaded fhnw-binpack4-4 103141
+downloaded fhnw-binpack4-48 755108
+downloaded fiball 4827331
+downloaded gen-ip002 48940
+downloaded gen-ip054 29589
+downloaded germanrr 8302857
+downloaded gfd-schedulen180f7d50m30k18 76380833
+downloaded glass-sc 3462052
+downloaded glass4 127661
+downloaded gmu-35-40 365484
+downloaded gmu-35-50 617099
+30n20b8                  control: time_limit             root=yes nodes=     157 | candidate: time_limit             root=yes nodes=    3050 obj=None pub=302.0
+50v-10                   control: time_limit             root=yes nodes=   71157 | candidate: time_limit             root=yes nodes=  355102 obj=3635.7199936807137 pub=3311.1799841
+academictimetablesmall   control: time_limit             root=yes nodes=      46 | candidate: time_limit             root=yes nodes=      42 obj=None pub=0.0
+air05                    control: time_limit             root=yes nodes=    3091 | candidate: time_limit             root=yes nodes=    3094 obj=29888 pub=26374.0
+app1-1                   control: gap_limit              root=yes nodes=    3613 | candidate: gap_limit              root=yes nodes=    3709 obj=-3 pub=-3.0
+app1-2                   control: time_limit             root=yes nodes=     515 | candidate: time_limit             root=yes nodes=     786 obj=None pub=-41.0
+assign1-5-8              control: time_limit             root=yes nodes=   82746 | candidate: time_limit             root=yes nodes=   83147 obj=211.999999994 pub=211.999999999998
+atlanta-ip               control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=90.009878614
+b1c1s1                   control: time_limit             root=yes nodes=    7726 | candidate: time_limit             root=yes nodes=   16625 obj=50520.70989838263 pub=24544.25
+bab2                     control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=-357544.3115
+bab6                     control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=-284248.2307000001
+beasleyC3                control: time_limit             root=yes nodes=   11939 | candidate: time_limit             root=yes nodes=   32209 obj=2847 pub=753.9999999999128
+binkar10_1               control: time_limit             root=yes nodes=   80604 | candidate: time_limit             root=yes nodes=  114634 obj=6762.080016642653 pub=6742.1998835
+blp-ar98                 control: time_limit             root=yes nodes=    4861 | candidate: time_limit             root=yes nodes=    6068 obj=None pub=6205.2147104
+blp-ic98                 control: time_limit             root=yes nodes=    3463 | candidate: time_limit             root=yes nodes=    5290 obj=None pub=4491.44758395
+bnatt400                 control: time_limit             root=yes nodes=   35556 | candidate: time_limit             root=yes nodes=   38775 obj=None pub=1.0
+bnatt500                 control: time_limit             root=yes nodes=   30500 | candidate: time_limit             root=yes nodes=   30728 obj=None pub=None
+bppc4-08                 control: time_limit             root=yes nodes=   21340 | candidate: time_limit             root=yes nodes=   21344 obj=60 pub=53.0
+brazil3                  control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=24.0
+buildingenergy           control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=33283.853236
+cbs-cta                  control: time_limit             root=yes nodes=    1107 | candidate: time_limit             root=yes nodes=    1107 obj=None pub=0.0
+chromaticindex1024-7     control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=4.0
+chromaticindex512-7      control: time_limit             root=yes nodes=     357 | candidate: time_limit             root=yes nodes=     601 obj=None pub=4.0
+cmflsp50-24-8-8          control: time_limit             root=yes nodes=     601 | candidate: time_limit             root=yes nodes=     674 obj=None pub=55789389.886
+CMS750_4                 control: time_limit             root=yes nodes=    4262 | candidate: time_limit             root=yes nodes=    6120 obj=None pub=252.0
+co-100                   control: time_limit             root=yes nodes=      43 | candidate: time_limit             root=yes nodes=     111 obj=None pub=2639942.06
+cod105                   control: time_limit             root=yes nodes=      25 | candidate: time_limit             root=yes nodes=      25 obj=0 pub=-12.0
+comp07-2idx              control: time_limit             root=yes nodes=     343 | candidate: time_limit             root=yes nodes=     406 obj=None pub=6.0
+comp21-2idx              control: time_limit             root=yes nodes=    2416 | candidate: time_limit             root=yes nodes=    1756 obj=None pub=74.0
+cost266-UUE              control: time_limit             root=yes nodes=    4535 | candidate: time_limit             root=yes nodes=   26462 obj=26547438.55999999 pub=25148940.55999998
+cryptanalysiskb128n5obj14 control: time_limit             root=yes nodes=       1 | candidate: time_limit             root=yes nodes=       1 obj=None pub=None
+cryptanalysiskb128n5obj16 control: time_limit             root=yes nodes=       1 | candidate: time_limit             root=yes nodes=       1 obj=None pub=0.0
+csched007                control: time_limit             root=yes nodes=    8174 | candidate: time_limit             root=yes nodes=   35054 obj=None pub=350.9999999999955
+csched008                control: time_limit             root=yes nodes=    4316 | candidate: time_limit             root=yes nodes=    5951 obj=None pub=173.0
+cvs16r128-89             control: time_limit             root=yes nodes=     479 | candidate: time_limit             root=yes nodes=     981 obj=-55 pub=-97.0
+dano3_3                  control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=576.34463303
+dano3_5                  control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=576.9249159565619
+decomp2                  control: time_limit             root=yes nodes=    8930 | candidate: gap_limit              root=yes nodes=       1 obj=-160 pub=-160.0
+drayage-100-23           control: time_limit             root=yes nodes=   14360 | candidate: time_limit             root=yes nodes=   17553 obj=None pub=103333.87407
+drayage-25-23            control: time_limit             root=yes nodes=   19092 | candidate: time_limit             root=yes nodes=   24794 obj=None pub=101282.647018
+dws008-01                control: time_limit             root=yes nodes=    7760 | candidate: time_limit             root=yes nodes=    8381 obj=None pub=37412.60458794508
+eil33-2                  control: gap_limit              root=yes nodes=    8771 | candidate: gap_limit              root=yes nodes=    8771 obj=934.007916 pub=934.007915999999
+eilA101-2                control: time_limit             root=yes nodes=     163 | candidate: time_limit             root=yes nodes=     163 obj=None pub=880.9201079999999
+enlight_hard             control: time_limit             root=yes nodes= 1150323 | candidate: time_limit             root=yes nodes= 1852129 obj=37 pub=37.0
+ex10                     control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=100.0
+ex9                      control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=81.0
+exp-1-500-5-5            control: time_limit             root=yes nodes=  250479 | candidate: time_limit             root=yes nodes=  380120 obj=89056.99999745823 pub=65887.0
+fast0507                 control: time_limit             root=yes nodes=     177 | candidate: time_limit             root=yes nodes=     179 obj=None pub=174.0
+fastxgemm-n2r6s0t2       control: time_limit             root=yes nodes=     935 | candidate: time_limit             root=yes nodes=    2288 obj=826.999995215 pub=230.0
+fhnw-binpack4-4          control: time_limit             root=yes nodes=  493718 | candidate: time_limit             root=yes nodes=  562501 obj=None pub=None
+fhnw-binpack4-48         control: time_limit             root=yes nodes=   79031 | candidate: time_limit             root=yes nodes=   61453 obj=None pub=0.0
+fiball                   control: time_limit             root=yes nodes=    6695 | candidate: time_limit             root=yes nodes=    4768 obj=None pub=138.0
+gen-ip002                control: time_limit             root=yes nodes= 1289495 | candidate: time_limit             root=yes nodes= 1432460 obj=-4758.4163211 pub=-4783.733392
+gen-ip054                control: node_limit             root=yes nodes= 1913718 | candidate: node_limit             root=yes nodes= 1915400 obj=6880.923487753999 pub=6840.96564179
+germanrr                 control: time_limit             root=yes nodes=     539 | candidate: time_limit             root=yes nodes=    1914 obj=None pub=47095869.649
+gfd-schedulen180f7d50m30k18 control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=1.0
+glass-sc                 control: time_limit             root=yes nodes=     631 | candidate: time_limit             root=yes nodes=     630 obj=None pub=23.0
+glass4                   control: time_limit             root=yes nodes=  314647 | candidate: time_limit             root=yes nodes=  434562 obj=2200019000 pub=1200012599.972384
+gmu-35-40                control: time_limit             root=yes nodes=    1880 | candidate: time_limit             root=yes nodes=  113255 obj=-2397330.8789 pub=-2406733.3688
+gmu-35-50                control: time_limit             root=yes nodes=    1760 | candidate: time_limit             root=yes nodes=  138634 obj=-2599695.2678999994 pub=-2607958.33
+{
+ "control": {
+  "root_solved": 49,
+  "proven": 2,
+  "completion_disagrees": [],
+  "validated_points": 19,
+  "rejected_points": [],
+  "unresolved_root": [
+   "atlanta-ip",
+   "bab2",
+   "bab6",
+   "brazil3",
+   "buildingenergy",
+   "chromaticindex1024-7",
+   "dano3_3",
+   "dano3_5",
+   "ex10",
+   "ex9",
+   "gfd-schedulen180f7d50m30k18"
+  ],
+  "fallbacks": 1984,
+  "unresolved_nodes": 20,
+  "cold_starts": 2030,
+  "nodes": 5947089
+ },
+ "candidate": {
+  "root_solved": 49,
+  "proven": 3,
+  "completion_disagrees": [],
+  "validated_points": 21,
+  "rejected_points": [],
+  "unresolved_root": [
+   "atlanta-ip",
+   "bab2",
+   "bab6",
+   "brazil3",
+   "buildingenergy",
+   "chromaticindex1024-7",
+   "dano3_3",
+   "dano3_5",
+   "ex10",
+   "ex9",
+   "gfd-schedulen180f7d50m30k18"
+  ],
+  "fallbacks": 305,
+  "unresolved_nodes": 9,
+  "cold_starts": 282,
+  "nodes": 7753820
+ },
+ "binaries": {
+  "control": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad",
+  "candidate": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad"
+ }
+}

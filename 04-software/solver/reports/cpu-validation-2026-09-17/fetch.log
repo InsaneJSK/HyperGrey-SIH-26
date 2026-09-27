@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\me\CODING\Github\sih-backup-solver\SIH-backup-solver\reports\cpu-validation-2026-09-17\fetch_additional.py", line 37, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\me\CODING\Github\sih-backup-solver\SIH-backup-solver\reports\cpu-validation-2026-09-17\fetch_additional.py", line 16, in main
+    utility=ROOT/'tools/data/emps.c';assert sha(utility)==original['utility_sha256']
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

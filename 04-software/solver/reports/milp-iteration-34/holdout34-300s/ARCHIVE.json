@@ -1,0 +1,50 @@
+{
+ "streams": {
+  "archive_bytes": 275404,
+  "archive_sha256": "757cc088461e3bcdfbc1084da0fa0bd495030eff6d34ec14d8ca4d770744b5c8",
+  "bytes": 2263278,
+  "files": 10,
+  "members": {
+   "academictimetablesmall.candidate.stdout.log": {
+    "bytes": 78064,
+    "sha256": "5d29ad2a3709c76c9924b2fc96fa3ad7ed20eb339943daa4ce15375a4e17047c"
+   },
+   "academictimetablesmall.control.stdout.log": {
+    "bytes": 67541,
+    "sha256": "ab62956992a58236060f1d96b294de7974416ce25f15f670ebf5fa5fd9af575f"
+   },
+   "brazil3.candidate.stdout.log": {
+    "bytes": 57415,
+    "sha256": "ad5d2fd426e7886190dcbf8352e383e6a7cb85fda4e5ed2d45bb1e98d2f38414"
+   },
+   "brazil3.control.stdout.log": {
+    "bytes": 57546,
+    "sha256": "a0c76b747bbff1ea2277315a2bb5b95b9cc6b7ec94cdfab4751f7cf0c34c47b2"
+   },
+   "irish-electricity.candidate.stdout.log": {
+    "bytes": 9497,
+    "sha256": "d5c1d4fb13598c37da71b335ccd4e76be0b93f01b73a96e2c37450efe8c19d5a"
+   },
+   "irish-electricity.control.stdout.log": {
+    "bytes": 9721,
+    "sha256": "1dd0080dcccbc17dbc80bc7b6fb8a50eec965249bf3afdeb86a9982db11c5059"
+   },
+   "k1mushroom.candidate.stdout.log": {
+    "bytes": 34526,
+    "sha256": "90715a63ac75f0b365ab38c104bc70ee825a3b9fb8e8f09f6bd00ab2f4e19558"
+   },
+   "k1mushroom.control.stdout.log": {
+    "bytes": 26049,
+    "sha256": "41c1a42a65d9ba0d5f082119d04cb6b8b9465891e1e73a908a3565cb2dba81ec"
+   },
+   "neos-3216931-puriri.candidate.stdout.log": {
+    "bytes": 1011351,
+    "sha256": "2cc8468a44fff534f9c89c625073a016e8f4c211f3a96ce6e0b24d3fb5e602b3"
+   },
+   "neos-3216931-puriri.control.stdout.log": {
+    "bytes": 911568,
+    "sha256": "365d9219428a76a12c69ddaf4bdfb399b1a2db7c140fdc8a05ba8b12dd0bee9e"
+   }
+  }
+ }
+}

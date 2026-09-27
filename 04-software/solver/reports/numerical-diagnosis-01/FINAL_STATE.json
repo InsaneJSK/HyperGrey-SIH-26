@@ -1,0 +1,5 @@
+{
+  "manifest_sha256": "36862d295b820c3247494b12014174b3a78e6be30bd2b28fc91e3ebc1a8fead4",
+  "files": 723,
+  "scope": "Exact LP basis diagnosis, retained candidate failures and QP traces; no QP fix."
+}

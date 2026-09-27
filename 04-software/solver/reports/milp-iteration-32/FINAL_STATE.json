@@ -1,0 +1,68 @@
+{
+ "iteration": 32,
+ "date": "2026-09-18",
+ "decision": "Promoted into the recommended profile; executable defaults unchanged.",
+ "binary_sha256": "6e073229a08065b6d2fccd7669fb75f99dd89090be39c3ccbcf1d43ca90351a4",
+ "validation_failures": 0,
+ "development": {
+  "format": "[completions, checked points] of 54 records, two repeats",
+  "control": [
+   22,
+   50
+  ],
+  "candidate": [
+   23,
+   50
+  ],
+  "note": "The candidate category count shows 23; neos859080 differs only because the HiGHS reference finished on one run and timed out on three. Honest count is 22 vs 22.",
+  "root_bound": {
+   "better": 26,
+   "worse": 2,
+   "same": 22
+  },
+  "gap_at_30s": {
+   "better": 15,
+   "worse": 13,
+   "same": 22
+  }
+ },
+ "fresh_holdout": {
+  "format": "[completions, checked points] of 10",
+  "control": [
+   1,
+   6
+  ],
+  "candidate": [
+   1,
+   6
+  ],
+  "root_bound": {
+   "better": 4,
+   "worse": 0,
+   "same": 5
+  }
+ },
+ "peak_commit_mib": {
+  "development": {
+   "control": 1138.7,
+   "candidate": 762.8
+  },
+  "holdout": {
+   "control": 441.9,
+   "candidate": 326.0
+  }
+ },
+ "retained_regression": "p0282: tableau cuts crowd out stronger cover cuts; root bound 226637 -> 213581.",
+ "files_sha256": {
+  "CANDIDATE_PROFILE.json": "2fafcfaa37a4e22203102e54823979070494538ee344809e2b66f57d37e36e67",
+  "COMPARISON.md": "5ab775b939aa8841dfbf8b8f038ef3a0fed6d6cbdf6123d8afa232cbf36dc96d",
+  "DEVELOPMENT.json": "ac0681f53ef11158133e98c29de4c0eb56a981b4a78d30b82f4706181c1d3346",
+  "HOLDOUT32.json": "538f0a9017ce37f32cef4bee3217b0f892f8dcf92189a04d1428d85a7bb4e5e6",
+  "HOLDOUT_SELECTION.md": "dd6f61b7ff82bd722d9d6b90595eb3e2c3a993a21e4c10d5ab6224835bf9f1bc",
+  "MODEL_LEDGER.md": "bd3b064a3b71bafd2b64353a9bce304ab26ec4337bb2911c41981a4cbb21d57c",
+  "PLAN.md": "33cf793ca12bff420c37cf14aff59463d623f6109d6480edfe3c888efbc96fe5",
+  "REPORT.md": "e34207327e808b1fc22a0b66035b8e46b9ecbb1abb57550af918ff2a12c79147",
+  "SOURCE_IDENTITY.json": "197a98cc5f1e335c95d47eb35a744644d98aacad2e7951c2d9c5e4a235e35a42",
+  "SUMMARY.json": "01d82f21c7441ad2d866192b982e9ab387bd4a83f72b890a2b5ff64c66353a9a"
+ }
+}

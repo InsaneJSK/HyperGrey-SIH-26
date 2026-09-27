@@ -1,0 +1,16 @@
+{
+  "records": 12,
+  "models": 6,
+  "categories": {
+    "control": {
+      "feasible_limit": 5,
+      "no_incumbent_limit": 1
+    },
+    "candidate": {
+      "feasible_limit": 5,
+      "no_incumbent_limit": 1
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "0cacfee9cae3b7378fd3861fd618c22887134e52fa2eea9baf2991b825a9d56c"
+}

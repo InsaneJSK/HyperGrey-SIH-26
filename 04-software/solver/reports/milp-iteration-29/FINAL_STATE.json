@@ -1,0 +1,35 @@
+{
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "snapshot_manifest_sha256": "a521fbdc501077df1a0e814a89b30014b52dfaec8c2ea711de162bcaec05ff35",
+  "decision": "retain_experimental_off",
+  "default_changed": false,
+  "broad_27_recheck": false,
+  "records": 48,
+  "totals": {
+    "stage": {
+      "observations": 24,
+      "points": 22,
+      "completions": 4,
+      "certificate_attempts": 0,
+      "certificates_accepted": 0,
+      "categories": {
+        "feasible_limit": 18,
+        "no_incumbent_limit": 2,
+        "numerical_completion_checked": 4
+      }
+    },
+    "certificate": {
+      "observations": 24,
+      "points": 22,
+      "completions": 4,
+      "certificate_attempts": 41,
+      "certificates_accepted": 35,
+      "categories": {
+        "feasible_limit": 18,
+        "no_incumbent_limit": 2,
+        "numerical_completion_checked": 4
+      }
+    }
+  },
+  "scope": "Correctness-checked experiment and twelve-model repeated screen. Frozen28 remains the prior broader evaluation, not overwritten."
+}

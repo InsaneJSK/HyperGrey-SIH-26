@@ -1,0 +1,56 @@
+{
+  "utc": "2026-09-17T01:47:57.751067+00:00",
+  "selection": [
+    "vpm1",
+    "vpm2",
+    "bell3a",
+    "bell5",
+    "gesa2",
+    "noswot"
+  ],
+  "selection_sha256": "6a72387bcc39b9c9736ed74909a96a7e5328f1204d8552e7c300dc3bf90a4adf",
+  "instances": [
+    {
+      "name": "vpm1",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/vpm1.mps.gz",
+      "new_case": true,
+      "status": "download_failed",
+      "error": "URLError(PermissionError(13, 'An attempt was made to access a socket in a way forbidden by its access permissions', None, 10013, None))"
+    },
+    {
+      "name": "vpm2",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/vpm2.mps.gz",
+      "new_case": true,
+      "status": "download_failed",
+      "error": "URLError(PermissionError(13, 'An attempt was made to access a socket in a way forbidden by its access permissions', None, 10013, None))"
+    },
+    {
+      "name": "bell3a",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/bell3a.mps.gz",
+      "new_case": true,
+      "status": "download_failed",
+      "error": "URLError(PermissionError(13, 'An attempt was made to access a socket in a way forbidden by its access permissions', None, 10013, None))"
+    },
+    {
+      "name": "bell5",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/bell5.mps.gz",
+      "new_case": true,
+      "status": "download_failed",
+      "error": "URLError(PermissionError(13, 'An attempt was made to access a socket in a way forbidden by its access permissions', None, 10013, None))"
+    },
+    {
+      "name": "gesa2",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/gesa2.mps.gz",
+      "new_case": true,
+      "status": "download_failed",
+      "error": "URLError(PermissionError(13, 'An attempt was made to access a socket in a way forbidden by its access permissions', None, 10013, None))"
+    },
+    {
+      "name": "noswot",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/noswot.mps.gz",
+      "new_case": true,
+      "status": "download_failed",
+      "error": "URLError(PermissionError(13, 'An attempt was made to access a socket in a way forbidden by its access permissions', None, 10013, None))"
+    }
+  ]
+}

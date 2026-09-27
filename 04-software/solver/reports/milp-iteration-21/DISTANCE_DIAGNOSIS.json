@@ -1,0 +1,1350 @@
+{
+  "all_checks_pass": true,
+  "runner_sha256": "07ff58f906fdebbbfb6dad6e8cfdab45462ecfbc928fcb69c28de1fa2ac7bf80",
+  "screen_results_sha256": "b3f326bacb93fc07d7d3ef0bcdaf29ada1c9f17903ee995ce28f7dcf8610af73",
+  "runs": [
+    {
+      "key": "lotsize.guided.0",
+      "model_sha256": "9fcea318555b277974f8a6f475afabba33f17e2dc90e215f5ce5f692938ab721",
+      "result_sha256": "273fc6f3b69f5d483806c441d59cc8bf8409b17748932da5ec2213c57bec27ec",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 4.999999999999999,
+            "fractional": 600,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 9.773746562610244,
+            "fractional": 530,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 13.951903966917778,
+            "fractional": 530,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 13.951903966917778,
+            "fractional": 530,
+            "accepted": false
+          },
+          "best_recorded_distance": 4.999999999999999,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "lotsize.distance.0",
+      "model_sha256": "9fcea318555b277974f8a6f475afabba33f17e2dc90e215f5ce5f692938ab721",
+      "result_sha256": "0104e590a23ab81e767abcb1085627fbbb05f0dda180fb0cbf1284812dc03376",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 4.696618687230356,
+            "fractional": 551,
+            "accepted": false
+          },
+          "first_point": null,
+          "last_point": null,
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "budget",
+            "step": 0,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 4.696618687230356,
+          "recorded_point_count": 0
+        }
+      ]
+    },
+    {
+      "key": "lotsize.distance.1",
+      "model_sha256": "9fcea318555b277974f8a6f475afabba33f17e2dc90e215f5ce5f692938ab721",
+      "result_sha256": "d69b70770debf484a993986680f15e8ff1af56835531121feeca5e264ec55b65",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 4.696618687230356,
+            "fractional": 551,
+            "accepted": false
+          },
+          "first_point": null,
+          "last_point": null,
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "budget",
+            "step": 0,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 4.696618687230356,
+          "recorded_point_count": 0
+        }
+      ]
+    },
+    {
+      "key": "lotsize.guided.1",
+      "model_sha256": "9fcea318555b277974f8a6f475afabba33f17e2dc90e215f5ce5f692938ab721",
+      "result_sha256": "6328452252c351a3a86986f312974e29b69877685037bb88fd139d584a284b31",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 4.999999999999999,
+            "fractional": 600,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 9.773746562610244,
+            "fractional": 530,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 13.951903966917778,
+            "fractional": 530,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 13.951903966917778,
+            "fractional": 530,
+            "accepted": false
+          },
+          "best_recorded_distance": 4.999999999999999,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "eil33-2.distance.0",
+      "model_sha256": "6e6c3e48fa0df3ec627baab65c0b8da7a5ef1bd920ed52b3e5706cd70edd9966",
+      "result_sha256": "8527732bee88f5feccf5337189261d4f5036e70dff888e776aa9aa335c1c264b",
+      "status": "time_limit",
+      "objective": 1207.176291,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 2.193122939236928,
+            "fractional": 32,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 2.2193800782425526,
+            "fractional": 25,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 2,
+            "distance": 8.606310109016135e-14,
+            "fractional": 0,
+            "accepted": true
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 2,
+            "distance": 8.606310109016135e-14,
+            "fractional": 0,
+            "accepted": true
+          },
+          "best_recorded_distance": 8.606310109016135e-14,
+          "recorded_point_count": 3
+        }
+      ]
+    },
+    {
+      "key": "eil33-2.guided.0",
+      "model_sha256": "6e6c3e48fa0df3ec627baab65c0b8da7a5ef1bd920ed52b3e5706cd70edd9966",
+      "result_sha256": "235f71beab0ef8e38937d5c43795c4018113a227c422fce84ab6b5e6531da6b4",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 2.193122939236928,
+            "fractional": 32,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 3.615629984051038,
+            "fractional": 30,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 6,
+            "distance": 2.7113924050632905,
+            "fractional": 24,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "budget",
+            "step": 7,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 2.193122939236928,
+          "recorded_point_count": 7
+        }
+      ]
+    },
+    {
+      "key": "eil33-2.guided.1",
+      "model_sha256": "6e6c3e48fa0df3ec627baab65c0b8da7a5ef1bd920ed52b3e5706cd70edd9966",
+      "result_sha256": "c918b9657a2b096064058b0aa85051282674788b71e6e1b1248ac75efe2eefa9",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 2.050658561296859,
+            "fractional": 32,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 2.627712854757917,
+            "fractional": 24,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 8,
+            "distance": 2.739130434782613,
+            "fractional": 20,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "budget",
+            "step": 9,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 2.050658561296859,
+          "recorded_point_count": 9
+        }
+      ]
+    },
+    {
+      "key": "eil33-2.distance.1",
+      "model_sha256": "6e6c3e48fa0df3ec627baab65c0b8da7a5ef1bd920ed52b3e5706cd70edd9966",
+      "result_sha256": "520301ba8caac3605fd5bf49433ce7bc80472f8cfdfdee22f990bee9ce11ef12",
+      "status": "time_limit",
+      "objective": 1207.176291,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 2.193122939236928,
+            "fractional": 32,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 2.2193800782425526,
+            "fractional": 25,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 2,
+            "distance": 8.606310109016135e-14,
+            "fractional": 0,
+            "accepted": true
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 2,
+            "distance": 8.606310109016135e-14,
+            "fractional": 0,
+            "accepted": true
+          },
+          "best_recorded_distance": 8.606310109016135e-14,
+          "recorded_point_count": 3
+        }
+      ]
+    },
+    {
+      "key": "danoint.guided.0",
+      "model_sha256": "9e3a5fbaf73d8c404e1b2c402d2523426ff31779b9b5dfeb7aabe1e90ee94a53",
+      "result_sha256": "6ca4bc52132d7512b21ab8c15422e810c603565480a73b695070245260fb2083",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.03501094091903727,
+            "fractional": 7,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 5.66781375688111,
+            "fractional": 51,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 5.66781375688111,
+            "fractional": 51,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "budget",
+            "step": 1,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.03501094091903727,
+          "recorded_point_count": 1
+        }
+      ]
+    },
+    {
+      "key": "danoint.distance.0",
+      "model_sha256": "9e3a5fbaf73d8c404e1b2c402d2523426ff31779b9b5dfeb7aabe1e90ee94a53",
+      "result_sha256": "6b726c44157fb9af4e21a539b3e1638d80e6ba039685fd7acfc687cec0b32e8e",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 1.5757575757575761,
+            "fractional": 8,
+            "accepted": false
+          },
+          "first_point": null,
+          "last_point": null,
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "budget",
+            "step": 0,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 1.5757575757575761,
+          "recorded_point_count": 0
+        }
+      ]
+    },
+    {
+      "key": "danoint.distance.1",
+      "model_sha256": "9e3a5fbaf73d8c404e1b2c402d2523426ff31779b9b5dfeb7aabe1e90ee94a53",
+      "result_sha256": "6c78dd89f2c7d71230eafcc8b386e53142aa9889d4fe039a3fbb84223b15c915",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 0.03501094091903727,
+            "fractional": 7,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.03532008830022084,
+            "fractional": 7,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.03532008830022084,
+            "fractional": 7,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "budget",
+            "step": 1,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.03501094091903727,
+          "recorded_point_count": 1
+        }
+      ]
+    },
+    {
+      "key": "danoint.guided.1",
+      "model_sha256": "9e3a5fbaf73d8c404e1b2c402d2523426ff31779b9b5dfeb7aabe1e90ee94a53",
+      "result_sha256": "efbcf806ac11441562e7802854aba35b5b8cb990a1407996634e0c70b5835803",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.03501094091903727,
+            "fractional": 7,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 5.66781375688111,
+            "fractional": 51,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 5.66781375688111,
+            "fractional": 51,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "budget",
+            "step": 1,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.03501094091903727,
+          "recorded_point_count": 1
+        }
+      ]
+    },
+    {
+      "key": "blend2.distance.0",
+      "model_sha256": "48c009606d5e949baa8e5e060c8b0cafd3eb96f9d615d98fff0d626d5b6e503f",
+      "result_sha256": "3e4d02f325eeecb3eaccb893e4feaa951628b2ca0701041f5fc85163466a747c",
+      "status": "time_limit",
+      "objective": 8.788661,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 0.22714786907566142,
+            "fractional": 1,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.3294979699807333,
+            "fractional": 2,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 43,
+            "distance": 1.9359985804166266,
+            "fractional": 10,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "infeasible",
+            "step": 44,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.22714786907566142,
+          "recorded_point_count": 44
+        }
+      ]
+    },
+    {
+      "key": "blend2.guided.0",
+      "model_sha256": "48c009606d5e949baa8e5e060c8b0cafd3eb96f9d615d98fff0d626d5b6e503f",
+      "result_sha256": "d3944b7113e2cd5f3574226a5606185df7c689f9c2ef46f339ea5cce78260562",
+      "status": "time_limit",
+      "objective": 8.788661,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.22714786907566142,
+            "fractional": 1,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 1.1896034121863837,
+            "fractional": 6,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 1.2533546606164705,
+            "fractional": 11,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 1.2533546606164705,
+            "fractional": 11,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.22714786907566142,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "blend2.guided.1",
+      "model_sha256": "48c009606d5e949baa8e5e060c8b0cafd3eb96f9d615d98fff0d626d5b6e503f",
+      "result_sha256": "fa315714862c336391cac08a217938a1cb11a8aea89c7366121344e40f2738e4",
+      "status": "time_limit",
+      "objective": 8.788661,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.22714786907566142,
+            "fractional": 1,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 1.1896034121863837,
+            "fractional": 6,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 1.2533546606164705,
+            "fractional": 11,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 1.2533546606164705,
+            "fractional": 11,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.22714786907566142,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "blend2.distance.1",
+      "model_sha256": "48c009606d5e949baa8e5e060c8b0cafd3eb96f9d615d98fff0d626d5b6e503f",
+      "result_sha256": "e64c23bf29a073f4b96b5e39df7f50254898fcd68c749c92d3710ea5448fb28a",
+      "status": "time_limit",
+      "objective": 8.788661,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 0.22714786907566142,
+            "fractional": 1,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.3294979699807333,
+            "fractional": 2,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 43,
+            "distance": 1.9359985804166266,
+            "fractional": 10,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "infeasible",
+            "step": 44,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.22714786907566142,
+          "recorded_point_count": 44
+        }
+      ]
+    },
+    {
+      "key": "p0201.guided.0",
+      "model_sha256": "8352d7f121289185f443fdc67080fa9de01e5b9bf11b0bf41087fba4277c07a4",
+      "result_sha256": "a8e4441ec9932122bcd57563f4501b7951bc1ca0ac51b3473e73d5595aee051f",
+      "status": "gap_limit",
+      "objective": 7615,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.12500000000000022,
+            "fractional": 1,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 6.800000000000004,
+            "fractional": 18,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 7,
+            "distance": 0,
+            "fractional": 0,
+            "accepted": true
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 7,
+            "distance": 0,
+            "fractional": 0,
+            "accepted": true
+          },
+          "best_recorded_distance": 0,
+          "recorded_point_count": 8
+        }
+      ]
+    },
+    {
+      "key": "p0201.distance.0",
+      "model_sha256": "8352d7f121289185f443fdc67080fa9de01e5b9bf11b0bf41087fba4277c07a4",
+      "result_sha256": "a4feedc5cb7fa95f0f933bf0174b92fbf53d8645736e553a6372357e7efd5cd4",
+      "status": "gap_limit",
+      "objective": 7615,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 0.12500000000000022,
+            "fractional": 1,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.25,
+            "fractional": 1,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 1,
+            "distance": 0,
+            "fractional": 0,
+            "accepted": true
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 1,
+            "distance": 0,
+            "fractional": 0,
+            "accepted": true
+          },
+          "best_recorded_distance": 0,
+          "recorded_point_count": 2
+        }
+      ]
+    },
+    {
+      "key": "p0201.distance.1",
+      "model_sha256": "8352d7f121289185f443fdc67080fa9de01e5b9bf11b0bf41087fba4277c07a4",
+      "result_sha256": "abf4cfd26101a0f777c4b3d94c2d512ea35dd0b66f15e1b6b3bfc9a6675229d8",
+      "status": "gap_limit",
+      "objective": 7615,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 0.12500000000000022,
+            "fractional": 1,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.25,
+            "fractional": 1,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 1,
+            "distance": 0,
+            "fractional": 0,
+            "accepted": true
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 1,
+            "distance": 0,
+            "fractional": 0,
+            "accepted": true
+          },
+          "best_recorded_distance": 0,
+          "recorded_point_count": 2
+        }
+      ]
+    },
+    {
+      "key": "p0201.guided.1",
+      "model_sha256": "8352d7f121289185f443fdc67080fa9de01e5b9bf11b0bf41087fba4277c07a4",
+      "result_sha256": "4e264689a308afdc2ba55c817a0c8aef6beae5cf425f1f4a5241fd966fde3c0c",
+      "status": "gap_limit",
+      "objective": 7615,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.12500000000000022,
+            "fractional": 1,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 6.800000000000004,
+            "fractional": 18,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 7,
+            "distance": 0,
+            "fractional": 0,
+            "accepted": true
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 7,
+            "distance": 0,
+            "fractional": 0,
+            "accepted": true
+          },
+          "best_recorded_distance": 0,
+          "recorded_point_count": 8
+        }
+      ]
+    },
+    {
+      "key": "rout.distance.0",
+      "model_sha256": "ed73ef89a0faffea96a1ef085eb1f64c1116517abd6daaa1b99d3f4cd91eee95",
+      "result_sha256": "a037a40b26083fca8f6ab8726718c1e38c5f0304f6796b71b1e450f7a710a4a0",
+      "status": "time_limit",
+      "objective": 1703.4699999232714,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 0.6666666666666664,
+            "fractional": 4,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.7177294858092865,
+            "fractional": 6,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 23,
+            "distance": 0.5555555555555558,
+            "fractional": 5,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "propagation_rejected",
+            "step": 24,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.5000000002857141,
+          "recorded_point_count": 24
+        }
+      ]
+    },
+    {
+      "key": "rout.guided.0",
+      "model_sha256": "ed73ef89a0faffea96a1ef085eb1f64c1116517abd6daaa1b99d3f4cd91eee95",
+      "result_sha256": "eeb762ed5e5ae4a9c4f0288b5aae077bef79ec6302534fb8500b922d4051ee70",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.6666666666666664,
+            "fractional": 4,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 10.07416912125593,
+            "fractional": 39,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 6.339296729928941,
+            "fractional": 27,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 6.339296729928941,
+            "fractional": 27,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.6666666666666664,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "rout.guided.1",
+      "model_sha256": "ed73ef89a0faffea96a1ef085eb1f64c1116517abd6daaa1b99d3f4cd91eee95",
+      "result_sha256": "4bc7213e6ee491f99db5fc02ef9c6d61cbe57f06794decfd11af825cc608fb57",
+      "status": "time_limit",
+      "objective": null,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.6666666666666664,
+            "fractional": 4,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 10.07416912125593,
+            "fractional": 39,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 6.339296729928941,
+            "fractional": 27,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 6.339296729928941,
+            "fractional": 27,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.6666666666666664,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "rout.distance.1",
+      "model_sha256": "ed73ef89a0faffea96a1ef085eb1f64c1116517abd6daaa1b99d3f4cd91eee95",
+      "result_sha256": "cd8c3b6215207d6504972f73091b40248a91d41fa8ef963259addadab1ea7fd3",
+      "status": "time_limit",
+      "objective": 1703.4699999232714,
+      "guided_dives": 1,
+      "trace_truncated": false,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 0.6666666666666664,
+            "fractional": 4,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.7177294858092865,
+            "fractional": 6,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 23,
+            "distance": 0.5555555555555558,
+            "fractional": 5,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_trial",
+            "status": "propagation_rejected",
+            "step": 24,
+            "distance": null,
+            "fractional": 0,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.5000000002857141,
+          "recorded_point_count": 24
+        }
+      ]
+    },
+    {
+      "key": "gt2.guided.0",
+      "model_sha256": "7dfdce934f95ced966a14e9eaad34023bbe966dc295589a33ac0676d810707dd",
+      "result_sha256": "d5871c762c668b86d6c98ebe5df7de2987a57ae721d5415df5773b3889830e94",
+      "status": "time_limit",
+      "objective": 35673,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.3482025947706662,
+            "fractional": 7,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 1.3963108473470616,
+            "fractional": 12,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 0.6908025248573869,
+            "fractional": 8,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 0.6908025248573869,
+            "fractional": 8,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.16956074637804042,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "gt2.distance.0",
+      "model_sha256": "7dfdce934f95ced966a14e9eaad34023bbe966dc295589a33ac0676d810707dd",
+      "result_sha256": "33f3fdf6b9b3dcfdb07bcca6b6aaccb853b346125812f33953640d4481f90649",
+      "status": "time_limit",
+      "objective": 35673,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 0.3482025947706662,
+            "fractional": 7,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.22981269737524412,
+            "fractional": 6,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 0.0730183935424111,
+            "fractional": 2,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 0.0730183935424111,
+            "fractional": 2,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.023025009924573243,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "gt2.distance.1",
+      "model_sha256": "7dfdce934f95ced966a14e9eaad34023bbe966dc295589a33ac0676d810707dd",
+      "result_sha256": "9db70fabb0e368880dc9219d1a37909eaf30ebc7a02d6e6eed7f5b028d026f9f",
+      "status": "time_limit",
+      "objective": 35673,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_distance",
+            "step": 0,
+            "distance": 0.3482025947706662,
+            "fractional": 7,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 0.22981269737524412,
+            "fractional": 6,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 0.0730183935424111,
+            "fractional": 2,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 0.0730183935424111,
+            "fractional": 2,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.023025009924573243,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "gt2.guided.1",
+      "model_sha256": "7dfdce934f95ced966a14e9eaad34023bbe966dc295589a33ac0676d810707dd",
+      "result_sha256": "45b97612e5ddf43b0f343116b85b287ba915c812380c52f99ef1320d7f9ad925",
+      "status": "time_limit",
+      "objective": 35673,
+      "guided_dives": 1,
+      "trace_truncated": true,
+      "retained_dives": [
+        {
+          "node": 0,
+          "start": {
+            "kind": "dive_start",
+            "status": "pump_guided",
+            "step": 0,
+            "distance": 0.3482025947706662,
+            "fractional": 7,
+            "accepted": false
+          },
+          "first_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 0,
+            "distance": 1.3963108473470616,
+            "fractional": 12,
+            "accepted": false
+          },
+          "last_point": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 0.6908025248573869,
+            "fractional": 8,
+            "accepted": false
+          },
+          "last_trial": {
+            "kind": "dive_point",
+            "status": "accepted_candidate",
+            "step": 63,
+            "distance": 0.6908025248573869,
+            "fractional": 8,
+            "accepted": false
+          },
+          "best_recorded_distance": 0.16956074637804042,
+          "recorded_point_count": 64
+        }
+      ]
+    },
+    {
+      "key": "pk1.distance.0",
+      "model_sha256": "f0a362be150a52baa650130b752e44ed0921d4c8a98af74c4a1f7a9bb3c65983",
+      "result_sha256": "24edaed761ce36773a05f46f5f151125388c4ad94f1226d5db2ba68a1b4601f4",
+      "status": "time_limit",
+      "objective": 20.000000000000007,
+      "guided_dives": 0,
+      "trace_truncated": false,
+      "retained_dives": []
+    },
+    {
+      "key": "pk1.guided.0",
+      "model_sha256": "f0a362be150a52baa650130b752e44ed0921d4c8a98af74c4a1f7a9bb3c65983",
+      "result_sha256": "17d9ccb608e500906bb560b77333c59eb0094aeca4178f4926256e2f63bbc9c6",
+      "status": "time_limit",
+      "objective": 20.000000000000007,
+      "guided_dives": 0,
+      "trace_truncated": false,
+      "retained_dives": []
+    },
+    {
+      "key": "pk1.guided.1",
+      "model_sha256": "f0a362be150a52baa650130b752e44ed0921d4c8a98af74c4a1f7a9bb3c65983",
+      "result_sha256": "11c7739ee9ca5b4e2a58e71daba4aab1de5670c1835d6843b02549bde6df3781",
+      "status": "time_limit",
+      "objective": 28.999999999999996,
+      "guided_dives": 0,
+      "trace_truncated": false,
+      "retained_dives": []
+    },
+    {
+      "key": "pk1.distance.1",
+      "model_sha256": "f0a362be150a52baa650130b752e44ed0921d4c8a98af74c4a1f7a9bb3c65983",
+      "result_sha256": "7711e459003bb92f05b86551739e6d5a761d5c3af3b036cb565586448a192a65",
+      "status": "time_limit",
+      "objective": 25.000000000000004,
+      "guided_dives": 0,
+      "trace_truncated": false,
+      "retained_dives": []
+    }
+  ],
+  "scope": "Saved scalar trajectory summary with seed/start consistency; not independent verification of unsaved vectors, LP certificates or causal timing claims."
+}

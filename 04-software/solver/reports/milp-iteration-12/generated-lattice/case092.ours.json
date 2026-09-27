@@ -1,0 +1,299 @@
+{
+  "status": "optimal",
+  "message": "",
+  "nodes": 19,
+  "lp_iterations": 42,
+  "total_seconds": 0.0060853,
+  "warm_starts": 14,
+  "heuristic_solves": 0,
+  "cuts": 0,
+  "bound_tightenings": 0,
+  "rows": 4,
+  "columns": 5,
+  "objective": -52.25,
+  "pump_projections": 0,
+  "pump_restarts": 0,
+  "pump_incumbents": 0,
+  "cut_rollbacks": 0,
+  "first_incumbent_seconds": 0.00032350000000036516,
+  "best_bound": -52.25,
+  "objective_lattice": {
+    "enabled": true,
+    "eligible": true,
+    "reason": "checked_parsed_model_lattice",
+    "offset_minimization": 2.75,
+    "step": 1,
+    "coefficients_minimization": [
+      22,
+      -29,
+      25,
+      -16,
+      0
+    ],
+    "substitutions": [
+      {
+        "column": 4,
+        "row": 0
+      }
+    ],
+    "bound_calls": 30,
+    "bound_improvements": 30,
+    "trace_truncated": false,
+    "trace": [
+      {
+        "node": 0,
+        "before_minimization": -72.08334064166667,
+        "after_minimization": -71.25000000000001
+      },
+      {
+        "node": 0,
+        "before_minimization": -72.08334064166667,
+        "after_minimization": -71.25000000000001
+      },
+      {
+        "node": 1,
+        "before_minimization": -59.950006095,
+        "after_minimization": -59.25000000000001
+      },
+      {
+        "node": 1,
+        "before_minimization": -59.950006095,
+        "after_minimization": -59.25000000000001
+      },
+      {
+        "node": 2,
+        "before_minimization": -70.08334044166666,
+        "after_minimization": -69.25000000000001
+      },
+      {
+        "node": 2,
+        "before_minimization": -70.08334044166666,
+        "after_minimization": -69.25000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -63.25000642499999,
+        "after_minimization": -63.25000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -63.25000642499999,
+        "after_minimization": -63.25000000000001
+      },
+      {
+        "node": 6,
+        "before_minimization": -62.58333969166667,
+        "after_minimization": -62.25000000000001
+      },
+      {
+        "node": 6,
+        "before_minimization": -62.58333969166667,
+        "after_minimization": -62.25000000000001
+      },
+      {
+        "node": 8,
+        "before_minimization": -56.41667240833331,
+        "after_minimization": -56.25000000000001
+      },
+      {
+        "node": 8,
+        "before_minimization": -56.41667240833331,
+        "after_minimization": -56.25000000000001
+      },
+      {
+        "node": 9,
+        "before_minimization": -49.250005025,
+        "after_minimization": -49.25000000000001
+      },
+      {
+        "node": 9,
+        "before_minimization": -49.250005025,
+        "after_minimization": -49.25000000000001
+      },
+      {
+        "node": 10,
+        "before_minimization": -54.250005524999985,
+        "after_minimization": -54.25000000000001
+      },
+      {
+        "node": 10,
+        "before_minimization": -54.250005524999985,
+        "after_minimization": -54.25000000000001
+      },
+      {
+        "node": 3,
+        "before_minimization": -57.95000589499999,
+        "after_minimization": -57.25000000000001
+      },
+      {
+        "node": 3,
+        "before_minimization": -57.95000589499999,
+        "after_minimization": -57.25000000000001
+      },
+      {
+        "node": 4,
+        "before_minimization": -29.350003035,
+        "after_minimization": -29.250000000000004
+      },
+      {
+        "node": 4,
+        "before_minimization": -29.350003035,
+        "after_minimization": -29.250000000000004
+      },
+      {
+        "node": 15,
+        "before_minimization": -44.75000457500001,
+        "after_minimization": -44.25000000000001
+      },
+      {
+        "node": 15,
+        "before_minimization": -44.75000457500001,
+        "after_minimization": -44.25000000000001
+      },
+      {
+        "node": 16,
+        "before_minimization": -48.75000497500001,
+        "after_minimization": -48.25000000000001
+      },
+      {
+        "node": 16,
+        "before_minimization": -48.75000497500001,
+        "after_minimization": -48.25000000000001
+      },
+      {
+        "node": 12,
+        "before_minimization": -54.916672258333335,
+        "after_minimization": -54.25000000000001
+      },
+      {
+        "node": 12,
+        "before_minimization": -54.916672258333335,
+        "after_minimization": -54.25000000000001
+      },
+      {
+        "node": 17,
+        "before_minimization": -52.250005325,
+        "after_minimization": -52.25000000000001
+      },
+      {
+        "node": 17,
+        "before_minimization": -52.250005325,
+        "after_minimization": -52.25000000000001
+      },
+      {
+        "node": 14,
+        "before_minimization": -45.91667135833334,
+        "after_minimization": -45.25000000000001
+      },
+      {
+        "node": 14,
+        "before_minimization": -45.91667135833334,
+        "after_minimization": -45.25000000000001
+      }
+    ]
+  },
+  "compact_equalities_enabled": false,
+  "late_compact_equalities_enabled": false,
+  "compact_lp_calls": 0,
+  "compact_lp_fallbacks": 0,
+  "root_lp_rows": 9,
+  "root_compact_equalities": 0,
+  "branching": "fractionality",
+  "pseudocost_updates": 0,
+  "reduced_bound_lp_enabled": false,
+  "late_reduced_bound_lp_enabled": false,
+  "reduced_bound_lp_calls": 0,
+  "reduced_bound_lp_fallbacks": 0,
+  "reduced_bound_lp_accepted": 0,
+  "reduced_upper_candidates": 0,
+  "root_reduced_upper_bounds": 0,
+  "strong_branch_probes": 0,
+  "strong_branch_seconds": 0,
+  "gap": 0,
+  "lp_recovery_attempts": 0,
+  "lp_recovery_successes": 0,
+  "lp_recovery_seconds": 0,
+  "deferred_nodes": 0,
+  "unresolved_nodes": 0,
+  "neighborhood_calls": 0,
+  "neighborhood_nodes": 0,
+  "neighborhood_improvements": 0,
+  "neighborhood_seconds": 0,
+  "neighborhood_paced": false,
+  "neighborhood_min_spacing_seconds": 0,
+  "neighborhood": "guided",
+  "neighborhood_trace": [],
+  "first_lp_failure": null,
+  "rejected_integer_candidates": 0,
+  "rejected_candidates": [],
+  "candidate_repair_attempts": 0,
+  "candidate_repair_successes": 0,
+  "repair_branch_nodes": 0,
+  "candidate_repair_seconds": 0,
+  "binary_meet_enabled": false,
+  "binary_meet_attempts": 0,
+  "binary_meet_eligible": false,
+  "binary_meet_completed": false,
+  "binary_meet_improved": false,
+  "binary_meet_left_states": 0,
+  "binary_meet_right_states": 0,
+  "binary_meet_query_nodes": 0,
+  "binary_meet_seconds": 0,
+  "binary_meet_budget": 0,
+  "binary_meet_primal": [],
+  "lifted_covers_enabled": false,
+  "lifted_cover_states": 0,
+  "lifted_cover_checked": 0,
+  "lifted_cover_seconds": 0,
+  "late_lifted_covers_enabled": false,
+  "cut_restarts": 0,
+  "cut_restart_nodes": 0,
+  "cut_restart_seconds": 0,
+  "cut_restart_bound": null,
+  "cut_restart_objective": null,
+  "cut_restart_primal": [],
+  "root_bound_before_cuts": -71.25000000000001,
+  "root_bound_after_cuts": -71.25000000000001,
+  "lifted_cover_trace": [],
+  "binary_proof_enabled": false,
+  "binary_proof_attempts": 0,
+  "binary_proof_budget": 0,
+  "binary_proof": {
+    "version": 1,
+    "arithmetic": "checked_int64",
+    "status": "not_run",
+    "reason": "",
+    "eligible": false,
+    "completed": false,
+    "verified": false,
+    "feasible": false,
+    "seconds": 0,
+    "work": 0,
+    "work_limit": 50000000,
+    "left_states": 0,
+    "right_states": 0,
+    "query_nodes": 0,
+    "objective_minimization": null,
+    "binary_indices": [],
+    "primal": []
+  },
+  "incumbent_trace": [
+    [
+      0.0003235999999997574,
+      -49.25
+    ],
+    [
+      0.0005435000000000301,
+      -52.25
+    ]
+  ],
+  "primal": [
+    -1,
+    2,
+    1,
+    0,
+    -6
+  ],
+  "process_seconds": 0.021769700018921867,
+  "exit_code": 0
+}

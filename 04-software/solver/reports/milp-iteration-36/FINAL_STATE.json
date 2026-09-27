@@ -1,0 +1,53 @@
+{
+ "iteration": 36,
+ "date": "2026-09-20",
+ "decision": "Promoted; all declared criteria met.",
+ "binary_sha256": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad",
+ "control_binary_sha256": "58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a",
+ "validation_failures": 0,
+ "rejected_points": 0,
+ "format": "[control, candidate]",
+ "mechanism_300s": {
+  "roots_solved": [
+   0,
+   1
+  ],
+  "proven": [
+   0,
+   1
+  ],
+  "neos8": "exit 2 abort -> gap_limit, -3719 = published, 67 nodes, 91 separator rows discarded",
+  "buildingenergy": "exit 2 -> time_limit status, still no root (genuinely too large)",
+  "supportcase10": "exit 2 -> time_limit status, still no root (genuinely too large)"
+ },
+ "development": {
+  "completions_our_status": [
+   26,
+   26
+  ],
+  "checked_points": [
+   50,
+   50
+  ],
+  "resource_limits_hit": [
+   0,
+   0
+  ],
+  "separator_rows_discarded": [
+   0,
+   0
+  ]
+ },
+ "fresh_300s": {
+  "instances": 8,
+  "result": "identical to control on all eight; no root solved in 300 s"
+ },
+ "not_shown": "Does not make large models solvable; the iteration 32 support cap allowing 5,000-nonzero cuts is untouched and remains the underlying cause.",
+ "files_sha256": {
+  "CANDIDATE_PROFILE.json": "47e94c83878ca0f458e4e65b5a5511a1d7fd7263179c6ec0e24108fab5cefa2e",
+  "DEVELOPMENT.json": "bc532c007c2ad7f3d7090d84289eb4c29c3fd29f2d3c9e1b33b0015ba197d061",
+  "PLAN.md": "f8dd593801dc8e23115bf9c63db22c5bec04b16836cd2e0662d884eb9725e0f5",
+  "REPORT.md": "e9b4ffdf53896208c50759f9336608ad28f106bfc5fe307b01683ead9f88baf2",
+  "SOURCE_IDENTITY.json": "86e663452079adb37e325ab7773907399ee8e58c8ce205e2c249b610a5870618"
+ }
+}

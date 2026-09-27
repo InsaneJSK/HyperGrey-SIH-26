@@ -1,0 +1,30 @@
+{
+ "name": "neos-3656078-kumeu",
+ "status": "node_limit",
+ "message": "",
+ "wall_seconds": 25.6,
+ "rows": 17656,
+ "columns": 14870,
+ "root_lp_failure_status": null,
+ "root_lp_iterations": null,
+ "bounded": {
+  "calls": 20,
+  "optimal": 18,
+  "failures": 1,
+  "fallbacks": 0,
+  "iterations": 19932,
+  "verification_rejected": 0,
+  "farkas_rejected": 0,
+  "refactors": 341,
+  "singular_repairs": 0,
+  "seconds": 20.357218500000005
+ },
+ "lp_recovery": {
+  "attempts": 0,
+  "successes": 0,
+  "seconds": 0
+ },
+ "debug": [
+  "bounded failure status=time_limit warm=1 it=9"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "name": "mzzv11",
+ "status": "time_limit",
+ "message": "LP relaxation did not pass its numerical checks",
+ "wall_seconds": 301.1,
+ "rows": 9499,
+ "columns": 10240,
+ "root_lp_failure_status": null,
+ "root_lp_iterations": null,
+ "bounded": {
+  "calls": 1,
+  "optimal": 0,
+  "failures": 1,
+  "fallbacks": 0,
+  "iterations": 19136,
+  "verification_rejected": 0,
+  "farkas_rejected": 0,
+  "refactors": 300,
+  "singular_repairs": 0,
+  "seconds": 300.5016843
+ },
+ "lp_recovery": {
+  "attempts": 0,
+  "successes": 0,
+  "seconds": 0
+ },
+ "debug": [
+  "bounded failure status=time_limit warm=0 it=19136"
+ ]
+}

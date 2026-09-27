@@ -1,0 +1,20 @@
+{
+  "all_pass": true,
+  "prior": "reports/milp-iteration-07/local-proof-validation",
+  "current": "reports/milp-iteration-08/local-180s",
+  "guided_binary_results": 40,
+  "guided_mixed_results": 40,
+  "compared_results": 80,
+  "fields": ["status", "objective", "primal", "best_bound", "gap", "nodes", "lp_iterations", "passed"],
+  "differences": [],
+  "final_delayed_build_comparison": {
+    "current": "reports/milp-iteration-08/late-180s",
+    "prior": "reports/milp-iteration-07/local-proof-validation",
+    "guided_binary": 40,
+    "guided_mixed": 40,
+    "differences": [],
+    "all_pass": true
+  },
+  "method": "PowerShell compressed JSON field comparison, depth 10; timings and new diagnostics excluded.",
+  "limitation": "Generated numerical nonregression, not performance equivalence across public models."
+}

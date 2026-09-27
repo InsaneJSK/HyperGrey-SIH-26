@@ -1,0 +1,125 @@
+p0033.candidate.0 {'status': 'optimal', 'objective': 3089, 'gap': 0, 'nodes': 1}
+p0033.candidate.1 {'status': 'optimal', 'objective': 3089, 'gap': 0, 'nodes': 1}
+enigma.candidate.0 {'status': 'gap_limit', 'objective': 0, 'gap': 5e-324, 'nodes': 7795}
+enigma.candidate.1 {'status': 'gap_limit', 'objective': 0, 'gap': 5e-324, 'nodes': 7795}
+flugpl.candidate.0 {'status': 'gap_limit', 'objective': 1201500, 'gap': 1.0000094234590376e-07, 'nodes': 545}
+flugpl.candidate.1 {'status': 'gap_limit', 'objective': 1201500, 'gap': 1.0000094234590376e-07, 'nodes': 545}
+stein27.candidate.0 {'status': 'gap_limit', 'objective': 18, 'gap': 1.8698493046318425e-16, 'nodes': 4885}
+stein27.candidate.1 {'status': 'gap_limit', 'objective': 18, 'gap': 1.8698493046318425e-16, 'nodes': 4885}
+markshare_4_0.candidate.0 {'status': 'optimal', 'objective': 1, 'gap': 0, 'nodes': 1}
+markshare_4_0.candidate.1 {'status': 'optimal', 'objective': 1, 'gap': 0, 'nodes': 1}
+blend2.candidate.0 {'status': 'gap_limit', 'objective': 7.598985, 'gap': 1.0000000092504248e-07, 'nodes': 10345}
+blend2.candidate.1 {'status': 'gap_limit', 'objective': 7.598985, 'gap': 1.0000000092504248e-07, 'nodes': 10345}
+binkar10_1.candidate.0 {'status': 'time_limit', 'objective': 6751.010020719875, 'gap': 0.008293895280414675, 'nodes': 9624}
+binkar10_1.candidate.1 {'status': 'time_limit', 'objective': 6751.010020719875, 'gap': 0.008301113710341325, 'nodes': 9441}
+egout.candidate.0 {'status': 'gap_limit', 'objective': 568.100699999881, 'gap': 0, 'nodes': 233}
+egout.candidate.1 {'status': 'gap_limit', 'objective': 568.100699999881, 'gap': 0, 'nodes': 233}
+gt2.candidate.0 {'status': 'time_limit', 'objective': 34413, 'gap': 0.46271866101005416, 'nodes': 269534}
+gt2.candidate.1 {'status': 'time_limit', 'objective': 34413, 'gap': 0.46271866101005416, 'nodes': 267120}
+lseu.candidate.0 {'status': 'gap_limit', 'objective': 1120, 'gap': 2.0283111101091175e-16, 'nodes': 7789}
+lseu.candidate.1 {'status': 'gap_limit', 'objective': 1120, 'gap': 2.0283111101091175e-16, 'nodes': 7789}
+mod008.candidate.0 {'status': 'gap_limit', 'objective': 307, 'gap': 1.8455655474288318e-16, 'nodes': 8793}
+mod008.candidate.1 {'status': 'gap_limit', 'objective': 307, 'gap': 1.8455655474288318e-16, 'nodes': 8793}
+p0201.candidate.0 {'status': 'gap_limit', 'objective': 7615, 'gap': 1.1941894718657145e-16, 'nodes': 1974}
+p0201.candidate.1 {'status': 'gap_limit', 'objective': 7615, 'gap': 1.1941894718657145e-16, 'nodes': 1974}
+p0282.candidate.0 {'status': 'time_limit', 'objective': 259583, 'gap': 0.08709704758382654, 'nodes': 102816}
+p0282.candidate.1 {'status': 'time_limit', 'objective': 259123, 'gap': 0.08562309936555483, 'nodes': 101915}
+misc03.candidate.0 {'status': 'gap_limit', 'objective': 3360, 'gap': 1.3530120526226246e-16, 'nodes': 2373}
+misc03.candidate.1 {'status': 'gap_limit', 'objective': 3360, 'gap': 1.3530120526226246e-16, 'nodes': 2373}
+misc07.candidate.0 {'status': 'time_limit', 'objective': 2810, 'gap': 0.06581287797936694, 'nodes': 27425}
+misc07.candidate.1 {'status': 'time_limit', 'objective': 2810, 'gap': 0.06937033084311649, 'nodes': 25994}
+pk1.candidate.0 {'status': 'time_limit', 'objective': 16.999999963999997, 'gap': 0.5377645055513134, 'nodes': 131275}
+pk1.candidate.1 {'status': 'time_limit', 'objective': 16.999999963999997, 'gap': 0.5300389939487621, 'nodes': 141878}
+rgn.candidate.0 {'status': 'gap_limit', 'objective': 82.1999992168221, 'gap': 9.98416203562807e-08, 'nodes': 4245}
+rgn.candidate.1 {'status': 'gap_limit', 'objective': 82.1999992168221, 'gap': 9.98416203562807e-08, 'nodes': 4245}
+gen-ip002.candidate.0 {'status': 'time_limit', 'objective': -4724.8466154, 'gap': 0.017970406161798905, 'nodes': 188621}
+gen-ip002.candidate.1 {'status': 'time_limit', 'objective': -4724.8466154, 'gap': 0.017999330962569227, 'nodes': 183067}
+assign1-5-8.candidate.0 {'status': 'time_limit', 'objective': 211.999999995, 'gap': 0.09722176140915251, 'nodes': 16593}
+assign1-5-8.candidate.1 {'status': 'time_limit', 'objective': 211.999999995, 'gap': 0.097273999051323, 'nodes': 16446}
+lotsize.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 4883}
+lotsize.candidate.1 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 5020}
+eil33-2.candidate.0 {'status': 'time_limit', 'objective': 987.6741330000001, 'gap': 0.08462741225867854, 'nodes': 4606}
+eil33-2.candidate.1 {'status': 'time_limit', 'objective': 987.6741330000001, 'gap': 0.08702570323871145, 'nodes': 4346}
+mas74.candidate.0 {'status': 'time_limit', 'objective': 12510.948580000002, 'gap': 0.11475065831541886, 'nodes': 149186}
+mas74.candidate.1 {'status': 'time_limit', 'objective': 12720.343972100012, 'gap': 0.12907546461122238, 'nodes': 155078}
+gen-ip054.candidate.0 {'status': 'time_limit', 'objective': 6886.31177725, 'gap': 0.013290923491909423, 'nodes': 307226}
+gen-ip054.candidate.1 {'status': 'time_limit', 'objective': 6886.31177725, 'gap': 0.013339635107591332, 'nodes': 286150}
+neos859080.candidate.0 {'status': 'infeasible', 'objective': None, 'gap': None, 'nodes': 99}
+neos859080.candidate.1 {'status': 'infeasible', 'objective': None, 'gap': None, 'nodes': 99}
+danoint.candidate.0 {'status': 'time_limit', 'objective': 69.4999999845, 'gap': 0.09317602533959267, 'nodes': 2033}
+danoint.candidate.1 {'status': 'time_limit', 'objective': 69.4999999845, 'gap': 0.09322726807043216, 'nodes': 1954}
+rout.candidate.0 {'status': 'time_limit', 'objective': 1259.3099999300805, 'gap': 0.20571705864338455, 'nodes': 26751}
+rout.candidate.1 {'status': 'time_limit', 'objective': 1259.3099999300805, 'gap': 0.2065554764407627, 'nodes': 12630}
+mas76.candidate.0 {'status': 'time_limit', 'objective': 40735.653520500004, 'gap': 0.02922907596752039, 'nodes': 113299}
+mas76.candidate.1 {'status': 'time_limit', 'objective': 40990.366868200006, 'gap': 0.03468664471143594, 'nodes': 137579}
+p0033.candidate.0 exact_proof_checked []
+p0033.candidate.1 exact_proof_checked []
+enigma.candidate.0 numerical_completion_checked []
+enigma.candidate.1 numerical_completion_checked []
+flugpl.candidate.0 numerical_completion_checked []
+flugpl.candidate.1 numerical_completion_checked []
+stein27.candidate.0 numerical_completion_checked []
+stein27.candidate.1 numerical_completion_checked []
+markshare_4_0.candidate.0 exact_proof_checked []
+markshare_4_0.candidate.1 exact_proof_checked []
+blend2.candidate.0 numerical_completion_checked []
+blend2.candidate.1 completion_reference_pending []
+binkar10_1.candidate.0 feasible_limit []
+binkar10_1.candidate.1 feasible_limit []
+egout.candidate.0 numerical_completion_checked []
+egout.candidate.1 numerical_completion_checked []
+gt2.candidate.0 feasible_limit []
+gt2.candidate.1 feasible_limit []
+lseu.candidate.0 numerical_completion_checked []
+lseu.candidate.1 numerical_completion_checked []
+mod008.candidate.0 numerical_completion_checked []
+mod008.candidate.1 numerical_completion_checked []
+p0201.candidate.0 numerical_completion_checked []
+p0201.candidate.1 numerical_completion_checked []
+p0282.candidate.0 feasible_limit []
+p0282.candidate.1 feasible_limit []
+misc03.candidate.0 numerical_completion_checked []
+misc03.candidate.1 numerical_completion_checked []
+misc07.candidate.0 feasible_limit []
+misc07.candidate.1 feasible_limit []
+pk1.candidate.0 feasible_limit []
+pk1.candidate.1 feasible_limit []
+rgn.candidate.0 numerical_completion_checked []
+rgn.candidate.1 numerical_completion_checked []
+gen-ip002.candidate.0 feasible_limit []
+gen-ip002.candidate.1 feasible_limit []
+assign1-5-8.candidate.0 feasible_limit []
+assign1-5-8.candidate.1 feasible_limit []
+lotsize.candidate.0 no_incumbent_limit []
+lotsize.candidate.1 no_incumbent_limit []
+eil33-2.candidate.0 feasible_limit []
+eil33-2.candidate.1 feasible_limit []
+mas74.candidate.0 feasible_limit []
+mas74.candidate.1 feasible_limit []
+gen-ip054.candidate.0 feasible_limit []
+gen-ip054.candidate.1 feasible_limit []
+neos859080.candidate.0 terminal_reference_pending []
+neos859080.candidate.1 terminal_status_crosschecked []
+danoint.candidate.0 feasible_limit []
+danoint.candidate.1 feasible_limit []
+rout.candidate.0 feasible_limit []
+rout.candidate.1 feasible_limit []
+mas76.candidate.0 feasible_limit []
+mas76.candidate.1 feasible_limit []
+{
+  "records": 54,
+  "models": 27,
+  "categories": {
+    "candidate": {
+      "exact_proof_checked": 4,
+      "numerical_completion_checked": 19,
+      "completion_reference_pending": 1,
+      "feasible_limit": 26,
+      "no_incumbent_limit": 2,
+      "terminal_reference_pending": 1,
+      "terminal_status_crosschecked": 1
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "d436b6240adf54b4211b84f9d80e19996ae09311fcfa310e8916df418ceddebf"
+}

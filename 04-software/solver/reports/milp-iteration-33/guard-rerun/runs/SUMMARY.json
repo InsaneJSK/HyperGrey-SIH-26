@@ -1,0 +1,56 @@
+{
+ "old": {
+  "guard_stops": 16,
+  "proven": 0,
+  "completion_agrees": 0,
+  "completion_disagrees": [],
+  "validated_points": 13,
+  "rejected_points": [],
+  "nodes": 4301938,
+  "peak_commit_mib_max": 1307.01171875
+ },
+ "new": {
+  "guard_stops": 1,
+  "proven": 0,
+  "completion_agrees": 0,
+  "completion_disagrees": [],
+  "validated_points": 13,
+  "rejected_points": [],
+  "nodes": 11239624,
+  "peak_commit_mib_max": 1142.96875
+ },
+ "binaries": {
+  "old": "6e073229a08065b6d2fccd7669fb75f99dd89090be39c3ccbcf1d43ca90351a4",
+  "new": "db61dd2628022491c637526bd5cfc8b11b7361458f97a986633d72917810f045"
+ },
+ "flags": [
+  "--milp",
+  "--json",
+  "--lp-recovery",
+  "--improve-incumbent",
+  "--repair-candidates",
+  "--repair-heuristic-candidates",
+  "--late-lifted-covers",
+  "--late-compact-equalities",
+  "--late-reduced-bound-lp",
+  "--binary-proof",
+  "--objective-lattice",
+  "--raw-lp-priority",
+  "--refine-basis",
+  "--refine-at-checks",
+  "--pump-guided-diving",
+  "--pump-distance-diving",
+  "--pump-primal-reopt",
+  "--pump-distance-reopt",
+  "--pump-distance-stage",
+  "--bounded-lp",
+  "--tree-dives",
+  "--fix-propagate",
+  "--time-limit",
+  "300",
+  "--node-limit",
+  "100000000",
+  "--gap",
+  "1e-6"
+ ]
+}

@@ -1,0 +1,8 @@
+{
+  "all_pass": true,
+  "cuts_checked": 0,
+  "feasible_assignments_checked": 0,
+  "source_sides": 0,
+  "arithmetic": "Python unbounded integers, exact binary64 ratios from independent MPS reader",
+  "limitation": "Verifies parsed binary64 rows, not arbitrary-precision original decimal literals; no reference optimizer run."
+}

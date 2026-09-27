@@ -1,0 +1,21 @@
+{
+  "all_pass": true,
+  "runner_sha256": "895f970fa701d68f54d0746f88e132e325fb6a56dad25246dd4779d3404ea5a5",
+  "repeat_runs": 4,
+  "repeat_final_points_checked": 4,
+  "terminal_statuses_checked": 2,
+  "inactive_guidance_runs": 4,
+  "repeat_source_and_binary_match": true,
+  "repeat_results_sha256": "a023f59fa50c728a12e3e1dab873e9a56c19278704e60848e7430ade723e900c",
+  "supplemental_evidence_sha256": {
+    "gt2-repeat-audit/AUDIT.json": "e5af95885cef70c28f46fcafff29b59a8919218feff9379130a3c22f659ea09f",
+    "gt2-repeat-audit/POLICY_AUDIT.json": "a76c8076a4a167261d9dd56c29b469cd483cc04c809213ff8c2dc643d2a9d340",
+    "gt2-repeat-audit/ACCURACY_AUDIT.json": "7e29f0594d5dce8d742fdbafd52444dd06c6e3eedeef811668b0eaf829ed8c5b",
+    "gt2-repeat-audit/SELECTIVE_AUDIT.json": "003b123062e9f31d65632307fad50907beb0aa11f7f790c1c13ac7c9b738fd2c",
+    "gt2-repeat-audit/HEURISTIC_AUDIT.json": "b3ea151f82e0e7f5153e050cb8d7916f61a75b0aaac90611779bf731c790b7ba",
+    "gt2-repeat-audit/PUMP_GUIDANCE_AUDIT.json": "a4ff6c839b8fba2f3e94c6eb2896684c963327aae8a7e5625fba0e993425b62b",
+    "terminal-references/SUMMARY.json": "0f63bc4a65d49e27142b8887447d874d008cc95336207064584bea28bd09b0e0",
+    "inactive-guidance/SUMMARY.json": "3bf4b7c2432461cd085ef5bdc4dbcfc8778a5a62954680d416c201b34e66ffc4",
+    "GUIDANCE_DIAGNOSIS.json": "02593cb9437c98ee77def96f570dfb948d9aef534e0575da826347ad154b5ec0"
+  }
+}

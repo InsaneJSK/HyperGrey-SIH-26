@@ -1,0 +1,46 @@
+{
+  "utc": "2026-09-15T19:52:18.500459+00:00",
+  "selection": [
+    "danoint",
+    "rout",
+    "mas76"
+  ],
+  "prior_results_matches": [],
+  "plan_sha256": "d735ce5d4d7c451c250a589740840f94e986f7683e5dc7c5808ede1fa39e484e",
+  "script_sha256": "db6420014680a5e71e61c1b93d8ac497a6c657e7a2a829065330cb86017115fc",
+  "instances": [
+    {
+      "name": "danoint",
+      "url": "https://miplib.zib.de/WebData/instances/danoint.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_danoint.html",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-accuracy-holdout/danoint.mps",
+      "model_sha256": "9e3a5fbaf73d8c404e1b2c402d2523426ff31779b9b5dfeb7aabe1e90ee94a53",
+      "raw_sha256": "05253f44eaf61d1cc22c291ac93d7422dcd2f91b84b0c71fc19d0c7c2cfa36b9",
+      "bytes": 116576
+    },
+    {
+      "name": "rout",
+      "url": "https://miplib.zib.de/WebData/instances/rout.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_rout.html",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-accuracy-holdout/rout.mps",
+      "model_sha256": "ed73ef89a0faffea96a1ef085eb1f64c1116517abd6daaa1b99d3f4cd91eee95",
+      "raw_sha256": "85e9cbff3baf54aec897ba0d57679929482c8ab039164aa22639261ee4fac0a9",
+      "bytes": 94010
+    },
+    {
+      "name": "mas76",
+      "url": "https://miplib.zib.de/WebData/instances/mas76.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_mas76.html",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-accuracy-holdout/mas76.mps",
+      "model_sha256": "114b73dbe17c1d1b4d37a09311424571781225e01edfbec1c6acb320214593f6",
+      "raw_sha256": "91f624659e181538020e0c627910f02ffa6b355d6df708ef324e697a69485a74",
+      "bytes": 62523
+    }
+  ]
+}

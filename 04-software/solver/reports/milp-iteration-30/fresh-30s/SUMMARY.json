@@ -1,0 +1,19 @@
+{
+  "records": 30,
+  "models": 15,
+  "categories": {
+    "control": {
+      "feasible_limit": 8,
+      "numerical_or_unresolved": 3,
+      "numerical_completion_checked": 1,
+      "no_incumbent_limit": 3
+    },
+    "candidate": {
+      "numerical_completion_checked": 5,
+      "feasible_limit": 9,
+      "no_incumbent_limit": 1
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "da8f27593e099d289ad6f321874a7f2b439001ece55fd894301dba86c0ab9f57"
+}

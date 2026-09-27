@@ -1,0 +1,12 @@
+{
+  "source": "D:\\sih-2026\\SIH-backup-solver\\SIH-backup-solver\\reports\\milp-iteration-15\\holdout-30s\\mas74.baseline.0.ours.json",
+  "source_sha256": "4c5c8da047490b3bb7661e30be070bec25157bc4dd3a152a56b4dc3f3c696b03",
+  "model_sha256": "3de0d967366662e95d8918c68b5cca7b077459d386c9cdb27525faa1a1e81339",
+  "basis_sha256": "214da5a5a91ea5c8d735c3f869711322d861d3ea296bb561a7b07ac301777c84",
+  "source_node": 1,
+  "source_depth": 1,
+  "source_iterations": 5,
+  "ordinary_replay_iteration_limit": 10000,
+  "offset_omitted": 0,
+  "objective_normalized_to_minimization": true
+}

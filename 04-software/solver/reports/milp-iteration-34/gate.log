@@ -1,0 +1,24 @@
+ctest PASS
+retained-cpp PASS
+selective-cpp PASS
+python PASS
+marker-contract PASS
+gt2 disabled parity PASS
+lseu disabled parity PASS
+mod008 disabled parity PASS
+misc03 disabled parity PASS
+Enumeration: 40 / 40
+Mixed-integer/continuous regressions: 40 / 40
+Enumeration: 40 / 40
+Mixed-integer/continuous regressions: 40 / 40
+Enumeration: 40 / 40
+Mixed-integer/continuous regressions: 40 / 40
+Enumeration: 40 / 40
+Mixed-integer/continuous regressions: 40 / 40
+Enumeration: 40 / 40
+Mixed-integer/continuous regressions: 40 / 40
+Enumeration: 40 / 40
+Mixed-integer/continuous regressions: 40 / 40
+Enumeration: 40 / 40
+Mixed-integer/continuous regressions: 40 / 40
+Sparse accuracy gate complete

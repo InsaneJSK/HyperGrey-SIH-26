@@ -1,0 +1,30 @@
+{
+  "retrieved_utc": "2026-09-13T18:17:44.080674+00:00",
+  "policy": "Predeclared first-version smoke subset; all attempts retained. MIPLIB instances are historical 3.0, not 2017.",
+  "instances": [
+    {
+      "name": "8792",
+      "url": "https://qplib.zib.de/qplib/QPLIB_8792.qplib",
+      "raw_sha256": "8b0555d0468fadae11441875b31eeeae774e7974772994f592af23ef28bad962",
+      "model_sha256": "8b0555d0468fadae11441875b31eeeae774e7974772994f592af23ef28bad962",
+      "reference_url": "https://qplib.zib.de/lp/QPLIB_8792.lp",
+      "reference_sha256": "928d099b688df1ac944fe8277a69be188a3b875e104d5d56a2428f38ed1608d1"
+    },
+    {
+      "name": "8991",
+      "url": "https://qplib.zib.de/qplib/QPLIB_8991.qplib",
+      "raw_sha256": "fc5257b9a21edda9f80a7c0ef8ac42151523a68b5be5e7eb26348b6a9dcb3db5",
+      "model_sha256": "fc5257b9a21edda9f80a7c0ef8ac42151523a68b5be5e7eb26348b6a9dcb3db5",
+      "reference_url": "https://qplib.zib.de/lp/QPLIB_8991.lp",
+      "reference_sha256": "306087d8b6e9a7c19f965112e626e5cbf8ef3af1762dd76162b7138d16c75c5d"
+    },
+    {
+      "name": "9002",
+      "url": "https://qplib.zib.de/qplib/QPLIB_9002.qplib",
+      "raw_sha256": "e6aea2b85e49862df5d8ad03339f65506ff149eeadaa74bb25ebacad14f7a664",
+      "model_sha256": "e6aea2b85e49862df5d8ad03339f65506ff149eeadaa74bb25ebacad14f7a664",
+      "reference_url": "https://qplib.zib.de/lp/QPLIB_9002.lp",
+      "reference_sha256": "58eab23e0b53ccfd8a303ac81b3ce3a759159f5381c3cabd7678e77a37069862"
+    }
+  ]
+}

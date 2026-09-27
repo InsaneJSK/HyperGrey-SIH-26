@@ -1,0 +1,42 @@
+{
+  "all_pass": true,
+  "quick": false,
+  "selective": true,
+  "heuristic_repair": true,
+  "pump_guidance": true,
+  "pump_distance": true,
+  "pump_reopt": true,
+  "distance_reopt": true,
+  "distance_stage": true,
+  "private_ranking": false,
+  "distance_reserve": false,
+  "private_certificate": true,
+  "bounded_lp": true,
+  "binary_sha256": "575917dddaa9182aea764298b2ce03db5a1246113e5fc9cf8bd8eff58913fede",
+  "runner_sha256": "abd959bedc64c2d1cdf544d70020245a391ce2754369a84b0a2b29bf6ce3f909",
+  "fixture_independent_checks": [
+    "cold",
+    "warm",
+    "selective-cold",
+    "selective-warm"
+  ],
+  "disabled_parity": [
+    "gt2",
+    "lseu",
+    "mod008",
+    "misc03"
+  ],
+  "generated": {
+    "baseline-binary": 40,
+    "baseline-mixed": 40,
+    "refined-binary": 40,
+    "refined-mixed": 40,
+    "refined_compact-binary": 40,
+    "refined_compact-mixed": 40,
+    "refined_guard-binary": 40,
+    "refined_guard-mixed": 40,
+    "refined_bounded-binary": 40,
+    "refined_bounded-mixed": 40
+  },
+  "reused_models": 200
+}

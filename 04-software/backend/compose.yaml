@@ -1,0 +1,56 @@
+name: refinery
+services:
+  api:
+    build: .
+    restart: unless-stopped
+    init: true
+    environment:
+      SOLVER_ENGINE: reference
+      SOLVER_THREADS: "1"
+      SOLVE_TIME_LIMIT: "20"
+      SENSITIVITY_TIME_LIMIT: "30"
+      WORKER_MEMORY_MB: "1024"
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173}
+    expose:
+      - "8000"
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    mem_limit: 1400m
+    memswap_limit: 1400m
+    cpus: 1.5
+    pids_limit: 64
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    stop_grace_period: 45s
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "2"
+  proxy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment:
+      API_ADDRESS: ${API_ADDRESS:-:80}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    mem_limit: 128m
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "2"
+    depends_on:
+      api:
+        condition: service_healthy
+volumes:
+  caddy_data:
+  caddy_config:

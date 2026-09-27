@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-09-27T06:09:06+00:00",
+  "source_count": 60,
+  "topic_count": 15,
+  "pdf_count": 43,
+  "reference_only_count": 17,
+  "errors": [],
+  "checks": [
+    "PDF parsing and page counts",
+    "SHA-256 integrity",
+    "duplicate PDF content",
+    "catalog coverage",
+    "local Markdown links"
+  ]
+}

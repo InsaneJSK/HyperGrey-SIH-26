@@ -1,0 +1,8 @@
+{
+  "all_pass": true,
+  "records": 16,
+  "checked_completions": 16,
+  "compact_fallbacks": 1,
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "ledger_sha256": "fd9ca165c59ab89f3f94a3caa59defb91c6c98c125abf9699a92e040a5dfd5f3"
+}

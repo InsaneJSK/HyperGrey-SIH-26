@@ -1,0 +1,37 @@
+{
+ "control": {
+  "root_solved": 0,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "neos8",
+   "buildingenergy",
+   "supportcase10"
+  ],
+  "fallbacks": 0,
+  "unresolved_nodes": 0,
+  "cold_starts": 2,
+  "nodes": 2
+ },
+ "candidate": {
+  "root_solved": 1,
+  "proven": 1,
+  "completion_disagrees": [],
+  "validated_points": 1,
+  "rejected_points": [],
+  "unresolved_root": [
+   "buildingenergy",
+   "supportcase10"
+  ],
+  "fallbacks": 1,
+  "unresolved_nodes": 0,
+  "cold_starts": 5,
+  "nodes": 69
+ },
+ "binaries": {
+  "control": "58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a",
+  "candidate": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad"
+ }
+}

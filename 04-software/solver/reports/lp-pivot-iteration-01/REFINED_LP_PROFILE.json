@@ -1,0 +1,13 @@
+{
+  "name": "Stable primal ratio LP with refinement",
+  "binary_sha256": "070878750efa73d39aa2815075132212c70f1cbbafd9528f8c2875db3b15cb68",
+  "flags": [
+    "--stable-primal-ratio",
+    "--refine-basis",
+    "--refine-at-checks"
+  ],
+  "checked_completions": 16,
+  "models": 16,
+  "default_changed": false,
+  "scope": "Explicit continuous LP evaluation profile; no broad MILP, speed or scale claim."
+}

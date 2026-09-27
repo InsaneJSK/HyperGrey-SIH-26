@@ -1,0 +1,148 @@
+[{"stream_name":"stdout","time":26.032060213,"data":"highspy install exit 0\n"}
+,{"stream_name":"stdout","time":26.082492625,"data":"source tree: /kaggle/input/datasets/prakhar1803/sih26119-solver-source\n"}
+,{"stream_name":"stdout","time":67.204765674,"data":"compiler exit 0\n"}
+,{"stream_name":"stdout","time":67.209128937,"data":"solver sha256 e40e849f69d273777089e3cfd21fdfd7f29803f50cf0ef4f39e26691295c866c\n"}
+,{"stream_name":"stdout","time":67.224603296,"data":"Sovereign SIH26119 V2 candidate; C++ core, sparse simplex, branch-and-cut, convex QP\n"}
+,{"stream_name":"stdout","time":67.228316749,"data":"self-test exit 0\n"}
+,{"stream_name":"stdout","time":67.228352323,"data":"self-test stdout: {\"status\":\"optimal\",\"message\":\"\",\"nodes\":1,\"lp_iterations\":1,\"total_seconds\":0.00025698000000000002,\"warm_starts\":1,\"heuristic_solves\":1,\"cuts\":0,\"bound_tightenings\":2,\"rows\":2,\"columns\":2,\"objective\":-20,\"pump_projections\":0,\"pump_restarts\":0,\"pump_incumbents\":0,\"cut_rollbacks\":0,\"first_incumbent_seconds\":0.00010678699999289165,\"best_bound\":-20,\"pump_reopt\":{\"enabled\":true,\"calls\":0,\"compatible\":0,\"primal\":0,\"dual\":0,\"rejected\":0,\"verified\":0,\"phase_one_iterations\":0,\"factorizations\":0,\"canonical_seconds\":0,\"factor_seconds\":0,\"pricing_seconds\":0,\"replay\":null},\"distance_reopt\":{\"enabled\":true\n"}
+,{"stream_name":"stdout","time":67.228369333,"data":"self-test stderr: \n"}
+,{"stream_name":"stdout","time":67.228613987,"data":"self-test status optimal objective -20\n"}
+,{"stream_name":"stdout","time":67.879111828,"data":"solution file: https://miplib.zib.de/downloads/miplib2017-v32.solu entries 1065\n"}
+,{"stream_name":"stdout","time":68.402053246,"data":"benchmark instances listed: 240\n"}
+,{"stream_name":"stdout","time":68.402093423,"data":"batch: 38 instances, slice [164:202], 300s each, 2 at a time\n"}
+,{"stream_name":"stdout","time":15994.751744469,"data":"[  1/38] nw04                           time_limit         obj=        16876 gap=0.006517 pub=      16862.0 valid=True  agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.752210638,"data":"[  2/38] opm2-z10-s4                    time_limit         obj=         None gap=    None pub=     -33269.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.75241774,"data":"[  3/38] p200x1188c                     node_limit         obj=       129281 gap=0.923639 pub=      15078.0 valid=True  agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.752752121,"data":"[  4/38] peg-solitaire-a3               time_limit         obj=         None gap=    None pub=          1.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.753035727,"data":"[  5/38] pg                             node_limit         obj=         None gap=    None pub=-8674.3426071 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.75332352,"data":"[  6/38] pg5_34                         node_limit         obj=-11772.902685 gap=0.380786 pub= -14339.35345 valid=True  agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.753991565,"data":"[  7/38] physiciansched3-3              time_limit         obj=         None gap=    None pub=2623271.32666 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.754361287,"data":"[  8/38] physiciansched6-2              time_limit         obj=         None gap=    None pub=      49324.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.754628976,"data":"[  9/38] piperout-08                    time_limit         obj=         None gap=    None pub=125054.999999 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.754956177,"data":"[ 10/38] piperout-27                    time_limit         obj=         None gap=    None pub=8123.99999999 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.755477936,"data":"[ 11/38] pk1                            time_limit         obj=           14 gap=0.248213 pub=         11.0 valid=True  agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.755753861,"data":"[ 12/38] proteindesign121hz512p9        time_limit         obj=         None gap=    None pub=       1473.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.756156651,"data":"[ 13/38] proteindesign122trx11p8        node_limit         obj=         None gap=    None pub=       1747.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.756489144,"data":"[ 14/38] qap10                          unresolved_relaxat obj=         None gap=    None pub=339.999999998 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.756825291,"data":"[ 15/38] radiationm18-12-05             time_limit         obj=         None gap=    None pub=      17566.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.757320527,"data":"[ 16/38] radiationm40-10-02             time_limit         obj=         None gap=    None pub=     155328.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.757648332,"data":"[ 17/38] rail01                         time_limit         obj=         None gap=    None pub=  -70.5699643 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.757991377,"data":"[ 18/38] rail02                         time_limit         obj=         None gap=    None pub= -200.4499077 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.758349607,"data":"[ 19/38] rail507                        time_limit         obj=         None gap=    None pub=        174.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.758737217,"data":"[ 20/38] ran14x18-disj-8                time_limit         obj=4108.99999990 gap=0.155544 pub=       3712.0 valid=True  agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.759132464,"data":"[ 21/38] rd-rplusc-21                   time_limit         obj=         None gap=    None pub=165395.275295 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.75952664,"data":"[ 22/38] reblock115                     time_limit         obj=-34044571.368 gap=0.120132 pub=-36800603.233 valid=True  agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.759943099,"data":"[ 23/38] rmatr100-p10                   gap_limit          obj=          423 gap=1.000000 pub=        423.0 valid=True  agree=True [15926s]\n"}
+,{"stream_name":"stdout","time":15994.76046245,"data":"[ 24/38] rmatr200-p5                    time_limit         obj=         None gap=    None pub=       4521.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.760969174,"data":"[ 25/38] rocI-4-11                      time_limit         obj=         None gap=    None pub=   -6020203.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.761472333,"data":"[ 26/38] rocII-5-11                     time_limit         obj=         None gap=    None pub=-6.6755047315 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.761829879,"data":"[ 27/38] rococoB10-011000               time_limit         obj=         None gap=    None pub=      19449.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.762508325,"data":"[ 28/38] rococoC10-001000               time_limit         obj=       262689 gap=0.971346 pub=      11460.0 valid=True  agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.763020222,"data":"[ 29/38] roi2alpha3n4                   time_limit         obj=         None gap=    None pub= -63.20849503 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.763576481,"data":"[ 30/38] roi5alpha10n8                  unresolved_relaxat obj=         None gap=    None pub=-52.322274351 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.764115151,"data":"[ 31/38] roll3000                       time_limit         obj=         None gap=    None pub= 12889.999992 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.764664094,"data":"[ 32/38] s100                           time_limit         obj=         None gap=    None pub=-0.1697235270 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.765371424,"data":"[ 33/38] s250r10                        time_limit         obj=         None gap=    None pub=-0.1717804834 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.765922209,"data":"[ 34/38] satellites2-40                 time_limit         obj=         None gap=    None pub=        -19.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.766510922,"data":"[ 35/38] satellites2-60-fs              unresolved_relaxat obj=         None gap=    None pub=-19.000000000 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.767170294,"data":"[ 36/38] savsched1                      time_limit         obj=         None gap=    None pub=       3217.7 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.767865948,"data":"[ 37/38] sct2                           time_limit         obj=578.376299811 gap=1.397180 pub= -230.9891623 valid=True  agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.768552885,"data":"[ 38/38] seymour                        time_limit         obj=         None gap=    None pub=        423.0 valid=False agree=None [15926s]\n"}
+,{"stream_name":"stdout","time":15994.774045039,"data":"{\n"}
+,{"stream_name":"stdout","time":15994.774073496,"data":" \"slice\": [\n"}
+,{"stream_name":"stdout","time":15994.774079599,"data":"  164,\n"}
+,{"stream_name":"stdout","time":15994.774084309,"data":"  202\n"}
+,{"stream_name":"stdout","time":15994.774089168,"data":" ],\n"}
+,{"stream_name":"stdout","time":15994.774093788,"data":" \"attempted\": 38,\n"}
+,{"stream_name":"stdout","time":15994.774098689,"data":" \"instances\": 38,\n"}
+,{"stream_name":"stdout","time":15994.774103328,"data":" \"limit_seconds\": 300.0,\n"}
+,{"stream_name":"stdout","time":15994.774106682,"data":" \"workers\": 2,\n"}
+,{"stream_name":"stdout","time":15994.774109787,"data":" \"flags\": [\n"}
+,{"stream_name":"stdout","time":15994.774112834,"data":"  \"--milp\",\n"}
+,{"stream_name":"stdout","time":15994.774115872,"data":"  \"--json\",\n"}
+,{"stream_name":"stdout","time":15994.774118829,"data":"  \"--lp-recovery\",\n"}
+,{"stream_name":"stdout","time":15994.774121805,"data":"  \"--improve-incumbent\",\n"}
+,{"stream_name":"stdout","time":15994.774124816,"data":"  \"--repair-candidates\",\n"}
+,{"stream_name":"stdout","time":15994.774128314,"data":"  \"--repair-heuristic-candidates\",\n"}
+,{"stream_name":"stdout","time":15994.774131358,"data":"  \"--late-lifted-covers\",\n"}
+,{"stream_name":"stdout","time":15994.774134317,"data":"  \"--late-compact-equalities\",\n"}
+,{"stream_name":"stdout","time":15994.774137338,"data":"  \"--late-reduced-bound-lp\",\n"}
+,{"stream_name":"stdout","time":15994.774140258,"data":"  \"--binary-proof\",\n"}
+,{"stream_name":"stdout","time":15994.774143304,"data":"  \"--objective-lattice\",\n"}
+,{"stream_name":"stdout","time":15994.774146215,"data":"  \"--raw-lp-priority\",\n"}
+,{"stream_name":"stdout","time":15994.774149137,"data":"  \"--refine-basis\",\n"}
+,{"stream_name":"stdout","time":15994.774152062,"data":"  \"--refine-at-checks\",\n"}
+,{"stream_name":"stdout","time":15994.774154981,"data":"  \"--pump-guided-diving\",\n"}
+,{"stream_name":"stdout","time":15994.774158449,"data":"  \"--pump-distance-diving\",\n"}
+,{"stream_name":"stdout","time":15994.774175329,"data":"  \"--pump-primal-reopt\",\n"}
+,{"stream_name":"stdout","time":15994.774179381,"data":"  \"--pump-distance-reopt\",\n"}
+,{"stream_name":"stdout","time":15994.774182385,"data":"  \"--pump-distance-stage\",\n"}
+,{"stream_name":"stdout","time":15994.774185359,"data":"  \"--bounded-lp\",\n"}
+,{"stream_name":"stdout","time":15994.774188311,"data":"  \"--tree-dives\",\n"}
+,{"stream_name":"stdout","time":15994.774191209,"data":"  \"--fix-propagate\",\n"}
+,{"stream_name":"stdout","time":15994.774194152,"data":"  \"--time-limit\",\n"}
+,{"stream_name":"stdout","time":15994.774197058,"data":"  \"300.0\",\n"}
+,{"stream_name":"stdout","time":15994.774200119,"data":"  \"--node-limit\",\n"}
+,{"stream_name":"stdout","time":15994.774202997,"data":"  \"100000000\",\n"}
+,{"stream_name":"stdout","time":15994.774205956,"data":"  \"--gap\",\n"}
+,{"stream_name":"stdout","time":15994.774208854,"data":"  \"1e-6\"\n"}
+,{"stream_name":"stdout","time":15994.774211784,"data":" ],\n"}
+,{"stream_name":"stdout","time":15994.774214696,"data":" \"solver_sha256\": \"e40e849f69d273777089e3cfd21fdfd7f29803f50cf0ef4f39e26691295c866c\",\n"}
+,{"stream_name":"stdout","time":15994.774218498,"data":" \"solution_file\": \"https://miplib.zib.de/downloads/miplib2017-v32.solu\",\n"}
+,{"stream_name":"stdout","time":15994.774221627,"data":" \"proven\": 1,\n"}
+,{"stream_name":"stdout","time":15994.774224721,"data":" \"completion_agrees\": 1,\n"}
+,{"stream_name":"stdout","time":15994.774227754,"data":" \"completion_disagrees\": [],\n"}
+,{"stream_name":"stdout","time":15994.774230739,"data":" \"point_validated\": 9,\n"}
+,{"stream_name":"stdout","time":15994.774233752,"data":" \"point_rejected\": [],\n"}
+,{"stream_name":"stdout","time":15994.774236776,"data":" \"infeasible_claimed\": [],\n"}
+,{"stream_name":"stdout","time":15994.774239736,"data":" \"process_error\": [],\n"}
+,{"stream_name":"stdout","time":15994.774242688,"data":" \"download_failed\": [],\n"}
+,{"stream_name":"stdout","time":15994.774245836,"data":" \"carry_over\": [\n"}
+,{"stream_name":"stdout","time":15994.774248862,"data":"  \"nw04\",\n"}
+,{"stream_name":"stdout","time":15994.774251896,"data":"  \"opm2-z10-s4\",\n"}
+,{"stream_name":"stdout","time":15994.774254895,"data":"  \"p200x1188c\",\n"}
+,{"stream_name":"stdout","time":15994.774257799,"data":"  \"peg-solitaire-a3\",\n"}
+,{"stream_name":"stdout","time":15994.774260851,"data":"  \"pg\",\n"}
+,{"stream_name":"stdout","time":15994.774263841,"data":"  \"pg5_34\",\n"}
+,{"stream_name":"stdout","time":15994.774266761,"data":"  \"physiciansched3-3\",\n"}
+,{"stream_name":"stdout","time":15994.774269738,"data":"  \"physiciansched6-2\",\n"}
+,{"stream_name":"stdout","time":15994.774272704,"data":"  \"piperout-08\",\n"}
+,{"stream_name":"stdout","time":15994.774275631,"data":"  \"piperout-27\",\n"}
+,{"stream_name":"stdout","time":15994.774278547,"data":"  \"pk1\",\n"}
+,{"stream_name":"stdout","time":15994.774281499,"data":"  \"proteindesign121hz512p9\",\n"}
+,{"stream_name":"stdout","time":15994.774284506,"data":"  \"proteindesign122trx11p8\",\n"}
+,{"stream_name":"stdout","time":15994.774287484,"data":"  \"qap10\",\n"}
+,{"stream_name":"stdout","time":15994.774290359,"data":"  \"radiationm18-12-05\",\n"}
+,{"stream_name":"stdout","time":15994.774293267,"data":"  \"radiationm40-10-02\",\n"}
+,{"stream_name":"stdout","time":15994.774296268,"data":"  \"rail01\",\n"}
+,{"stream_name":"stdout","time":15994.774299861,"data":"  \"rail02\",\n"}
+,{"stream_name":"stdout","time":15994.774302816,"data":"  \"rail507\",\n"}
+,{"stream_name":"stdout","time":15994.774309066,"data":"  \"ran14x18-disj-8\",\n"}
+,{"stream_name":"stdout","time":15994.774312291,"data":"  \"rd-rplusc-21\",\n"}
+,{"stream_name":"stdout","time":15994.774315352,"data":"  \"reblock115\",\n"}
+,{"stream_name":"stdout","time":15994.774318306,"data":"  \"rmatr200-p5\",\n"}
+,{"stream_name":"stdout","time":15994.774321204,"data":"  \"rocI-4-11\",\n"}
+,{"stream_name":"stdout","time":15994.774324314,"data":"  \"rocII-5-11\",\n"}
+,{"stream_name":"stdout","time":15994.774327274,"data":"  \"rococoB10-011000\",\n"}
+,{"stream_name":"stdout","time":15994.774330289,"data":"  \"rococoC10-001000\",\n"}
+,{"stream_name":"stdout","time":15994.774333472,"data":"  \"roi2alpha3n4\",\n"}
+,{"stream_name":"stdout","time":15994.774336466,"data":"  \"roi5alpha10n8\",\n"}
+,{"stream_name":"stdout","time":15994.774339438,"data":"  \"roll3000\",\n"}
+,{"stream_name":"stdout","time":15994.774342354,"data":"  \"s100\",\n"}
+,{"stream_name":"stdout","time":15994.774345223,"data":"  \"s250r10\",\n"}
+,{"stream_name":"stdout","time":15994.774348259,"data":"  \"satellites2-40\",\n"}
+,{"stream_name":"stdout","time":15994.774351202,"data":"  \"satellites2-60-fs\",\n"}
+,{"stream_name":"stdout","time":15994.774354125,"data":"  \"savsched1\",\n"}
+,{"stream_name":"stdout","time":15994.774357031,"data":"  \"sct2\",\n"}
+,{"stream_name":"stdout","time":15994.774359974,"data":"  \"seymour\"\n"}
+,{"stream_name":"stdout","time":15994.774362947,"data":" ],\n"}
+,{"stream_name":"stdout","time":15994.774365858,"data":" \"elapsed_seconds\": 15926.371427059174,\n"}
+,{"stream_name":"stdout","time":15994.774369305,"data":" \"caveat\": \"Two instances share four cloud vCPUs: outcomes at a fixed budget under contention. No timing claim is made from this run.\"\n"}
+,{"stream_name":"stdout","time":15994.774373019,"data":"}\n"}
+,{"stream_name":"stderr","time":15997.875653569,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":15997.875847356,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":15998.260289745,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":15998.260319305,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":15999.363266341,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":16001.163732149,"data":"[NbConvertApp] Writing 349587 bytes to __results__.html\n"}
+]

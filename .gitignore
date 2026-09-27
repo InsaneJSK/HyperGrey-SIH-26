@@ -1,0 +1,34 @@
+# Repo-wide rules. Anything specific to the solver project lives in
+# 04-software/solver/.gitignore, where the patterns are relative to that folder.
+
+# --- Editors and OS ------------------------------------------------------
+.vscode/*
+!.vscode/settings.json
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+
+# --- Python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# --- Upload staging and credentials --------------------------------------
+# scripts/package_kaggle_source.py rebuilds a bundle from the tree every time,
+# so a staging folder is never worth keeping. The Kaggle token lives in
+# ~/.kaggle/, outside this tree, and must never be committed.
+/kaggle-upload*/
+kaggle.json
+*.token
+.env
+.env.*
+!.env.example
+
+# Local migration/check output.
+/.migration-work/
+/04-software/kaggle-upload*/

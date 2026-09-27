@@ -1,0 +1,34 @@
+{
+  "models": [
+    "mas74"
+  ],
+  "repeats": 2,
+  "limit": 30,
+  "reference_watchdog": 150,
+  "manifests": [
+    "datasets/milp-robustness-wave1/manifest.json",
+    "datasets/milp-frontier-holdout/manifest.json",
+    "datasets/milp-cut-policy-holdout/manifest.json"
+  ],
+  "common": [
+    "--capture-work",
+    "--lp-recovery",
+    "--improve-incumbent",
+    "--repair-candidates",
+    "--capture-lp-failure",
+    "--capture-rejected-candidates",
+    "--late-lifted-covers",
+    "--late-compact-equalities",
+    "--late-reduced-bound-lp",
+    "--binary-proof",
+    "--objective-lattice",
+    "--raw-lp-priority",
+    "--capture-cut-rounds"
+  ],
+  "profiles": {
+    "baseline": [],
+    "refined": [
+      "--refine-basis"
+    ]
+  }
+}

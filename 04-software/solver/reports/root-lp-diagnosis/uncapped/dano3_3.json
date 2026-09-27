@@ -1,0 +1,30 @@
+{
+ "name": "dano3_3",
+ "status": "time_limit",
+ "message": "LP relaxation did not pass its numerical checks",
+ "wall_seconds": 300.2,
+ "rows": 3202,
+ "columns": 13873,
+ "root_lp_failure_status": null,
+ "root_lp_iterations": null,
+ "bounded": {
+  "calls": 1,
+  "optimal": 0,
+  "failures": 1,
+  "fallbacks": 0,
+  "iterations": 56001,
+  "verification_rejected": 0,
+  "farkas_rejected": 0,
+  "refactors": 876,
+  "singular_repairs": 0,
+  "seconds": 299.9817366
+ },
+ "lp_recovery": {
+  "attempts": 0,
+  "successes": 0,
+  "seconds": 0
+ },
+ "debug": [
+  "bounded failure status=time_limit warm=0 it=56001"
+ ]
+}

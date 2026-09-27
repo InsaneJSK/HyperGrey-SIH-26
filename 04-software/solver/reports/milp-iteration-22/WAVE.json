@@ -1,0 +1,69 @@
+{
+  "models": [
+    "p0033",
+    "enigma",
+    "flugpl",
+    "stein27",
+    "markshare_4_0",
+    "blend2",
+    "binkar10_1",
+    "egout",
+    "gt2",
+    "lseu",
+    "mod008",
+    "p0201",
+    "p0282",
+    "misc03",
+    "misc07",
+    "pk1",
+    "rgn",
+    "gen-ip002",
+    "assign1-5-8",
+    "lotsize",
+    "eil33-2",
+    "mas74",
+    "gen-ip054",
+    "neos859080",
+    "danoint",
+    "rout",
+    "mas76"
+  ],
+  "repeats": 1,
+  "limit": 30,
+  "nodes": 250000,
+  "gap": 1e-06,
+  "reference_watchdog": 150,
+  "manifests": [
+    "datasets/milp-robustness-wave1/manifest.json",
+    "datasets/milp-frontier-holdout/manifest.json",
+    "datasets/milp-cut-policy-holdout/manifest.json",
+    "datasets/milp-accuracy-holdout/manifest.json"
+  ],
+  "common": [
+    "--capture-work",
+    "--lp-recovery",
+    "--improve-incumbent",
+    "--repair-candidates",
+    "--repair-heuristic-candidates",
+    "--capture-lp-failure",
+    "--capture-rejected-candidates",
+    "--late-lifted-covers",
+    "--late-compact-equalities",
+    "--late-reduced-bound-lp",
+    "--binary-proof",
+    "--objective-lattice",
+    "--raw-lp-priority",
+    "--capture-cut-rounds",
+    "--capture-refinement",
+    "--refine-basis",
+    "--refine-at-checks",
+    "--pump-guided-diving",
+    "--pump-distance-diving"
+  ],
+  "profiles": {
+    "distance": [],
+    "reopt": [
+      "--pump-primal-reopt"
+    ]
+  }
+}

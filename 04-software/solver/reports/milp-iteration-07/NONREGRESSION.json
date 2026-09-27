@@ -1,0 +1,22 @@
+{
+  "all_pass": true,
+  "prior": "reports/milp-iteration-06/meet-180s",
+  "current": "reports/milp-iteration-07/local-proof-validation",
+  "counts": {
+    "guided-binary": 40,
+    "guided-mixed": 40,
+    "binary_meet-binary": 40,
+    "binary_meet-mixed": 40
+  },
+  "compared_results": 160,
+  "fields": ["status", "objective", "primal", "best_bound", "gap", "nodes", "lp_iterations", "passed"],
+  "differences": [],
+  "method": "PowerShell ConvertFrom-Json; each named field compared using compressed JSON, depth 10. Timings and newly added diagnostics excluded.",
+  "supplementary_tests": {
+    "test_milp_diagnostics.py": 15,
+    "test_result_parser.py": 3,
+    "test_exact_binary_check.py": 9,
+    "arithmetic_guard_probe_with_ftrapv": 98
+  },
+  "limitation": "Generated numerical nonregression, not repeated performance equivalence or full library coverage."
+}

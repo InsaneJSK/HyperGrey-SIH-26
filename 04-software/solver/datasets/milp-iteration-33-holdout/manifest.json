@@ -1,0 +1,128 @@
+{
+  "utc": "2026-09-18T07:04:07.776737+00:00",
+  "selection": [
+    "rail507",
+    "ran14x18-disj-8",
+    "reblock115",
+    "rmatr100-p10",
+    "rocI-4-11",
+    "roll3000",
+    "s250r10",
+    "sct2",
+    "sorrell3",
+    "sp150x300d"
+  ],
+  "selection_sha256": "b0be25abb5124bff4fca6b78c54eb6dab116bb2fd69ace7df1bdb39fed3ca4bc",
+  "instances": [
+    {
+      "name": "rail507",
+      "url": "https://miplib.zib.de/WebData/instances/rail507.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/rail507.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/rail507.mps",
+      "model_sha256": "36440c17577a92b5a91f216e5d2a4b2ead41c1cd919ce68ea6ad1b11a3d6b76e",
+      "raw_sha256": "ecd62d6f0a76a9db236758a0d4ab9d4c0fa5b00ba59220c6b6073feff41ff39d",
+      "bytes": 28586699
+    },
+    {
+      "name": "ran14x18-disj-8",
+      "url": "https://miplib.zib.de/WebData/instances/ran14x18-disj-8.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/ran14x18-disj-8.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/ran14x18-disj-8.mps",
+      "model_sha256": "42c8804fa44742cf94b09238f1f03781ae89b25f6c31902c15ce25c2ba22f1cd",
+      "raw_sha256": "2a063d948b69e080e8712c449000bf8f26b05ff4f619552a35b06ca5b6eb38c8",
+      "bytes": 366504
+    },
+    {
+      "name": "reblock115",
+      "url": "https://miplib.zib.de/WebData/instances/reblock115.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/reblock115.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/reblock115.mps",
+      "model_sha256": "83fac9bfcbeb1934fa03a30bac1372f540afcdc5681e4532a8f459184e6a6005",
+      "raw_sha256": "cfc1223e622ed133400b5614cd382b6aa9a84fabfcea63510158b6c16e1e951c",
+      "bytes": 1052776
+    },
+    {
+      "name": "rmatr100-p10",
+      "url": "https://miplib.zib.de/WebData/instances/rmatr100-p10.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/rmatr100-p10.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/rmatr100-p10.mps",
+      "model_sha256": "4b946d51d55001c125945774699790ac15daa6c4be2602264ab588c737119fc9",
+      "raw_sha256": "86e4b03e3db2298c29e3ce5863e76b319e95252da2a834d7441d9346dfa4a423",
+      "bytes": 1851155
+    },
+    {
+      "name": "rocI-4-11",
+      "url": "https://miplib.zib.de/WebData/instances/rocI-4-11.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/rocI-4-11.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/rocI-4-11.mps",
+      "model_sha256": "c166b13804e83e2e086646bd6888f8fb24bffeb5baed9f976ccd789e7f14d4d1",
+      "raw_sha256": "6d85a997fef66cc516a761e268d6670017a00e020e2bc43c001e1782617053ad",
+      "bytes": 2802987
+    },
+    {
+      "name": "roll3000",
+      "url": "https://miplib.zib.de/WebData/instances/roll3000.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/roll3000.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/roll3000.mps",
+      "model_sha256": "b28b51a69945d6a4c16366582bab87638b6c66f81eb4efef817aba76f6425117",
+      "raw_sha256": "47a0a827ac2d697b717fb55401afa5de9e042f026d6a462fb97d968a869d282d",
+      "bytes": 1035164
+    },
+    {
+      "name": "s250r10",
+      "url": "https://miplib.zib.de/WebData/instances/s250r10.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/s250r10.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/s250r10.mps",
+      "model_sha256": "6b5bae3f0f2da2f459a5283d6a201381b80fc93f5b303ea7fa1d7d2948e5f5d2",
+      "raw_sha256": "0d21c1298be9c715cd073657f93f31e3d9ba6a34334de20c1fb44809d79d3e4c",
+      "bytes": 144257535
+    },
+    {
+      "name": "sct2",
+      "url": "https://miplib.zib.de/WebData/instances/sct2.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/sct2.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/sct2.mps",
+      "model_sha256": "ec532dc5c51e11345d546eaddecb53ba4e48593a3003f3315fe6c6d303a19e8e",
+      "raw_sha256": "c671146b48b726404f275e6acb384ae4ef168f33c20a05d114af0366d7102eab",
+      "bytes": 1278805
+    },
+    {
+      "name": "sorrell3",
+      "url": "https://miplib.zib.de/WebData/instances/sorrell3.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/sorrell3.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/sorrell3.mps",
+      "model_sha256": "ad10cc730349fabdcdba4d3eeb4a65496b2a0755d3122910c1831ffd1fa08d34",
+      "raw_sha256": "e9a501f223cb00d892f7919054cc4c9671dc816ac8be48908cd7f396e9576869",
+      "bytes": 32598078
+    },
+    {
+      "name": "sp150x300d",
+      "url": "https://miplib.zib.de/WebData/instances/sp150x300d.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib.zib.de/WebData/instances/sp150x300d.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-33-holdout/sp150x300d.mps",
+      "model_sha256": "339aa4411ef126df72dc66718090fc6915debdc44d732a0f0be903310e52cf4a",
+      "raw_sha256": "47051527397e27d1a62d0462ded35042d5eb5f4c4a3b5e3257c82279b97f1e42",
+      "bytes": 75788
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+[
+ {
+  "model": "p0033",
+  "vs_control": [],
+  "vs_merged": [],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "flugpl",
+  "vs_control": [],
+  "vs_merged": [],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "stein27",
+  "vs_control": [],
+  "vs_merged": [],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "egout",
+  "vs_control": [],
+  "vs_merged": [],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "lseu",
+  "vs_control": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "vs_merged": [],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "mod008",
+  "vs_control": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves"
+  ],
+  "vs_merged": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves"
+  ],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "p0201",
+  "vs_control": [],
+  "vs_merged": [],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "misc03",
+  "vs_control": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "vs_merged": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "pk1",
+  "vs_control": [],
+  "vs_merged": [],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "rgn",
+  "vs_control": [],
+  "vs_merged": [],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "gen-ip002",
+  "vs_control": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "vs_merged": [
+   "objective",
+   "gap",
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "answer_changed_control": [],
+  "answer_changed_merged": [
+   "objective",
+   "gap"
+  ]
+ },
+ {
+  "model": "blend2",
+  "vs_control": [
+   "lp_iterations"
+  ],
+  "vs_merged": [
+   "lp_iterations"
+  ],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "gt2",
+  "vs_control": [],
+  "vs_merged": [],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "mas74",
+  "vs_control": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "vs_merged": [
+   "objective",
+   "gap",
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "answer_changed_control": [],
+  "answer_changed_merged": [
+   "objective",
+   "gap"
+  ]
+ },
+ {
+  "model": "p0282",
+  "vs_control": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "vs_merged": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ },
+ {
+  "model": "binkar10_1",
+  "vs_control": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "vs_merged": [
+   "lp_iterations",
+   "warm_starts",
+   "heuristic_solves",
+   "bound_tightenings"
+  ],
+  "answer_changed_control": [],
+  "answer_changed_merged": []
+ }
+]

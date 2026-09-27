@@ -1,0 +1,11 @@
+{
+  "scope": "Exact comparison of 40 binary and 40 mixed generated guided-mode outputs; timings and new diagnostic fields excluded",
+  "previous_directory": "../milp-iteration-05/pacing-180s-screen",
+  "current_directory": "meet-180s",
+  "previous_binary_sha256": "ef1856d074862aa754a81e5bff7bfc44c350c02eae4f0a6b43a309c4f4e53cd6",
+  "current_binary_sha256": "65686ab54dd8e073989f9a93f9e75bbb8d06ba4143b1ca6d639307360f7d007a",
+  "compared_cases": 80,
+  "compared_fields": ["status", "objective", "primal", "best_bound", "gap", "nodes", "lp_iterations", "passed"],
+  "differences": [],
+  "limitation": "This verifies generated outputs with new options disabled, not equal hard-instance timings or broad industrial robustness. All guided profiles explicitly enable recovery, incumbent improvement and candidate repair."
+}

@@ -1,0 +1,79 @@
+dcmulti.control.0 {'status': 'time_limit', 'objective': 194293, 'gap': 0.033026951759802886, 'nodes': 1821}
+dcmulti.candidate.0 {'status': 'gap_limit', 'objective': 188182, 'gap': 9.10025389705801e-07, 'nodes': 9259}
+dsbmip.candidate.0 {'status': 'gap_limit', 'objective': -305.1981750099126, 'gap': 1.0000025022326889e-07, 'nodes': 105}
+dsbmip.control.0 {'status': 'unresolved_relaxations', 'objective': None, 'gap': None, 'nodes': 1}
+fiber.control.0 {'status': 'time_limit', 'objective': 3222528.28, 'gap': 0.9479591940830127, 'nodes': 436}
+fiber.candidate.0 {'status': 'time_limit', 'objective': 2273923.4899999998, 'gap': 0.9186673476054266, 'nodes': 29838}
+fixnet6.candidate.0 {'status': 'time_limit', 'objective': 4976.999999865002, 'gap': 0.5760956631115882, 'nodes': 45772}
+fixnet6.control.0 {'status': 'time_limit', 'objective': 10903.999999642008, 'gap': 0.8299941481311514, 'nodes': 1959}
+khb05250.control.0 {'status': 'time_limit', 'objective': 108038403.99999171, 'gap': 0.02523031088982546, 'nodes': 2165}
+khb05250.candidate.0 {'status': 'gap_limit', 'objective': 106940226, 'gap': 9.69713632536654e-07, 'nodes': 7541}
+l152lav.candidate.0 {'status': 'time_limit', 'objective': 4741, 'gap': 0.006748207507381043, 'nodes': 7444}
+l152lav.control.0 {'status': 'time_limit', 'objective': 4998, 'gap': 0.06381276255251069, 'nodes': 594}
+misc06.control.0 {'status': 'optimal', 'objective': 12850.86073719086, 'gap': 0, 'nodes': 113}
+misc06.candidate.0 {'status': 'gap_limit', 'objective': 12850.860734473586, 'gap': 0, 'nodes': 145}
+mod010.candidate.0 {'status': 'gap_limit', 'objective': 6548, 'gap': 1.3887535528675037e-16, 'nodes': 303}
+mod010.control.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 2}
+p0548.control.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 2186}
+p0548.candidate.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 11589}
+pp08a.candidate.0 {'status': 'time_limit', 'objective': 8989.999999894, 'gap': 0.45118536717171687, 'nodes': 109139}
+pp08a.control.0 {'status': 'time_limit', 'objective': 8759.999999856002, 'gap': 0.5102089835906338, 'nodes': 4072}
+qiu.control.0 {'status': 'time_limit', 'objective': None, 'gap': None, 'nodes': 2}
+qiu.candidate.0 {'status': 'time_limit', 'objective': -43.58174047785324, 'gap': 8.812945131235134, 'nodes': 1270}
+set1ch.candidate.0 {'status': 'time_limit', 'objective': 86646.99999893803, 'gap': 0.5912368207063595, 'nodes': 35083}
+set1ch.control.0 {'status': 'time_limit', 'objective': 81694.74999874376, 'gap': 0.5683779574266952, 'nodes': 1714}
+stein45.control.0 {'status': 'unresolved_relaxations', 'objective': 32, 'gap': 0.30303030303030315, 'nodes': 10}
+stein45.candidate.0 {'status': 'time_limit', 'objective': 32, 'gap': 0.15151515151515163, 'nodes': 5980}
+gesa3.candidate.0 {'status': 'time_limit', 'objective': 27991042.64788447, 'gap': 0.002024228626618066, 'nodes': 8090}
+gesa3.control.0 {'status': 'unresolved_relaxations', 'objective': None, 'gap': None, 'nodes': 1}
+modglob.control.0 {'status': 'time_limit', 'objective': 22740439.569712915, 'gap': 0.09419360561714374, 'nodes': 9096}
+modglob.candidate.0 {'status': 'time_limit', 'objective': 21833634.486473717, 'gap': 0.05537678684870023, 'nodes': 38917}
+dcmulti.control.0 feasible_limit []
+dcmulti.candidate.0 numerical_completion_checked []
+dsbmip.candidate.0 numerical_completion_checked []
+dsbmip.control.0 numerical_or_unresolved []
+fiber.control.0 feasible_limit []
+fiber.candidate.0 feasible_limit []
+fixnet6.candidate.0 feasible_limit []
+fixnet6.control.0 feasible_limit []
+khb05250.control.0 feasible_limit []
+khb05250.candidate.0 numerical_completion_checked []
+l152lav.candidate.0 feasible_limit []
+l152lav.control.0 feasible_limit []
+misc06.control.0 numerical_completion_checked []
+misc06.candidate.0 numerical_completion_checked []
+mod010.candidate.0 numerical_completion_checked []
+mod010.control.0 no_incumbent_limit []
+p0548.control.0 no_incumbent_limit []
+p0548.candidate.0 no_incumbent_limit []
+pp08a.candidate.0 feasible_limit []
+pp08a.control.0 feasible_limit []
+qiu.control.0 no_incumbent_limit []
+qiu.candidate.0 feasible_limit []
+set1ch.candidate.0 feasible_limit []
+set1ch.control.0 feasible_limit []
+stein45.control.0 numerical_or_unresolved []
+stein45.candidate.0 feasible_limit []
+gesa3.candidate.0 feasible_limit []
+gesa3.control.0 numerical_or_unresolved []
+modglob.control.0 feasible_limit []
+modglob.candidate.0 feasible_limit []
+{
+  "records": 30,
+  "models": 15,
+  "categories": {
+    "control": {
+      "feasible_limit": 8,
+      "numerical_or_unresolved": 3,
+      "numerical_completion_checked": 1,
+      "no_incumbent_limit": 3
+    },
+    "candidate": {
+      "numerical_completion_checked": 5,
+      "feasible_limit": 9,
+      "no_incumbent_limit": 1
+    }
+  },
+  "validation_failures": 0,
+  "results_sha256": "da8f27593e099d289ad6f321874a7f2b439001ece55fd894301dba86c0ab9f57"
+}

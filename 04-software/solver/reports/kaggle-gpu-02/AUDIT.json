@@ -1,0 +1,92 @@
+{
+  "returned_zip_sha256": "fad71cb475ec23450b9e919926f06a30f2b1fac9b80e6912bf6a877c9fb95731",
+  "snapshot_sha256": "f9b8a366cbdf6d0cf216c21307d9439515e6f46c52d2ad22b612b94e5e29b1d8",
+  "source_files_verified": 128,
+  "runtime_source_files_verified": 63,
+  "groups_recounted": {
+    "generated_lp": {
+      "passed": 120,
+      "total": 120
+    },
+    "generated_milp": {
+      "passed": 40,
+      "total": 40
+    },
+    "generated_qp": {
+      "passed": 30,
+      "total": 30
+    },
+    "generated_mixed": {
+      "passed": 40,
+      "total": 40
+    },
+    "netlib": {
+      "passed": 12,
+      "total": 12
+    },
+    "miplib": {
+      "passed": 4,
+      "total": 4
+    },
+    "qplib": {
+      "passed": 2,
+      "total": 3
+    },
+    "miplib2017": {
+      "passed": 0,
+      "total": 3
+    },
+    "industrial": {
+      "passed": 4,
+      "total": 4
+    },
+    "scale": {
+      "passed": 9,
+      "total": 9
+    }
+  },
+  "comparisons": [
+    {
+      "variables": 1000,
+      "cpu1_seconds": 0.019072501,
+      "cpu_multicore_seconds": 0.015102156,
+      "cpu_threads": 2,
+      "gpu_seconds": 0.125612986,
+      "cpu1_over_gpu": 0.15183542408585046,
+      "multicore_over_gpu": 0.12022766499635634,
+      "process_cpu1_over_gpu": 0.14263496942777484,
+      "repetitions": 1
+    },
+    {
+      "variables": 100000,
+      "cpu1_seconds": 1.201590626,
+      "cpu_multicore_seconds": 0.775799057,
+      "cpu_threads": 2,
+      "gpu_seconds": 0.374720969,
+      "cpu1_over_gpu": 3.2066276653976096,
+      "multicore_over_gpu": 2.070337987944304,
+      "process_cpu1_over_gpu": 2.862654271765943,
+      "repetitions": 1
+    },
+    {
+      "variables": 1000000,
+      "cpu1_seconds": 15.94096234,
+      "cpu_multicore_seconds": 9.434078869,
+      "cpu_threads": 2,
+      "gpu_seconds": 2.961855492,
+      "cpu1_over_gpu": 5.382086460010183,
+      "multicore_over_gpu": 3.1851921521767474,
+      "process_cpu1_over_gpu": 5.082557742386673,
+      "repetitions": 1
+    }
+  ],
+  "incomplete_public_cases": [
+    "qplib/9002",
+    "miplib2017/markshare_4_0",
+    "miplib2017/blend2",
+    "miplib2017/binkar10_1"
+  ],
+  "cuda_scale_cases_passed": 3,
+  "gpu_memory_measured": false,
+  "interpretation": "Single-pass synthetic box-QP evidence, not repeatable or general industrial speedup"
+}

@@ -1,0 +1,5 @@
+# Reference tools only; never link these into the C++ core.
+highspy==1.12.0
+osqp==1.0.5
+numpy==2.5.3
+scipy==1.18.1

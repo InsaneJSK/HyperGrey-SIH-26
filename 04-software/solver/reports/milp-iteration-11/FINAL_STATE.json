@@ -1,0 +1,86 @@
+{
+  "iteration": "milp-iteration-11",
+  "completed_local_date": "2026-09-15",
+  "status": "mps_correctness_fix_verified_public_wave_incomplete",
+  "build": "build-milp-iter11",
+  "binary_archive": "reports/milp-iteration-11/final_solver_cli.exe",
+  "source_archive": "reports/milp-iteration-11/final-source",
+  "binary_sha256": "867191540898cb1ea7a4bb91a85949734d476b900ca94039025ae818f4ece0cf",
+  "binary_bytes": 723091,
+  "snapshot_files_verified": 123,
+  "cmake_sha256": "2ce8bccd44d20cf48c179536276db204a15759d65b85b13161981b5af2299834",
+  "cmake_cache_sha256": "48032e2a2a7a6881607df654027e334f4fd59b02a3f5dab1c79d61f8d3e4b8c4",
+  "timing_core_source_files_verified": 25,
+  "prior_iteration10_binary_preserved": "3cac5f39d5f2546006cb3bd5788ff0e44245ceaab282e86b8a4caf5062295eeb",
+  "core_files_changed": [
+    "src/mps.cpp"
+  ],
+  "search_algorithms_changed": false,
+  "parser_fix_opt_in": false,
+  "public_cases": 17,
+  "public_new_cases": 10,
+  "public_new_origin": "Historical MIPLIB3 official originals",
+  "own_seconds_limit": 30,
+  "reference_seconds_limit": 5,
+  "watchdog_seconds_limit": 45,
+  "baseline_categories": {
+    "exact_proof_checked": 2,
+    "numerical_completion_checked": 7,
+    "no_incumbent_limit": 1,
+    "feasible_limit": 7
+  },
+  "fixed_categories": {
+    "exact_proof_checked": 2,
+    "numerical_completion_checked": 7,
+    "no_incumbent_limit": 1,
+    "feasible_limit": 7
+  },
+  "all_public_cases_proven": false,
+  "public_observed_validation_failures": 0,
+  "public_sweeps": 2,
+  "saved_final_points_checked": 32,
+  "retained_cuts_rechecked": 52,
+  "exact_proofs_recomputed": 4,
+  "distinct_exact_public_models": 2,
+  "marker_contract_before": {
+    "passed": 24,
+    "cases": 28
+  },
+  "marker_contract_after": {
+    "passed": 28,
+    "cases": 28
+  },
+  "ctest_groups": 9,
+  "python_unit_tests": 52,
+  "generated_milp_checks": 80,
+  "gpu_used": false,
+  "user_upload_needed": false,
+  "no_core_changes_after_timing": true,
+  "harness_posttiming_change": "Gap-limit reference comparison honors requested accuracy; two min/max unit tests added. All 34 saved public classifications unchanged on re-audit. Timed runners archived separately.",
+  "evidence_sha256": {
+    "baseline-30s/SUMMARY.json": "79360391a1a623517efe8fb4d112db11f9e69647594677bbd02e26ca091999f6",
+    "fixed-30s/SUMMARY.json": "79360391a1a623517efe8fb4d112db11f9e69647594677bbd02e26ca091999f6",
+    "marker-baseline/SUMMARY.json": "570e831fd423f76d99a094e45e4f6ff820cb183ccfac007bf678f9ae115d16b7",
+    "marker-fixed/SUMMARY.json": "a4cb3f21752ed46ed40ddfd6640338a9825008fec85827f2d9d944c40c3b1b74",
+    "final-audit/AUDIT.json": "91c6d4533e3b09c9c217a4da4f6545046e95a8b911f2bced3ab460a9c8f8f90d",
+    "final-ctest.log": "9d2fb3ba7e9d370f5b35eba81cd526e61f0561db1a4b97608f759e83f5967139",
+    "final-checker-tests.log": "66f538e319871582e0f10235f0692e95f92c2767a49c22e95816232e630f1f1e",
+    "baseline-runner.py": "c804aa45407ced258ce85f0674184e781564dc4997b235b2acc80c23c0d8145f",
+    "timed-runner.py": "990fcb9ce8eebf1535bbbf78ce71178fd78115343200bd91cc6eef37182d5206",
+    "baseline-exact-checker.py": "bf57cd07cdd02557c79ffde1396f5e4795d766c9e89ab8587da0d05a1a0d118f",
+    "generated-binary/enumeration.json": "1c1afec9524677e682e1ade15a9d3e564146d75fcad6d47a5d083953573a446c",
+    "generated-mixed/summary.json": "a8c1f63dfd11658c770443e1ba1c3a6d1d6aaa0887549d181b641dd98ce24469"
+  },
+  "final_classifier_sha256": "3266562366809724108708f9e282379e5bf3ffb0c620efe89ef4d4cc8bb1efdb",
+  "limitations": [
+    "Eight of 17 public models remain unfinished under the fixed 30-second profile.",
+    "Seven numerical completions are not exact rational proofs; exact engine remains restricted.",
+    "Ten new cases are historical, not ten new modern benchmark instances; no full-library claim.",
+    "General internal LP dual bounds and unsaved intermediate candidates are not independently certified by the audit.",
+    "One sweep per build, not a performance-repeatability study. No speed improvement attributed to parser fix.",
+    "MPS extensions outside the supported subset are still explicitly rejected.",
+    "No new full QP/GPU/industrial validation sweep."
+  ],
+  "next_step": "reports/milp-iteration-11/NEXT_STEP.md",
+  "robustness_program": "docs/MILP_ROBUSTNESS.md"
+}

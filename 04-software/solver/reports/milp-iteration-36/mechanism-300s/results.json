@@ -1,0 +1,169 @@
+[
+ {
+  "name": "neos8",
+  "profile": "control",
+  "status": "process_error",
+  "message": "",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": null,
+  "bounded_optimal": null,
+  "bounded_cold": null,
+  "bounded_warm": null,
+  "fallbacks": null,
+  "unresolved_nodes": null,
+  "basis_kept": null,
+  "peak_commit_mib": 1001.92578125,
+  "published": {
+   "kind": "opt",
+   "value": -3719.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "neos8",
+  "profile": "candidate",
+  "status": "gap_limit",
+  "message": "",
+  "objective": -3719,
+  "best_bound": -3719,
+  "gap": 0,
+  "root_bound": -3773.0000000000005,
+  "root_solved": true,
+  "nodes": 67,
+  "bounded_optimal": 47,
+  "bounded_cold": 3,
+  "bounded_warm": 51,
+  "fallbacks": 1,
+  "unresolved_nodes": 0,
+  "basis_kept": 1,
+  "peak_commit_mib": 1000.77734375,
+  "published": {
+   "kind": "opt",
+   "value": -3719.0
+  },
+  "check": {
+   "status": "checked",
+   "max_violation": 0.0,
+   "integer_violation": 0.0,
+   "valid": true
+  },
+  "proven": true,
+  "objective_error": 0.0,
+  "completion_agrees": true
+ },
+ {
+  "name": "buildingenergy",
+  "profile": "control",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "bounded_cold": 1,
+  "bounded_warm": 0,
+  "fallbacks": 0,
+  "unresolved_nodes": 0,
+  "basis_kept": 0,
+  "peak_commit_mib": 224.31640625,
+  "published": {
+   "kind": "opt",
+   "value": 33283.853236
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "buildingenergy",
+  "profile": "candidate",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "bounded_cold": 1,
+  "bounded_warm": 0,
+  "fallbacks": 0,
+  "unresolved_nodes": 0,
+  "basis_kept": 0,
+  "peak_commit_mib": 223.4140625,
+  "published": {
+   "kind": "opt",
+   "value": 33283.853236
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "supportcase10",
+  "profile": "control",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "bounded_cold": 1,
+  "bounded_warm": 0,
+  "fallbacks": 0,
+  "unresolved_nodes": 0,
+  "basis_kept": 0,
+  "peak_commit_mib": 189.875,
+  "published": {
+   "kind": "opt",
+   "value": 7.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ },
+ {
+  "name": "supportcase10",
+  "profile": "candidate",
+  "status": "time_limit",
+  "message": "LP relaxation did not pass its numerical checks",
+  "objective": null,
+  "best_bound": null,
+  "gap": null,
+  "root_bound": null,
+  "root_solved": false,
+  "nodes": 1,
+  "bounded_optimal": 0,
+  "bounded_cold": 1,
+  "bounded_warm": 0,
+  "fallbacks": 0,
+  "unresolved_nodes": 0,
+  "basis_kept": 0,
+  "peak_commit_mib": 190.0546875,
+  "published": {
+   "kind": "opt",
+   "value": 7.0
+  },
+  "check": {
+   "status": "no_point"
+  },
+  "proven": false
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "notebook_schema": "passed",
+  "notebook_bytes": 11492,
+  "under_1_mb": true,
+  "external_source_zip": true,
+  "code_cells_parsed": 2,
+  "source_files_verified": 115,
+  "cpu_core_files_matched": 22,
+  "snapshot_sha256": "6df478b347011bddb81af6950fbfec1a7c2557954c2fc4ccc0cea42a18f2bb6b",
+  "cuda_execution": "selected synthetic CUDA cases passed in audited Kaggle return; single timing pass"
+}

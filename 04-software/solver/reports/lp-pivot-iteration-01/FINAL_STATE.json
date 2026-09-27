@@ -1,0 +1,11 @@
+{
+  "manifest_sha256": "20baad6b69c5964a335300c5b1e074c4435a8288188747e6d05db78fe3ee91e9",
+  "files": 2393,
+  "scope": "Frozen opt-in LP safeguard; defaults unchanged; no broad MILP or operational QP accuracy claim.",
+  "binary_sha256": "070878750efa73d39aa2815075132212c70f1cbbafd9528f8c2875db3b15cb68",
+  "default_changed": false,
+  "stable_lp_checked": 16,
+  "stable_refined_lp_checked": 16,
+  "qp_relative_kkt_checked": 3,
+  "unvalidated_completions": 0
+}

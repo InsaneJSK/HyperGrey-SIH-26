@@ -1,0 +1,65 @@
+binary e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad
+downloaded neos-3402454-bohle 346567160
+downloaded neos-5114902-kasavu 141453261
+downloaded supportcase19 208807596
+downloaded supportcase12 111986104
+downloaded neos-5104907-jarama 68783097
+downloaded gfd-schedulen180f7d50m30k18 76380833
+downloaded ns1760995 74359796
+downloaded savsched1 120192784
+neos-3402454-bohle       control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=None
+neos-5114902-kasavu      control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=655.0
+supportcase19            control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=12677205.99992052
+supportcase12            control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=-7559.533053817
+neos-5104907-jarama      control: external_timeout       root=no  nodes=    None | candidate: external_timeout       root=no  nodes=    None obj=None pub=935.0
+gfd-schedulen180f7d50m30k18 control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=1.0
+ns1760995                control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=-549.21438505
+savsched1                control: time_limit             root=no  nodes=       1 | candidate: time_limit             root=no  nodes=       1 obj=None pub=3217.7
+{
+ "control": {
+  "root_solved": 0,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "neos-3402454-bohle",
+   "neos-5114902-kasavu",
+   "supportcase19",
+   "supportcase12",
+   "neos-5104907-jarama",
+   "gfd-schedulen180f7d50m30k18",
+   "ns1760995",
+   "savsched1"
+  ],
+  "fallbacks": 0,
+  "unresolved_nodes": 0,
+  "cold_starts": 7,
+  "nodes": 7
+ },
+ "candidate": {
+  "root_solved": 0,
+  "proven": 0,
+  "completion_disagrees": [],
+  "validated_points": 0,
+  "rejected_points": [],
+  "unresolved_root": [
+   "neos-3402454-bohle",
+   "neos-5114902-kasavu",
+   "supportcase19",
+   "supportcase12",
+   "neos-5104907-jarama",
+   "gfd-schedulen180f7d50m30k18",
+   "ns1760995",
+   "savsched1"
+  ],
+  "fallbacks": 0,
+  "unresolved_nodes": 0,
+  "cold_starts": 7,
+  "nodes": 7
+ },
+ "binaries": {
+  "control": "58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a",
+  "candidate": "e379b12cb5136cdf04ae22539d00073730dd94672b1b2075c7e8e5012bf11dad"
+ }
+}

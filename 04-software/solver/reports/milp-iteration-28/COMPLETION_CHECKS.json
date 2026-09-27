@@ -1,0 +1,15 @@
+{
+  "all_pass": true,
+  "public_records": 39,
+  "public_final_vectors": 37,
+  "artificial_answers": 24,
+  "resource_cases": 15,
+  "raw_stress_reference_mismatches_retained": 24,
+  "runtime_omission_fixed": "libdl.dll",
+  "release_promoted": false,
+  "defaults_changed": false,
+  "other_submission_tracks_completed": false,
+  "matched_accuracy_performance_study_completed": false,
+  "objective_sha256": "85b980d051e68ab2ef6211dd5d08e7cfb5a202360d024418a375b5d627597782",
+  "binary_sha256": "f74d9fe31411ec2c94452eb302b1967ad8bf85be44df3d6d4d177e93a162cf2c"
+}

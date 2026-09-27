@@ -1,0 +1,61 @@
+{
+  "iteration": "milp-iteration-09",
+  "completed_local_date": "2026-09-15",
+  "status": "verified_optional_candidate_binkar_proof_incomplete",
+  "build": "build-milp-iter9b",
+  "binary_archive": "reports/milp-iteration-09/final_solver_cli.exe",
+  "source_archive": "reports/milp-iteration-09/final-source",
+  "binary_sha256": "3335c4cc5a41bf5f3581a39ef10aa43f82ad40402e0294990032063b0e503ed1",
+  "binary_bytes": 716921,
+  "source_snapshot_manifest": "reports/milp-iteration-09/SNAPSHOT_MANIFEST.json",
+  "snapshot_files_verified": 107,
+  "timing_source_identities_verified": {
+    "delayed-180s": 77,
+    "proof-attempt-600s": 78
+  },
+  "direct_snapshot_timing_files_verified": 77,
+  "cmake_sha256": "a0749c9f26a56f5fe54ba08f257cb47edd90e6128cdf121c26bb21a624a91c9f",
+  "cmake_cache_sha256": "8dbf238c826f70f4331e616cd1795c09c4a4567b88b5c53b7a94ac9d3bb8af49",
+  "prior_iteration08_binary_preserved": "bea877af55f4d790f692640f1787b750627d0525797af2e7f0067e655cd9e148",
+  "direct_binary_sha256": "d65d6327b2972d5cf4afd8deddbe165eedd506b5415f75a561217a2e84f7f132",
+  "default_promotion": false,
+  "new_modes": [
+    "--compact-equalities",
+    "--late-compact-equalities"
+  ],
+  "no_numerical_changes_after_timing": true,
+  "gpu_used": false,
+  "user_upload_needed": false,
+  "final_ctest_groups": 7,
+  "final_checker_unit_tests": 33,
+  "generated_milp_checks": 240,
+  "independent_equality_lp_checks": 90,
+  "ctest_equality_lp_comparisons": 300,
+  "ctest_equality_milp_comparisons": 80,
+  "generated_control_nonregression_cases": 80,
+  "paired_public_runs": 4,
+  "paired_seconds_limit": 180,
+  "paired_audit_cuts": 48,
+  "paired_audit_vectors": 16,
+  "long_attempt": {
+    "nominal_seconds_limit": 600,
+    "actual_seconds": 604.3032835,
+    "status": "time_limit",
+    "objective": 6747.310014559364,
+    "best_bound": 6686.056417321848,
+    "gap": 0.009076879560269558,
+    "nodes": 20431,
+    "optimum_proven": false,
+    "audited_cuts": 23,
+    "audited_vectors": 7
+  },
+  "exact_markshare_sentinel_pass": true,
+  "limitations": [
+    "General MILP bounds remain numerical, not exact rational proofs.",
+    "The 180s paired gap improvement is marginal; no general speedup is claimed.",
+    "The 600s attempt is not an equal-budget comparison.",
+    "Audits cover saved vectors, not every intermediate incumbent or internal LP dual bound.",
+    "No new Blend2 long run, QP/GPU sweep, full benchmark library or industrial validation."
+  ],
+  "next_investigation": "reports/milp-iteration-09/NEXT_STEP.md"
+}

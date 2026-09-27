@@ -1,0 +1,15 @@
+{
+  "version": "1.12.0",
+  "status": "Time limit reached",
+  "objective": null,
+  "solve_seconds": 0.0004324999899836257,
+  "total_seconds": 0.001138299994636327,
+  "rows": 4,
+  "columns": 34,
+  "candidate_max_violation": 5.9999365475960076e-09,
+  "candidate_scaled_violation": 3.3764415011909205e-12,
+  "candidate_recomputed_objective": 4.999999994,
+  "candidate_integer_violation": 0.0,
+  "process_seconds": 0.2771375000011176,
+  "exit_code": 0
+}

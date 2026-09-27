@@ -1,0 +1,30 @@
+{
+ "name": "neos-957323",
+ "status": "node_limit",
+ "message": "",
+ "wall_seconds": 180.8,
+ "rows": 3757,
+ "columns": 57756,
+ "root_lp_failure_status": null,
+ "root_lp_iterations": null,
+ "bounded": {
+  "calls": 6,
+  "optimal": 5,
+  "failures": 1,
+  "fallbacks": 0,
+  "iterations": 39411,
+  "verification_rejected": 0,
+  "farkas_rejected": 0,
+  "refactors": 632,
+  "singular_repairs": 0,
+  "seconds": 171.9020567
+ },
+ "lp_recovery": {
+  "attempts": 0,
+  "successes": 0,
+  "seconds": 0
+ },
+ "debug": [
+  "bounded failure status=time_limit warm=1 it=93"
+ ]
+}

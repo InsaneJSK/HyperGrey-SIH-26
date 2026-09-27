@@ -1,0 +1,55 @@
+NAME MIXED_REGRESSION
+ROWS
+ N OBJ
+ L R0
+ G R1
+ L R2
+ G R3
+ L R4
+COLUMNS
+ x0 OBJ 6
+ x0 R1 -2
+ x0 R2 -1
+ x0 R3 -2
+ x0 R4 1
+ x1 OBJ 4
+ x1 R0 3
+ x1 R1 -2
+ x1 R2 -1
+ x1 R3 -3
+ x2 OBJ -5
+ x2 R0 2
+ x2 R1 4
+ x2 R2 4
+ x2 R3 1
+ x2 R4 4
+ x3 OBJ 1
+ x3 R0 -2
+ x3 R1 -2
+ x3 R2 2
+ x3 R3 3
+ x3 R4 -1
+ x4 OBJ 0
+ x4 R0 -2
+ x4 R1 -2
+ x4 R2 -2
+ x4 R3 3
+ x4 R4 -1
+RHS
+ B R0 12.075035602540577
+ B R1 -3.9663233672807126
+ B R2 5.1041852057593351
+ B R3 -10.333687633368321
+ B R4 15.092708892295436
+BOUNDS
+ LI B x0 -2
+ UI B x0 3
+ LI B x1 -1
+ UI B x1 3
+ LI B x2 0
+ UI B x2 4
+ LO B x3 -3
+ UP B x3 2
+ LO B x4 0
+ UP B x4 4
+ENDATA

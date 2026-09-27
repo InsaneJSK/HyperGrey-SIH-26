@@ -1,0 +1,14 @@
+{
+ "label": "unsupported",
+ "command": [
+  "build-iter31\\solver_cli.exe",
+  "D:\\sih-2026\\SIH-backup-solver\\SIH-backup-solver\\reports\\demo-2026-09-18\\unsupported.mps",
+  "--json",
+  "--time-limit",
+  "10",
+  "--milp"
+ ],
+ "exit_code": 2,
+ "stderr": "error: MPS line 9: Unsupported MPS section: SOS",
+ "result": null
+}

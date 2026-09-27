@@ -1,0 +1,11 @@
+{
+  "version": "1.12.0",
+  "status": "Optimal",
+  "objective": -158.62801845012078,
+  "solve_seconds": 0.010339000000385568,
+  "total_seconds": 0.01346640000701882,
+  "rows": 305,
+  "columns": 472,
+  "process_seconds": 0.5262397999904351,
+  "exit_code": 0
+}

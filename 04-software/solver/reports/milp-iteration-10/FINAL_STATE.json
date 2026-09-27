@@ -1,0 +1,92 @@
+{
+  "iteration": "milp-iteration-10",
+  "completed_local_date": "2026-09-15",
+  "status": "verified_optional_candidate_binkar_proof_incomplete",
+  "build": "build-milp-iter10",
+  "binary_archive": "reports/milp-iteration-10/final_solver_cli.exe",
+  "source_archive": "reports/milp-iteration-10/final-source",
+  "binary_sha256": "3cac5f39d5f2546006cb3bd5788ff0e44245ceaab282e86b8a4caf5062295eeb",
+  "binary_bytes": 722579,
+  "source_snapshot_manifest": "reports/milp-iteration-10/SNAPSHOT_MANIFEST.json",
+  "snapshot_files_verified": 115,
+  "timing_source_identities_verified": {
+    "root-screen": 83,
+    "paired-180s": 83,
+    "root-repeats": 84
+  },
+  "cmake_sha256": "a1a2297916ee54a73edf5b00f32515b7aae610d5ef4aa7421d214da483941e47",
+  "cmake_cache_sha256": "bd94d6efa9f1c56f3bc1b8b6de81a786340e18ce387d88ddbc4b50008e33d4d7",
+  "prior_iteration09_binary_preserved": "3335c4cc5a41bf5f3581a39ef10aa43f82ad40402e0294990032063b0e503ed1",
+  "default_promotion": false,
+  "new_modes": [
+    "--reduced-bound-lp",
+    "--late-reduced-bound-lp"
+  ],
+  "no_numerical_changes_after_timing": true,
+  "gpu_used": false,
+  "user_upload_needed": false,
+  "final_ctest_groups": 8,
+  "final_checker_unit_tests": 33,
+  "ctest_new_mixed_milp_comparisons": 200,
+  "independent_highs_mixed_cases": 80,
+  "independent_reduced_lp_accepted": 127,
+  "generated_profile_checks": 240,
+  "generated_control_nonregression_cases": 80,
+  "application_models": 4,
+  "application_profile_checks": 8,
+  "paired_public_runs": 6,
+  "paired_seconds_limit": 180,
+  "paired_audit_cuts": 49,
+  "paired_audit_vectors": 24,
+  "root_repeat_pairs": 3,
+  "root_control_median_seconds": 6.7029047,
+  "root_reduced_median_seconds": 2.4653073,
+  "root_median_time_ratio": 2.7188921640722032,
+  "binkar": {
+    "objective": 6747.310014559364,
+    "best_bound": 6685.681835103155,
+    "gap": 0.009132387119626608,
+    "control_gap": 0.00952921453454743,
+    "nodes": 10705,
+    "status": "time_limit",
+    "actual_seconds": 181.0221582,
+    "optimum_proven": false
+  },
+  "blend2": {
+    "objective": 7.598985,
+    "best_bound": 7.598984140101483,
+    "gap": 1.0000000195793e-7,
+    "status": "gap_limit",
+    "actual_seconds": 144.0355578,
+    "reduced_lp_fallbacks": 3,
+    "control_status": "time_limit",
+    "control_objective": 8.015188,
+    "control_actual_seconds": 180.0273077
+  },
+  "markshare_sentinel": {
+    "status": "optimal",
+    "objective": 1,
+    "best_bound": 1,
+    "gap": 0,
+    "independent_literal_check": true
+  },
+  "evidence_sha256": {
+    "paired-audit/AUDIT.json": "aaeda7d65d68179fce76938c75e3763fbf21b51d6b54a400328451cd4819ed4b",
+    "root-audit/AUDIT.json": "2d7a3d4369a41865cf45142cdd85faae7799dabb20879ebb0cda24fd24afc969",
+    "paired-180s/summary.json": "e3c83062ae5f3330d99e152e5ae77f02320477e55c158a3c9d4e7e4f0b105210",
+    "root-repeats/summary.json": "9d8d4e42db9136883dc69b085382dd0d0cc4fee480e7e6ebecdc1977855d6886",
+    "independent-mixed/SUMMARY.json": "9be9058c8396990962ee80af96498aa324076b3f767e9db87e7afc9291f9210e",
+    "application-checks/SUMMARY.json": "cb32f6230d6fb86f0378bbee78599783bbbc4b3a85cbf22c55efd6b64414c251",
+    "CONTROL_NONREGRESSION.json": "d67e1b3e7692386f4ae0b2cc760aea6bde85e98bf2430d7c03604ab6a10b3599"
+  },
+  "submission_assessment_sha256": "52c9bcf9053b92b6d517569f6295b386ecb63bd2f18349b3451d2b9540cc2a1a",
+  "limitations": [
+    "General MILP bounds remain numerical, not exact rational proofs.",
+    "One full-solve repetition per profile; repeated speed gain covers root screens only.",
+    "Application examples are literature/synthetic data, not production/domain-expert validation.",
+    "Audit covers saved vectors and retained cuts, not every intermediate point or internal LP dual bound.",
+    "No new full LP/QP/GPU/public-library sweep; no competition rank inferred.",
+    "Snapshot archives source/docs/scripts only; datasets and external reference dependencies remain separately recorded in the workspace."
+  ],
+  "next_work": "Predeclare and repeat a broader hard-MILP suite; improve Binkar proof progress, domain validation and final demonstration."
+}

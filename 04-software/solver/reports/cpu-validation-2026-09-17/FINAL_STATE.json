@@ -1,0 +1,6 @@
+{
+  "all_identity_checks_passed": true,
+  "manifest_sha256": "2164aef4d93d6dd60ae093abb5735f7e3e7f07633d4fa072ed79e3246e512221",
+  "files": 550,
+  "scope": "37 current-source LP/QP observations, including failures and reference limits."
+}

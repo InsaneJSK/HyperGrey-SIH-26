@@ -1,0 +1,1 @@
+{"status":"optimal","nodes":5,"lp_iterations":23,"total_seconds":0.001905,"rows":3,"columns":4,"objective":420,"best_bound":420,"gap":0,"primal":[10.000000000000004,70,1,1]}

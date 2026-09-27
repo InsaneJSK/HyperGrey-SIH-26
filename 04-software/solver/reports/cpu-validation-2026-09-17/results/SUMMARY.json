@@ -1,0 +1,33 @@
+{
+  "binary_sha256": "b0f2c51eba65cd9a4ff8ad3817dfe289eae90823a7bb8f749185bbb7249df2dc",
+  "records": 37,
+  "unvalidated_native_completions": 0,
+  "groups": {
+    "additional_lp.default": {
+      "records": 4,
+      "checked_completions": 3
+    },
+    "additional_lp.refined": {
+      "records": 4,
+      "checked_completions": 3
+    },
+    "lp.default": {
+      "records": 12,
+      "checked_completions": 12
+    },
+    "lp.refined": {
+      "records": 12,
+      "checked_completions": 12
+    },
+    "qp.default": {
+      "records": 3,
+      "checked_completions": 3
+    },
+    "qp.tolerance_probe": {
+      "records": 2,
+      "checked_completions": 0
+    }
+  },
+  "ledger_sha256": "e919d0dda4aac43ce62b0953f49b2fc9f6df2bfb489f4f6b5f67809e9ac9b87a",
+  "scope": "Reused retained inputs; no GPU, fresh-holdout or fair-speed-ranking claim."
+}

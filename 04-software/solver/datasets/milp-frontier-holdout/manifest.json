@@ -1,0 +1,62 @@
+{
+  "utc": "2026-09-15T15:20:01.539763+00:00",
+  "selection": [
+    "gen-ip002",
+    "assign1-5-8",
+    "lotsize",
+    "eil33-2"
+  ],
+  "selection_plan_sha256": "b34be78ae61e079fedb2a2b38d3e69e01a074128e8a7a0390782f51f56a60a78",
+  "script_sha256": "7fbc3eb0fc8f0905892f38d5021a67dae1f7de5363d12e3d5017b2f5538cce8a",
+  "benchmark_index": "https://miplib.zib.de/tag_benchmark.html",
+  "instances": [
+    {
+      "name": "gen-ip002",
+      "url": "https://miplib.zib.de/WebData/instances/gen-ip002.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_gen-ip002.html",
+      "family": "miplib2017_benchmark_holdout",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-frontier-holdout/gen-ip002.mps",
+      "model_sha256": "30ed071e531beea561b330dd8e590eb641a5ec6d4e3f41a8d54735ce27db01b6",
+      "raw_sha256": "cb37e723fa2187947981215bf9c8ba40d452984d7b9be3467e9f9d18f0343f78",
+      "bytes": 48940
+    },
+    {
+      "name": "assign1-5-8",
+      "url": "https://miplib.zib.de/WebData/instances/assign1-5-8.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_assign1-5-8.html",
+      "family": "miplib2017_benchmark_holdout",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-frontier-holdout/assign1-5-8.mps",
+      "model_sha256": "cb63a8b3480eaca33562ab4960b0b795604aa520e4241761eae6aa86df30ca6b",
+      "raw_sha256": "305c26c9eee8da7242f2f42504cb0988c9503f65972859ad5f26d9615086cde3",
+      "bytes": 115129
+    },
+    {
+      "name": "lotsize",
+      "url": "https://miplib.zib.de/WebData/instances/lotsize.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_lotsize.html",
+      "family": "miplib2017_benchmark_holdout",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-frontier-holdout/lotsize.mps",
+      "model_sha256": "9fcea318555b277974f8a6f475afabba33f17e2dc90e215f5ce5f692938ab721",
+      "raw_sha256": "14702c1793474b78a30b91512a12917790ba860f7abe765b01b296fb86835902",
+      "bytes": 312630
+    },
+    {
+      "name": "eil33-2",
+      "url": "https://miplib.zib.de/WebData/instances/eil33-2.mps.gz",
+      "metadata_url": "https://miplib.zib.de/instance_details_eil33-2.html",
+      "family": "miplib2017_benchmark_holdout",
+      "new_case": true,
+      "status": "ready",
+      "model": "datasets/milp-frontier-holdout/eil33-2.mps",
+      "model_sha256": "6e6c3e48fa0df3ec627baab65c0b8da7a5ef1bd920ed52b3e5706cd70edd9966",
+      "raw_sha256": "2d349f8ba12aaf170c9f8bf85327d6592cc0f4d89d300dfb77197acd34a7ffb1",
+      "bytes": 1527787
+    }
+  ]
+}

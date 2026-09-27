@@ -1,0 +1,80 @@
+{
+  "utc": "2026-09-17T01:57:04.941657+00:00",
+  "selection": [
+    "vpm1",
+    "vpm2",
+    "bell3a",
+    "bell5",
+    "gesa2",
+    "noswot"
+  ],
+  "selection_sha256": "6a72387bcc39b9c9736ed74909a96a7e5328f1204d8552e7c300dc3bf90a4adf",
+  "instances": [
+    {
+      "name": "vpm1",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/vpm1.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/vpm1.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-28-holdout/vpm1.mps",
+      "model_sha256": "838f2b08516a97db20825488d6f10de998c3d4b9853336c75ec5f56d67366885",
+      "raw_sha256": "53a4234738164d371e9535ed431b4b1f02eb90fc29d74dbf61ca66a19f199c6b",
+      "bytes": 50111
+    },
+    {
+      "name": "vpm2",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/vpm2.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/vpm2.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-28-holdout/vpm2.mps",
+      "model_sha256": "55ca0b6caff042c42c5269045177351db828f066a94876e5885f626d02d5ffbc",
+      "raw_sha256": "484ac31f97ef1c7b9b813aba29e441d84ef3b3b09eedab04df81159102d571ca",
+      "bytes": 53949
+    },
+    {
+      "name": "bell3a",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/bell3a.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/bell3a.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-28-holdout/bell3a.mps",
+      "model_sha256": "1ada0bcc162defc9d8f17769920d3531d6e9f8c69f466e3eb165939ae845fd43",
+      "raw_sha256": "46db23e722a94011bc07f39da5471148579f55be4127ee9b0f060375ce9eeb23",
+      "bytes": 20196
+    },
+    {
+      "name": "bell5",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/bell5.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/bell5.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-28-holdout/bell5.mps",
+      "model_sha256": "d4846d7ea889d482e32842832e599ca6d0dc04fd8ea3ea58f49a52b436859dd5",
+      "raw_sha256": "2aab3da01019fdd5acbdeba604e01758a1fcd8fae666464322860cabe322e6a0",
+      "bytes": 15801
+    },
+    {
+      "name": "gesa2",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/gesa2.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/gesa2.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-28-holdout/gesa2.mps",
+      "model_sha256": "fe43df9f95b79fbceae3b4c5f8a152e9498facf5adf750f6255fe4c693af02c3",
+      "raw_sha256": "9c623e99d3f6807b094c773ef0eb0795978a24b7035d5f8e30dc9feabb5ff8f1",
+      "bytes": 238477
+    },
+    {
+      "name": "noswot",
+      "url": "https://miplib2010.zib.de/miplib3/miplib3/noswot.mps.gz",
+      "new_case": true,
+      "response_url": "https://miplib2010.zib.de/miplib3/miplib3/noswot.mps.gz",
+      "status": "ready",
+      "model": "datasets/milp-iteration-28-holdout/noswot.mps",
+      "model_sha256": "84a417e417b8b3f74f922dccf9eef6cc4b69c0010eb3a49e516d24225b65f8cc",
+      "raw_sha256": "10743508ccbe7dc19c414659fabd1e91846531e2e29631c5be06172d509b2240",
+      "bytes": 32320
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "status": "optimal",
+  "message": "",
+  "nodes": 9,
+  "lp_iterations": 56,
+  "total_seconds": 0.006566,
+  "warm_starts": 17,
+  "heuristic_solves": 11,
+  "cuts": 0,
+  "bound_tightenings": 63,
+  "rows": 4,
+  "columns": 5,
+  "objective": 35.250000039,
+  "pump_projections": 2,
+  "pump_restarts": 2,
+  "pump_incumbents": 1,
+  "cut_rollbacks": 0,
+  "first_incumbent_seconds": 0.00028990000000028715,
+  "best_bound": 35.250000039,
+  "objective_lattice": {
+    "enabled": true,
+    "eligible": true,
+    "reason": "checked_parsed_model_lattice",
+    "offset_minimization": 9.75,
+    "step": 1,
+    "coefficients_minimization": [
+      12,
+      13,
+      -11,
+      9,
+      0
+    ],
+    "substitutions": [
+      {
+        "column": 4,
+        "row": 0
+      }
+    ],
+    "bound_calls": 18,
+    "bound_improvements": 18,
+    "trace_truncated": false,
+    "trace": [
+      {
+        "node": 0,
+        "before_minimization": -40.750004175000015,
+        "after_minimization": -40.25000000000001
+      },
+      {
+        "node": 0,
+        "before_minimization": -40.750004175000015,
+        "after_minimization": -40.25000000000001
+      },
+      {
+        "node": 1,
+        "before_minimization": -36.750003775000025,
+        "after_minimization": -36.25000000000001
+      },
+      {
+        "node": 1,
+        "before_minimization": -36.750003775000025,
+        "after_minimization": -36.25000000000001
+      },
+      {
+        "node": 2,
+        "before_minimization": -40.125004112500015,
+        "after_minimization": -39.25000000000001
+      },
+      {
+        "node": 2,
+        "before_minimization": -40.125004112500015,
+        "after_minimization": -39.25000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -33.25000344920001,
+        "after_minimization": -33.25000000000001
+      },
+      {
+        "node": 5,
+        "before_minimization": -33.25000344920001,
+        "after_minimization": -33.25000000000001
+      },
+      {
+        "node": 6,
+        "before_minimization": -39.75000407500001,
+        "after_minimization": -39.25000000000001
+      },
+      {
+        "node": 6,
+        "before_minimization": -39.75000407500001,
+        "after_minimization": -39.25000000000001
+      },
+      {
+        "node": 7,
+        "before_minimization": -35.250003664000005,
+        "after_minimization": -35.25000000000001
+      },
+      {
+        "node": 7,
+        "before_minimization": -35.250003664000005,
+        "after_minimization": -35.25000000000001
+      },
+      {
+        "node": 8,
+        "before_minimization": -32.250003367,
+        "after_minimization": -32.25000000000001
+      },
+      {
+        "node": 8,
+        "before_minimization": -32.250003367,
+        "after_minimization": -32.25000000000001
+      },
+      {
+        "node": 3,
+        "before_minimization": -17.350001835000008,
+        "after_minimization": -17.250000000000004
+      },
+      {
+        "node": 3,
+        "before_minimization": -17.350001835000008,
+        "after_minimization": -17.250000000000004
+      },
+      {
+        "node": 4,
+        "before_minimization": -34.350003535000006,
+        "after_minimization": -34.25000000000001
+      },
+      {
+        "node": 4,
+        "before_minimization": -34.350003535000006,
+        "after_minimization": -34.25000000000001
+      }
+    ]
+  },
+  "compact_equalities_enabled": false,
+  "late_compact_equalities_enabled": false,
+  "compact_lp_calls": 0,
+  "compact_lp_fallbacks": 0,
+  "root_lp_rows": 10,
+  "root_compact_equalities": 0,
+  "branching": "fractionality",
+  "pseudocost_updates": 0,
+  "reduced_bound_lp_enabled": false,
+  "late_reduced_bound_lp_enabled": false,
+  "reduced_bound_lp_calls": 0,
+  "reduced_bound_lp_fallbacks": 0,
+  "reduced_bound_lp_accepted": 0,
+  "reduced_upper_candidates": 0,
+  "root_reduced_upper_bounds": 0,
+  "strong_branch_probes": 0,
+  "strong_branch_seconds": 0,
+  "gap": 0,
+  "lp_recovery_attempts": 0,
+  "lp_recovery_successes": 0,
+  "lp_recovery_seconds": 0,
+  "deferred_nodes": 0,
+  "unresolved_nodes": 0,
+  "neighborhood_calls": 0,
+  "neighborhood_nodes": 0,
+  "neighborhood_improvements": 0,
+  "neighborhood_seconds": 0,
+  "neighborhood_paced": false,
+  "neighborhood_min_spacing_seconds": 0,
+  "neighborhood": "guided",
+  "neighborhood_trace": [],
+  "first_lp_failure": null,
+  "rejected_integer_candidates": 0,
+  "rejected_candidates": [],
+  "candidate_repair_attempts": 0,
+  "candidate_repair_successes": 0,
+  "repair_branch_nodes": 0,
+  "candidate_repair_seconds": 0,
+  "binary_meet_enabled": false,
+  "binary_meet_attempts": 0,
+  "binary_meet_eligible": false,
+  "binary_meet_completed": false,
+  "binary_meet_improved": false,
+  "binary_meet_left_states": 0,
+  "binary_meet_right_states": 0,
+  "binary_meet_query_nodes": 0,
+  "binary_meet_seconds": 0,
+  "binary_meet_budget": 0,
+  "binary_meet_primal": [],
+  "lifted_covers_enabled": false,
+  "lifted_cover_states": 0,
+  "lifted_cover_checked": 0,
+  "lifted_cover_seconds": 0,
+  "late_lifted_covers_enabled": false,
+  "cut_restarts": 0,
+  "cut_restart_nodes": 0,
+  "cut_restart_seconds": 0,
+  "cut_restart_bound": null,
+  "cut_restart_objective": null,
+  "cut_restart_primal": [],
+  "root_bound_before_cuts": 40.25000000000001,
+  "root_bound_after_cuts": 40.25000000000001,
+  "lifted_cover_trace": [],
+  "binary_proof_enabled": false,
+  "binary_proof_attempts": 0,
+  "binary_proof_budget": 0,
+  "binary_proof": {
+    "version": 1,
+    "arithmetic": "checked_int64",
+    "status": "not_run",
+    "reason": "",
+    "eligible": false,
+    "completed": false,
+    "verified": false,
+    "feasible": false,
+    "seconds": 0,
+    "work": 0,
+    "work_limit": 50000000,
+    "left_states": 0,
+    "right_states": 0,
+    "query_nodes": 0,
+    "objective_minimization": null,
+    "binary_indices": [],
+    "primal": []
+  },
+  "incumbent_trace": [
+    [
+      0.0002899999999996794,
+      12.25
+    ],
+    [
+      0.0006307999999997094,
+      33.250000033
+    ],
+    [
+      0.0006842000000002457,
+      35.250000039
+    ]
+  ],
+  "primal": [
+    1,
+    -2,
+    2,
+    -1,
+    -12.000000013
+  ],
+  "process_seconds": 0.02169080000021495,
+  "exit_code": 0
+}

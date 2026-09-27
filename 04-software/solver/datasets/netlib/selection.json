@@ -1,0 +1,19 @@
+{
+  "source": "https://netlib.org/lp/data/",
+  "reference_values_source": "https://netlib.org/lp/data/readme",
+  "selection_policy": "Predeclared small LP smoke set plus degen2 stress case; not a representative performance sample.",
+  "instances": [
+    {"name": "adlittle", "objective": 225494.96316},
+    {"name": "afiro", "objective": -464.75314286},
+    {"name": "blend", "objective": -30.812149846},
+    {"name": "boeing2", "objective": -315.01872802},
+    {"name": "degen2", "objective": -1435.178},
+    {"name": "kb2", "objective": -1749.9001299},
+    {"name": "sc105", "objective": -52.202061212},
+    {"name": "sc205", "objective": -52.202061212},
+    {"name": "sc50a", "objective": -64.575077059},
+    {"name": "sc50b", "objective": -70},
+    {"name": "share2b", "objective": -415.73224074},
+    {"name": "stocfor1", "objective": -41131.976219}
+  ]
+}

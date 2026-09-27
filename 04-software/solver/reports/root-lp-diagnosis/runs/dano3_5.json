@@ -1,0 +1,30 @@
+{
+ "name": "dano3_5",
+ "status": "unresolved_relaxations",
+ "message": "Unresolved LP nodes retained in the global bound",
+ "wall_seconds": 176.3,
+ "rows": 3202,
+ "columns": 13873,
+ "root_lp_failure_status": "iteration_limit",
+ "root_lp_iterations": 10000,
+ "bounded": {
+  "calls": 1,
+  "optimal": 0,
+  "failures": 1,
+  "fallbacks": 1,
+  "iterations": 10000,
+  "verification_rejected": 0,
+  "farkas_rejected": 0,
+  "refactors": 157,
+  "singular_repairs": 0,
+  "seconds": 39.4543889
+ },
+ "lp_recovery": {
+  "attempts": 1,
+  "successes": 0,
+  "seconds": 2.2753393
+ },
+ "debug": [
+  "bounded failure status=iteration_limit warm=0 it=10000"
+ ]
+}

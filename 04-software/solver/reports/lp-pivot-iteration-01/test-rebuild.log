@@ -1,0 +1,4 @@
+[ 81%] Built target solver
+[ 90%] Building CXX object CMakeFiles/solver_primal_ratio_tests.dir/tests/test_primal_ratio.cpp.obj
+[100%] Linking CXX executable solver_primal_ratio_tests.exe
+[100%] Built target solver_primal_ratio_tests

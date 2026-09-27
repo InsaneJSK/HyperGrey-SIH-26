@@ -1,0 +1,65 @@
+{
+ "iteration": 35,
+ "date": "2026-09-19",
+ "decision": "Promoted; one declared criterion not met, recorded.",
+ "binary_sha256": "58faf7cf7abfdac656b842128de823fb933dfaf1f47a4911cc6c7d96acdfb79a",
+ "control_binary_sha256": "f749c5af915b2a8a613a9fda5424a80601750040c366cc6311165de8d6a9bddb",
+ "validation_failures": 0,
+ "rejected_points": 0,
+ "format": "[control, candidate]",
+ "development": {
+  "completions_our_status": [
+   26,
+   26
+  ],
+  "checked_points": [
+   50,
+   50
+  ]
+ },
+ "mechanism_300s": {
+  "nodes": [
+   16,
+   6618
+  ],
+  "cold_starts": [
+   21,
+   7
+  ],
+  "fallbacks": [
+   9,
+   8
+  ],
+  "unresolved_nodes": [
+   6,
+   7
+  ],
+  "note": "Criterion \"unresolved nodes fall\" NOT met in absolute count; 4 of 6 instances reached zero. Per thousand nodes: 375 -> 1.1."
+ },
+ "fresh_300s": {
+  "cold_starts": [
+   37,
+   8
+  ],
+  "fallbacks": [
+   88,
+   72
+  ],
+  "nodes": [
+   1230736,
+   1206202
+  ],
+  "validated_points": [
+   6,
+   6
+  ]
+ },
+ "found_defect": "Recommended profile aborts on neos8 (resource_limit: sparse LU fill budget) when --lifted-covers and --gomory-cuts are combined. Pre-existing from iteration 32; the benchmark proved neos8 at -3719 with the older flag list. Iteration 36 item 1.",
+ "files_sha256": {
+  "CANDIDATE_PROFILE.json": "d2528bec5c0bd360e62f85fa4e7c79fd836feaa6be1bbe1e3c262559ea0e2658",
+  "DEVELOPMENT.json": "bc532c007c2ad7f3d7090d84289eb4c29c3fd29f2d3c9e1b33b0015ba197d061",
+  "PLAN.md": "fb5845f211f60dac0a4d65fd8e59d398aa6dae0f6e58a1fa9ea49f94800f1e7a",
+  "REPORT.md": "91e197411e72930d941e5f86e70a8f412c85efc806fe08fe884e9cb3e620835d",
+  "SOURCE_IDENTITY.json": "695dda1adc1ac202128ae5aa6cc6f2049d17559bf22571676e35093156fe7caf"
+ }
+}

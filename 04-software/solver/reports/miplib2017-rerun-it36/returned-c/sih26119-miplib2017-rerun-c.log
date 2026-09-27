@@ -1,0 +1,57 @@
+[{"stream_name":"stdout","time":34.142563471,"data":"highspy install exit 0\n"}
+,{"stream_name":"stdout","time":34.172127152,"data":"source tree: /kaggle/input/datasets/prakhar1803/sih26119-solver-source-it36\n"}
+,{"stream_name":"stdout","time":82.297040296,"data":"compiler exit 0\n"}
+,{"stream_name":"stdout","time":82.3018391,"data":"solver sha256 edadb645910d5107edd97fa832921f86107ff07aa33526e04cd3b14f46ff5afe\n"}
+,{"stream_name":"stdout","time":82.371748745,"data":"Sovereign SIH26119 V2 candidate; C++ core, sparse simplex, branch-and-cut, convex QP\n"}
+,{"stream_name":"stdout","time":82.376019419,"data":"self-test exit 0\n"}
+,{"stream_name":"stdout","time":82.37606442,"data":"self-test stdout: {\"status\":\"optimal\",\"message\":\"\",\"nodes\":1,\"lp_iterations\":1,\"total_seconds\":0.00035787200000000002,\"warm_starts\":1,\"heuristic_solves\":1,\"cuts\":0,\"bound_tightenings\":2,\"rows\":2,\"columns\":2,\"objective\":-20,\"pump_projections\":0,\"pump_restarts\":0,\"pump_incumbents\":0,\"cut_rollbacks\":0,\"first_incumbent_seconds\":0.00011090599997487516,\"best_bound\":-20,\"pump_reopt\":{\"enabled\":true,\"calls\":0,\"compatible\":0,\"primal\":0,\"dual\":0,\"rejected\":0,\"verified\":0,\"phase_one_iterations\":0,\"factorizations\":0,\"canonical_seconds\":0,\"factor_seconds\":0,\"pricing_seconds\":0,\"replay\":null},\"distance_reopt\":{\"enabled\":true\n"}
+,{"stream_name":"stdout","time":82.376085036,"data":"self-test stderr: \n"}
+,{"stream_name":"stdout","time":82.37634202,"data":"self-test status optimal objective -20\n"}
+,{"stream_name":"stdout","time":83.05445428,"data":"solution file: https://miplib.zib.de/downloads/miplib2017-v32.solu entries 1065\n"}
+,{"stream_name":"stdout","time":83.374008906,"data":"benchmark instances listed: 240\n"}
+,{"stream_name":"stdout","time":83.374048926,"data":"batch: 60 instances, slice [120:180], 300s each, 2 at a time\n"}
+,{"stream_name":"stdout","time":384.590951793,"data":"[  1/60] neos-4387871-tavua             time_limit         obj=         None gap=    None pub= 33.384729927 valid=False agree=None [301s]\n"}
+,{"stream_name":"stdout","time":389.160857826,"data":"[  2/60] neos-4413714-turia             time_limit         obj=         None gap=    None pub=45.3701670199 valid=False agree=None [306s]\n"}
+,{"stream_name":"stdout","time":688.683605565,"data":"[  3/60] neos-4532248-waihi             time_limit         obj=         None gap=    None pub=61.5999999999 valid=False agree=None [605s]\n"}
+,{"stream_name":"stdout","time":709.577930727,"data":"[  4/60] neos-4647030-tutaki            time_limit         obj=         None gap=    None pub=27265.7059999 valid=False agree=None [626s]\n"}
+,{"stream_name":"stdout","time":992.034011994,"data":"[  5/60] neos-4722843-widden            time_limit         obj=         None gap=    None pub= 25009.662227 valid=False agree=None [909s]\n"}
+,{"stream_name":"stdout","time":1010.511014438,"data":"[  6/60] neos-4738912-atrato            time_limit         obj=         None gap=    None pub=283627956.595 valid=False agree=None [927s]\n"}
+,{"stream_name":"stdout","time":1295.020134507,"data":"[  7/60] neos-4763324-toguru            time_limit         obj=         None gap=    None pub=1613.03884585 valid=False agree=None [1212s]\n"}
+,{"stream_name":"stdout","time":1314.389835503,"data":"[  8/60] neos-4954672-berkel            time_limit         obj=      9948006 gap=0.880439 pub=    2612710.0 valid=True  agree=None [1231s]\n"}
+,{"stream_name":"stdout","time":1604.429196465,"data":"[  9/60] neos-5049753-cuanza            time_limit         obj=         None gap=    None pub=561.999997168 valid=False agree=None [1521s]\n"}
+,{"stream_name":"stdout","time":1636.188786546,"data":"[ 10/60] neos-5052403-cygnet            time_limit         obj=         None gap=    None pub=        182.0 valid=False agree=None [1553s]\n"}
+,{"stream_name":"stdout","time":1908.851306833,"data":"[ 11/60] neos-5093327-huahum            time_limit         obj=         None gap=    None pub=6259.99999712 valid=False agree=None [1825s]\n"}
+,{"stream_name":"stdout","time":1949.055701942,"data":"[ 12/60] neos-5104907-jarama            time_limit         obj=         None gap=    None pub=        935.0 valid=False agree=None [1866s]\n"}
+,{"stream_name":"stdout","time":2209.745656559,"data":"[ 13/60] neos-5107597-kakapo            time_limit         obj=         None gap=    None pub=3644.99999999 valid=False agree=None [2126s]\n"}
+,{"stream_name":"stdout","time":2273.993483559,"data":"[ 14/60] neos-5114902-kasavu            time_limit         obj=         None gap=    None pub=        655.0 valid=False agree=None [2191s]\n"}
+,{"stream_name":"stdout","time":2511.507490448,"data":"[ 15/60] neos-5188808-nattai            time_limit         obj=         None gap=    None pub=0.11028362299 valid=False agree=None [2428s]\n"}
+,{"stream_name":"stdout","time":2575.969904067,"data":"[ 16/60] neos-5195221-niemur            time_limit         obj=         None gap=    None pub= 0.0038354326 valid=False agree=None [2493s]\n"}
+,{"stream_name":"stdout","time":2817.5370087,"data":"[ 17/60] neos-631710                    time_limit         obj=         None gap=    None pub=        203.0 valid=False agree=None [2734s]\n"}
+,{"stream_name":"stdout","time":2877.567984962,"data":"[ 18/60] neos-662469                    time_limit         obj=         None gap=    None pub=184379.999999 valid=False agree=None [2794s]\n"}
+,{"stream_name":"stdout","time":3121.512028204,"data":"[ 19/60] neos-787933                    time_limit         obj=         None gap=    None pub=         30.0 valid=False agree=None [3038s]\n"}
+,{"stream_name":"stdout","time":3687.225336252,"data":"[ 20/60] neos-827175                    gap_limit          obj=    112.00152 gap=1.000000 pub=    112.00152 valid=True  agree=True [3604s]\n"}
+,{"stream_name":"stdout","time":3687.225451648,"data":"[ 21/60] neos-848589                    time_limit         obj=         None gap=    None pub=2351.40309999 valid=False agree=None [3604s]\n"}
+,{"stream_name":"stdout","time":19996.736611595,"data":"[ 22/60] neos-860300                    time_limit         obj=         3429 gap=0.129154 pub=3200.99999999 valid=True  agree=None [19913s]\n"}
+,{"stream_name":"stdout","time":19996.800311134,"data":"[ 23/60] neos-873061                    time_limit         obj=         None gap=    None pub=113.656238506 valid=False agree=None [19913s]\n"}
+,{"stream_name":"stdout","time":19996.928604895,"data":"[ 24/60] neos-911970                    time_limit         obj=87.0599999588 gap=0.724506 pub=        54.76 valid=True  agree=None [19914s]\n"}
+,{"stream_name":"stdout","time":19997.163946917,"data":"[ 25/60] neos-933966                    time_limit         obj=         None gap=    None pub=        318.0 valid=False agree=None [19914s]\n"}
+,{"stream_name":"stdout","time":19997.273912093,"data":"[ 26/60] neos-950242                    time_limit         obj=         None gap=    None pub=          4.0 valid=False agree=None [19914s]\n"}
+,{"stream_name":"stdout","time":19997.35977965,"data":"[ 27/60] neos-957323                    time_limit         obj=         None gap=    None pub= -237.7566815 valid=False agree=None [19914s]\n"}
+,{"stream_name":"stdout","time":19997.426953732,"data":"[ 28/60] neos-960392                    time_limit         obj=         None gap=    None pub=       -238.0 valid=False agree=None [19914s]\n"}
+,{"stream_name":"stdout","time":19997.579299215,"data":"[ 29/60] neos17                         time_limit         obj=0.26805228038 gap=0.205079 pub= 0.1500025774 valid=True  agree=None [19914s]\n"}
+,{"stream_name":"stdout","time":19997.751494871,"data":"[ 30/60] neos5                          time_limit         obj=           15 gap=0.034375 pub=         15.0 valid=True  agree=None [19914s]\n"}
+,{"stream_name":"stdout","time":20629.826936413,"data":"[ 31/60] neos8                          gap_limit          obj=        -3719 gap=       0 pub=      -3719.0 valid=True  agree=True [20546s]\n"}
+,{"stream_name":"stdout","time":20629.839035752,"data":"[ 32/60] neos859080                     infeasible         obj=         None gap=    None pub=         None valid=False agree=None [20546s]\n"}
+,{"stream_name":"stdout","time":20629.843871375,"data":"[ 33/60] net12                          time_limit         obj=         None gap=    None pub=        214.0 valid=False agree=None [20546s]\n"}
+,{"stream_name":"stdout","time":20629.870804988,"data":"[ 34/60] netdiversion                   time_limit         obj=         None gap=    None pub=        242.0 valid=False agree=None [20546s]\n"}
+,{"stream_name":"stdout","time":20931.006988396,"data":"[ 35/60] nexp-150-20-8-5                time_limit         obj=         None gap=    None pub=        231.0 valid=False agree=None [20848s]\n"}
+,{"stream_name":"stdout","time":20933.365322228,"data":"[ 36/60] ns1116954                      time_limit         obj=         None gap=    None pub=          0.0 valid=False agree=None [20850s]\n"}
+,{"stream_name":"stdout","time":21232.025666941,"data":"[ 37/60] ns1208400                      time_limit         obj=         None gap=    None pub=          2.0 valid=False agree=None [21149s]\n"}
+,{"stream_name":"stdout","time":21242.779409296,"data":"[ 38/60] ns1644855                      time_limit         obj=         None gap=    None pub=-1524.3333333 valid=False agree=None [21159s]\n"}
+,{"stream_name":"stdout","time":21545.002983102,"data":"[ 39/60] ns1760995                      time_limit         obj=         None gap=    None pub=-549.21438505 valid=False agree=None [21462s]\n"}
+,{"stream_name":"stdout","time":21545.004115687,"data":"[ 40/60] ns1830653                      time_limit         obj=         None gap=    None pub=      20622.0 valid=False agree=None [21462s]\n"}
+,{"stream_name":"stdout","time":21847.140528111,"data":"[ 41/60] ns1952667                      time_limit         obj=         None gap=    None pub=          0.0 valid=False agree=None [21764s]\n"}
+,{"stream_name":"stdout","time":21859.747017704,"data":"[ 42/60] nu25-pr12                      time_limit         obj=        53925 gap=0.010291 pub=53904.9999999 valid=True  agree=None [21776s]\n"}
+,{"stream_name":"stdout","time":22156.222078621,"data":"[ 43/60] nursesched-medium-hint03       time_limit         obj=         None gap=    None pub=        115.0 valid=False agree=None [22073s]\n"}
+,{"stream_name":"stdout","time":22161.898849909,"data":"[ 44/60] nursesched-sprint02            time_limit         obj=         None gap=    None pub=57.9999999999 valid=False agree=None [22079s]\n"}
+]

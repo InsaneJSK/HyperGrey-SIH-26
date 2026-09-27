@@ -1,0 +1,7 @@
+{
+  "libgcc_s_seh-1.dll": "34d768d97ca0cf5f6701da069313038b315c6cdffa5f987975c92163453551e9",
+  "libstdc++-6.dll": "9edefce2889be24c986c376f3ffcfef652a70c12885558668872fe8272e07069",
+  "libgomp-1.dll": "73078a2a25400bc61c1f366648209741498e00b84f74189fe7132c90148dfa70",
+  "libwinpthread-1.dll": "20ceb15217cd5ffa4c20cfac18475186a31dcc618ebdea25ae58bf24f919345c",
+  "libdl.dll": "952fc7b65abe67cadaf274ae21a27ad0ead59337dbebe5d74b7decfc1c66fba3"
+}

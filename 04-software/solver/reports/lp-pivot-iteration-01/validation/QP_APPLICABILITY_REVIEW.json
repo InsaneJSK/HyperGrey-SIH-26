@@ -1,0 +1,26 @@
+[
+  {
+    "key": "8792.default",
+    "diagonal_certificate_applicable": false,
+    "checked_completion": true,
+    "model_sha256": "8b0555d0468fadae11441875b31eeeae774e7974772994f592af23ef28bad962",
+    "candidate_sha256": "e39f99aac40af2fb436e90e56ee06e4d3a3c6defc6ec2684183b229de704abc1",
+    "kkt_unchanged": true
+  },
+  {
+    "key": "8991.default",
+    "diagonal_certificate_applicable": false,
+    "checked_completion": true,
+    "model_sha256": "fc5257b9a21edda9f80a7c0ef8ac42151523a68b5be5e7eb26348b6a9dcb3db5",
+    "candidate_sha256": "30eb239cda6cf3682680d16caf98a5f853a5904eaca86c0f430aae232d780558",
+    "kkt_unchanged": true
+  },
+  {
+    "key": "9002.default",
+    "diagonal_certificate_applicable": true,
+    "checked_completion": true,
+    "model_sha256": "e6aea2b85e49862df5d8ad03339f65506ff149eeadaa74bb25ebacad14f7a664",
+    "candidate_sha256": "50b5d94c3337a0ffc486f1f58cd85d07379b09c6795b06564a05bcf30c1d70d7",
+    "kkt_unchanged": true
+  }
+]

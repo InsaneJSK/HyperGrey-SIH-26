@@ -1,0 +1,58 @@
+{
+  "date_local": "2026-09-15",
+  "execution": "CPU-only, local Windows",
+  "build_directory": "build-milp-iter6b",
+  "binary_snapshot": "final_solver_cli.exe",
+  "source_snapshot": "final-source",
+  "binary_sha256": "65686ab54dd8e073989f9a93f9e75bbb8d06ba4143b1ca6d639307360f7d007a",
+  "cmake_sha256": "1a333100c764d37a32138b1c8ca04e78e2c05a360e6e822010ef2e9370194cbf",
+  "core_and_test_files_verified_against_run_and_snapshot": 25,
+  "default_options_changed": false,
+  "experimental_features": ["reserved coupled neighborhoods", "binary-meet root incumbent search"],
+  "verification": {
+    "ctest_groups_passed": 4,
+    "ctest_groups_total": 4,
+    "new_exhaustive_structural_models": 180,
+    "generated_checks_passed": 240,
+    "generated_unique_models": 80,
+    "diagnostic_tests_passed": 15,
+    "result_parser_tests_passed": 3,
+    "default_guided_outputs_unchanged": 80,
+    "focused_full_run_audited_vectors": 7,
+    "root_only_repeats": 3,
+    "root_repeat_audited_vectors": 6
+  },
+  "markshare_result": {
+    "baseline_objective": 4.999999994,
+    "new_exact_root_point_objective": 1.0,
+    "root_point_constraint_violation": 0.0,
+    "root_point_integer_violation": 0.0,
+    "root_point_first_seconds_full_run": 0.241136600000004,
+    "final_objective": 0.999999998,
+    "final_constraint_violation": 1.999978849198669e-9,
+    "status": "node_limit",
+    "best_bound": -1e-7,
+    "reported_gap": 0.5000000495,
+    "proven_optimal": false
+  },
+  "evidence": {
+    "reserved_experiment": "RESERVED_REPORT.md",
+    "reserved_raw": "local-180s",
+    "reserved_audit": "local-180s-audit/AUDIT.json",
+    "meet_raw": "meet-180s",
+    "meet_audit": "meet-180s-audit/AUDIT.json",
+    "root_repeats": "root-repeats/CHECKS.json",
+    "default_nonregression": "FINAL_DEFAULT_NONREGRESSION.json"
+  },
+  "limitations": [
+    "One eligible public model in the final full-solver comparison; root repetitions are not full timing repeats.",
+    "Completed floating-point meet search exports no proof bound or infeasibility certificate.",
+    "Independent 30-second reference timed out with incumbent3; no independent optimum comparison completed.",
+    "Concurrent application activity and baseline variation preclude a general speedup claim.",
+    "Blend2 and binkar are declined by the structural helper; their best earlier results remain separately versioned evidence.",
+    "MIQP, NLP, MINLP, nonconvex QP and general million-variable industrial performance remain unimplemented or unestablished."
+  ],
+  "next_local_work": "Safe proof-gap closure, broader structural cases, and general binkar root-LP/search robustness.",
+  "gpu_or_kaggle_run_required": false,
+  "user_result_upload_required": false
+}

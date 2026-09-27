@@ -1,0 +1,61 @@
+{
+ "models": [
+  "air04",
+  "arki001",
+  "dano3mip",
+  "gen",
+  "markshare1",
+  "markshare2",
+  "mkc",
+  "rentacar",
+  "seymour",
+  "swath"
+ ],
+ "repeats": 1,
+ "limit": 30,
+ "nodes": 100000000,
+ "gap": 1e-06,
+ "reference_limit": 30,
+ "reference_watchdog": 300,
+ "memory_threshold_mib": 1536,
+ "manifests": [
+  "datasets/milp-iteration-32-holdout/manifest.json"
+ ],
+ "common": [
+  "--capture-work",
+  "--lp-recovery",
+  "--improve-incumbent",
+  "--repair-candidates",
+  "--repair-heuristic-candidates",
+  "--capture-lp-failure",
+  "--capture-rejected-candidates",
+  "--binary-proof",
+  "--objective-lattice",
+  "--raw-lp-priority",
+  "--capture-cut-rounds",
+  "--capture-refinement",
+  "--refine-basis",
+  "--refine-at-checks",
+  "--pump-guided-diving",
+  "--capture-feasibility",
+  "--pump-distance-diving",
+  "--pump-primal-reopt",
+  "--pump-distance-reopt",
+  "--pump-distance-stage"
+ ],
+ "profiles": {
+  "control": [
+   "--lifted-covers",
+   "--bounded-lp",
+   "--tree-dives",
+   "--fix-propagate"
+  ],
+  "candidate": [
+   "--lifted-covers",
+   "--bounded-lp",
+   "--tree-dives",
+   "--fix-propagate",
+   "--gomory-cuts"
+  ]
+ }
+}

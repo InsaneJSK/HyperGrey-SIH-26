@@ -1,0 +1,45 @@
+{
+  "all_pass": true,
+  "quick": false,
+  "selective": true,
+  "heuristic_repair": true,
+  "pump_guidance": true,
+  "pump_distance": true,
+  "pump_reopt": true,
+  "distance_reopt": true,
+  "distance_stage": true,
+  "private_ranking": false,
+  "distance_reserve": false,
+  "private_certificate": true,
+  "bounded_lp": true,
+  "search_heuristics": true,
+  "binary_sha256": "40270cdb965fc73a8d88ce359f50cb422975f7d9ee0e118e7215167a2bbc8c47",
+  "runner_sha256": "835993b7cd9c6a6862ff96429563d23818dab6cfa8d84918be48973a43b60d7c",
+  "fixture_independent_checks": [
+    "cold",
+    "warm",
+    "selective-cold",
+    "selective-warm"
+  ],
+  "disabled_parity": [
+    "gt2",
+    "lseu",
+    "mod008",
+    "misc03"
+  ],
+  "generated": {
+    "baseline-binary": 40,
+    "baseline-mixed": 40,
+    "refined-binary": 40,
+    "refined-mixed": 40,
+    "refined_compact-binary": 40,
+    "refined_compact-mixed": 40,
+    "refined_guard-binary": 40,
+    "refined_guard-mixed": 40,
+    "refined_bounded-binary": 40,
+    "refined_bounded-mixed": 40,
+    "refined_search-binary": 40,
+    "refined_search-mixed": 40
+  },
+  "reused_models": 300
+}
