@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940" role="img" aria-labelledby="title description">
+<title id="title">CPU and Tesla T4 median solve times on synthetic box QP</title>
+<desc id="description">Three repeats per size and backend, 45 checked runs. Synthetic planted tridiagonal box-constrained convex QP. Median solve time includes solver setup and CUDA transfers; whole-process startup and model generation are separate.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:Menlo,Consolas,monospace}</style>
+<rect x="0" y="0" width="1600" height="940" rx="0" fill="#0b1220"/>
+<text x="64" y="65" font-size="18" fill="#42ddca" font-weight="700" text-anchor="start" letter-spacing="2">SOLVEFORGE  /  RECORDED PERFORMANCE</text>
+<text x="64" y="124" font-size="39" fill="#eef4ff" font-weight="700" text-anchor="start" >GPU acceleration, measured across problem sizes</text>
+<text x="64" y="167" font-size="24" fill="#a8b7cc" font-weight="400" text-anchor="start" >Synthetic sparse box-constrained convex QP · Tesla T4 · median of 3 repeats</text>
+<rect x="58" y="207" width="1484" height="540" rx="20" fill="#111d30"/>
+<line x1="90" y1="248" x2="128" y2="248" stroke="#ffc665" stroke-width="5"/>
+<text x="144" y="256" font-size="22" fill="#eef4ff" font-weight="600" text-anchor="start" >CPU · 1 thread</text>
+<line x1="455" y1="248" x2="493" y2="248" stroke="#a99eff" stroke-width="5"/>
+<text x="509" y="256" font-size="22" fill="#eef4ff" font-weight="600" text-anchor="start" >CPU · 4 threads</text>
+<line x1="820" y1="248" x2="858" y2="248" stroke="#42ddca" stroke-width="5"/>
+<text x="874" y="256" font-size="22" fill="#eef4ff" font-weight="600" text-anchor="start" >CUDA · Tesla T4</text>
+<text x="91" y="286" font-size="19" fill="#a8b7cc" font-weight="400" text-anchor="start" >Median solve time · seconds</text>
+<line x1="151" y1="599.013" x2="1240" y2="599.013" stroke="#27354b" stroke-width="1"/>
+<text x="133" y="605.013" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="end" >0.1</text>
+<line x1="151" y1="560.026" x2="1240" y2="560.026" stroke="#27354b" stroke-width="1"/>
+<text x="133" y="566.026" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="end" >0.2</text>
+<line x1="151" y1="508.487" x2="1240" y2="508.487" stroke="#27354b" stroke-width="1"/>
+<text x="133" y="514.487" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="end" >0.5</text>
+<line x1="151" y1="469.5" x2="1240" y2="469.5" stroke="#27354b" stroke-width="1"/>
+<text x="133" y="475.5" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="end" >1</text>
+<line x1="151" y1="430.513" x2="1240" y2="430.513" stroke="#27354b" stroke-width="1"/>
+<text x="133" y="436.513" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="end" >2</text>
+<line x1="151" y1="378.974" x2="1240" y2="378.974" stroke="#27354b" stroke-width="1"/>
+<text x="133" y="384.974" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="end" >5</text>
+<line x1="151" y1="339.987" x2="1240" y2="339.987" stroke="#27354b" stroke-width="1"/>
+<text x="133" y="345.987" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="end" >10</text>
+<line x1="151" y1="301" x2="1240" y2="301" stroke="#27354b" stroke-width="1"/>
+<text x="133" y="307" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="end" >20</text>
+<line x1="151" y1="301" x2="151" y2="638" stroke="#27354b" stroke-width="1" stroke-dasharray="3 7"/>
+<text x="151" y="674" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="middle" >10k</text>
+<line x1="531.589" y1="301" x2="531.589" y2="638" stroke="#27354b" stroke-width="1" stroke-dasharray="3 7"/>
+<text x="531.589" y="674" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="middle" >50k</text>
+<line x1="859.411" y1="301" x2="859.411" y2="638" stroke="#27354b" stroke-width="1" stroke-dasharray="3 7"/>
+<text x="859.411" y="674" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="middle" >200k</text>
+<line x1="1076.09" y1="301" x2="1076.09" y2="638" stroke="#27354b" stroke-width="1" stroke-dasharray="3 7"/>
+<text x="1076.09" y="674" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="middle" >500k</text>
+<line x1="1240" y1="301" x2="1240" y2="638" stroke="#27354b" stroke-width="1" stroke-dasharray="3 7"/>
+<text x="1240" y="674" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="middle" >1m</text>
+<text x="695.5" y="717" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="middle" >Variables · logarithmic axes · lower is faster</text>
+<path d="M 151.000 590.708 L 531.589 500.830 L 859.411 416.828 L 1076.089 357.578 L 1240.000 313.823" fill="none" stroke="#ffc665" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="151.000" cy="590.708" r="6" fill="#ffc665" stroke="#111d30" stroke-width="2"/>
+<circle cx="531.589" cy="500.830" r="6" fill="#ffc665" stroke="#111d30" stroke-width="2"/>
+<circle cx="859.411" cy="416.828" r="6" fill="#ffc665" stroke="#111d30" stroke-width="2"/>
+<circle cx="1076.089" cy="357.578" r="6" fill="#ffc665" stroke="#111d30" stroke-width="2"/>
+<circle cx="1240.000" cy="313.823" r="6" fill="#ffc665" stroke="#111d30" stroke-width="2"/>
+<text x="1264" y="319.823" font-size="24" fill="#ffc665" font-weight="700" text-anchor="start" >15.923 s</text>
+<path d="M 151.000 608.939 L 531.589 521.672 L 859.411 442.511 L 1076.089 390.330 L 1240.000 350.186" fill="none" stroke="#a99eff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="151.000" cy="608.939" r="6" fill="#a99eff" stroke="#111d30" stroke-width="2"/>
+<circle cx="531.589" cy="521.672" r="6" fill="#a99eff" stroke="#111d30" stroke-width="2"/>
+<circle cx="859.411" cy="442.511" r="6" fill="#a99eff" stroke="#111d30" stroke-width="2"/>
+<circle cx="1076.089" cy="390.330" r="6" fill="#a99eff" stroke="#111d30" stroke-width="2"/>
+<circle cx="1240.000" cy="350.186" r="6" fill="#a99eff" stroke="#111d30" stroke-width="2"/>
+<text x="1264" y="356.186" font-size="24" fill="#a99eff" font-weight="700" text-anchor="start" >8.342 s</text>
+<path d="M 151.000 523.610 L 531.589 506.949 L 859.411 470.641 L 1076.089 433.409 L 1240.000 399.012" fill="none" stroke="#42ddca" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="151.000" cy="523.610" r="6" fill="#42ddca" stroke="#111d30" stroke-width="2"/>
+<circle cx="531.589" cy="506.949" r="6" fill="#42ddca" stroke="#111d30" stroke-width="2"/>
+<circle cx="859.411" cy="470.641" r="6" fill="#42ddca" stroke="#111d30" stroke-width="2"/>
+<circle cx="1076.089" cy="433.409" r="6" fill="#42ddca" stroke="#111d30" stroke-width="2"/>
+<circle cx="1240.000" cy="399.012" r="6" fill="#42ddca" stroke="#111d30" stroke-width="2"/>
+<text x="1264" y="405.012" font-size="24" fill="#42ddca" font-weight="700" text-anchor="start" >3.501 s</text>
+<rect x="60" y="773" width="550" height="98" rx="14" fill="#163634"/>
+<text x="85" y="811" font-size="28" fill="#42ddca" font-weight="700" text-anchor="start" >4.55× at 1 million variables</text>
+<text x="85" y="844" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="start" >T4 versus 1 CPU thread · same accuracy checks</text>
+<text x="647" y="810" font-size="25" fill="#eef4ff" font-weight="600" text-anchor="start" >45 / 45 runs passed the declared accuracy checks</text>
+<text x="647" y="847" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="start" >Setup + CUDA transfers included; process startup excluded.</text>
+<text x="64" y="911" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="start" >Source: kaggle-gpu-03 · 18 Sep 2026 · one planted family, one device/session</text>
+</svg>

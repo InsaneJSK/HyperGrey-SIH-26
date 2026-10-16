@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940" role="img" aria-labelledby="title description">
+<title id="title">Historical MIPLIB 2017 outcomes for 240 instances</title>
+<desc id="description">Frozen historical solver at a 300-second per-instance cap: 7 numerical optima, 62 other independently checked feasible points, 1 proven infeasible, and 170 with no feasible point recorded. The 69 validated points include the 7 optima; outcomes are not double-counted. No returned points rejected and no disagreements with published results.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:Menlo,Consolas,monospace}</style>
+<rect x="0" y="0" width="1600" height="940" rx="0" fill="#0b1220"/>
+<text x="64" y="65" font-size="18" fill="#42ddca" font-weight="700" text-anchor="start" letter-spacing="2">SOLVEFORGE  /  PUBLIC BENCHMARK AUDIT</text>
+<text x="64" y="124" font-size="38" fill="#eef4ff" font-weight="700" text-anchor="start" >240 public MILP instances. Every returned point checked.</text>
+<text x="64" y="167" font-size="24" fill="#a8b7cc" font-weight="400" text-anchor="start" >MIPLIB 2017 · frozen historical engine · 300-second cap per instance</text>
+<rect x="60" y="207" width="357" height="122" rx="16" fill="#111d30"/>
+<text x="83" y="263" font-size="42" fill="#42ddca" font-weight="700" text-anchor="start" >69</text>
+<text x="83" y="303" font-size="19" fill="#a8b7cc" font-weight="400" text-anchor="start" >Checked feasible points</text>
+<rect x="435" y="207" width="357" height="122" rx="16" fill="#111d30"/>
+<text x="458" y="263" font-size="42" fill="#ffc665" font-weight="700" text-anchor="start" >7</text>
+<text x="458" y="303" font-size="19" fill="#a8b7cc" font-weight="400" text-anchor="start" >Numerical optima included</text>
+<rect x="810" y="207" width="357" height="122" rx="16" fill="#111d30"/>
+<text x="833" y="263" font-size="42" fill="#eef4ff" font-weight="700" text-anchor="start" >0</text>
+<text x="833" y="303" font-size="19" fill="#a8b7cc" font-weight="400" text-anchor="start" >Rejected returned points</text>
+<rect x="1185" y="207" width="357" height="122" rx="16" fill="#111d30"/>
+<text x="1208" y="263" font-size="42" fill="#eef4ff" font-weight="700" text-anchor="start" >0</text>
+<text x="1208" y="303" font-size="19" fill="#a8b7cc" font-weight="400" text-anchor="start" >Published-result disagreements</text>
+<rect x="60" y="357" width="1480" height="409" rx="20" fill="#111d30"/>
+<text x="90" y="400" font-size="23" fill="#eef4ff" font-weight="600" text-anchor="start" >Mutually exclusive outcomes</text>
+<text x="1468" y="400" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="end" >Instances / 240</text>
+<text x="91" y="454" font-size="21" fill="#eef4ff" font-weight="400" text-anchor="start" >Numerical optimum</text>
+<rect x="480" y="430" width="825" height="30" rx="6" fill="#203047"/>
+<rect x="480" y="430" width="24.0625" height="30" rx="3" fill="#ffc665"/>
+<text x="1362" y="454" font-size="26" fill="#ffc665" font-weight="700" text-anchor="end" >7</text>
+<text x="1470" y="454" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="end" >2.9%</text>
+<text x="91" y="532" font-size="21" fill="#eef4ff" font-weight="400" text-anchor="start" >Other checked feasible point</text>
+<rect x="480" y="508" width="825" height="30" rx="6" fill="#203047"/>
+<rect x="480" y="508" width="213.125" height="30" rx="3" fill="#42ddca"/>
+<text x="1362" y="532" font-size="26" fill="#42ddca" font-weight="700" text-anchor="end" >62</text>
+<text x="1470" y="532" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="end" >25.8%</text>
+<text x="91" y="610" font-size="21" fill="#eef4ff" font-weight="400" text-anchor="start" >Proven infeasible</text>
+<rect x="480" y="586" width="825" height="30" rx="6" fill="#203047"/>
+<rect x="480" y="586" width="3.4375" height="30" rx="3" fill="#ebba77"/>
+<text x="1362" y="610" font-size="26" fill="#ebba77" font-weight="700" text-anchor="end" >1</text>
+<text x="1470" y="610" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="end" >0.4%</text>
+<text x="91" y="688" font-size="21" fill="#eef4ff" font-weight="400" text-anchor="start" >No feasible point recorded</text>
+<rect x="480" y="664" width="825" height="30" rx="6" fill="#203047"/>
+<rect x="480" y="664" width="584.375" height="30" rx="3" fill="#667990"/>
+<text x="1362" y="688" font-size="26" fill="#667990" font-weight="700" text-anchor="end" >170</text>
+<text x="1470" y="688" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="end" >70.8%</text>
+<text x="91" y="742" font-size="20" fill="#a8b7cc" font-weight="400" text-anchor="start" >69 feasible points = 7 numerical optima + 62 other checked points</text>
+<text x="65" y="813" font-size="23" fill="#eef4ff" font-weight="400" text-anchor="start" >Original-model feasibility and integrality checked independently with HiGHS 1.12.0.</text>
+<text x="65" y="853" font-size="21" fill="#a8b7cc" font-weight="400" text-anchor="start" >Optimal / infeasible claims agree with published MIPLIB results. Later engine revisions are separate.</text>
+<text x="65" y="911" font-size="18" fill="#a8b7cc" font-weight="400" text-anchor="start" >Source: miplib2017-benchmark · shared Kaggle CPUs · outcome coverage, not a timing comparison</text>
+</svg>

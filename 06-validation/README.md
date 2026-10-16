@@ -10,6 +10,7 @@ not rewritten. Historical absolute paths still describe their original runs.
 - [Iteration 37](../04-software/solver/reports/milp-iteration-37/REPORT.md)
 - [GPU box-QP report](../04-software/solver/reports/kaggle-gpu-03/REPORT.md)
 - [Restructure verification](restructure-checks.md)
+- [Fresh Mac build and example checks](readme-verification-2026-10-16.md)
 
 From the repository root:
 

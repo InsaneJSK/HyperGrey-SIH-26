@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="640" viewBox="0 0 1320 640" role="img" aria-labelledby="title desc">
+<title id="title">SolveForge core and service architecture</title>
+<desc id="desc">Models enter the independent C++ solver, pass through presolve and the LP, MILP or convex QP engines, and return original-model checks and structured results. Eligible box QPs have a CUDA backend. The FastAPI adapter selects an explicitly configured Sovereign CLI or HiGHS reference engine.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#64748b"/></marker></defs>
+<rect width="1320" height="640" rx="22" fill="#f6f8fa"/>
+<text x="44" y="49" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0f766e" letter-spacing="2">SOLVEFORGE / ARCHITECTURE</text>
+<text x="44" y="92" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#102a43">One inspectable core. Checked decisions.</text>
+<text x="44" y="123" font-family="Arial,sans-serif" font-size="17" fill="#526277">Independent C++ algorithms · Sparse numerical methods · Explicit engine and backend selection</text>
+
+<rect x="44" y="169" width="224" height="167" rx="14" fill="#e8efff" stroke="#3457a1" stroke-opacity=".3"/>
+<text x="64" y="200" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#3457a1">01</text>
+<text x="64" y="238" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#102a43">Model input</text>
+<text x="64" y="275" font-family="Arial,sans-serif" font-size="16" fill="#40566b">MPS / QPLIB</text>
+<text x="64" y="300" font-family="Arial,sans-serif" font-size="16" fill="#40566b">CLI + C++ interfaces</text>
+<path d="M272,252 H290" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="296" y="169" width="224" height="167" rx="14" fill="#e8f5f0" stroke="#18755a" stroke-opacity=".3"/>
+<text x="316" y="200" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#18755a">02</text>
+<text x="316" y="238" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#102a43">Prepare</text>
+<text x="316" y="275" font-family="Arial,sans-serif" font-size="16" fill="#40566b">Parse and classify</text>
+<text x="316" y="300" font-family="Arial,sans-serif" font-size="16" fill="#40566b">Bounds and scaling</text>
+<path d="M524,252 H542" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="548" y="169" width="224" height="167" rx="14" fill="#e9f2fc" stroke="#1e6091" stroke-opacity=".3"/>
+<text x="568" y="200" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1e6091">03</text>
+<text x="568" y="238" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#102a43">Solve</text>
+<text x="568" y="275" font-family="Arial,sans-serif" font-size="16" fill="#40566b">LP · MILP · convex QP</text>
+<text x="568" y="300" font-family="Arial,sans-serif" font-size="16" fill="#40566b">CPU numerical engines</text>
+<path d="M776,252 H794" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="800" y="169" width="224" height="167" rx="14" fill="#fff2dc" stroke="#9e6413" stroke-opacity=".3"/>
+<text x="820" y="200" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#9e6413">04</text>
+<text x="820" y="238" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#102a43">Verify</text>
+<text x="820" y="275" font-family="Arial,sans-serif" font-size="16" fill="#40566b">Original-model checks</text>
+<text x="820" y="300" font-family="Arial,sans-serif" font-size="16" fill="#40566b">Residuals · bounds · gap</text>
+<path d="M1028,252 H1046" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1052" y="169" width="224" height="167" rx="14" fill="#f0ebfa" stroke="#6b4ea0" stroke-opacity=".3"/>
+<text x="1072" y="200" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#6b4ea0">05</text>
+<text x="1072" y="238" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#102a43">Return</text>
+<text x="1072" y="275" font-family="Arial,sans-serif" font-size="16" fill="#40566b">JSON status + solution</text>
+<text x="1072" y="300" font-family="Arial,sans-serif" font-size="16" fill="#40566b">Objective · time · nodes</text>
+<path d="M660,337 V361" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="495" y="374" width="330" height="72" rx="12" fill="#e5f6ed" stroke="#8fc8ad"/>
+<text x="660" y="402" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#145c42">CUDA box-QP backend</text>
+<text x="660" y="427" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#426854">Eligible convex box problems · NVIDIA host</text>
+<rect x="44" y="480" width="1232" height="120" rx="15" fill="#ffffff" stroke="#cbd5df"/>
+<text x="66" y="513" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#102a43">WEB / SERVICE ADAPTER</text>
+<text x="66" y="546" font-family="Arial,sans-serif" font-size="18" fill="#40566b">Web workflow → FastAPI</text>
+<path d="M300,540 H352" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="370" y="504" width="365" height="70" rx="10" fill="#e9f2fc"/>
+<text x="390" y="531" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#1e6091">Sovereign mode</text>
+<text x="390" y="555" font-family="Arial,sans-serif" font-size="15" fill="#40566b">Project C++ executable via configured path</text>
+<text x="756" y="546" font-family="Arial,sans-serif" font-size="17" fill="#64748b">or</text>
+<rect x="800" y="504" width="450" height="70" rx="10" fill="#f1f3f6"/>
+<text x="820" y="531" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#40566b">Reference mode · API default</text>
+<text x="820" y="555" font-family="Arial,sans-serif" font-size="15" fill="#40566b">HiGHS worker · Independent comparison path</text>
+</svg>
