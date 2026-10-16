@@ -9,6 +9,6 @@ SolveForge is HyperGrey's optimization-solver project for **Smart India Hackatho
 | Executive summary | [Project summary](executive-summary/README.md) |
 | Presentation | [Presentation and walkthrough links](pitch-deck/README.md) |
 | Demonstration | [Review sequence and runnable examples](demo-script/README.md) |
-| Technical foundation | [Technical paper](../07-documentation/technical-report/solver_research.pdf) and [research library](../03-research/README.md) |
+| Technical foundation | [Technical paper](../05-documentation/technical-report/solver_research.pdf) and [research library](../01-research/README.md) |
 
-The [original problem statement](../04-software/solver/Problem%20Statement.txt) and versioned requirement records are retained with the solver.
+The [original problem statement](../02-software/solver/Problem%20Statement.txt) and versioned requirement records are retained with the solver.

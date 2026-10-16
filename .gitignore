@@ -1,5 +1,5 @@
 # Repo-wide rules. Anything specific to the solver project lives in
-# 04-software/solver/.gitignore, where the patterns are relative to that folder.
+# 02-software/solver/.gitignore, where the patterns are relative to that folder.
 
 # --- Editors and OS ------------------------------------------------------
 .vscode/*
@@ -31,4 +31,4 @@ kaggle.json
 
 # Local migration/check output.
 /.migration-work/
-/04-software/kaggle-upload*/
+/02-software/kaggle-upload*/

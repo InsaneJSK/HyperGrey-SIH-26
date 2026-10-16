@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "top_level_renames": {
+    "03-research": "01-research",
+    "04-software": "02-software",
+    "05-models": "03-models",
+    "06-validation": "04-validation",
+    "07-documentation": "05-documentation",
+    "08-media": "06-media",
+    "09-business": "07-business",
+    "10-project": "08-project"
+  }
+}

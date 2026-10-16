@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "changes": [
+    {
+      "destination": ".gitattributes",
+      "baseline_sha256": "2345c78881c4f967e57fc4d667d52441ff9c8f86877fdf0757a7f5d79a27cfa5",
+      "current_sha256": "170327814303bfa0501a89353b5aa5fe9c98e7e36468bb9c6e921bf534818b19",
+      "date": "2026-10-16",
+      "reason": "Preserve imported source, artifacts and deployment shell line endings under the continuously numbered section paths."
+    },
+    {
+      "destination": ".gitignore",
+      "baseline_sha256": "68f6075f3a9c70ea21b9f20a0bb774814975443be5b5a4c85e11eec0080e5cdf",
+      "current_sha256": "91b9c0ed5142480054cafdb761fe2e61d0a271e8ea9d8cb994e5f33e98a22f5b",
+      "date": "2026-10-16",
+      "reason": "Keep repository exclusions and solver guidance aligned with the new software section path."
+    },
+    {
+      "destination": ".vscode/settings.json",
+      "baseline_sha256": "c964467928ef03b6562b7c25977f14c635a0747c87a298986d9e55707aa9e884",
+      "current_sha256": "1453da0c0615b8670fe0cf5b7c526e3e8b57d51ce320ecd8caf03e29b53b5bc2",
+      "date": "2026-10-16",
+      "reason": "Point CMake editor integration at the new software section."
+    },
+    {
+      "destination": "04-software/solver/docs/CLI_API.md",
+      "baseline_sha256": "dff8511472ea6aed40b0fa773a95e9395a46b4bb92d8408cfe46105fe6460aca",
+      "current_sha256": "e0d038df53e5c97b8560c7580d04282dd88af596ac527a95705f892f77e9bd5a",
+      "date": "2026-10-16",
+      "reason": "Clarify that explicitly selecting bounded LP solves the continuous relaxation of integer-declared MPS models, matching the existing CLI and API behavior."
+    },
+    {
+      "destination": "04-software/website/WEBSITE_PLAN.md",
+      "baseline_sha256": "de3f2108dd1d936e0ae326c732eb46096a1b5d799cf5590bbd50b09ee9dc8f82",
+      "current_sha256": "6a3a1c3273cd353a885273c1fbeb95996c971038de007cab943d6f2a89308c32",
+      "date": "2026-10-16",
+      "reason": "Update the implementation location in the retained product guide for continuous section numbering."
+    },
+    {
+      "destination": "04-software/backend/DEPLOY.md",
+      "baseline_sha256": "0389bb459b44aa38d135a77303743f01ca9434743ff965d067cd8a71577242a0",
+      "current_sha256": "d13bf40c9cd6c637b2c011c733dda43110d7ab08efeaa9a4c57c98770019ec77",
+      "date": "2026-10-16",
+      "reason": "Replace obsolete unpublished-working-copy instructions with published checkout guidance and portable repository-relative deployment paths. Update its backend path for continuous section numbering."
+    },
+    {
+      "destination": "04-software/backend/README.md",
+      "baseline_sha256": "97f622ed11127ea67967c30273a9a39dfb941a1fcef156fc3871dcbe5a0d1f9a",
+      "current_sha256": "fca2303181535e37caf70efa6e0a73d89f347e776ca9e5c48dde827f7881f8de",
+      "date": "2026-10-16",
+      "reason": "Update local API setup commands to the continuously numbered software section."
+    },
+    {
+      "destination": "04-software/backend/solve.py",
+      "baseline_sha256": "8b0c036de6f64d14c51f24e0b63825cc7650e3cf40b43372867b20836b142e92",
+      "current_sha256": "bc3548b2e6cdfc2646b4d800c9a8ebe597fd2e4f3b97ea176d1946f78c5e4778",
+      "date": "2026-10-16",
+      "reason": "Align the sovereign MILP adapter with the retained iteration-37 recommended profile and report rejected CLI input as input_rejected."
+    },
+    {
+      "destination": "10-project/timeline/objective.md",
+      "baseline_sha256": "393d295f2ad9e4d292f29e921a95c99d06dbf4a73cf8d58c70eaf922c7e80547",
+      "current_sha256": "30f93a15c1d2af8e23c508a67c51838118d83ec1daeed9f232054d2fcec175b6",
+      "date": "2026-10-16",
+      "reason": "Update solver and report links in the project objective guide for continuous section numbering."
+    },
+    {
+      "destination": "07-documentation/PAPERS.md",
+      "baseline_sha256": "0c8bb05555095315725fd0b27e2be6542c4ec8a41c51ec2a106251927f855fc8",
+      "current_sha256": "e0b9fd9e602e889f4fd548ca5c03588b18211115c1498b2cc798002f370c3237",
+      "date": "2026-10-16",
+      "reason": "Update paper and solver navigation for continuous section numbering."
+    }
+  ]
+}
