@@ -1,8 +1,10 @@
-# Business
+# Business and deployment context
 
-- [Existing India cost/market analysis](market/india_cost_analysis.pdf) and [editable source](market/india_cost_analysis.tex)
-- [Website/product plan](../04-software/website/WEBSITE_PLAN.md)
-- [Existing third-party notices](../04-software/backend/THIRD_PARTY_NOTICES.md)
+| Material | Open |
+|---|---|
+| India cost and market study | [Paper, assumptions and editable source](market/README.md) |
+| Attribution and third-party notices | [IP guide](ip/README.md) |
+| Engineering and product planning | [Roadmap references](roadmap/README.md) |
+| Deployment configuration | [API Docker/EC2 guide](../04-software/backend/DEPLOY.md) |
 
-The paper's dated assumptions and scenarios are unchanged. No new market,
-revenue, licensing or readiness claims were made during this reorganization.
+The cost study uses dated commercial scenarios and model assumptions. Its original paper and editable source retain those definitions alongside the technical project's implementation and measured evidence.

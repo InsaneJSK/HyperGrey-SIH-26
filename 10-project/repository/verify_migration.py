@@ -1,7 +1,8 @@
-"""Verify the structure-only import using Python's standard library."""
+"""Verify imported files against the migration baseline and documented later changes."""
 import argparse
 import csv
 import hashlib
+import json
 from pathlib import Path, PurePosixPath
 import subprocess
 import sys
@@ -9,6 +10,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = Path(__file__).with_name('migration-manifest.csv')
+CHANGES = Path(__file__).with_name('post-import-changes.json')
 
 
 def sha256(path):
@@ -26,6 +28,46 @@ def contained(root, relative):
     return path
 
 
+def later_changes(rows, problems):
+    """Keep later edits explicit without rewriting the original import manifest."""
+    baseline = {row['destination']: row['destination_sha256'] for row in rows}
+    try:
+        ledger = json.loads(CHANGES.read_text(encoding='utf-8'))
+    except (OSError, ValueError) as error:
+        problems.append(f'cannot read post-import ledger: {error}')
+        return {}
+    if not isinstance(ledger, dict) or ledger.get('schema_version') != 1:
+        problems.append('unsupported post-import ledger schema')
+        return {}
+    entries = ledger.get('changes')
+    if not isinstance(entries, list):
+        problems.append('post-import changes must be a list')
+        return {}
+    approved = {}
+    for entry in entries:
+        if not isinstance(entry, dict):
+            problems.append('invalid post-import change entry')
+            continue
+        name = entry.get('destination')
+        expected = entry.get('current_sha256')
+        if not isinstance(name, str) or name not in baseline:
+            problems.append(f'post-import path not in migration manifest: {name}')
+            continue
+        if name in approved:
+            problems.append(f'duplicate post-import path: {name}')
+        if entry.get('baseline_sha256') != baseline[name]:
+            problems.append(f'post-import baseline hash mismatch: {name}')
+        if not isinstance(expected, str) or len(expected) != 64 or any(c not in '0123456789abcdef' for c in expected):
+            problems.append(f'invalid post-import current hash: {name}')
+            continue
+        if expected == baseline[name]:
+            problems.append(f'post-import entry has no content change: {name}')
+        if not isinstance(entry.get('reason'), str) or not entry['reason'].strip():
+            problems.append(f'post-import reason missing: {name}')
+        approved[name] = expected
+    return approved
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, help='optional original sih-backup-solver checkout')
@@ -33,6 +75,7 @@ def main():
     problems = []
     with MANIFEST.open(encoding='utf-8', newline='') as stream:
         rows = list(csv.DictReader(stream))
+    approved = later_changes(rows, problems)
     source_names = set()
     destination_names = set()
     unchanged = 0
@@ -60,7 +103,7 @@ def main():
         target = contained(ROOT, new)
         if not target.is_file():
             problems.append(f'missing: {new}')
-        elif sha256(target) != row['destination_sha256']:
+        elif sha256(target) != approved.get(new, row['destination_sha256']):
             problems.append(f'destination hash mismatch: {new}')
         if args.source:
             original = contained(args.source, old)
@@ -84,8 +127,9 @@ def main():
                  '07-documentation', '08-media', '09-business', '10-project'):
         if not (ROOT / name / 'README.md').is_file():
             problems.append(f'missing section guide: {name}')
-    print(f'{len(rows):,} imported files checked; {unchanged:,} byte-identical to source; '
-          f'{len(rows) - unchanged} navigation/configuration changes.')
+    print(f'{len(rows):,} imported files checked; import baseline records {unchanged:,} '
+          f'byte-identical files and {len(rows) - unchanged} navigation/configuration changes.')
+    print(f'{len(approved)} documented post-import change(s) checked against current hashes.')
     if args.source:
         print('Original checkout hashes and complete tracked-file coverage checked.')
     for problem in problems:
@@ -93,7 +137,7 @@ def main():
     if problems:
         print(f'{len(problems)} problem(s).')
         return 1
-    print('PASS: imported files match the recorded migration baseline.')
+    print('PASS: imported files match the baseline plus documented post-import changes.')
     return 0
 
 

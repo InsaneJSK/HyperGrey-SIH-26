@@ -1,14 +1,13 @@
-# Models and datasets
+# Optimization models and experiments
 
-The inputs remain inside the solver project because fetchers, tests, notebooks,
-and evidence ledgers use those relative paths. This section provides navigation.
+SolveForge uses MPS and QPLIB inputs, published teaching models, generated analytical cases and packaged notebook experiments.
 
-- [Dataset guide and manifests](../04-software/solver/datasets/README.md)
-- [Dataset files](../04-software/solver/datasets/)
-- [Industrial examples](../04-software/solver/examples/)
-- [Industrial-case documentation](../04-software/solver/docs/INDUSTRIAL_CASES.md)
-- [Existing notebook packages](../04-software/kaggle_delivery/)
+| Collection | Contents |
+|---|---|
+| [Datasets](datasets/README.md) | Benchmark manifests, provenance and canonical inputs |
+| [Notebooks](notebooks/README.md) | Kaggle experiments and matching source bundles |
+| [Evaluation](evaluation/README.md) | Checked outcomes, numerical comparisons and benchmark records |
+| [Industrial examples](../04-software/solver/examples/industrial/) | Refinery, transportation and production models |
+| [Industrial model guide](../04-software/solver/docs/INDUSTRIAL_CASES.md) | Model origin, decisions, units and independent checks |
 
-These are optimization problem instances. No trained model is implied by this
-section name. Only Git-tracked source assets were imported; locally downloaded,
-untracked models remain in the source repository.
+Canonical inputs stay in [solver/datasets](../04-software/solver/datasets/) and [solver/examples](../04-software/solver/examples/) because the solver's tests and reproduction harnesses use those paths.

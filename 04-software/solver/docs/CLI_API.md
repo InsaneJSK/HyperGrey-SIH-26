@@ -3,8 +3,11 @@
 One model per invocation. Exit code 0 means a completed optimization —
 `optimal`, or `gap_limit` on the MILP path — 1 an honest non-optimal outcome (a
 limit, a proven terminal status, or a numerical failure), and 2 a rejected input
-or invalid option. A MILP is never silently solved as its LP relaxation:
-`--milp` is required for integer models.
+or invalid option. Use `--milp` to enforce integer variables. Without it, the
+default sparse and dense LP methods reject integer declarations. Explicitly
+selecting `--lp-method bounded` solves the continuous LP relaxation instead;
+the API uses this path for `integer=false` requests. Its fractional solution
+is an LP result, not a MILP solution.
 
 ```
 solver_cli MODEL.{mps,qplib,lpmini} [options]
@@ -14,7 +17,7 @@ solver_cli MODEL.{mps,qplib,lpmini} [options]
 
 | Format | Use | Notes |
 |---|---|---|
-| `.mps` | LP and MILP | Free/fixed MPS. `OBJSENSE`, `RANGES`, `BOUNDS`, integer markers. The first `N` row is the objective and later `N` rows are dropped as free rows; text after `ENDATA` is ignored; `BV`/`MI`/`PL`/`FR` accept an ignored value. Rejected with a message naming the line: unsupported sections (`SOS`, quadratic), unsupported bound types (`SC`), multiple RHS/range or bound sets, and an integer model without `--milp`. |
+| `.mps` | LP and MILP | Free/fixed MPS. `OBJSENSE`, `RANGES`, `BOUNDS`, integer markers. The first `N` row is the objective and later `N` rows are dropped as free rows; text after `ENDATA` is ignored; `BV`/`MI`/`PL`/`FR` accept an ignored value. Rejected with a message naming the line: unsupported sections (`SOS`, quadratic), unsupported bound types (`SC`), and multiple RHS/range or bound sets. Sparse/dense LP methods reject integer declarations without `--milp`; bounded LP accepts their continuous relaxation. |
 | `.qplib` | convex continuous QP | Quadratic objective with linear or box constraints. Nonconvex input is rejected rather than answered. |
 | `.lpmini` | toy LP | Dense whitespace format, capped at 1000 rows/columns. |
 

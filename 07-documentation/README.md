@@ -1,12 +1,13 @@
-# Documentation
+# SolveForge documentation
 
-- [Technical paper PDF](technical-report/solver_research.pdf) and [editable source](technical-report/solver_research.tex)
-- [Quick start](user-guide/quick-start.md)
-- [CLI/API reference](../04-software/solver/docs/CLI_API.md)
-- [Solver architecture](../04-software/solver/docs/V2_ARCHITECTURE.md)
-- [Methods and remaining limitations](../04-software/solver/docs/)
-- [Backend integration](../04-software/backend/FRONTEND_MIGRATION.md)
-- [Original papers and their new locations](PAPERS.md)
+| Guide | Contents |
+|---|---|
+| [Quick start](user-guide/quick-start.md) | Build the C++ core, run examples and start the API |
+| [User guide](user-guide/README.md) | Workbench, Android demonstrations and local operation |
+| [API reference](api/README.md) | CLI/C++ interfaces, HTTP endpoints and integration |
+| [Technical paper](technical-report/README.md) | Mathematical architecture, benchmark discussion, PDF and editable LaTeX |
+| [References](references/README.md) | Curated research library and paper bibliographies |
+| [Numerical methods](../04-software/solver/docs/) | Sparse algebra, LP/MILP/QP implementation and experiment guides |
+| [Paper provenance](PAPERS.md) | Imported papers and repository path interpretation |
 
-Method documents stay in `04-software/solver/docs/`: the source README, packager,
-and historical report links rely on that project-relative location.
+Detailed implementation guides remain adjacent to the [solver](../04-software/solver/README.md) and [backend](../04-software/backend/README.md), where source, package and report links resolve reproducibly.

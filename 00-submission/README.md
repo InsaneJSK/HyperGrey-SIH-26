@@ -1,9 +1,14 @@
-# Submission
+# SIH26119 submission
 
-The source problem statement and existing readiness material are linked below.
-No pitch deck, executive summary or compliance matrix was created in this move.
+SolveForge is HyperGrey's optimization-solver project for **Smart India Hackathon 2026 · PS 26119 · MRPL**. The submission brings together an independent C++ LP/MILP/convex-QP core, checked benchmark campaigns, industrial examples, web and Android demonstrations, and a curated research library.
 
-- [Official problem statement](../04-software/solver/Problem%20Statement.txt)
-- [PS requirements](../04-software/solver/docs/PS_REQUIREMENTS.md)
-- [Submission assessment](../04-software/solver/docs/SUBMISSION_ASSESSMENT.md)
-- [Existing CLI demonstration](../04-software/solver/docs/DEMO.md)
+| Review material | Open |
+|---|---|
+| Project overview | [Capabilities, architecture and results](../README.md) |
+| Problem and evidence | [Requirement-to-evidence guide](compliance-matrix/README.md) |
+| Executive summary | [Project summary](executive-summary/README.md) |
+| Presentation | [Presentation and walkthrough links](pitch-deck/README.md) |
+| Demonstration | [Review sequence and runnable examples](demo-script/README.md) |
+| Technical foundation | [Technical paper](../07-documentation/technical-report/solver_research.pdf) and [research library](../03-research/README.md) |
+
+The [original problem statement](../04-software/solver/Problem%20Statement.txt) and versioned requirement records are retained with the solver.

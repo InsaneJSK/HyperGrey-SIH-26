@@ -54,9 +54,18 @@ throughput. Watch CPUCreditBalance, CPU use and memory under real traffic.
 
 ## 1. Create the server in the AWS console
 
-These steps assume your current Windows computer and the local repository at
-`D:\me\CODING\Github\HyperGrey-SIH-26`. The prepared changes are currently local;
-upload the working copy below. Cloning GitHub alone would omit uncommitted fixes.
+Use a checkout of the published
+[HyperGrey-SIH-26 repository](https://github.com/InsaneJSK/HyperGrey-SIH-26).
+The backend is in `04-software/backend/`, relative to the repository root.
+For a new checkout:
+
+```sh
+git clone https://github.com/InsaneJSK/HyperGrey-SIH-26.git
+cd HyperGrey-SIH-26
+```
+
+The upload example in step 3 uses Windows PowerShell from this repository root.
+The server commands run in the EC2 Ubuntu shell.
 
 1. Open **EC2** and select **Asia Pacific (Mumbai), ap-south-1**.
 2. Choose **Launch instance**, with name `sih-backend`.
@@ -93,18 +102,17 @@ assigned public IP and stays stable across stop/start operations. Do not keep
 an extra unused allocation. Set a billing budget alert for the project.
 [Elastic IP association](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/working-with-eips.html)
 
-## 3. Package and upload the actual local backend — Windows PowerShell
+## 3. Package and upload the backend — Windows PowerShell
 
-Open PowerShell on your computer. This creates an archive containing only the
-required runtime/deployment files; it excludes local environment files, virtual
-environments, caches and the research folders. It also includes new files that
-have not been committed yet.
+Open PowerShell at the root of your repository checkout. This creates an archive
+containing only the required runtime/deployment files; it excludes local
+environment files, virtual environments, caches and the research folders.
 
 Run this block; enter the Elastic IP when prompted. Change `$KeyPath` if you
 saved your key elsewhere.
 
 ```powershell
-$Backend = "D:\me\CODING\Github\HyperGrey-SIH-26\04-software\backend"
+$Backend = (Resolve-Path -LiteralPath "04-software/backend").Path
 $KeyPath = Join-Path $env:USERPROFILE "Downloads\sih-backend.pem"
 $Archive = Join-Path $env:TEMP "sih-backend-deploy.tar.gz"
 $Ec2Ip = Read-Host "Paste the instance's Elastic IP"

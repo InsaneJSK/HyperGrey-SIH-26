@@ -28,8 +28,9 @@ the source's newer ignore rules happened to match.
 | `WEBSITE_PLAN.md` | `04-software/website/WEBSITE_PLAN.md` |
 | `.vscode/settings.json` | Same path, now workspace-relative |
 
-The numbered section order and `_CONTENTS.md` convention follow the hardware
-repo. Hardware/firmware sections are omitted and research is deferred.
+At import, the numbered section order and `_CONTENTS.md` convention followed the
+hardware repository. Hardware/firmware sections were omitted and research was
+deferred to the subsequent separate curation.
 
 ## Why the solver remains self-contained
 
@@ -41,14 +42,15 @@ code. Sections 05, 06 and parts of 07 link to these canonical locations.
 The sibling name `kaggle_delivery` is retained because existing scripts resolve
 it via the solver's parent directory.
 
-No solver, API, worker, test, notebook, dependency pin, Dockerfile, Compose file,
-deployment script, frozen source, binary, report or paper content was changed.
+During that import, no solver, API, worker, test, notebook, dependency pin,
+Dockerfile, Compose file, deployment script, frozen source, binary, report or
+paper content was changed.
 Historical command lines and absolute paths in evidence remain historical;
 their old project root maps to `04-software/solver/` for navigation.
 
 ## Adjusted imported files
 
-Exactly **9** imported files changed, all for navigation or repository
+At the import baseline, exactly **9** imported files changed, all for navigation or repository
 configuration:
 
 - `.gitattributes`
@@ -70,11 +72,27 @@ in PAPERS.md instead of modifying them.
 ## Verification
 
 `migration-manifest.csv` records each old/new path and both SHA-256 values.
-Run `python 10-project/repository/verify_migration.py` to check the imported
+Run `python3 10-project/repository/verify_migration.py` to check the imported
 files locally. Supply `--source PATH` to also compare the original source tree
 and ensure every originally tracked non-research path is accounted for.
 
 The verifier deliberately excludes newly authored navigation and validation
 documents from the source hash manifest. Its hashes describe this migration
-baseline, so later intentional source changes require interpreting differences
-as changes since the import, not automatically as corruption.
+baseline. Later intentional edits are registered with exact current hashes in
+the separate post-import ledger described below.
+
+
+## Current repository organization
+
+The [repository guide](README.md) records the current navigation layout and folder
+renames. Media is grouped by type, and folder guides use GitHub-rendered
+`README.md` files. The separately curated research library is documented in
+[03-research](../../03-research/README.md). Canonical solver, backend, Kaggle,
+dataset and frozen-report paths retain their import locations.
+
+The original CSV remains unchanged. Intentional subsequent edits to imported
+files are recorded in [post-import-changes.json](post-import-changes.json), each
+with the exact import-baseline hash, current hash, date and reason. The verifier
+requires both hashes to match their respective records and rejects unlisted
+changes. Its optional `--source` audit still compares the untouched original
+source independently of these later edits.

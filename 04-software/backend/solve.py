@@ -32,7 +32,7 @@ MILP_FLAGS = ['--lp-recovery', '--improve-incumbent', '--repair-candidates',
               '--raw-lp-priority', '--refine-basis', '--refine-at-checks', '--pump-guided-diving',
               '--pump-distance-diving', '--pump-primal-reopt', '--pump-distance-reopt',
               '--pump-distance-stage', '--lifted-covers', '--bounded-lp', '--tree-dives',
-              '--fix-propagate', '--gomory-cuts']
+              '--fix-propagate', '--root-iteration-limit', '100000000']
 # The reference library reports statuses as sentences; the API speaks one vocabulary.
 REFERENCE_STATUS = {
     'Optimal': 'optimal', 'Infeasible': 'infeasible', 'Unbounded': 'unbounded',
@@ -128,7 +128,8 @@ def _sovereign(path, integer, limit):
         if not isinstance(parsed, dict):
             raise ValueError('expected a result object')
     except ValueError:
-        return _empty('sovereign', 'engine_error', (done.stderr or 'no output').strip()[:300])
+        status = 'input_rejected' if done.returncode == 2 else 'engine_error'
+        return _empty('sovereign', status, (done.stderr or 'no output').strip()[:300])
     return {'engine': 'sovereign', 'status': parsed.get('status'), 'message': parsed.get('message', ''),
             'objective': parsed.get('objective'), 'best_bound': parsed.get('best_bound'),
             'gap': parsed.get('gap'), 'seconds': elapsed, 'primal': parsed.get('primal') or [],

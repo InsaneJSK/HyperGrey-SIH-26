@@ -1,10 +1,14 @@
-# Project
+# Project records
 
-- [Existing objectives and iteration plan](timeline/objective.md)
-- [Existing solver decisions](../04-software/solver/docs/DECISIONS.md)
-- [Existing work log](../04-software/solver/docs/V2_WORKLOG.md)
-- [Repository migration](repository/MIGRATION.md)
-- [Import manifest](repository/migration-manifest.csv)
+**SolveForge · HyperGrey · Team 138620 · Smart India Hackathon 2026 · PS 26119**
 
-Team ownership and a formal risk register were not supplied. Their folders are
-clearly marked as future work. Research is excluded from this session.
+| Record | Open |
+|---|---|
+| Objectives and development chronology | [Timeline guide](timeline/README.md) |
+| Team and project identity | [Team guide](team/README.md) |
+| Engineering controls | [Risk and numerical-assurance references](risk-register/README.md) |
+| Repository provenance | [Structure, migration and verification guide](repository/README.md) |
+| Solver choices | [Design decisions](../04-software/solver/docs/DECISIONS.md) |
+| Development history | [Work log](../04-software/solver/docs/V2_WORKLOG.md) |
+
+The [project overview](../README.md) links the implemented engine, supplied demonstrations and benchmark campaigns. Repository provenance records how the original source and evidence are retained.

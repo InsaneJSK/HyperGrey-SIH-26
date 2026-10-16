@@ -1,57 +1,62 @@
-# Quick start
+# Build and run SolveForge
 
-All paths below start at the **HyperGrey-SIH-26** software repository root.
+Run the following commands from the **HyperGrey-SIH-26 repository root**. Use CMake 3.16 or newer and a C++11 compiler for the core; use Python 3.12 for the API.
 
-## Solver
-
-Use CMake 3.16 or newer and a C++11 compiler. Follow the unchanged
-[solver instructions](../../04-software/solver/README.md) from `04-software/solver/`.
+## Build the independent core
 
 ```sh
-cd 04-software/solver
-cmake -S . -B build-v2 -DCMAKE_BUILD_TYPE=Release
-cmake --build build-v2 --config Release
-ctest --test-dir build-v2 -C Release --output-on-failure
+cmake -S 04-software/solver -B 04-software/solver/build-local -DCMAKE_BUILD_TYPE=Release
+cmake --build 04-software/solver/build-local --config Release --parallel 4
+ctest --test-dir 04-software/solver/build-local -C Release --output-on-failure
 ```
 
-On Windows the existing `scripts/build.ps1` selects MinGW and copies the built
-CLI to `build/solver_cli.exe`. Make CMake and your chosen compiler available on
-PATH first. Imported `build/` binaries are historical source artifacts; rebuild
-before using a binary as the current version. CUDA is optional and unchanged.
-
-## Backend
-
-With Python 3.12, from the repository root:
+Run the included LP, MILP and convex-QP examples:
 
 ```sh
+./04-software/solver/build-local/solver_cli 04-software/solver/examples/industrial/marco_refinery.mps --lp-method bounded --json
+./04-software/solver/build-local/solver_cli 04-software/solver/examples/industrial/production_lotsizing.mps --milp --bounded-lp --json
+./04-software/solver/build-local/solver_cli 04-software/solver/examples/dispatch.qplib --json
+```
+
+On Windows, use the executable location produced by your CMake generator. Optional CUDA builds use `-DSOVEREIGN_ENABLE_CUDA=ON` on a supported NVIDIA host. The [solver guide](../../04-software/solver/README.md) explains build profiles and CLI options; the [Mac verification record](../../06-validation/readme-verification-2026-10-16.md) records an actual local build and test run.
+
+## Run the API
+
+```sh
+python3.12 -m venv .venv
+source .venv/bin/activate
 python -m pip install -r 04-software/backend/requirements.txt
 python -m uvicorn app:app --app-dir 04-software/backend --host 127.0.0.1 --port 8000 --workers 1
 ```
 
-In another terminal:
+On Windows, activate the environment with `.venv\Scripts\Activate.ps1` in PowerShell. Open [the local API documentation](http://127.0.0.1:8000/docs).
+
+The default `reference` mode uses HiGHS. To select the built project engine:
+
+```sh
+SOLVER_ENGINE=sovereign SOVEREIGN_BINARY="$PWD/04-software/solver/build-local/solver_cli" \
+  python -m uvicorn app:app --app-dir 04-software/backend --host 127.0.0.1 --port 8000 --workers 1
+```
+
+In another terminal, exercise the running API:
 
 ```sh
 python 04-software/backend/smoke_test.py http://localhost:8000
 ```
 
-HiGHS remains the default engine. To select the existing Sovereign adapter, set
-`SOLVER_ENGINE=sovereign` and `SOVEREIGN_BINARY` to an absolute path to your newly
-built solver executable. No default solver settings were changed in this move.
-
-For a container, keep the backend as the build context:
+The [backend guide](../../04-software/backend/README.md) documents engine selection, request fields and resource limits. Keep `backend/` as the Docker build context:
 
 ```sh
 docker build -t refinery-api ./04-software/backend
 ```
 
-See [DEPLOY.md](../../04-software/backend/DEPLOY.md) for the existing deployment
-procedure. This migration does not deploy anything.
+See the [deployment guide](../../04-software/backend/DEPLOY.md) for container/EC2 configuration.
 
-## Data, notebooks and evidence
+## Models, notebooks and evidence
 
-The solver's `datasets/`, `reports/`, `scripts/`, `tests/` and `docs/` stay in
-their original relative positions. `04-software/kaggle_delivery/` stays beside
-the solver for notebook/package compatibility. Git-untracked local model
-downloads, run output, virtual environments and compiler installations were
-not imported; use the existing dataset manifests and setup instructions when
-reproducing experiments that need them.
+- [Datasets and manifests](../../05-models/datasets/README.md).
+- [Notebook packages](../../05-models/notebooks/README.md).
+- [Benchmark results](../../06-validation/benchmark-results/README.md).
+- [Tests and reproduction](../../06-validation/test-plan/README.md).
+
+The solver's source, datasets, scripts, tests and reports remain together. `04-software/kaggle_delivery/` stays beside it for package compatibility. Use fresh output directories for new runs and the matching snapshot for a historical reproduction.

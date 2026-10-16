@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "changes": [
+    {
+      "destination": "04-software/solver/docs/CLI_API.md",
+      "baseline_sha256": "dff8511472ea6aed40b0fa773a95e9395a46b4bb92d8408cfe46105fe6460aca",
+      "current_sha256": "e0d038df53e5c97b8560c7580d04282dd88af596ac527a95705f892f77e9bd5a",
+      "date": "2026-10-16",
+      "reason": "Clarify that explicitly selecting bounded LP solves the continuous relaxation of integer-declared MPS models, matching the existing CLI and API behavior."
+    },
+    {
+      "destination": "04-software/backend/DEPLOY.md",
+      "baseline_sha256": "0389bb459b44aa38d135a77303743f01ca9434743ff965d067cd8a71577242a0",
+      "current_sha256": "023ee2ca1dfe11df91c638cd3ed4441be476b54ec49df24322f8cdf7c0107ea2",
+      "date": "2026-10-16",
+      "reason": "Replace obsolete unpublished-working-copy instructions with published checkout guidance and portable repository-relative deployment paths."
+    },
+    {
+      "destination": "04-software/backend/solve.py",
+      "baseline_sha256": "8b0c036de6f64d14c51f24e0b63825cc7650e3cf40b43372867b20836b142e92",
+      "current_sha256": "bc3548b2e6cdfc2646b4d800c9a8ebe597fd2e4f3b97ea176d1946f78c5e4778",
+      "date": "2026-10-16",
+      "reason": "Align the sovereign MILP adapter with the retained iteration-37 recommended profile and report rejected CLI input as input_rejected."
+    }
+  ]
+}

@@ -48,9 +48,9 @@ The central question is practical: **how can an industrial planner obtain a usef
 
 The core follows a clear path: **read the model → prepare and scale → solve → check against the original model → return the decision and its diagnostics**.
 
-[![SolveForge architecture showing model input, preparation, independent LP/MILP/QP engines, original-model verification, JSON results, eligible CUDA box-QP, and configured API engine modes](08-media/readme/solveforge-architecture.svg)](08-media/readme/solveforge-architecture.svg)
+[![SolveForge system design from the supplied presentation: model input, web and Android clients, API, solver engines, verification and results](08-media/diagrams/solveforge-system-design.png)](08-media/diagrams/solveforge-system-design.png)
 
-*Core and service architecture. The FastAPI adapter exposes explicit Sovereign and HiGHS reference modes; the standalone C++ engine owns its numerical algorithms. Click the diagram to inspect it.*
+*System design overview from the supplied presentation. The implementation uses explicitly configured API engine modes and an explicitly selected CUDA backend for eligible box QPs. The [core and service implementation diagram](08-media/diagrams/solveforge-architecture.svg) and [component guides](04-software/README.md) describe the current execution paths.*
 
 | Layer | Delivered implementation |
 |---|---|
@@ -89,7 +89,7 @@ The [bounded-simplex guide](04-software/solver/docs/BOUNDED_SIMPLEX.md), [MILP f
 
 The repeated **Tesla T4 box-QP experiment** covers five model sizes, three compute configurations, and three repeats: **45/45 runs returned checked optimal results** against a planted solution.
 
-[![Recorded median solve time for one CPU thread, four CPU threads and Tesla T4 across 10,000 to 1,000,000 box-QP variables](08-media/readme/box-qp-cpu-gpu-t4-medians.svg)](08-media/readme/box-qp-cpu-gpu-t4-medians.svg)
+[![Recorded median solve time for one CPU thread, four CPU threads and Tesla T4 across 10,000 to 1,000,000 box-QP variables](08-media/benchmarks/box-qp-cpu-gpu-t4-medians.svg)](08-media/benchmarks/box-qp-cpu-gpu-t4-medians.svg)
 
 | Box-QP variables | CPU, 1 thread | CPU, 4 threads | Tesla T4 |
 |---:|---:|---:|---:|
@@ -101,7 +101,7 @@ The repeated **Tesla T4 box-QP experiment** covers five model sizes, three compu
 
 At one million variables, the median GPU solve is **4.55× faster than one CPU thread** and **2.38× faster than four CPU threads**. The crossover motivates selective acceleration: CPU is the useful choice for the smallest case, while larger eligible problems amortize GPU setup and transfers.
 
-*Recorded solver timings for a planted sparse, tridiagonal, box-constrained convex-QP family. GPU timing includes its transfer/setup work; process startup and model generation are separate. These are medians of three repeats per configuration.* [Report and raw records](04-software/solver/reports/kaggle-gpu-03/REPORT.md) · [Chart sources](08-media/readme/benchmark-charts.md).
+*Recorded solver timings for a planted sparse, tridiagonal, box-constrained convex-QP family. GPU timing includes its transfer/setup work; process startup and model generation are separate. These are medians of three repeats per configuration.* [Report and raw records](04-software/solver/reports/kaggle-gpu-03/REPORT.md) · [Chart sources](08-media/benchmarks/benchmark-charts.md).
 
 ### Public LP and mixed-integer models
 
@@ -113,7 +113,7 @@ At one million variables, the median GPU solve is **4.55× faster than one CPU t
 | **Recorded merge gate** | **29/29 CTest groups** and **16/16 fixed-work comparisons** | [Merge verification](04-software/solver/reports/merge-verification/REPORT.md) |
 | **Gomory-cut validity study** | **2,706 cuts** checked over **64,430 enumerated integer points** | [Cut-validation report](04-software/solver/reports/milp-iteration-32/REPORT.md) |
 
-The MIPLIB campaign uses a frozen historical engine and a **300-second per-instance budget**. Its results are an independently checked outcome audit. The [full outcome distribution](08-media/readme/miplib2017-historical-outcomes.svg) and [run reports](04-software/solver/reports/README.md) preserve every case.
+The MIPLIB campaign uses a frozen historical engine and a **300-second per-instance budget**. Its results are an independently checked outcome audit. The [full outcome distribution](08-media/benchmarks/miplib2017-historical-outcomes.svg) and [run reports](04-software/solver/reports/README.md) preserve every case.
 
 Two examples show the scale of the checked public MILP work:
 
@@ -130,7 +130,7 @@ The current source also builds on macOS. Fresh LP, MILP, convex-QP and planted b
 
 The MARCO example connects optimization to a planner's decision: purchase crude, route it through process units, blend products, satisfy quality limits, and inspect the resulting profit. The model contains **57 variables and 40 rows**, with capacities, material balances, costs, revenue, and product-quality constraints.
 
-[![Live refinery demonstration showing six solved sulfur-limit scenarios and their returned profit values](08-media/readme/solveforge-refinery-live.jpg)](08-media/readme/solveforge-refinery-live.jpg)
+[![Live refinery demonstration showing six solved sulfur-limit scenarios and their returned profit values](08-media/screenshots/solveforge-refinery-live.jpg)](08-media/screenshots/solveforge-refinery-live.jpg)
 
 *Public refinery demonstration checked on 16 October 2026. The base case returned profit **6.5884**; tightening the sulfur maximum from **3.5** to **3.48** returned **2.5756**, with zero profit at the sampled **3.46** limit. Values are in the published teaching model's units.*
 
@@ -149,7 +149,7 @@ The [industrial manifest](04-software/solver/examples/industrial/manifest.json) 
 
 ### A workbench for the numerical engine
 
-[![Public solver workbench with LP, MILP and QP selection, model format, time budget, examples and model input](08-media/readme/solveforge-web-workbench.jpg)](08-media/readme/solveforge-web-workbench.jpg)
+[![Public solver workbench with LP, MILP and QP selection, model format, time budget, examples and model input](08-media/screenshots/solveforge-web-workbench.jpg)](08-media/screenshots/solveforge-web-workbench.jpg)
 
 The [web workbench](https://sovereign-solver-gilt.vercel.app/solve) exposes model entry, problem-family selection, examples, time budgets and returned results. The [evidence page](https://sovereign-solver-gilt.vercel.app/evidence) connects the demonstration to the recorded benchmark campaigns.
 
@@ -161,7 +161,7 @@ The repository's **FastAPI service** includes model solving, refinery base plans
 
 | Overview | Solve a model | Refinery case | Sensitivity results |
 |:---:|:---:|:---:|:---:|
-| [<img src="08-media/readme/solveforge-app-overview.jpg" alt="SolveForge offline Android overview" width="200">](08-media/readme/solveforge-app-overview.jpg) | [<img src="08-media/readme/solveforge-app-solve.jpg" alt="SolveForge Android model entry" width="200">](08-media/readme/solveforge-app-solve.jpg) | [<img src="08-media/readme/solveforge-app-refinery.jpg" alt="SolveForge Android refinery workflow" width="200">](08-media/readme/solveforge-app-refinery.jpg) | [<img src="08-media/readme/solveforge-app-sensitivity.jpg" alt="SolveForge Android sulfur-profit chart and results" width="200">](08-media/readme/solveforge-app-sensitivity.jpg) |
+| [<img src="08-media/screenshots/solveforge-app-overview.jpg" alt="SolveForge offline Android overview" width="200">](08-media/screenshots/solveforge-app-overview.jpg) | [<img src="08-media/screenshots/solveforge-app-solve.jpg" alt="SolveForge Android model entry" width="200">](08-media/screenshots/solveforge-app-solve.jpg) | [<img src="08-media/screenshots/solveforge-app-refinery.jpg" alt="SolveForge Android refinery workflow" width="200">](08-media/screenshots/solveforge-app-refinery.jpg) | [<img src="08-media/screenshots/solveforge-app-sensitivity.jpg" alt="SolveForge Android sulfur-profit chart and results" width="200">](08-media/screenshots/solveforge-app-sensitivity.jpg) |
 
 *Original Android screenshots extracted from the supplied submission slides. The [download collection](https://drive.google.com/drive/folders/1qeA-JjZ5pdWwm-EGbLhcT_W3obh-BZ51) provides `SolveForge-Offline.apk` and `SolveForge.apk`; the [offline](https://www.youtube.com/watch?v=hZwr9e80-2U) and [online](https://www.youtube.com/watch?v=S3V37uguqLI) videos show their respective workflows.*
 
@@ -255,7 +255,7 @@ See the [backend guide](04-software/backend/README.md) for request examples, eng
 | [09-business](09-business/) | Cost/market study, commercial scenarios and deployment planning |
 | [10-project](10-project/) | Objectives, timeline, decisions and repository provenance |
 
-The solver remains self-contained so its source, tests, datasets, scripts and frozen reports share reproducible paths. The [migration manifest](10-project/repository/MIGRATION.md) records the import baseline; the [media guide](08-media/readme/README.md) records screenshot and chart sources.
+The solver remains self-contained so its source, tests, datasets, scripts and frozen reports share reproducible paths. The [repository guide](10-project/repository/README.md) records the import baseline and current layout; the [media guide](08-media/README.md) records screenshot and chart sources.
 
 ---
 
